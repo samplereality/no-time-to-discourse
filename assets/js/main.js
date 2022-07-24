@@ -36,7 +36,7 @@ $.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_popul
         return {color: feature.properties.color};
     }
 }).bindTooltip(function (layer) {
-    return layer.feature.properties.name + "<br><br>" + rg.expand(); 
+    return layer.feature.properties.name + ", " + layer.feature.properties.ADM1NAME + "<br><br>" + rg.expand(); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });
