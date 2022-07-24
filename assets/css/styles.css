@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* #map {
+    width: 600px;
+    height: 400px;
+} */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    height: 100%;
+    width: 100vw;
+}
+
+.leaflet-tooltip-top:before, 
+.leaflet-tooltip-bottom:before, 
+.leaflet-tooltip-left:before, 
+.leaflet-tooltip-right:before {
+    border: none !important;
+}
+
+.disasterLabels {
+    border-radius: 10px;
+    font-size: larger;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
