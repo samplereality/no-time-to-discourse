@@ -3,9 +3,7 @@
 // Load RiTa
 let rg = RiTa.grammar(rules); 
 
-// create base map
-// var map = L.map('map').fitWorld();
-
+// Create the map instance
 var map = L.map('map', {
     center: [35.227, -80.8431],
     zoom: 5
@@ -37,7 +35,12 @@ $.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_popul
         return {color: feature.properties.color};
     }
 }).bindTooltip(function (layer) {
-    return layer.feature.properties.name + ", " + layer.feature.properties.adm1name + "<br><br>" + rg.expand(); 
+    if (layer.feature.properties.adm1name === null) {
+        var state = layer.feature.properties.sov0name;
+    } else {
+        var state = layer.feature.properties.adm1name;
+    }
+    return layer.feature.properties.name + ", " + state + "<br><br>" + rg.expand(); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });
