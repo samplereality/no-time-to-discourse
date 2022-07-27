@@ -29,18 +29,23 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{e
 }).addTo(map);
 
 // Grab coordinates from geojson, add stories to markers, and add to map
-$.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_populated_places_simple.geojson', function(data) {
+$.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_populated_places.geojson', function(data) {
   L.geoJson(data, {
     style: function (feature) {
         return {color: feature.properties.color};
     }
 }).bindTooltip(function (layer) {
-    if (layer.feature.properties.adm1name === null) {
-        var state = layer.feature.properties.sov0name;
+    if (layer.feature.properties.ADM1NAME === null) {
+        var state = layer.feature.properties.SOV0NAME;
     } else {
-        var state = layer.feature.properties.adm1name;
+        var state = layer.feature.properties.ADM0NAME;
     }
-    return layer.feature.properties.name + ", " + state + "<br><br>" + rg.expand(); 
+    if (layer.feature.properties.TIMEZONE === "America/New_York") {
+        var rule = "status";
+    } else {
+        var rule = "start";
+    }
+    return layer.feature.properties.NAME + ", " + state + "<br><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });
