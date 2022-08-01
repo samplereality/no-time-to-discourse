@@ -38,10 +38,14 @@ $.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_popul
     if (layer.feature.properties.ADM1NAME === null) {
         var state = layer.feature.properties.SOV0NAME;
     } else {
-        var state = layer.feature.properties.ADM0NAME;
+        if (layer.feature.properties.ADM0NAME === "United States of America") {
+            var state = layer.feature.properties.ADM1NAME;
+        } else {
+            var state = layer.feature.properties.ADM0NAME;
+        }
     }
     if (layer.feature.properties.TIMEZONE === "America/New_York") {
-        var rule = "status";
+        var rule = "flood";
     } else {
         var rule = "start";
     }
