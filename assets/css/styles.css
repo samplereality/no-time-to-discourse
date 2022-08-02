@@ -33,6 +33,13 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
+    /* max-width: 300px; */
+    /* overflow-wrap: calc(100% - 20px); */
+}
+
+.leaflet-tooltip{
+    width: 300px;
+    white-space: normal;
 }
 
 /** Begin site dialog **/

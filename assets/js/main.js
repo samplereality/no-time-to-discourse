@@ -49,7 +49,7 @@ $.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_popul
     } else {
         var rule = "start";
     }
-    return layer.feature.properties.NAME + ", " + state + "<br><br>" + rg.expand(rule); 
+    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });
