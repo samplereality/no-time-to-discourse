@@ -114,6 +114,21 @@ blockquote {
 	margin: 0 auto;
 }
 
+.prologue {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: #525252;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.about {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    padding-top: 25px;
+}
 
 @media screen and (max-width: 56em) {
 	.container {
@@ -125,4 +140,8 @@ blockquote {
     .container {
         padding: 0 1.5em 1.5em;
     }
+}
+
+.hidden {
+    display: none;
 }
