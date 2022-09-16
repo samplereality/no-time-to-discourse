@@ -45,7 +45,7 @@ $.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_popul
         }
     }
     if (layer.feature.properties.TIMEZONE === "America/New_York") {
-        var rule = "flood";
+        var rule = "start";
     } else {
         var rule = "start";
     }

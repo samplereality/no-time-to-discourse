@@ -1,5 +1,10 @@
 var rules = {
-    start: "$fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
+    // start: "$fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
+    start: "$drought",
+    drought: "($drought_land $dought_water | $dought_water $drought_land)",
+    drought_land: "The (soil | land) is (cracked | parched | dry | dust).",
+    dought_water: "The (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty). $uncovered",
+    uncovered: "(Roots | sunken boats | bones | bodies | fish).cap() lie (bare | uncovered) in the sun.",
     positive: "$pos_emotion $subject $future $pos_status.",
     negative: "$neg_emotion $subject $predicate $status.",
     neg_emotion: "Gutted. | Melancholia. | A deep well of sadness. | Despairing.",
