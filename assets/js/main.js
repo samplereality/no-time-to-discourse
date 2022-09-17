@@ -1,7 +1,12 @@
 "use strict";
 
 // Load RiTa
-let rg = RiTa.grammar(rules); 
+let context = {
+    silent: () => '',
+    pluralNoun: () => RiTa.randomWord({ post: "nn" })
+};
+
+let rg = RiTa.grammar(rules, context); 
 
 // Create the map instance
 var map = L.map('map', {
