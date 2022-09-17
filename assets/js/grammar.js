@@ -12,7 +12,7 @@ var rules = {
     drought_time: "It's been (eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
 
     fire: "$fireGeneral | $fireSpecific",
-    fireGeneral: "Wildfires rage across the countryside. Thousands of acres are destroyed. $person's job is to calculate the property damage. There's no way, $pronoun thinks.",
+    fireGeneral: "Wildfires rage (outside the city | across the countryside). (Thousands | Tens of thousands | Hundres of thousands) of acres are destroyed. $person's job is to calculate the property damage. There's no way, $pronoun thinks.",
     fireSpecific: "$person's home was engulfed in flames. The wildfire did this and much more.",
 
     
