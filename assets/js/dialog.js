@@ -1,5 +1,5 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = 4 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = 1 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 function openDialog() {
 

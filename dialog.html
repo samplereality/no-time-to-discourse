@@ -21,7 +21,10 @@
 
 <div class="container">
     <div class="prologue">
-<span id="day" class="hidden">The day is hot,</span><span id="weather" class="hidden"> and the weather,</span><span id='wars' class="hidden"> and the wars,</span><span id='king' class="hidden"> and the King, and the Dukes;</span><span id="time" class="hidden"> it is no time to discourse<span id='period'>.</span></span> <span id='henry' class='hidden'><br><br> - Henry V</span>
+<span id="day" class="hidden">
+	The day is hot, and the weather, and the wars, and the King, and the Dukes;
+		<span id="time" class="hidden"> it is no time to discourse</span>
+	.<br><br> - Henry V</span>
     </div>
 
 	<div class="about hidden" id="about">No Time To Discourse is about...
@@ -32,35 +35,35 @@
 
 <script>
 	setTimeout(function(){
-		$( '#day' ).fadeIn(3000);
+		$( '#day, #time, #about' ).fadeIn(3000);
 	}, 500);
 
-	setTimeout(function(){
-		$( '#weather' ).fadeIn(3000);
-	}, 3000);
+	// setTimeout(function(){
+	// 	$( '#weather' ).fadeIn(3000);
+	// }, 3000);
+
+	// setTimeout(function(){
+	// 	$( '#wars' ).fadeIn(3000);
+	// }, 5000);
+
+	// setTimeout(function(){
+	// 	$( '#king' ).fadeIn(3000);
+	// }, 7000);
+
+	// setTimeout(function(){
+	// 	$( '#time' ).fadeIn(3000);
+	// }, 9000);
+
+	// setTimeout(function(){
+	// 	$( '#henry' ).fadeIn(3000);
+	// }, 11000);
+
+	// setTimeout(function(){
+	// 	$( '#about' ).fadeIn(3000);
+	// }, 15000);
 
 	setTimeout(function(){
-		$( '#wars' ).fadeIn(3000);
-	}, 5000);
-
-	setTimeout(function(){
-		$( '#king' ).fadeIn(3000);
-	}, 7000);
-
-	setTimeout(function(){
-		$( '#time' ).fadeIn(3000);
-	}, 9000);
-
-	setTimeout(function(){
-		$( '#henry' ).fadeIn(3000);
-	}, 11000);
-
-	setTimeout(function(){
-		$( '#about' ).fadeIn(3000);
-	}, 15000);
-
-	setTimeout(function(){
-		$( '#day, #weather, #wars, #king, #period, #henry' ).fadeTo(3000, 0);
+		$( '#day' ).fadeTo(3000, 0);
 	}, 15000);
 
 </script>
