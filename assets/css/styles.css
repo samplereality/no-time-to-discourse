@@ -68,6 +68,7 @@ https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/
 	padding: 10px 0px;
 	background: #fff;
 	margin-bottom: 10px;
+    padding-right: 20px;
 	position: relative;
 }
 
@@ -116,7 +117,6 @@ blockquote {
 
 .prologue {
     font-family: 'Merriweather', serif;
-    font-style: italic;
     font-size: 1.5em;
     line-height: 1.5;
     color: #525252;
