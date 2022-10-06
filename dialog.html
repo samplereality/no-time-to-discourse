@@ -21,22 +21,20 @@
 
 <div class="container">
     <div class="prologue">
-<span id="day" class="hidden">
-	The day is hot, and the weather, and the wars, and the King, and the Dukes;
-		<span id="time" class="hidden"> it is no time to discourse</span>
-	.<br><br> - Henry V</span>
+<span id="day">
+	The day is hot, and the weather, and the wars, and the King, and the Dukes;</span>
+		<span id="time"> it is no time to discourse</span>
+	<span id="shakespeare">.<br><br> - Henry V</span>
     </div>
 
 	<div class="about hidden" id="about">No Time To Discourse is about...
-
-		The climate
 	</div>
 </div>
 
 <script>
-	setTimeout(function(){
-		$( '#day, #time, #about' ).fadeIn(3000);
-	}, 500);
+	// setTimeout(function(){
+	// 	$( '#day, #time, #about' ).fadeIn(3000);
+	// }, 500);
 
 	// setTimeout(function(){
 	// 	$( '#weather' ).fadeIn(3000);
@@ -58,13 +56,13 @@
 	// 	$( '#henry' ).fadeIn(3000);
 	// }, 11000);
 
-	// setTimeout(function(){
-	// 	$( '#about' ).fadeIn(3000);
-	// }, 15000);
+	setTimeout(function(){
+		$( '#day, #shakespeare' ).fadeTo(3000, 0);
+	}, 5000);
 
 	setTimeout(function(){
-		$( '#day' ).fadeTo(3000, 0);
-	}, 15000);
+		$( '#about' ).fadeIn(3000);
+	}, 6000);
 
 </script>
 </body>
