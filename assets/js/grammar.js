@@ -12,12 +12,12 @@ var rules = {
     drought_time: "It's been (eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
 
     fire: "$fireGeneral | $fireSpecific",
-    fireGeneral: "Wildfires rage (outside the city | across the countryside). (Thousands | Tens of thousands | Hundreds of thousands) of acres are destroyed. $person's job is to calculate the property damage. There's no way, $pronoun thinks.",
+    fireGeneral: "Wildfires rage (outside the city | across the countryside). (Thousands | Tens of thousands | Hundreds of thousands) of acres are destroyed. $fireJob",
     fireSpecific: "$fireHome $fireEnd",
     fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
-    fireEnd: "The (wildfire | fire) did this and much more.",
-
+    fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
+    fireJob: "$person's job is to calculate the property damage. There's no way, $pronoun thinks.",
     
     positive: "$pos_emotion $subject $future $pos_status.",
     negative: "$neg_emotion $subject $predicate $status.",
