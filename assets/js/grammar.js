@@ -17,8 +17,11 @@ var rules = {
     fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
-    fireJob: "$person's job is to calculate the property damage. There's no way, $pronoun thinks.",
+    fireJob: "$fireInsurance | $firefighter",
+    fireInsurance: "$person's job is to calculate the property damage. There's no way, $pronoun thinks.",
+    $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. The copter rotors beat endlessly above the burning world | smokejumping into new patches. $pronoun.cap() is the front line, and the last line).",
     
+    recentPast: "yesterday | last night | this morning | minutes ago",
     positive: "$pos_emotion $subject $future $pos_status.",
     negative: "$neg_emotion $subject $predicate $status.",
     neg_emotion: "Gutted. | Melancholia. | A deep well of sadness. | Despairing.",
