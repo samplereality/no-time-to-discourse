@@ -14,7 +14,7 @@ var rules = {
     fire: "$fireGeneral | $fireSpecific",
     fireGeneral: "Wildfires rage (outside the city | across the countryside). (Thousands | Tens of thousands | Hundreds of thousands) of acres are destroyed. $fireJob",
     fireSpecific: "$fireHome $fireEnd",
-    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.
+    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
     fireJob: "$fireInsurance | $firefighter",
