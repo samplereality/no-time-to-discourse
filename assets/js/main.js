@@ -3,7 +3,8 @@
 // Load RiTa
 let context = {
     silent: () => '',
-    pluralNoun: () => RiTa.randomWord({ post: "nn" })
+    pluralNoun: () => RiTa.randomWord({ post: "nns" }),
+    noun: () => RiTa.randomWord({ pos: "nn" })
 };
 
 let rg = RiTa.grammar(rules, context); 
