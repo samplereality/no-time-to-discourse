@@ -1,6 +1,6 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
-    start: "$fire",
+    start: "$fire | $drought",
     drought: "($drought_land.cap() and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) (Dust swirls in the air, clogging $posPro throat. | Meaningless words tumble around in $posPro head. .noun().cap(). .pluralNoun().cap(), .noun().)",
     drought_land: "the (soil | land) is (cracked | parched | dry | dust)",
     dought_water: "the (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty)",
