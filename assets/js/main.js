@@ -35,7 +35,7 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{e
 }).addTo(map);
 
 // Grab coordinates from geojson, add stories to markers, and add to map
-$.getJSON('https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_populated_places.geojson', function(data) {
+$.getJSON('assets/js/disasters.geojson', function(data) {
   L.geoJson(data, {
     style: function (feature) {
         return {color: feature.properties.color};
