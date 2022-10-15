@@ -35,7 +35,7 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{e
 }).addTo(map);
 
 // Grab coordinates from geojson, add stories to markers, and add to map
-$.getJSON('assets/js/disasters.geojson', function(data) {
+$.getJSON('assets/js/disaster.json', function(data) {
   L.geoJson(data, {
     style: function (feature) {
         return {color: feature.properties.color};
