@@ -1,7 +1,9 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
-    // start: "$fire | $drought | $flood",
-    start: "$flood",
+    start: "$fire | $drought | $flood",
+    //start: "$flood",
+    
+    // Drought
     drought: "($drought_land.cap() and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) (Dust swirls in the air, clogging $posPro throat. | Meaningless words tumble around in $posPro head. .noun().cap(). .pluralNoun().cap(), .noun().)",
     drought_land: "the (soil | land) is (cracked | parched | dry | dust)",
     dought_water: "the (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty | soggy muck)",
@@ -12,6 +14,7 @@ var rules = {
     meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
     drought_time: "It's been (eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
 
+    // Fire
     fire: "$fireGeneral | $fireSpecific",
     fireGeneral: "Wildfires rage (outside the city | across the countryside). (Thousands | Tens of thousands | Hundreds of thousands) of acres are destroyed. $fireJob",
     fireSpecific: "$fireHome $fireEnd",
@@ -22,19 +25,21 @@ var rules = {
     fireInsurance: "$person's job is to calculate the property damage. There's no way, $pronoun thinks.",
     $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
     
+    // Floods
     flood: "($reflection $damage $result | $damage $reflection $result)",
-    damage: "$count.cap() are $injury as $flooding $swamps $floodplain",
-    flooding: "flash flooding | endless water | rising water | receding water",
+    damage: "(gunky | thick | rank | fetid).cap() (black | dark | muddy) water sloshes around $person's (basement | living room | kitchen | parlor). | $count.cap() are $injury as $flooding $swamps $floodplain. | The $flooding washed away $floodThings.nr(), $floodThings.nr(), $floodThings.nr().",
+    flooding: "flash flooding | endless water | rising water | receding water | flooding",
     swamps: "swamps | covers | inundates | washes away",
-    floodplain: "(low-lying (areas | regions | neighborhoods | communities)) | streets and sidewalks | roads.",
-    reflection: "($person lost everything, (and no one knows how to help | everything). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen | didn't think it would be this bad).)",
+    floodThings: "cars | houses | buildings | homes | businesses | schools | hospitals | churches | bridges | roads | sidewalks | streets | entire neighborhoods | whole communities",
+    floodplain: "(low-lying (areas | regions | neighborhoods | communities)) | streets and sidewalks | roads and bridges",
+    reflection: "($person lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen | didn't think it would be this bad).)",
     digit: "0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
     singleDigit: "1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
     number: "$singleDigit | $singleDigit$digit | hundreds",
     reallyBigNumber: "$singleDigit$digit$digit | thousands",
     count: "dozens | scores | hundreds | thousands",
     injury: "dead | injured | left homeless | homeless | stranded",
-    result: "Emergency response teams are on hand. | Local authorities declared a state of emergency.",
+    result: "Emergency response teams are (on hand | nowhere to be seen | working around the clock | tired, so tired). | Local authorities (declared a state of emergency | are silent | are tweeting safety tips).",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
     positive: "$pos_emotion $subject $future $pos_status.",
