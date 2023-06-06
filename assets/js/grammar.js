@@ -1,14 +1,27 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
-    start: "$fire | $drought | $flood",
-    //start: "$flood",
+    start: "$fire | $drought | $flood | $storm",
+    //start: "$storm",
     
+
+    // Storms
+    storm: "$stormGeneral $stormResult",
+    stormGeneral: "$slowStorm | $fastStorm",
+    slowStorm: "The storm had been (brewing | building | gathering) for days. $barometer $finally",
+    fastStorm: "The storm came (out of nowhere | on fast | suddenly). $sky",
+    barometer: "The barometer was (dropping | falling | low | lower than it had ever been). The air was (heavy | thick | oppressive).",
+    finally: "When the storm finally came, it was (fierce | strong | powerful | devastating | destructive | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth).",
+    sky: "The sky (darkened | turned black). $person had a fleeting thought, that (the sky was (falling | collapsing | caving in) | evil was rising | $pronoun had left $posPro $object outside).",
+    stormResult: "$stormUtilities | $stormDamage",
+    stormDamage: "(In the end | When it was all over), $count (of buildings were leveled | trees were downed | roads were impassable).",
+    stormUtilities: "The (lights were | power was) out for (days | weeks), and $pronoun had no fresh water.",
+
     // Drought
     drought: "($drought_land.cap() and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) (Dust swirls in the air, clogging $posPro throat. | Meaningless words tumble around in $posPro head. .noun().cap(). .pluralNoun().cap(), .noun().)",
-    drought_land: "the (soil | land) is (cracked | parched | dry | dust)",
+    drought_land: "the (soil | land) is (cracked | parched | dry | dust) | the earth withers",
     dought_water: "the (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty | soggy muck)",
     uncovered: "(gnarled roots | (once sunken | the remains of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake) (bare | uncovered) in the sun.",
-    drought_action: "The (fields are | livestock is | crops are) (struggling to survive | dying | suffering).",
+    drought_action: "The (fields are | livestock are | crops are | towns are | suburbs are) (struggling to survive | dying | suffering | barely holding on).",
     drought_thought: "It's like $drought_metaphor, thinks $person. $meditation.",
     drought_metaphor: "the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
     meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
@@ -52,7 +65,6 @@ var rules = {
     status: "canceled | lost | postponed",
     pos_status: "better | not as bad as before",
     heat: "A heatwave has shutdown nearby cities and towns.",
-    storm: "A storm has hit the coast.",
     tornado: "A tornado has hit the coast.",
     tsunami: "A tsunami has hit the coast.",
     wind: "A windstorm has hit the coast.",
