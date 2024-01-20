@@ -55,7 +55,7 @@ $.getJSON('assets/js/disaster.json', function(data) {
     } else {
         var rule = "start";
     }
-    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br><br>" + rg.expand(rule); 
+    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });
