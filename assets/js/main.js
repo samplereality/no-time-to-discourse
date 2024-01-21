@@ -9,6 +9,17 @@ let context = {
 
 let rg = RiTa.grammar(rules, context); 
 
+// A function for future dates
+
+function makeDate() {
+    const minDays = 3;
+    const maxDays = 1500;
+    // Generate a random number between minDays and maxDays
+    const randomDaysToAdd = Math.floor(Math.random() * (maxDays - minDays + 1)) + minDays;
+
+    return dayjs().add(randomDaysToAdd, 'day').format('dddd, MMMM D, YYYY');
+}
+
 // Create the map instance
 var map = L.map('map', {
     center: [35.227, -80.8431],
@@ -55,7 +66,7 @@ $.getJSON('assets/js/disaster.json', function(data) {
     } else {
         var rule = "start";
     }
-    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + rg.expand(rule); 
+    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + "<em>" + makeDate()+ "</em><br><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });

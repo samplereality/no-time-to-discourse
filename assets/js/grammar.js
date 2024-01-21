@@ -1,7 +1,7 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
     // start: "$fire | $drought | $flood | $storm",
-    start: "<strong>$month $day, $year</strong><br><br>$storm",
+    start: "$storm",
     
     // Byline
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
