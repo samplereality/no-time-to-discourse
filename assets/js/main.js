@@ -13,7 +13,7 @@ let rg = RiTa.grammar(rules, context);
 
 function makeDate() {
     const minDays = 3;
-    const maxDays = 1500;
+    const maxDays = 1460;
     // Generate a random number between minDays and maxDays
     const randomDaysToAdd = Math.floor(Math.random() * (maxDays - minDays + 1)) + minDays;
 

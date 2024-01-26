@@ -1,12 +1,10 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
     // start: "$fire | $drought | $flood | $storm",
-    start: "$storm",
+    start: "$drought",
     
-    // Byline
+    // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
-    day: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"],
-    year: "20(24 [3]|25|26|27|28|29|30|31|32|33|34)",
 
     // Storms
     storm: "$stormGeneral $stormResult",
@@ -24,15 +22,17 @@ var rules = {
     stormWater: "They trucked in bottle water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris)",
 
     // // Drought
-    // drought: "($drought_land.cap() and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) (Dust swirls in the air, clogging $posPro throat. | Meaningless words tumble around in $posPro head. .noun().cap(). .pluralNoun().cap(), .noun().)",
-    // drought_land: "the (soil | land) is (cracked | parched | dry | dust) | the earth withers",
-    // dought_water: "the (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty | soggy muck)",
-    // uncovered: "(gnarled roots | (once sunken | the remains of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake) (bare | uncovered) in the sun.",
-    // drought_action: "The (fields are | livestock are | crops are | towns are | suburbs are) (struggling to survive | dying | suffering | barely holding on).",
-    // drought_thought: "It's like $drought_metaphor, thinks $person. $meditation.",
-    // drought_metaphor: "the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
-    // meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
-    // drought_time: "It's been (eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
+    drought: "($drought_land.cap() and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) ($drought_throat | $drought_words)",
+    drought_land: "the (soil | land) is (cracked | parched | dry | dust) | the earth withers",
+    dought_water: "the (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty | soggy muck)",
+    uncovered: "(gnarled roots | (once sunken | the remains of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake) (bare | uncovered) in the sun.",
+    drought_action: "The (fields are | livestock are | crops are | towns are | suburbs are) (struggling to survive | dying | suffering | barely holding on).",
+    drought_thought: "It's like $drought_metaphor, thinks $person. $meditation.",
+    drought_metaphor: "the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
+    meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
+    drought_time: "It's been ($pronoun doesn't even know how many | seven | eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
+    drought_throat: "The dust swirls in the air, clogging $posPro throat.",
+    drought_words: "Meaningless words tumble around in $posPro head. .noun().cap(), .pluralNoun(). .noun().cap().",
 
     // Fire
     // fire: "$fireGeneral | $fireSpecific",
