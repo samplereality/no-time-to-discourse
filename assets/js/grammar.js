@@ -22,16 +22,16 @@ var rules = {
     stormWater: "They trucked in bottle water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris)",
 
     // // Drought
-    drought: "($drought_land.cap() and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) ($drought_throat | $drought_words)",
-    drought_land: "the (soil | land) is (cracked | parched | dry | dust) | the earth withers",
-    dought_water: "the (streams | rivers | riverbeds | lakes | reservoirs) are (low | dry | empty | soggy muck)",
-    uncovered: "(gnarled roots | (once sunken | the remains of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake) (bare | uncovered) in the sun.",
+    drought: "($drought_land.cap(), and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) ($drought_throat | $drought_words)",
+    drought_land: "the (soil | land) is (cracked | parched | dust) | the earth (withers | is dying | lies barren)( |, wicked and brown | &nbsp;in mute desolation | , shrouded in silence )",
+    dought_water: "the (streams | rivers | riverbeds | lakes ) are (low | dry | empty | a soggy muck) | the (wells | reservoirs | aquifers) run (dry | empty | low)",
+    uncovered: "(weathered docks | gnarled roots | (once sunken | the remains of | rusted hulls of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake | cook | roast | broil) ( | bare | uncovered) in the ( | scorching) sun.",
     drought_action: "The (fields are | livestock are | crops are | towns are | suburbs are) (struggling to survive | dying | suffering | barely holding on).",
-    drought_thought: "It's like $drought_metaphor, thinks $person. $meditation.",
-    drought_metaphor: "the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
+    drought_thought: "It's $drought_metaphor, thinks $person. $meditation.",
+    drought_metaphor: "like the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
     meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
     drought_time: "It's been ($pronoun doesn't even know how many | seven | eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
-    drought_throat: "The dust swirls in the air, clogging $posPro throat.",
+    drought_throat: "(Dust | Grit | Smoke) (blows | swirls | gusts | hangs) in the (air | wind | breeze), (stinging $posPro eyes | clogging $posPro throat).",
     drought_words: "Meaningless words tumble around in $posPro head. .noun().cap(), .pluralNoun(). .noun().cap().",
 
     // Fire
