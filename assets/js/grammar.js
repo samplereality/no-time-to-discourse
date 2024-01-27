@@ -31,7 +31,7 @@ var rules = {
     drought_metaphor: "like the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
     meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
     drought_time: "It's been ($pronoun doesn't even know how many | seven | eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
-    drought_throat: "(Dust | Grit | Smoke) (blows | swirls | gusts | hangs) in the (air | wind | breeze), (stinging $posPro eyes | clogging $posPro throat).",
+    drought_throat: "(Dust | Smoke | Ash) (blows | swirls | gusts | dances) in the (air | wind | breeze), (stinging $posPro eyes | clogging $posPro throat | gritty on $posPro skin).",
     drought_words: "Meaningless words tumble around in $posPro head. .noun().cap(), .pluralNoun(). .noun().cap().",
 
     // Fire
