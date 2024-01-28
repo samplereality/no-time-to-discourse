@@ -5,7 +5,9 @@ let context = {
     silent: () => '',
     pluralNoun: () => RiTa.randomWord({ pos: "nns" }),
     noun: () => RiTa.randomWord({ pos: "nn" }),
-    date: () => makeDate()
+    date: () => makeDate(),
+    time: () => makeTime(),
+    device: () => getDeviceType()
 };
 
 let rg = RiTa.grammar(rules, context); 
@@ -21,10 +23,49 @@ function makeDate() {
     return dayjs().add(randomDaysToAdd, 'day').format('dddd, MMMM D, YYYY');
 }
 
+// Grab the current time
+function makeTime() {
+    return dayjs().format('dddd, h:mm a');
+}
+
+// Determine phone or not
+function getDeviceType() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Check for iPhone
+    if (/iPhone/.test(userAgent)) {
+        return "phone";
+    }
+
+    // Check for iPad
+    if (/iPad/.test(userAgent)) {
+        return "phone"; // or "tablet" if you want a separate category for tablets
+    }
+
+    // Check for Android mobile (not tablets)
+    if (/android/i.test(userAgent) && /mobile/i.test(userAgent)) {
+        return "phone";
+    }
+
+    // Check for other common mobile identifiers
+    if (/blackberry|mini|windows\sce|palm/i.test(userAgent)) {
+        return "phone";
+    }
+
+    // Default to computer
+    return "computer";
+}
+
+var device = getDeviceType();
+console.log("You are using a " + device + ".");
+
+
+
 // Create the map instance
 var map = L.map('map', {
-    center: [35.227, -80.8431],
-    zoom: 5
+    // center: [35.227, -80.8431],
+    center: [1.227, -30.8431],
+    zoom: 3
 });
 
 // Set bounds for the map
@@ -70,5 +111,10 @@ $.getJSON('assets/js/disaster.json', function(data) {
     }
     return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
+
+        // Animate zoom to the user's time zone location
+        setTimeout(() => {
+            map.flyTo([43.1704256379, -77.6199497901], 5); // Adjust zoom level as needed
+        }, 1000); // Adjust delay as needed
 
 });

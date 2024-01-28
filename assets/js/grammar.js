@@ -1,9 +1,11 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
     // start: "$fire | $drought | $flood | $storm",
-    start: "$byline $fire",
+    start: "$byline $fire [4] | $personal",
 
     byline: "<em>.date()</em><br><br>",
+
+    personal: "<em>.time()</em><br><br>You stare at the screen, your sallow face awash in blue light of your .device().",
     
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
@@ -45,7 +47,7 @@ var rules = {
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
     fireJob: "$fireInsurance | $firefighter | $fireFEMA",
-    fireInsurance: "$person's job is to calculate the property damage. (There's no way | It's a cold, cruel task | What's the point), $pronoun (thinks | wonders | writes in a text to $posPro (wife | husband | partner).",
+    fireInsurance: "$person's job is to calculate the property damage. (There's no way | It's a cold, cruel task | What's the point), $pronoun (thinks | wonders | writes in a text to $posPro (wife | husband | partner)).",
     fireFEMA: "$person's job is to help people (deal with incalculable loss | find temporary housing | get back on their feet). $pronoun.cap() doesn't know (how to help | where to begin).",
     $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
     
