@@ -4,7 +4,8 @@
 let context = {
     silent: () => '',
     pluralNoun: () => RiTa.randomWord({ pos: "nns" }),
-    noun: () => RiTa.randomWord({ pos: "nn" })
+    noun: () => RiTa.randomWord({ pos: "nn" }),
+    date: () => makeDate()
 };
 
 let rg = RiTa.grammar(rules, context); 
@@ -67,7 +68,7 @@ $.getJSON('assets/js/disaster.json', function(data) {
     } else {
         var rule = "start";
     }
-    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + "<em>" + makeDate()+ "</em><br><br>" + rg.expand(rule); 
+    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });

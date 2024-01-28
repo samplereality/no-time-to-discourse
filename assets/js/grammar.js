@@ -1,7 +1,9 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
     // start: "$fire | $drought | $flood | $storm",
-    start: "$fire",
+    start: "$byline $fire",
+
+    byline: "<em>.date()</em><br><br>",
     
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
