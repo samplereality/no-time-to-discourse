@@ -1,7 +1,7 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
     // start: "$fire | $drought | $flood | $storm",
-    start: "$drought",
+    start: "$fire",
     
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
@@ -26,7 +26,7 @@ var rules = {
     drought_land: "the (soil | land) is (cracked | parched | dust) | the earth (withers | is dying | lies barren)( |, wicked and brown | &nbsp;in mute desolation | , shrouded in silence )",
     dought_water: "the (streams | rivers | riverbeds | lakes ) are (low | dry | empty | a soggy muck) | the (wells | reservoirs | aquifers) run (dry | empty | low)",
     uncovered: "(weathered docks | gnarled roots | (once sunken | the remains of | rusted hulls of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake | cook | roast | broil) ( | bare | uncovered) in the ( | scorching) sun.",
-    drought_action: "The (fields are | livestock are | crops are | towns are | suburbs are) (struggling to survive | dying | suffering | barely holding on).",
+    drought_action: "The (fields | livestock | crops | towns | suburbs | trees | plants) are (dead | dying | decimated | barely holding on).",
     drought_thought: "It's $drought_metaphor, thinks $person. $meditation.",
     drought_metaphor: "like the surface of (the moon | Mars) | a (desert | wasteland) | something out of a (post-apocalyptic | sci-fi) movie",
     meditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next))",
@@ -35,15 +35,16 @@ var rules = {
     drought_words: "Meaningless words tumble around in $posPro head. .noun().cap(), .pluralNoun(). .noun().cap().",
 
     // Fire
-    // fire: "$fireGeneral | $fireSpecific",
-    // fireGeneral: "Wildfires rage (outside the city | across the countryside). (Thousands | Tens of thousands | Hundreds of thousands) of acres are destroyed. $fireJob",
-    // fireSpecific: "$fireHome $fireEnd",
-    // fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
-    // fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
-    // fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
-    // fireJob: "$fireInsurance | $firefighter",
-    // fireInsurance: "$person's job is to calculate the property damage. There's no way, $pronoun thinks.",
-    // $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
+    fire: "$fireGeneral | $fireSpecific",
+    fireGeneral: "Wildfires (rage | burn | smolder) (outside the city | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). $fireJob",
+    fireSpecific: "$fireHome $fireEnd",
+    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
+    fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
+    fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
+    fireJob: "$fireInsurance | $firefighter | $fireFEMA",
+    fireInsurance: "$person's job is to calculate the property damage. (There's no way | It's a cold, cruel task | What's the point), $pronoun (thinks | wonders | writes in a text to $posPro (wife | husband | partner).",
+    fireFEMA: "$person's job is to help people (deal with incalculable loss | find temporary housing | get back on their feet). $pronoun.cap() doesn't know (how to help | where to begin).",
+    $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
     
     // Floods
     // flood: "($reflection $damage $result | $damage $reflection $result)",
