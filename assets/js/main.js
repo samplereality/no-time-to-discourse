@@ -45,6 +45,7 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	ext: 'jpg'
 }).addTo(map);
 
+// TODO: Grab an even bigger dataset of JSON values from https://geojson.xyz/
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disaster.json', function(data) {
   L.geoJson(data, {

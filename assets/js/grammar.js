@@ -38,7 +38,8 @@ var rules = {
     fire: "$fireGeneral | $fireSpecific",
     fireGeneral: "Wildfires (rage | burn | smolder) (outside the city | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). $fireJob",
     fireSpecific: "$fireHome $fireEnd",
-    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
+    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). The fire came from nowhere. $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
+    // TODO: Work on the fire came out of nowhere variations. Try to evoke the sense of surprise, suddenness, and randomness.
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
     fireJob: "$fireInsurance | $firefighter | $fireFEMA",
