@@ -1,7 +1,7 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
-    // start: "$fire | $drought | $flood | $storm",
-    start: "$byline $flood [10] | $personal",
+    start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
+    // start: "$byline $flood [10] | $personal",
 
     byline: "<em>.date()</em><br><br>",
 
@@ -68,12 +68,12 @@ var rules = {
     room: "(gunky | thick | rank | fetid).cap() (black | dark | muddy) (water [5] | sludge) (sloshes around | flows through) $person's (basement | living room | kitchen | parlor | garage | dining room). $bobs",
     flooding: "flash flooding | (endless | relentless | rising | receding) water | flooding",
     swamps: "swamps | covers | inundates | washes away",
-    floodThings: "cars | houses | buildings | homes | businesses | schools | hospitals | churches | bridges | roads | sidewalks | streets | entire neighborhoods | whole communities",
+    floodThings: "trees | cars | houses | buildings | homes | businesses | schools | hospitals | churches | bridges | roads | sidewalks | streets | entire neighborhoods | whole communities",
     floodplain: "(low-lying (areas | regions | neighborhoods | communities)) | streets and sidewalks | roads and bridges",
     reflection: "($person lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen | didn't think it would be this bad).)",
     bobs: "$object.art().cap() bobs in the (dark | ) water.",
     injury: "dead | injured | left homeless | homeless | stranded",
-    result: "Emergency response teams are (on hand | nowhere to be seen | working around the clock | tired, so tired). | Local authorities (declared a state of emergency | are silent | are tweeting safety tips).",
+    result: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (declared a state of emergency | are staging a photo op | are tweeting safety tips).",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
     positive: "$pos_emotion $subject $future $pos_status.",
