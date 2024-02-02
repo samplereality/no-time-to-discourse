@@ -1,15 +1,26 @@
 var rules = {
     // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
     // start: "$fire | $drought | $flood | $storm",
-    start: "$byline $fire [4] | $personal",
+    start: "$byline $flood [10] | $personal",
 
     byline: "<em>.date()</em><br><br>",
 
-    personal: "<em>.time()</em><br><br>You stare at the screen, your sallow face awash in blue light of your .device().",
+    personal: "<em>.time()</em><br><br>You stare at the screen, your sallow face awash in blue light of your .device(). $personalNews $personalReflection",
+
+    personalNews: "The (stories | reports) are (endless | neverending | relentless).",
+
+    personalReflection: "You think of a pale rider on a pale horse. | (What are you going to do? | What can you do? | What's the point? | Is there any hope?)",
     
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
 
+    // Numbers
+    digit: "0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
+    singleDigit: "1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
+    number: "$singleDigit | $singleDigit$digit | hundreds",
+    reallyBigNumber: "$singleDigit$digit$digit | thousands",
+    count: "dozens | scores | hundreds | thousands",
+    
     // Storms
     storm: "$stormGeneral $stormResult",
     stormGeneral: "$slowStorm | $fastStorm | $longStorm",
@@ -42,8 +53,8 @@ var rules = {
     fire: "$fireGeneral | $fireSpecific",
     fireGeneral: "Wildfires (rage | burn | smolder) (outside the city | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). $fireJob",
     fireSpecific: "$fireHome $fireEnd",
-    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). The fire came from nowhere. $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
-    // TODO: Work on the fire came out of nowhere variations. Try to evoke the sense of surprise, suddenness, and randomness.
+    fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $fireSource $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
+    fireSource: "The fire (spread like an (furious | unstoppable) (wall | tide) of flames  | came from nowhere | had loomed on the horizon for days | jumped the firebreak (last night | yesterday | this morning)).",
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
     fireJob: "$fireInsurance | $firefighter | $fireFEMA",
@@ -52,18 +63,15 @@ var rules = {
     $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
     
     // Floods
-    // flood: "($reflection $damage $result | $damage $reflection $result)",
-    damage: "(gunky | thick | rank | fetid).cap() (black | dark | muddy) water sloshes around $person's (basement | living room | kitchen | parlor). | $count.cap() are $injury as $flooding $swamps $floodplain. | The $flooding washed away $floodThings.nr(), $floodThings.nr(), $floodThings.nr().",
-    flooding: "flash flooding | endless water | rising water | receding water | flooding",
+    flood: "$reflection $damage $result | $damage $reflection $result",
+    damage: "$room | $count.cap() are $injury as $flooding $swamps $floodplain. | The $flooding washed away $floodThings.nr(), $floodThings.nr(), $floodThings.nr().",
+    room: "(gunky | thick | rank | fetid).cap() (black | dark | muddy) (water [5] | sludge) (sloshes around | flows through) $person's (basement | living room | kitchen | parlor | garage | dining room). $bobs",
+    flooding: "flash flooding | (endless | relentless | rising | receding) water | flooding",
     swamps: "swamps | covers | inundates | washes away",
     floodThings: "cars | houses | buildings | homes | businesses | schools | hospitals | churches | bridges | roads | sidewalks | streets | entire neighborhoods | whole communities",
     floodplain: "(low-lying (areas | regions | neighborhoods | communities)) | streets and sidewalks | roads and bridges",
     reflection: "($person lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen | didn't think it would be this bad).)",
-    digit: "0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
-    singleDigit: "1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
-    number: "$singleDigit | $singleDigit$digit | hundreds",
-    reallyBigNumber: "$singleDigit$digit$digit | thousands",
-    count: "dozens | scores | hundreds | thousands",
+    bobs: "$object.art().cap() bobs in the (dark | ) water.",
     injury: "dead | injured | left homeless | homeless | stranded",
     result: "Emergency response teams are (on hand | nowhere to be seen | working around the clock | tired, so tired). | Local authorities (declared a state of emergency | are silent | are tweeting safety tips).",
     
