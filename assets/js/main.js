@@ -64,13 +64,15 @@ console.log("You are using a " + device + ".");
 // Create the map instance
 var map = L.map('map', {
     // center: [35.227, -80.8431],
-    center: [1.227, -30.8431],
-    zoom: 3
+    center: [35, -80],
+    zoom: 4,
+    maxBoundsViscosity: .5
 });
 
 // Set bounds for the map
-var southWest = L.latLng(-89.98155760646617, -180),
-northEast = L.latLng(89.99346179538875, 180);
+// Approximate bounds for North America, Central America, the Caribbean, and South America
+var southWest = L.latLng(-56, -135), // Adjusted to southern tip of South America and further west to include ocean
+    northEast = L.latLng(72, -25); // Adjusted to include far north of North America and east towards the mid-Atlantic
 var bounds = L.latLngBounds(southWest, northEast);
 
 map.setMaxBounds(bounds);
@@ -87,34 +89,35 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	ext: 'jpg'
 }).addTo(map);
 
-// TODO: Grab an even bigger dataset of JSON values from https://geojson.xyz/
+
 // Grab coordinates from geojson, add stories to markers, and add to map
-$.getJSON('assets/js/disaster.json', function(data) {
+$.getJSON('assets/js/disasters.json', function(data) {
   L.geoJson(data, {
     style: function (feature) {
         return {color: feature.properties.color};
     }
 }).bindTooltip(function (layer) {
-    if (layer.feature.properties.ADM1NAME === null) {
-        var state = layer.feature.properties.SOV0NAME;
+    if (layer.feature.properties.adm1name === null) {
+        var state = layer.feature.properties.sov0name;
     } else {
-        if (layer.feature.properties.ADM0NAME === "United States of America") {
-            var state = layer.feature.properties.ADM1NAME;
+        if (layer.feature.properties.adm0name === "United States of America") {
+            var state = layer.feature.properties.adm1name;
         } else {
-            var state = layer.feature.properties.ADM0NAME;
+            var state = layer.feature.properties.adm0name;
         }
     }
-    if (layer.feature.properties.TIMEZONE === "America/New_York") {
-        var rule = "start";
-    } else {
-        var rule = "start";
-    }
-    return "<strong>" + layer.feature.properties.NAME + ", " + state + "</strong><br>" + rg.expand(rule); 
+    let rule = "start";
+    // if (layer.feature.properties.TIMEZONE === "America/New_York") {
+    //     var rule = "start";
+    // } else {
+    //     var rule = "start";
+    // }
+    return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
         // Animate zoom to the user's time zone location
         setTimeout(() => {
-            map.flyTo([43.1704256379, -77.6199497901], 5); // Adjust zoom level as needed
+            map.flyTo([43.1704256379, -77.6199497901], 7); // Adjust zoom level as needed
         }, 1000); // Adjust delay as needed
 
 });
