@@ -66,7 +66,6 @@ var map = L.map('map', {
     center: [35, -80],
     zoom: 4,
     maxBoundsViscosity: .5,
-    searchControl: {layer: searchLayer}
 });
 
 // Set bounds for the map
@@ -88,7 +87,6 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	maxZoom: 16,
 	ext: 'jpg'
 }).addTo(map);
-
 
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {
@@ -115,6 +113,3 @@ $.getJSON('assets/js/disasters.json', function(data) {
         }, 1000); // Adjust delay as needed
 
 });
-
-var searchLayer = L.geoJson().addTo(map);
-//... adding data in searchLayer ...
