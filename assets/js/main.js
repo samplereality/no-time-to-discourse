@@ -63,10 +63,10 @@ console.log("You are using a " + device + ".");
 
 // Create the map instance
 var map = L.map('map', {
-    // center: [35.227, -80.8431],
     center: [35, -80],
     zoom: 4,
-    maxBoundsViscosity: .5
+    maxBoundsViscosity: .5,
+    searchControl: {layer: searchLayer}
 });
 
 // Set bounds for the map
@@ -97,21 +97,15 @@ $.getJSON('assets/js/disasters.json', function(data) {
         return {color: feature.properties.color};
     }
 }).bindTooltip(function (layer) {
-    if (layer.feature.properties.adm1name === null) {
-        var state = layer.feature.properties.sov0name;
-    } else {
-        if (layer.feature.properties.adm0name === "United States of America") {
-            var state = layer.feature.properties.adm1name;
-        } else {
-            var state = layer.feature.properties.adm0name;
-        }
+    let state = layer.feature.properties.sov0name; // Default to sovereign state name
+    if (layer.feature.properties.adm1name && layer.feature.properties.adm0name === "United States of America") {
+        state = layer.feature.properties.adm1name; // Use admin-1 name for USA
+    } else if (layer.feature.properties.adm1name) {
+        state = layer.feature.properties.adm0name; // Use admin-0 name otherwise
     }
+    
     let rule = "start";
-    // if (layer.feature.properties.TIMEZONE === "America/New_York") {
-    //     var rule = "start";
-    // } else {
-    //     var rule = "start";
-    // }
+
     return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
@@ -121,3 +115,6 @@ $.getJSON('assets/js/disasters.json', function(data) {
         }, 1000); // Adjust delay as needed
 
 });
+
+var searchLayer = L.geoJson().addTo(map);
+//... adding data in searchLayer ...
