@@ -108,8 +108,8 @@ $.getJSON('assets/js/disasters.json', function(data) {
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
         // Animate zoom to the user's time zone location
-        setTimeout(() => {
-            map.flyTo([43.1704256379, -77.6199497901], 7); // Adjust zoom level as needed
-        }, 1000); // Adjust delay as needed
+        // setTimeout(() => {
+        //     map.flyTo([40.1704256379, -111.6199497901], 7, {duration: 4}); // Adjust zoom level as needed
+        // }, 3000); // Adjust delay as needed
 
 });

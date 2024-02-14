@@ -1,5 +1,5 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = 1 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = .01 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 function openDialog() {
 
@@ -31,6 +31,7 @@ function openDialog() {
 		var dialog = document.getElementById('dialog');
 		document.body.removeChild(dialog);
 		document.body.classList.remove('overflowHidden');
+		map.flyTo([40.1704256379, -111.6199497901], 7, {duration: 4});
 		if (localStorage) {
 			localStorage.setItem(SESSION_KEY, Date.now());
 		}

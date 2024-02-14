@@ -34,7 +34,7 @@ var rules = {
     stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count (of buildings were leveled by mudslides | trees were downed | roads were impassable) | the floodwaters took days to recede | $person's home was flooded and inhabitable).",
     stormUtilities: "$stormPower. $stormWater. | $stormWater. $stormPower.",
     stormPower: "The (lights were | power was) out for (days | weeks) | We had no gas, no heat, no lights | The hospitals ran on generators for days",
-    stormWater: "They trucked in bottle water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris)",
+    stormWater: "They trucked in bottled water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris)",
 
     // // Drought
     drought: "($drought_land.cap(), and $dought_water. | $dought_water.cap() and $drought_land.) $uncovered ($drought_action $drought_thought $drought_time | $drought_time $drought_action $drought_thought) ($drought_throat | $drought_words)",

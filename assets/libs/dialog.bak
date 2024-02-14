@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<script
+	type="text/javascript"
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="prologue">
+<span id="day">
+	The day is hot, and the weather, and the wars, and the King, and the Dukes;</span>
+		<span id="time"> it is no time to discourse</span>
+	<span id="shakespeare">.<br><br> - Henry V</span>
+    </div>
+
+	<div class="about hidden" id="about"><em>No Time To Discourse</em> is a speculative atlas of climate disaster. Each story is a star in a constellation. While we talk about what to do about climate change, the climate continue to change.
+	</div>
+</div>
+
+<script>
+	// setTimeout(function(){
+	// 	$( '#day, #time, #about' ).fadeIn(3000);
+	// }, 500);
+
+	// setTimeout(function(){
+	// 	$( '#weather' ).fadeIn(3000);
+	// }, 3000);
+
+	// setTimeout(function(){
+	// 	$( '#wars' ).fadeIn(3000);
+	// }, 5000);
+
+	// setTimeout(function(){
+	// 	$( '#king' ).fadeIn(3000);
+	// }, 7000);
+
+	// setTimeout(function(){
+	// 	$( '#time' ).fadeIn(3000);
+	// }, 9000);
+
+	// setTimeout(function(){
+	// 	$( '#henry' ).fadeIn(3000);
+	// }, 11000);
+
+	setTimeout(function(){
+		$( '#day, #shakespeare' ).fadeTo(3000, 0);
+	}, 5000);
+
+	setTimeout(function(){
+		$( '#about' ).fadeIn(3000);
+	}, 6000);
+
+</script>
+</body>
+</html>
