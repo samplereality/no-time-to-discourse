@@ -1,6 +1,59 @@
 var SESSION_KEY = 'dialog-session';
 var ONE_DAY_MILLI_SEC = .01 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
+
+function disableMapInteraction() {
+    map.dragging.disable();
+    map.touchZoom.disable();
+    map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+    map.boxZoom.disable();
+    map.keyboard.disable();
+    // If you're using Leaflet 1.2.0 or later, also disable tap handler
+    if (map.tap) map.tap.disable();
+    // Disable any additional interaction handlers you've enabled...
+}
+
+function enableMapInteraction() {
+    map.dragging.enable();
+    map.touchZoom.enable();
+    map.doubleClickZoom.enable();
+    map.scrollWheelZoom.enable();
+    map.boxZoom.enable();
+    map.keyboard.enable();
+    // Re-enable tap handler for mobile devices
+    if (map.tap) map.tap.enable();
+    // Enable any additional interaction handlers you've disabled...
+}
+
+function hideCursor() {
+    var mapContainer = map.getContainer();
+    mapContainer.style.cursor = 'none';
+}
+
+function showCursor() {
+    var mapContainer = map.getContainer();
+    mapContainer.style.cursor = ''; // Reverts to the stylesheet default
+}
+
+function performFlyTo() {
+    if (map) {
+        // Disable interactions
+        disableMapInteraction();
+		hideCursor();
+
+        // Start flying
+        map.flyTo([40.1704256379, -111.6199497901], 7, {duration: 7});
+
+        // Re-enable interactions once flying is done
+        map.once('moveend', function() {
+			enableMapInteraction();
+			showCursor();
+		});
+    }
+}
+
+
 function openDialog() {
 
 	// keep the last session timestamp in local storage to
@@ -8,6 +61,8 @@ function openDialog() {
 	if (localStorage) {
 		var sessionTimestamp = localStorage.getItem(SESSION_KEY);
 		if (sessionTimestamp && Date.now() - sessionTimestamp < ONE_DAY_MILLI_SEC) {
+			setTimeout(performFlyTo, 1000);
+			// performFlyTo();
 			return;
 		}
 	}
@@ -31,7 +86,7 @@ function openDialog() {
 		var dialog = document.getElementById('dialog');
 		document.body.removeChild(dialog);
 		document.body.classList.remove('overflowHidden');
-		map.flyTo([40.1704256379, -111.6199497901], 7, {duration: 4});
+		performFlyTo();
 		if (localStorage) {
 			localStorage.setItem(SESSION_KEY, Date.now());
 		}

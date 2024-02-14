@@ -63,7 +63,7 @@ https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/
 }
 
 #dialog .iframe-container {
-	height: 90%;
+	height: 500px;
 	border-radius: 5px;
 	padding: 10px 0px;
 	background: #fff;
@@ -120,8 +120,7 @@ blockquote {
     font-size: 1.5em;
     line-height: 1.5;
     color: #525252;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 
 .about {
