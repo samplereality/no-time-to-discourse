@@ -5,11 +5,11 @@ var rules = {
 
     byline: "<em>.date()</em><br><br>",
 
-    personal: "<em>.time()</em><br><br>You stare at the screen, your sallow face awash in blue light of your .device(). $personalNews $personalReflection",
+    personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
     personalNews: "The (stories | reports) are (endless | neverending | relentless).",
 
-    personalReflection: "You think of a pale rider on a pale horse. | (What are you going to do? | What can you do? | What's the point? | Is there any hope?)",
+    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?)",
     
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
