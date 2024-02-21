@@ -1,7 +1,6 @@
 var rules = {
-    // start: "$drought | $fire | $heat | $negative | $positive | $storm | $tornado | $tsunami | $wind | $flood",
+
     start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
-    // start: "$byline $flood [10] | $personal",
 
     byline: "<em>.date()</em><br><br>",
 
