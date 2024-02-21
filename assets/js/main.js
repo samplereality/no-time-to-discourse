@@ -106,7 +106,7 @@ $.getJSON('assets/js/disasters.json', function(data) {
     let rule = "start";
 
     return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
-}, {opacity: 1.0, className: 'disasterLabels huechange'}).addTo(map);
+}, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
         // Animate zoom to the user's time zone location
         // setTimeout(() => {
