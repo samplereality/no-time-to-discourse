@@ -144,3 +144,7 @@ blockquote {
 .hidden {
     display: none;
 }
+
+.leaflet-marker-icon { 
+    filter: hue-rotate(140deg); 
+}

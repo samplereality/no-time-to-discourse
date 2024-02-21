@@ -88,6 +88,7 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	ext: 'jpg'
 }).addTo(map);
 
+
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {
   L.geoJson(data, {
@@ -105,7 +106,7 @@ $.getJSON('assets/js/disasters.json', function(data) {
     let rule = "start";
 
     return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
-}, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
+}, {opacity: 1.0, className: 'disasterLabels huechange'}).addTo(map);
 
         // Animate zoom to the user's time zone location
         // setTimeout(() => {
