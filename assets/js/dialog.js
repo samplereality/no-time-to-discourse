@@ -43,7 +43,7 @@ function performFlyTo() {
 		hideCursor();
 
         // Start flying
-        map.flyTo([40.1704256379, -111.6199497901], 7, {duration: 7});
+        map.flyTo([38, -77], 7, {duration: 7});
 
         // Re-enable interactions once flying is done
         map.once('moveend', function() {
