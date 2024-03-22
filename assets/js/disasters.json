@@ -2133,7 +2133,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2150,7 +2150,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2167,7 +2167,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2184,7 +2184,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2201,7 +2201,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2218,7 +2218,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2235,7 +2235,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -2252,7 +2252,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -6621,7 +6621,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Baja California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -6638,7 +6638,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Baja California Sur",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -6655,7 +6655,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Baja California Sur",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -13999,7 +13999,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14016,7 +14016,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14033,7 +14033,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14050,7 +14050,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14067,7 +14067,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14084,7 +14084,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14101,7 +14101,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14118,7 +14118,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14135,7 +14135,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14152,7 +14152,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14169,7 +14169,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14186,7 +14186,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14203,7 +14203,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14220,7 +14220,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14237,7 +14237,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14254,7 +14254,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14271,7 +14271,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14288,7 +14288,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14305,7 +14305,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14322,7 +14322,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14339,7 +14339,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14356,7 +14356,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -14373,7 +14373,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -20391,7 +20391,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Baja California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -20408,7 +20408,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Baja California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -20425,7 +20425,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Baja California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -27718,7 +27718,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -29622,7 +29622,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -29639,7 +29639,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -29656,7 +29656,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -29673,7 +29673,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -29690,7 +29690,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -29707,7 +29707,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -34501,7 +34501,7 @@
         "sov0name": "United States of America",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -34518,7 +34518,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -34807,7 +34807,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -34824,7 +34824,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -34841,7 +34841,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -37238,7 +37238,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -37255,7 +37255,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -39227,7 +39227,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -39652,7 +39652,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
@@ -39856,7 +39856,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "California",
-        "note": null
+        "note": 1
       },
       "geometry": {
         "type": "Point",
