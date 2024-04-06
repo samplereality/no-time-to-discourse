@@ -2,6 +2,8 @@ var rules = {
 
     start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
+    florida: "$byline ($seaLevel) [10] | $personal",
+
     byline: "<em>.date()</em><br><br>",
 
     personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
@@ -19,6 +21,9 @@ var rules = {
     number: "$singleDigit | $singleDigit$digit | hundreds",
     reallyBigNumber: "$singleDigit$digit$digit | thousands",
     count: "dozens | scores | hundreds | thousands",
+
+    // Sea levels
+    seaLevel: "The sea level is rising. | The sea level is rising, and the (cities | towns | villages | hamlets) are (sinking | disappearing | vanishing).",
     
     // Storms
     storm: "$stormGeneral $stormResult",

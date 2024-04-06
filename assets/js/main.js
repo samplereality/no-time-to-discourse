@@ -11,6 +11,7 @@ let context = {
 };
 
 let rg = RiTa.grammar(rules, context); 
+let rule;
 
 // A function for future dates
 
@@ -103,8 +104,12 @@ $.getJSON('assets/js/disasters.json', function(data) {
         state = layer.feature.properties.adm0name; // Use admin-0 name otherwise
     }
     
-    let rule = "start";
-
+        if (layer.feature.properties.note === 3) {
+            rule = "seaLevel";
+            } else {
+            rule = "start";
+            }
+        
     return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
