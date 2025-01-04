@@ -105,7 +105,7 @@ $.getJSON('assets/js/disasters.json', function(data) {
     }
     
         if (layer.feature.properties.note === 3) {
-            rule = "seaLevel";
+            rule = "florida";
             } else {
             rule = "start";
             }

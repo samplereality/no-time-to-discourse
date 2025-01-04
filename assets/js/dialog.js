@@ -1,5 +1,5 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = .01 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = .1 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 
 function disableMapInteraction() {
@@ -9,9 +9,8 @@ function disableMapInteraction() {
     map.scrollWheelZoom.disable();
     map.boxZoom.disable();
     map.keyboard.disable();
-    // If you're using Leaflet 1.2.0 or later, also disable tap handler
     if (map.tap) map.tap.disable();
-    // Disable any additional interaction handlers you've enabled...
+	document.getElementById('map-overlay').style.display = 'block';
 }
 
 function enableMapInteraction() {
@@ -21,9 +20,8 @@ function enableMapInteraction() {
     map.scrollWheelZoom.enable();
     map.boxZoom.enable();
     map.keyboard.enable();
-    // Re-enable tap handler for mobile devices
     if (map.tap) map.tap.enable();
-    // Enable any additional interaction handlers you've disabled...
+	document.getElementById('map-overlay').style.display = 'none';
 }
 
 function hideCursor() {
