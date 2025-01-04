@@ -41,7 +41,19 @@ function performFlyTo() {
 		hideCursor();
 
         // Start flying
-        map.flyTo([38, -77], 7, {duration: 7});
+		
+        map.flyTo([43, -79], 7, {duration: 7});
+
+		setTimeout(() => {
+			// Fade in icons
+			document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
+			  icon.style.opacity = '1'; // or '1.0'
+			});
+			// Fade in shadows
+			document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
+			  shadow.style.opacity = '.8'; // or '1.0'
+			});
+		  }, 1000);
 
         // Re-enable interactions once flying is done
         map.once('moveend', function() {

@@ -145,6 +145,18 @@ blockquote {
     display: none;
 }
 
-.leaflet-marker-icon { 
+/* .leaflet-marker-icon { 
+    opacity: 0.4;
     filter: hue-rotate(140deg); 
-}
+} */
+
+.leaflet-marker-icon {
+    filter: hue-rotate(140deg); 
+    opacity: 0;                 /* Start fully transparent */
+    transition: opacity 6s;     Or however long you want the fade
+  }
+
+  .leaflet-marker-shadow {
+    opacity: 0;                 /* Start fully transparent */
+    transition: opacity 6s;
+  }

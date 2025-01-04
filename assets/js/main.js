@@ -1,5 +1,7 @@
 "use strict";
 
+let geoJsonLayer; // store globally or in a higher scope
+
 // Load RiTa
 let context = {
     silent: () => '',
@@ -92,9 +94,10 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {
-  L.geoJson(data, {
+    geoJsonLayer = L.geoJson(data, {
     style: function (feature) {
-        return {color: feature.properties.color};
+        return {
+            color: feature.properties.color,        };
     }
 }).bindTooltip(function (layer) {
     let state = layer.feature.properties.sov0name; // Default to sovereign state name
@@ -112,10 +115,5 @@ $.getJSON('assets/js/disasters.json', function(data) {
         
     return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
-
-        // Animate zoom to the user's time zone location
-        // setTimeout(() => {
-        //     map.flyTo([40.1704256379, -111.6199497901], 7, {duration: 4}); // Adjust zoom level as needed
-        // }, 3000); // Adjust delay as needed
 
 });
