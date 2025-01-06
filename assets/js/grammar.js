@@ -8,9 +8,13 @@ var rules = {
 
     personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
-    personalNews: "The (stories | reports) are (endless | neverending | relentless).",
+    personalNews: "The (stories | reports) are (endless | neverending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
 
-    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?)",
+    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You message $person, wondering if $pronoun's (okay | safe | hanging in).",
+
+    truth: "Despite everything, $person knows the truth.",
+    
+    conspiracy: "(The (government | media | so-called scientists | the libtards) are (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
     
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
@@ -23,7 +27,7 @@ var rules = {
     count: "dozens | scores | hundreds | thousands",
 
     // Sea levels
-    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions | $floridaPerson)",
+    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions | $floridaPerson | $truth $conspiracy)",
     floridaAttractions: "(Disney World | Epcot | Universal Studios) is closed due to flooding. | The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges stinking in the (brackish | swampy) mud). | The Everglades seem to have grown, abounding with (alligators | pythons).",
     floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
     

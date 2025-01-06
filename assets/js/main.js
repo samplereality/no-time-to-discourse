@@ -72,8 +72,8 @@ var map = L.map('map', {
 });
 
 // Set bounds for the map
-// Approximate bounds for North America, Central America, the Caribbean, and South America
-var southWest = L.latLng(-56, -135), // Adjusted to southern tip of South America and further west to include ocean
+// Approximate bounds for North America
+var southWest = L.latLng(8, -180), // Adjusted to southern tip of South America and further west to include ocean
     northEast = L.latLng(72, -25); // Adjusted to include far north of North America and east towards the mid-Atlantic
 var bounds = L.latLngBounds(southWest, northEast);
 
@@ -86,7 +86,7 @@ map.on('drag', function() {
 L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/{z}/{x}/{y}.jpg', {
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	subdomains: 'abcd',
-	minZoom: 3,
+	minZoom: 4,
 	maxZoom: 16,
 	ext: 'jpg'
 }).addTo(map);
