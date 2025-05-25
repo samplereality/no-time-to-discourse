@@ -1,22 +1,27 @@
+// Import modules
+import L from 'https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.esm.js';
+import { RiTa } from 'https://cdn.skypack.dev/rita@3';
+import createGrammar from './grammar.js';
+
 "use strict";
 
 let geoJsonLayer; // store globally or in a higher scope
+let rule;
 
-// Load RiTa
+// Create context
 let context = {
     silent: () => '',
-    pluralNoun: () => RiTa.randomWord({ pos: "nns" }),
-    noun: () => RiTa.randomWord({ pos: "nn" }),
+    pluralNoun: () => RiTa.randomWord({ pos: "nns" }) || "areas",
+    noun: () => RiTa.randomWord({ pos: "nn" }) || "region",
     date: () => makeDate(),
     time: () => makeTime(),
     device: () => getDeviceType()
 };
 
-let rg = RiTa.grammar(rules, context); 
-let rule;
+// Create the grammar using the imported function
+var rg = createGrammar(RiTa, context);
 
 // A function for future dates
-
 function makeDate() {
     const minDays = 3;
     const maxDays = 1460;
@@ -62,8 +67,6 @@ function getDeviceType() {
 var device = getDeviceType();
 console.log("You are using a " + device + ".");
 
-
-
 // Create the map instance
 var map = L.map('map', {
     center: [35, -80],
@@ -90,7 +93,6 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	maxZoom: 16,
 	ext: 'jpg'
 }).addTo(map);
-
 
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {

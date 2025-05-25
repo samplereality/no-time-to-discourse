@@ -1,7 +1,7 @@
 function createGrammar(RiTa, context) {
     return RiTa.grammar({
-        "start": "Hello | Goodbye",
-        "simple": "This is a test."
+        start: "Hello | Goodbye",
+        
     }, context);
 }
 
