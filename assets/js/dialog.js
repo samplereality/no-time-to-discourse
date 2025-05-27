@@ -1,6 +1,8 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = .1 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = 24 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
+// Add development mode flag
+var DEVELOPMENT_MODE = true; // Set to false for production
 
 function disableMapInteraction() {
     map.dragging.disable();
@@ -36,35 +38,50 @@ function showCursor() {
 
 function performFlyTo() {
     if (map) {
-        // Disable interactions
-        disableMapInteraction();
-		hideCursor();
+        if (DEVELOPMENT_MODE) {
+            // Development mode: jump directly to location
+            map.setView([43, -79], 7);
+            
+            // Show icons immediately
+            document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
+                icon.style.opacity = '1';
+            });
+            document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
+                shadow.style.opacity = '.8';
+            });
+        } else {
+            // Production mode: original animation
+            disableMapInteraction();
+            hideCursor();
 
-        // Start flying
-		
-        map.flyTo([43, -79], 7, {duration: 7});
+            map.flyTo([43, -79], 7, {duration: 7});
 
-		setTimeout(() => {
-			// Fade in icons
-			document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
-			  icon.style.opacity = '1'; // or '1.0'
-			});
-			// Fade in shadows
-			document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
-			  shadow.style.opacity = '.8'; // or '1.0'
-			});
-		  }, 1000);
+            setTimeout(() => {
+                // Fade in icons
+                document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
+                  icon.style.opacity = '1';
+                });
+                // Fade in shadows
+                document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
+                  shadow.style.opacity = '.8';
+                });
+              }, 1000);
 
-        // Re-enable interactions once flying is done
-        map.once('moveend', function() {
-			enableMapInteraction();
-			showCursor();
-		});
+            // Re-enable interactions once flying is done
+            map.once('moveend', function() {
+                enableMapInteraction();
+                showCursor();
+            });
+        }
     }
 }
 
-
 function openDialog() {
+    if (DEVELOPMENT_MODE) {
+        // Skip dialog in development mode
+        setTimeout(performFlyTo, 100); // Small delay to ensure map is ready
+        return;
+    }
 
 	// keep the last session timestamp in local storage to
 	//  re-show after 24 hours since last ack
@@ -72,7 +89,6 @@ function openDialog() {
 		var sessionTimestamp = localStorage.getItem(SESSION_KEY);
 		if (sessionTimestamp && Date.now() - sessionTimestamp < ONE_DAY_MILLI_SEC) {
 			setTimeout(performFlyTo, 1000);
-			// performFlyTo();
 			return;
 		}
 	}
