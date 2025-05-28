@@ -2,7 +2,7 @@ var rules = {
 
     // start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
-    start: "$byline $fireNow",
+    start: "$byline $fire",
 
     florida: "$byline ($seaLevel) [10] | $personal",
 
@@ -27,6 +27,7 @@ var rules = {
     number: "$singleDigit | $singleDigit$digit | hundreds",
     reallyBigNumber: "$singleDigit$digit$digit | thousands",
     count: "dozens | scores | hundreds | thousands",
+    stateCount: "(1|2)$singleDigit",
 
     // Sea levels
     seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions | $floridaPerson | $truth $conspiracy)",
@@ -63,20 +64,32 @@ var rules = {
 
     // Fire
     fire: "$fireGeneral | $fireSpecific",
-    fireGeneral: "Wildfires (rage | burn | smolder) (outside the city | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). $fireJob",
+    fireGeneral: "(The (city | country) is burning, (man [2] | dear Lord). There are $count of fires burning across $stateCount states. ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside the city | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). ($fireCause | $fireJob [2])",
+    fireCause: "What caused the fires? $fireCauses.nr()? $fireCauses.nr()? (Does it matter? | Who knows. | Who can tell.) It might as well have been (a meteor strike | a UFO laser beam | the divine hand of God).",
+    fireCauses: "Lightning | A spark from a power line | A careless camper | A campfire | Arson | A dropped cigarette | The spark from a mower blade striking a rock | A controlled burn that wasn't so controlled",
     fireSpecific: "$fireHome $fireEnd | $fireNow | $fireRescue",
     fireHome: "$person's (house | home | apartment | condo | townhouse) was (destroyed | burned to the ground | reduced to ashes | engulfed in flames). $fireSource $pronoun.cap() remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireSource: "The fire (spread like an (furious | unstoppable) (wall | tide) of flames  | came from nowhere | had loomed on the horizon for days | jumped the firebreak (last night | yesterday | this morning)).",
     fireMemory: "$person remembers the most random things. $object.nr().art().cap(). $object.nr().art().cap(). $object.nr.cap().s(). All lost.",
     fireEnd: "(The (wildfire | fire) did (all | ) this and (so | ) much more. | (But the | The) ashes will last forever. | Sunsets are achingly beautiful now. | Is it the smoke that makes it hard to breathe?)",
-    fireJob: "$fireInsurance | $firefighter | $fireFEMA",
+    fireJob: "$fireInsurance | $fireFighter [2] | $fireFEMA",
     fireInsurance: "$person's job is to (calculate property damage | assess fire losses | process the (State Farm | Progressive | USAA | Allstate | Nationwide | Liberty Mutual) claims). (There's no way | It's a cold, cruel task | What's the point | I'm supposed to lowball as much as possible), $pronoun (complains | brags | writes | laments) (in a text to $posPro (wife | husband | partner)).",
     fireFEMA: "$person's job is to help people (deal with incalculable loss | find temporary housing | get back on their feet). $pronoun.cap() doesn't know (how to help | where to begin).",
-    $firefighter: "The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
-    fireNow: "Flames (surround | envelope | engulf) $person's $house, the (blinding | searing) heat blistering the (sidewalk | road | lawn) in front. (One minute the flames were a thousand yards away, the next minute, here they were. | $pronoun.cap()'s stunned by the heat, the sirens, the alarms, the maelstrom of fire.) $pronoun.cap() rushes out into the ((orange | infernal) night | blistering hellscape | smoking ruins)(, hot dry winds whipping at $posPro face |, (choking | gagging) on $smoke.nr() and $smoke |. A (dog | coyote | deer | cat | horse) darts past $objPro.)",
+    fireFighter: "$person couldn't even fly the (airtanker ($vehicle=$firePlane).silent | helitanker ($vehicle=$fireCopter).silent) (this morning | today | tonight), the updrafts so intense the $vehicle (would be in danger | wasn't safe). | $firePlane.art().cap() roared overhead, shooting $fireFoam into the (flank | edge) of the $fireName. The (orange | red) (retardant | foam) (streamed | gushed | cascaded) out like (liquified bubblegum | melted Starbusts | the devil's cotton candy | cherry slush) onto the shimmering (homes | houses | apartments | offices). | The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
+    $fireCopter: "chopper | Huey | Sikorsky | Bell 204 | Boeing Vertol",
+    $firePlane: "Boeing | Air Tractor | Lockheed | C-130 | DC-10",
+    $fireFoam: "Phos-Chek | FireFoam | Pyrocap | FlameOut | FireIce",
+    $fireName: "($fireNameWater | $fireNameElevation | $fireNameVegetation) Fire | ($fireNameDirection) ($fireNameWater | $fireNameElevation | $fireNameVegetation) Fire",
+    fireNameWater: "Creek | River | Lake | Pond | Spring | Fall | Canyon | Gulch | Basin | Valley | Hollow | Branch | Fork | Run | Brook",
+    fireNameElevation: "Ridge | Peak | Mountain | Hill | Knob | Bluff | Mesa | Summit | Slope | Divide | Pass | Gap | Saddle",
+    fireNameVegetation: "Meadow | Prairie | Grove | Woods | Forest | Timber | Brush | Grass | Sage | Oak | Pine | Cedar | Willow",
+    fireNameBuilding: "Ranch | Camp | Trail | Road | Bridge | Mill | Mine | Station | Point | Corner | Junction | Crossing",
+    fireNameDirection: "North | South | East | West | Upper | Lower | Middle | Big | Little | Old | New",
+
+    fireNow: "Flames (surround | envelope | engulf) $person's $house, the (blinding | searing) heat blistering the (sidewalk | road | lawn) in front. (One minute the flames were a thousand yards away, the next minute, here they were. | The (firenado | firestorm | wildfire)'s burning so hot it makes its own weather. | $pronoun.cap()'s stunned by the heat, the sirens, the alarms, the maelstrom of fire.) $pronoun.cap() (steps | rushes | stumbles) out into the ((orange | infernal) night | blistering hellscape | smoking ruins)(, (hot dry winds whipping at | the firestorm searing) $posPro face |, (choking | gagging) on $smoke.nr() and $smoke |. A (dog | coyote | deer | cat | horse) darts past $objPro.)",
     smoke: "smoke | ash | soot | embers | sparks | heat | cinders",
     house: "two-story colonial | McMansion | ranch home | split-level | bungalow | Spanish colonial | Tudor house | Victorian house | mid-century modern house | gated compound | apartment | condo",
-    fireRescue: "$person (frantically | desperately | heedlessly) (rushes | speeds | races) home, (hoping | praying) $posPro (kids | husband | wife | son | daughter) has already (escaped | gotten out | is safe). But $pronoun can't even get within 10 miles of home. (The roads are blocked. | The fire is too close. | (Police turn | Firefighters turn | The National Guard turns) $pronoun away.) $pronoun.cap() (numbly | dumbly | ) watches the firestorm from the Ring camera on $posPro front door, until the feed goes dead.",
+    fireRescue: "$person (frantically | desperately | feverishly) (rushes | speeds | races) home, (hoping | praying) $posPro ((kids | family) have | (husband | wife | son | daughter) has) already (escaped | gotten out | found safety). But $pronoun can't even get within (5 | 10 | 15) miles. (The roads are blocked. | The fire is too close. | (Police turn | Firefighters turn | The National Guard turns) $objPro away.) ($pronoun.cap() (numbly | dumbly | ) watches the firestorm from the Ring camera on $posPro front door, until the feed goes dead. | $pronoun.cap() looks up into the (orange | red | blackened) sky, ash drifting onto $posPro shoulders like snow. | $pronoun.cap() (calls | texts) home, but (there's no answer | the cell towers are down).)",
     
     // Floods
     flood: "$reflection $damage $result | $damage $reflection $result",
