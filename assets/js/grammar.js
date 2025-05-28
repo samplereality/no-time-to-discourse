@@ -1,8 +1,8 @@
 var rules = {
 
-    // start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
+    start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
-    start: "$byline $fire",
+    // start: "$byline $fire",
 
     florida: "$byline ($seaLevel) [10] | $personal",
 
