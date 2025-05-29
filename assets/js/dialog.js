@@ -40,7 +40,8 @@ function performFlyTo() {
     if (map) {
         if (DEVELOPMENT_MODE) {
             // Development mode: jump directly to location
-            map.setView([43, -79], 7);
+            // map.setView([43, -79], 7); // Toronto coordinates
+			map.setView([30, -80], 7); // Miami coordinates
             
             // Show icons immediately
             document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {

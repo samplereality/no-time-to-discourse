@@ -12,27 +12,39 @@ var rules = {
 
     personalNews: "The (stories | reports) are (endless | neverending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
 
-    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You message $person, wondering if $pronoun's (okay | safe | hanging in).",
+    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You (message | text | DM) $person, wondering if $pronoun's (okay | safe | hanging in).",
 
-    truth: "Despite everything, $person knows the truth.",
-    
-    conspiracy: "(The (government | media | so-called scientists | the libtards) are (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
-    
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
 
     // Numbers
     digit: "0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
     singleDigit: "1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
+    textDigit: "two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen",
     number: "$singleDigit | $singleDigit$digit | hundreds",
     reallyBigNumber: "$singleDigit$digit$digit | thousands",
     count: "dozens | scores | hundreds | thousands",
     stateCount: "(1|2)$singleDigit",
 
     // Sea levels
-    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions | $floridaPerson | $truth $conspiracy)",
-    floridaAttractions: "(Disney World | Epcot | Universal Studios) is closed due to flooding. | The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges stinking in the (brackish | swampy) mud). | The Everglades seem to have grown, abounding with (alligators | pythons).",
+    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [2] | $floridaPerson | $floridaKnowledge)",
+    floridaKnowledge: "$floridaTruth | $floridaConspiracy",
+    floridaAttractions: "$floridaAmusement | $floridaFruit | $floridaEverglades",
+    floridaAmusement: "Flooding shut down ($floridaDisney | $floridaEpcot | $floridaUniversal). ($floridaDisease.cap() runs rampant at $floridaFood | There was an outbreak of $floridaDisease at $floridaFood). $floridaKids",
+    floridaKids: "$textDigit.cap() (children | kids | teens | high schoolers) died. | The CEO apologized for any inconvenience.",
+    floridaDisney: "Disney World($floridaFood=$floridaDisneyFood).silent",
+    floridaDisneyFood: "the Be Our Guest restaurant | Cinderella's Royal Table | 'Ohana | the California Grill",
+    floridaEpcot: "Epcot($floridaFood=$floridaEpcotFood).silent",
+    floridaEpcotFood: "the Rose & Crown Pub | Le Cellier Steakhouse | Via Napoli Ristorante e Pizzeria | Chefs de France | Akershus Royal Banquet Hall",
+    floridaUniversal: "Universal Studios($floridaFood=$floridaUniversalFood).silent",
+    floridaUniversalFood: "the Three Broomsticks | the Leaky Cauldron | the Toothsome Chocolate Emporium & Savory Feast Kitchen | Hooligan’s Grog & Gruel | the Thunder Falls Terrace",
+    floridaDisease: "cholera | typhoid fever | E. coli | norovirus | necrotizing fasciitis | staph | West Nile virus | dengue fever | Zika virus | Legionnaires' disease | leptospirosis | hepatitus A",
+    floridaFruit: "The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges (stinking | steaming) in the (brackish | swampy) mud).",
+    floridaEverglades: "The Everglades seem to have grown, abounding with (alligators | pythons).",
     floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
+    floridaTruth: "Despite everything, $person knows the truth.",
+    floridaConspiracy: "(The (government | media | so-called scientists | the libtards) are (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
+    
     
     // Storms
     storm: "$stormGeneral $stormResult",
