@@ -84,7 +84,7 @@ map.on('drag', function() {
 
 // add tiles, attribution, etc.
 L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/{z}/{x}/{y}.jpg', {
-	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	attribution: 'Map tiles by <a href="https://stamen.com/work/maps-stamen-com/">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> | Stories by Mark Sample',
 	subdomains: 'abcd',
 	minZoom: 4,
 	maxZoom: 16,

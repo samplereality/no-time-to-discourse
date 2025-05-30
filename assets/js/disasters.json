@@ -2541,7 +2541,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -2558,7 +2558,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -2575,7 +2575,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -2592,7 +2592,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -2881,7 +2881,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -2898,7 +2898,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -2915,7 +2915,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -12673,7 +12673,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -12792,7 +12792,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -12911,7 +12911,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -12928,7 +12928,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -12945,7 +12945,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -13574,7 +13574,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Mississippi",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -13744,7 +13744,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "South Carolina",
-        "note": null
+        "note": 4
       },
       "geometry": {
         "type": "Point",
@@ -22431,7 +22431,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -22448,7 +22448,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -22465,7 +22465,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -22618,7 +22618,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Alabama",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -22669,7 +22669,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Mississippi",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -24250,7 +24250,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -27905,7 +27905,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -27939,7 +27939,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -31407,7 +31407,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Louisiana",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -31679,7 +31679,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
