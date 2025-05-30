@@ -107,7 +107,10 @@ $.getJSON('assets/js/disasters.json', function(data) {
         state = layer.feature.properties.adm0name; // Use admin-0 name otherwise
     }
     
-    if (layer.feature.properties.note === 3) {
+    if (layer.feature.properties.note === 2) {
+        rule = "orlando";
+        console.log("I'm going to Disney World!");
+        } else if (layer.feature.properties.note === 3) {
         rule = "florida";
         } else if (layer.feature.properties.note === 4) {
         rule = "eastCoast";

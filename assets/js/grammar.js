@@ -6,6 +6,8 @@ var rules = {
 
     florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
 
+    orlando: "$byline $floridaVacation $floridaAmusement",
+
     eastCoast: "$byline ($hurricane [10] | $storm [10] | $flood [10] | $drought [10] | $fire [10] | $personal)",
 
     byline: "<em>.date()</em><br><br>",
@@ -32,12 +34,13 @@ var rules = {
     seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [3] | $floridaPerson | $floridaMan)",
     floridaAttractions: "$floridaAmusement [2] | $floridaFruit | $floridaEverglades",
     floridaAmusement: "Flooding shut down ($floridaDisney | $floridaEpcot | $floridaUniversal). ($floridaDisease.cap() runs rampant at $floridaFood | There was an outbreak of $floridaDisease at $floridaFood). $floridaKids",
-    floridaKids: "$textDigit.cap() (children | kids | teens | high schoolers) died. | The CEO apologized for any inconvenience.",
-    floridaDisney: "Disney World($floridaFood=$floridaDisneyFood).silent",
+    floridaVacation: "$person's vacation was the worst. | $person swore off Florida forever after $posPro disaster there.",
+    floridaKids: "$textDigit.cap() (children | kids | teens | high schoolers) died. | $floridaCEO apologized for any inconvenience. | WTF, Florida.",
+    floridaDisney: "Disney World($floridaFood=$floridaDisneyFood).silent ($floridaCEO=Disney reps).silent",
     floridaDisneyFood: "the Be Our Guest restaurant | Cinderella's Royal Table | 'Ohana | the California Grill",
-    floridaEpcot: "Epcot($floridaFood=$floridaEpcotFood).silent",
+    floridaEpcot: "Epcot($floridaFood=$floridaEpcotFood).silent  ($floridaCEO=Disney reps).silent",
     floridaEpcotFood: "the Rose & Crown Pub | Le Cellier Steakhouse | Via Napoli Ristorante e Pizzeria | Chefs de France | Akershus Royal Banquet Hall",
-    floridaUniversal: "Universal Studios($floridaFood=$floridaUniversalFood).silent",
+    floridaUniversal: "Universal Studios($floridaFood=$floridaUniversalFood).silent  ($floridaCEO=Universal reps).silent",
     floridaUniversalFood: "the Three Broomsticks | the Leaky Cauldron | the Toothsome Chocolate Emporium & Savory Feast Kitchen | Hooligan’s Grog & Gruel | the Thunder Falls Terrace",
     floridaDisease: "cholera | typhoid fever | E. coli | norovirus | necrotizing fasciitis | staph | West Nile virus | dengue fever | Zika virus | Legionnaires' disease | leptospirosis | hepatitus A",
     floridaFruit: "The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges (stinking | steaming) in the (brackish | swampy) mud).",
