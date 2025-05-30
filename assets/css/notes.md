@@ -20,4 +20,4 @@
 * 2 (Disney) = theme parks
 * 3 (Florida) = sea levels, hurricanes 
 * 4 (East Coast) = wildfire, hurricanes, droughts, heatwaves, wildfire
-* 5 (Gulf Coast) = 
+* 5 (Gulf Coast) = hurricanes, floods, storms, Gulf disasters

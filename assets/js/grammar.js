@@ -2,16 +2,20 @@ var rules = {
 
     start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
+    byline: "<em>.date()</em><br><br>",
+
     // start: "$byline $fire",
 
+    // Location-Specific Disasters
     florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
 
     orlando: "$byline $floridaVacation $floridaAmusement",
 
     eastCoast: "$byline ($hurricane [10] | $storm [10] | $flood [10] | $drought [10] | $fire [10] | $personal)",
 
-    byline: "<em>.date()</em><br><br>",
+    gulfCoast: "$byline $gulfOil",
 
+    // Personal Reflections
     personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
     personalNews: "The (stories | reports) are (endless | neverending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
@@ -42,21 +46,25 @@ var rules = {
     floridaEpcotFood: "the Rose & Crown Pub | Le Cellier Steakhouse | Via Napoli Ristorante e Pizzeria | Chefs de France | Akershus Royal Banquet Hall",
     floridaUniversal: "Universal Studios($floridaFood=$floridaUniversalFood).silent  ($floridaCEO=Universal reps).silent",
     floridaUniversalFood: "the Three Broomsticks | the Leaky Cauldron | the Toothsome Chocolate Emporium & Savory Feast Kitchen | Hooligan’s Grog & Gruel | the Thunder Falls Terrace",
-    floridaDisease: "cholera | typhoid fever | E. coli | norovirus | necrotizing fasciitis | staph | West Nile virus | dengue fever | Zika virus | Legionnaires' disease | leptospirosis | hepatitus A",
+    floridaDisease: "cholera | typhoid fever | E. coli | norovirus | necrotizing fasciitis | staph | West Nile virus | dengue fever | Zika virus | Legionnaires' disease | leptospirosis | hepatitis A",
     floridaFruit: "The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges (stinking | steaming) in the (brackish | swampy) mud).",
     floridaEverglades: "Salt water leeches into the Everglades, killing the sawgrass marshes. | Salt water crocodiles seem to outnumber the fresh water alligators. | The last (panther | Cape Sable seaside sparrow | wood stork | black bear) is gone. | Pythons are everywhere.",
     floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks about | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
     floridaMan: "Despite everything, $person knows the truth. The (weird | wacky) weather is from $floridaConspiracy. | (The (government is | media is | so-called scientists are | the libtards are) (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
     floridaConspiracy: "the chemtrails | the vaccines | 5G | the Epstein coverup",
     
-    // Hurricanes
-    // hurricane: "$hurricaneGeneral",
-    // hurricaneGeneral: "$hurricaneArrival $hurricanePerson",
-    // hurricanePerson: "$hurricaneHunker | $hurricaneEvacuation",
-    // hurricaneHunker: "$person hunkered down in $posPro (house | home | apartment | condo | townhouse), (listening | trembling) as the (water | wind | storm) (lashed against | pounded on | hammered) the (windows | walls | roof).",
-    // hurricaneEvacuation: "$person evacuated to $hurricaneSafety. $pronoun.cap() (watched the news | checked the weather app | listened to the radio), (wondering how | hoping that) $posPro (house | home | pet | pets) would be okay.",
-    // hurricaneArrival: "Hurricane ($girlName | $boyName) (rolled in | came ashore | exploded into) a Category (3|4|5) storm.",
-    // hurricaneSafety: "a shelter | a friend's house farther inland | a hotel | a church",
+    // Gulf Disasters (Oil Spills, Red Tides, and more)
+    gulfOil: "$gulfSpillOpening $gulfSpillMiddle $gulfSpillClimax $gulfSpillEnding",
+    gulfSpillOpening: "(Miles offshore | Off in the distance | Far out of sight) $gulfSpillAlert",
+    gulfPlatformName: "Poseidon | Gulf Star | Deep Horizon | Titan | Raven's Deep | Oceanus Point | Black Tide | Crescent City | Deepwater Bastion | Gulf Oasis",
+    gulfSpillAlert: "$gulfSpillAlarms | $gulfSpillMalfunction",
+    gulfSpillAlarms: "(emergency klaxons | automated warnings | distress signals) (echoed | blared | screamed) on the $gulfPlatformName platform.",
+    gulfSpillMalfunction: "(a blowout preventer malfunction | a pipeline rupture | a wellhead failure | a pressure surge) (triggered | caused | set off) a (catastrophic failure | chain reaction) on the $gulfPlatformName platform.",
+    gulfSpillMiddle: "$gulfSpillVolume.cap() of crude poured into the (warm Gulf currents | pristine blue waters | coastal waters),",
+    gulfSpillClimax: "a spill $gulfSpillComparison.",
+    gulfSpillVolume: "thousands of barrels | millions of gallons | an unstoppable flow",
+    gulfSpillComparison: "larger than some cities | visible from space | the size of a small state",
+    gulfSpillEnding: "(Sea turtles | Bottlenose dolphins) began washing ashore within days. | The smell of crude carried for miles on the wind. | $person spotted dolphins spotted swimming through the thickest part of the slick. | $person found (an oil-covered pelican | tar balls the size of small meteors | a dead sea turtle wrapped in boom) on the beach. | (Bird rookeries | Spawning grounds | Coral reefs) were left coated in a toxic sheen, viscous and black. | $person tastes petroleum in the Gulf breeze. | $person has nightmares about (lost | poisonous | broken | discarded) $object.s() (floating | bobbing) in oil-slicked waters. [2]",
 
     // Hurricanes
     hurricane: "$hurricaneGeneral",

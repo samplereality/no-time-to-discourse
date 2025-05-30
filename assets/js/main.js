@@ -115,6 +115,9 @@ $.getJSON('assets/js/disasters.json', function(data) {
         } else if (layer.feature.properties.note === 4) {
         rule = "eastCoast";
         }
+        else if (layer.feature.properties.note === 5) {
+        rule = "gulfCoast";
+        }
         else {
         rule = "start";
         }
