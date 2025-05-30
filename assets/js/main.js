@@ -73,8 +73,8 @@ var map = L.map('map', {
 
 // Set bounds for the map
 // Approximate bounds for North America
-var southWest = L.latLng(8, -180), // Adjusted to southern tip of South America and further west to include ocean
-    northEast = L.latLng(72, -25); // Adjusted to include far north of North America and east towards the mid-Atlantic
+var southWest = L.latLng(24, -140), // Adjusted to southern tip of South America and further west to include ocean
+    northEast = L.latLng(63, -56); // Adjusted to include far north of North America and east towards the mid-Atlantic
 var bounds = L.latLngBounds(southWest, northEast);
 
 map.setMaxBounds(bounds);
@@ -107,12 +107,15 @@ $.getJSON('assets/js/disasters.json', function(data) {
         state = layer.feature.properties.adm0name; // Use admin-0 name otherwise
     }
     
-        if (layer.feature.properties.note === 3) {
-            rule = "florida";
-            } else {
-            rule = "start";
-            }
-        
+    if (layer.feature.properties.note === 3) {
+        rule = "florida";
+        } else if (layer.feature.properties.note === 4) {
+        rule = "eastCoast";
+        }
+        else {
+        rule = "start";
+        }
+    
     return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 

@@ -4,7 +4,9 @@ var rules = {
 
     // start: "$byline $fire",
 
-    florida: "$byline ($seaLevel) [10] | $personal",
+    florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
+
+    eastCoast: "$byline ($hurricane [10] | $storm [10] | $flood [10] | $drought [10] | $fire [10] | $personal)",
 
     byline: "<em>.date()</em><br><br>",
 
@@ -27,8 +29,7 @@ var rules = {
     stateCount: "(1|2)$singleDigit",
 
     // Sea levels
-    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [2] | $floridaPerson | $floridaKnowledge)",
-    floridaKnowledge: "$floridaTruth | $floridaConspiracy",
+    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [3] | $floridaPerson | $floridaMan)",
     floridaAttractions: "$floridaAmusement | $floridaFruit | $floridaEverglades",
     floridaAmusement: "Flooding shut down ($floridaDisney | $floridaEpcot | $floridaUniversal). ($floridaDisease.cap() runs rampant at $floridaFood | There was an outbreak of $floridaDisease at $floridaFood). $floridaKids",
     floridaKids: "$textDigit.cap() (children | kids | teens | high schoolers) died. | The CEO apologized for any inconvenience.",
@@ -40,12 +41,50 @@ var rules = {
     floridaUniversalFood: "the Three Broomsticks | the Leaky Cauldron | the Toothsome Chocolate Emporium & Savory Feast Kitchen | Hooligan’s Grog & Gruel | the Thunder Falls Terrace",
     floridaDisease: "cholera | typhoid fever | E. coli | norovirus | necrotizing fasciitis | staph | West Nile virus | dengue fever | Zika virus | Legionnaires' disease | leptospirosis | hepatitus A",
     floridaFruit: "The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges (stinking | steaming) in the (brackish | swampy) mud).",
-    floridaEverglades: "The Everglades seem to have grown, abounding with (alligators | pythons).",
-    floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
-    floridaTruth: "Despite everything, $person knows the truth.",
-    floridaConspiracy: "(The (government | media | so-called scientists | the libtards) are (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
+    floridaEverglades: "Salt water leeches into the Everglades, killing the sawgrass marshes. | Salt water crocodiles seem to outnumber the fresh water alligators. | The last (panther | Cape Sable seaside sparrow | wood stork | black bear) is gone. | Pythons are everywhere.",
+    floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks about | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
+    floridaMan: "Despite everything, $person knows the truth. The (weird | wacky) weather is from $floridaConspiracy. | (The (government is | media is | so-called scientists are | the libtards are) (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
+    floridaConspiracy: "the chemtrails | the vaccines | 5G | the Epstein coverup",
     
-    
+    // Hurricanes
+    // hurricane: "$hurricaneGeneral",
+    // hurricaneGeneral: "$hurricaneArrival $hurricanePerson",
+    // hurricanePerson: "$hurricaneHunker | $hurricaneEvacuation",
+    // hurricaneHunker: "$person hunkered down in $posPro (house | home | apartment | condo | townhouse), (listening | trembling) as the (water | wind | storm) (lashed against | pounded on | hammered) the (windows | walls | roof).",
+    // hurricaneEvacuation: "$person evacuated to $hurricaneSafety. $pronoun.cap() (watched the news | checked the weather app | listened to the radio), (wondering how | hoping that) $posPro (house | home | pet | pets) would be okay.",
+    // hurricaneArrival: "Hurricane ($girlName | $boyName) (rolled in | came ashore | exploded into) a Category (3|4|5) storm.",
+    // hurricaneSafety: "a shelter | a friend's house farther inland | a hotel | a church",
+
+    // Hurricanes
+    hurricane: "$hurricaneGeneral",
+    hurricaneGeneral: "$hurricaneArrival $hurricanePerson $hurricaneAftermath",
+    hurricanePerson: "$hurricaneHunker | $hurricaneEvacuation | $hurricaneStay",
+    hurricaneHunker: "$person hunkered down in $posPro $hurricaneLocation, $hurricaneFear as the $hurricaneForce $hurricaneAction the $hurricaneTarget.",
+    hurricaneEvacuation: "$person evacuated to $hurricaneSafety with $hurricaneBelongings. $pronoun.cap() $hurricaneWorry, $hurricaneHope $posPro $hurricaneLeftBehind would survive.",
+    hurricaneStay: "$person decided to stay, $hurricaneReason. Now $pronoun $hurricaneRegret as $hurricaneReality.",
+    hurricaneArrival: "Hurricane $hurricaneName $hurricaneIntensity, $hurricaneWarning.",
+    hurricaneSafety: "a shelter with hundreds of strangers | a friend's house three states away | a highway motel that still had vacancy | a church basement | $posPro (sister|brother)'s apartment | a Red Cross evacuation center",
+    hurricaneLocation: "house | home | apartment | mobile home | trailer | elderly mother's house | childhood bedroom | studio apartment",
+    hurricaneFear: "listening to every creak | trembling with each gust | clutching $posPro phone | holding $posPro breath | praying silently | counting seconds between lightning and thunder",
+    hurricaneForce: "155-mph winds | storm surge | driving rain | hail the size of golf balls | water",
+    hurricaneAction: "lashed against | pounded | hammered | tore at | shredded | stripped bark from trees beside",
+    hurricaneTarget: "windows that hadn't been boarded | walls | the roof $pronoun'd been meaning to repair | sliding glass door | shutters",
+    hurricaneBelongings: "only what fit in the car | two suitcases and the dog | nothing but the clothes on $posPro back | photo albums and medication",
+    hurricaneWorry: "watched the news obsessively | refreshed the weather app every few minutes | called neighbors who didn't answer | stared at satellite images",
+    hurricaneHope: "praying | hoping desperately | wondering if | begging God",
+    hurricaneLeftBehind: "house | 90-year-old oak tree | cat who wouldn't come out from under the bed | garden $pronoun'd spent years cultivating | $posPro vintage vinyl collection",
+    hurricaneReason: "refusing to abandon $posPro dying (father|mother) | unable to afford gas to leave | convinced it wouldn't be that bad | having survived Andrew in '92",
+    hurricaneRegret: "regretted everything | wished $pronoun'd listened | couldn't stop shaking | wondered if this was how it would end",
+    hurricaneReality: "the roof began to leak | windows exploded inward | water rose past the doorframe | the power died and didn't come back",
+    hurricaneName: "$girlName | $boyName",
+    hurricaneIntensity: "roared ashore as a Category 5 monster | exploded from a tropical storm to Category 4 in hours | intensified over the warm (Gulf | Atlantic) waters | strengthened into a Category 3 nightmare overnight",
+    hurricaneWarning: "giving residents barely (12|18) hours to evacuate | catching meteorologists off guard | defying every computer model | following the exact path forecasters feared most",
+    hurricaneAftermath: "$hurricaneDamage $hurricaneEmotional | $hurricaneRescue $hurricaneReflection",
+    hurricaneDamage: "When it passed, $pronoun found $posPro neighborhood unrecognizable. | The storm left behind a landscape of snapped power lines and roofless houses. | Three feet of mud covered everything $pronoun'd ever owned.",
+    hurricaneEmotional: "$pronoun.cap() wept for the life that was. | $pronoun.cap() felt grateful just to be breathing. | $pronoun.cap() couldn't stop thinking about the neighbors who didn't make it.",
+    hurricaneRescue: "Coast Guard helicopters plucked $objPro from $posPro roof at dawn. | Volunteers in fishing boats found $objPro clinging to (a stop sign | floating debris).",
+    hurricaneReflection: "$pronoun.cap() would never go home again. | $pronoun.cap() didn't have flood insurance, or any insurance, really. | $pronoun.cap() still doubted climate change was real. | On social media the President bragged about his new (plane | wife | golf course).",
+
     // Storms
     storm: "$stormGeneral $stormResult",
     stormGeneral: "$slowStorm | $fastStorm | $longStorm",
@@ -97,7 +136,6 @@ var rules = {
     fireNameVegetation: "Meadow | Prairie | Grove | Woods | Forest | Timber | Brush | Grass | Sage | Oak | Pine | Cedar | Willow",
     fireNameBuilding: "Ranch | Camp | Trail | Road | Bridge | Mill | Mine | Station | Point | Corner | Junction | Crossing",
     fireNameDirection: "North | South | East | West | Upper | Lower | Middle | Big | Little | Old | New",
-
     fireNow: "Flames (surround | envelope | engulf) $person's $house, the (blinding | searing) heat blistering the (sidewalk | road | lawn) in front. (One minute the flames were a thousand yards away, the next minute, here they were. | The (firenado | firestorm | wildfire)'s burning so hot it makes its own weather. | $pronoun.cap()'s stunned by the heat, the sirens, the alarms, the maelstrom of fire.) $pronoun.cap() (steps | rushes | stumbles) out into the ((orange | infernal) night | blistering hellscape | smoking ruins)(, (hot dry winds whipping at | the firestorm searing) $posPro face |, (choking | gagging) on $smoke.nr() and $smoke |. A (dog | coyote | deer | cat | horse) darts past $objPro.)",
     smoke: "smoke | ash | soot | embers | sparks | heat | cinders",
     house: "two-story colonial | McMansion | ranch home | split-level | bungalow | Spanish colonial | Tudor house | Victorian house | mid-century modern house | gated compound | apartment | condo",
