@@ -30,7 +30,7 @@ var rules = {
 
     // Sea levels
     seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [3] | $floridaPerson | $floridaMan)",
-    floridaAttractions: "$floridaAmusement | $floridaFruit | $floridaEverglades",
+    floridaAttractions: "$floridaAmusement [2] | $floridaFruit | $floridaEverglades",
     floridaAmusement: "Flooding shut down ($floridaDisney | $floridaEpcot | $floridaUniversal). ($floridaDisease.cap() runs rampant at $floridaFood | There was an outbreak of $floridaDisease at $floridaFood). $floridaKids",
     floridaKids: "$textDigit.cap() (children | kids | teens | high schoolers) died. | The CEO apologized for any inconvenience.",
     floridaDisney: "Disney World($floridaFood=$floridaDisneyFood).silent",
@@ -95,7 +95,7 @@ var rules = {
     finally: "When the storm finally came, it was (fierce | strong | powerful | devastating | destructive | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth).",
     sky: "The sky (darkened | turned black). $person had a fleeting thought, that (the sky was (falling | collapsing | caving in) | evil was rising | $pronoun had left $posPro $object outside).",
     stormResult: "$stormUtilities | $stormDamage",
-    stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count (of buildings were leveled by mudslides | trees were downed | roads were impassable) | the floodwaters took days to recede | $person's home was flooded and inhabitable).",
+    stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads were impassable) | the floodwaters took days to recede | $person's home was flooded and inhabitable).",
     stormUtilities: "$stormPower. $stormWater. | $stormWater. $stormPower.",
     stormPower: "The (lights were | power was) out for (days | weeks) | We had no gas, no heat, no lights | The hospitals ran on generators for days",
     stormWater: "They trucked in bottled water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris)",
