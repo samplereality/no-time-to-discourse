@@ -2677,7 +2677,7 @@
         "sov0name": "United States",
         "adm0name": "United States of America",
         "adm1name": "Texas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -17637,7 +17637,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Tamaulipas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",
@@ -28619,7 +28619,7 @@
         "sov0name": "Mexico",
         "adm0name": "Mexico",
         "adm1name": "Tamaulipas",
-        "note": null
+        "note": 5
       },
       "geometry": {
         "type": "Point",

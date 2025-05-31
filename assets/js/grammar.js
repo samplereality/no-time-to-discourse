@@ -13,7 +13,7 @@ var rules = {
 
     eastCoast: "$byline ($hurricane [10] | $storm [10] | $flood [10] | $drought [10] | $fire [10] | $personal)",
 
-    gulfCoast: "$byline $gulfOil",
+    gulfCoast: "$byline ($gulfOil | $gulfTide)",
 
     // Personal Reflections
     personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
@@ -59,12 +59,21 @@ var rules = {
     gulfPlatformName: "Poseidon | Gulf Star | Deep Horizon | Titan | Raven's Deep | Oceanus Point | Black Tide | Crescent City | Deepwater Bastion | Gulf Oasis",
     gulfSpillAlert: "$gulfSpillAlarms | $gulfSpillMalfunction",
     gulfSpillAlarms: "(emergency klaxons | automated warnings | distress signals) (echoed | blared | screamed) on the $gulfPlatformName platform.",
-    gulfSpillMalfunction: "(a blowout preventer malfunction | a pipeline rupture | a wellhead failure | a pressure surge) (triggered | caused | set off) a (catastrophic failure | chain reaction) on the $gulfPlatformName platform.",
+    gulfSpillMalfunction: "(a blowout preventer malfunction | a pipeline breach | a wellhead rupture | a pressure surge) (triggered | caused | set off) a (catastrophic failure | chain reaction) on the $gulfPlatformName platform.",
     gulfSpillMiddle: "$gulfSpillVolume.cap() of crude poured into the (warm Gulf currents | pristine blue waters | coastal waters),",
     gulfSpillClimax: "a spill $gulfSpillComparison.",
     gulfSpillVolume: "thousands of barrels | millions of gallons | an unstoppable flow",
     gulfSpillComparison: "larger than some cities | visible from space | the size of a small state",
     gulfSpillEnding: "(Sea turtles | Bottlenose dolphins) began washing ashore within days. | The smell of crude carried for miles on the wind. | $person spotted dolphins spotted swimming through the thickest part of the slick. | $person found (an oil-covered pelican | tar balls the size of small meteors | a dead sea turtle wrapped in boom) on the beach. | (Bird rookeries | Spawning grounds | Coral reefs) were left coated in a toxic sheen, viscous and black. | $person tastes petroleum in the Gulf breeze. | $person has nightmares about (lost | poisonous | broken | discarded) $object.s() (floating | bobbing) in oil-slicked waters. [2]",
+    gulfTide: "$gulfTideOpening $gulfTideMiddle $gulfTideClimax ($gulfTideWitness=$person).silent",
+    gulfTideOpening: "(red tide | algal bloom).art().cap() (spread | rolled | crept) through the Gulf. | The $gulfTideBloom began offshore, feeding on $gulfTideSource in the warming waters.",
+    gulfTideBloom: "Karenia brevis outbreak | dinoflagellate explosion | red tide event | cyanobacteria bloom",
+    gulfTideSource: "agricultural runoff | fertilizer runoff | sewage discharge | industrial waste",
+    gulfTideMiddle: "Within days, $gulfTideDead began washing ashore, (like the ocean's gullet turned inside out | spoiled seafood rotting in the sun | salt, blood, and sulphur on the wind). | The $gulfTideNeurotoxin spread beyond the water—$gulfTideWitness could $gulfTideSymptom just from breathing the sea breeze. And $posPro partner $gulfTideWitness. ",
+    gulfTideDead: "thousands of dead fish | lifeless dolphins | dead birds",
+    gulfTideNeurotoxin: "neurotoxin | toxin | poison",
+    gulfTideSymptom: "smell the decay | feel a burning in $posPro throat | taste the bitterness on $posPro tongue | sense a tingling in $posPro skin",
+    gulfTideClimax: "$gulfTideWitness (saw cleanup crews in hazmat suits collecting dead dolphins | hunched over in the heat, gagging on death).",
 
     // Hurricanes
     hurricane: "$hurricaneGeneral",
