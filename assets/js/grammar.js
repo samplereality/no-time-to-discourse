@@ -11,7 +11,7 @@ var rules = {
 
     orlando: "$byline $floridaVacation $floridaAmusement",
 
-    eastCoast: "$byline ($hurricane [10] | $storm [10] | $flood [10] | $drought [10] | $fire [10] | $personal)",
+    eastCoast: "$byline ($hurricane [10] | $storm [10] | $drought [10] | $fire [10] | $personal)",
 
     gulfCoast: "$byline ($gulfOil | $gulfTide)",
 
@@ -100,7 +100,7 @@ var rules = {
     hurricaneIntensity: "roared ashore as a Category 5 monster | exploded from a tropical storm to Category 4 in hours | intensified over the warm (Gulf | Atlantic) waters | strengthened into a Category 3 nightmare overnight",
     hurricaneWarning: "giving residents barely (12|18) hours to evacuate | catching meteorologists off guard | defying every computer model | following the exact path forecasters feared most",
     hurricaneAftermath: "$hurricaneDamage $hurricaneEmotional | $hurricaneRescue $hurricaneReflection",
-    hurricaneDamage: "When it passed, $pronoun found $posPro neighborhood unrecognizable. | The storm left behind a landscape of snapped power lines and roofless houses. | Three feet of mud covered everything $pronoun'd ever owned.",
+    hurricaneDamage: "When it passed, $pronoun found .cityName() unrecognizable. | The storm left behind a landscape of snapped power lines and roofless houses. | Three feet of mud covered everything $pronoun'd ever owned.",
     hurricaneEmotional: "$pronoun.cap() wept for the life that was. | $pronoun.cap() felt grateful just to be breathing. | $pronoun.cap() couldn't stop thinking about the neighbors who didn't make it.",
     hurricaneRescue: "Coast Guard helicopters plucked $objPro from $posPro roof at dawn. | Volunteers in fishing boats found $objPro clinging to (a stop sign | floating debris).",
     hurricaneReflection: "$pronoun.cap() would never go home again. | $pronoun.cap() didn't have flood insurance, or any insurance, really. | $pronoun.cap() still doubted climate change was real. | On social media the President bragged about his new (plane | wife | golf course).",
@@ -159,7 +159,7 @@ var rules = {
     fireNow: "Flames (surround | envelope | engulf) $person's $house, the (blinding | searing) heat blistering the (sidewalk | road | lawn) in front. (One minute the flames were a thousand yards away, the next minute, here they were. | The (firenado | firestorm | wildfire)'s burning so hot it makes its own weather. | $pronoun.cap()'s stunned by the heat, the sirens, the alarms, the maelstrom of fire.) $pronoun.cap() (steps | rushes | stumbles) out into the ((orange | infernal) night | blistering hellscape | smoking ruins)(, (hot dry winds whipping at | the firestorm searing) $posPro face |, (choking | gagging) on $smoke.nr() and $smoke |. A (dog | coyote | deer | cat | horse) darts past $objPro.)",
     smoke: "smoke | ash | soot | embers | sparks | heat | cinders",
     house: "two-story colonial | McMansion | ranch home | split-level | bungalow | Spanish colonial | Tudor house | Victorian house | mid-century modern house | gated compound | apartment | condo",
-    fireRescue: "$person (frantically | desperately | feverishly) (rushes | speeds | races) home, (hoping | praying) $posPro ((kids | family) have | (husband | wife | son | daughter) has) already (escaped | gotten out | found safety). But $pronoun can't even get within (5 | 10 | 15) miles. (The roads are blocked. | The fire is too close. | (Police turn | Firefighters turn | The National Guard turns) $objPro away.) ($pronoun.cap() (numbly | dumbly | ) watches the firestorm from the Ring camera on $posPro front door, until the feed goes dead. | $pronoun.cap() looks up into the (orange | red | blackened) sky, ash drifting onto $posPro shoulders like snow. | $pronoun.cap() (calls | texts) home, but (there's no answer | the cell towers are down).)",
+    fireRescue: "$person (frantically | desperately | feverishly) (rushes | speeds | races) home, (hoping | praying) $posPro ((kids | family) have | (husband | wife | son | daughter) has) already (escaped | gotten out | found safety). But $pronoun can't even get within (5 | 10 | 15) miles of .cityName(). (The roads are blocked. | The fire is too close. | (Police turn | Firefighters turn | The National Guard turns) $objPro away.) ($pronoun.cap() (numbly | dumbly | ) watches the firestorm from the Ring camera on $posPro front door, until the feed goes dead. | $pronoun.cap() looks up into the (orange | red | blackened) sky, ash drifting onto $posPro shoulders like snow. | $pronoun.cap() (calls | texts) home, but (there's no answer | the cell towers are down).)",
     
     // Floods
     flood: "$reflection $damage $result | $damage $reflection $result",
@@ -169,7 +169,7 @@ var rules = {
     swamps: "swamps | covers | inundates | washes away",
     floodThings: "trees | cars | houses | buildings | homes | businesses | schools | hospitals | churches | bridges | roads | sidewalks | streets | entire neighborhoods | whole communities",
     floodplain: "(low-lying (areas | regions | neighborhoods | communities)) | streets and sidewalks | roads and bridges",
-    reflection: "$person lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen | didn't think it would be this bad) | $person boils $posPro water before (drinking | cooking | bathing). Who knew a hurricane could hit so far inland, $pronoun thinks.",
+    reflection: "$person lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen here | didn't think it would be this bad). | $person boils $posPro water before (drinking | cooking | bathing). Who knew a hurricane could hit so far inland, $pronoun thinks.",
     bobs: "$object.art().cap() bobs in the (dark | ) water.",
     injury: "dead | injured | left homeless | homeless | stranded",
     result: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (declared a state of emergency | are staging a photo op | are tweeting safety tips).",
