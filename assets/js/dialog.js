@@ -41,7 +41,8 @@ function performFlyTo() {
         if (DEVELOPMENT_MODE) {
             // Development mode: jump directly to location
             // map.setView([43, -79], 7); // Toronto coordinates
-			map.setView([30, -97], 7); // Gulf coordinates
+			// map.setView([30, -97], 7); // Gulf coordinates
+            map.setView([33.9, -118],7); // LA Coordinates
             
             // Show icons immediately
             document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {

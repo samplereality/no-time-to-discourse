@@ -1,0 +1,295 @@
+// Create POI mappings for different types of locations
+const poiDatabase = {
+  // Major US cities
+  "New York": ,
+  "Los Angeles": , 
+  "Chicago": ,
+  "Houston": ,
+  "Phoenix": ,
+  "Philadelphia": ,
+  "San Antonio": ,
+  "San Diego": ,
+  "Dallas": ,
+  "Austin": ,
+  "San Jose": ,
+  "Fort Worth": ,
+  "Columbus": ,
+  "Charlotte": ,
+  "Indianapolis": ,
+  "Seattle": ,
+  "Denver": ,
+  "Boston": ,
+  "El Paso": ,
+  "Nashville": ,
+  "Oklahoma City": ,
+  "Portland": ,
+  "Las Vegas": ,
+  "Louisville": ,
+  "Memphis": ,
+  "Baltimore": "Fort McHenry | the Inner Harbor | Camden Yards | Federal Hill | Fell's Point",
+  "Milwaukee": "the lakefront | Lambeau Field | the brewery district | the Riverwalk | Summerfest grounds",
+  "Albuquerque": "Old Town | the Sandia Mountains | the balloon fiesta park | the Rio Grande | Route 66",
+  "Tucson": "the Sonoran Desert | the university | Saguaro National Park | downtown | the mountains",
+  "Fresno": "the Tower District | Forestiere Underground Gardens | the fairgrounds | Woodward Park | downtown",
+  "Sacramento": "the State Capitol | Old Sacramento | the river | Tower Bridge | midtown",
+  "Kansas City": "the Plaza | Arrowhead Stadium | the barbecue joints | Union Station | Crown Center",
+  "Mesa": "the Superstition Mountains | downtown | Hohokam Stadium | the riverfronts | Red Mountain Park",
+  "Atlanta": "the Georgia Dome | Peachtree Street | the Beltline | Piedmont Park | the airport",
+  "Omaha": "the Old Market | Boys Town | the Henry Doorly Zoo | the riverfront | downtown",
+  "Miami": "South Beach | Biscayne Bay | the Art Deco District | Little Havana | the Everglades",
+  "Oakland": "the port | Lake Merritt | the Coliseum | downtown | the hills",
+  "Tulsa": "the Arkansas River | downtown | Brookside | the Golden Driller | Gathering Place",
+  "Minneapolis": "the Mississippi River | the Skyway | the lakes | downtown | the U of M campus",
+  "Cleveland": "Lake Erie | the Flats | the West Side Market | Progressive Field | University Circle",
+  "Wichita": "the Arkansas River | Old Town | the aviation museums | Sedgwick County Zoo | downtown",
+  "Arlington": "AT&T Stadium | Six Flags | the Ballpark | downtown | the entertainment district",
+  "Tampa": "the bay | Ybor City | downtown | MacDill Air Force Base | the riverwalk",
+  "New Orleans": "the French Quarter | the levees | the streetcar lines | the Garden District | Lake Pontchartrain",
+  "St. Louis": "the Gateway Arch | Forest Park | the Mississippi River | the Central West End | Busch Stadium",
+  "Pittsburgh": "the Three Rivers | Heinz Field | the inclines | the Strip District | Schenley Park",
+  "Corpus Christi": "the bay | the harbor bridge | Padre Island | downtown | the naval air station",
+  "Lexington": "the University of Kentucky | Keeneland | downtown | the horse farms | Rupp Arena",
+  "Anchorage": "the Chugach Mountains | Cook Inlet | downtown | Elmendorf Air Force Base | the coastal trail",
+  "Stockton": "the Delta | downtown | the university | the port | Weber Point",
+  "Cincinnati": "the Ohio River | Fountain Square | Over-the-Rhine | Great American Ball Park | Mount Adams",
+  "St. Paul": "the State Capitol | the Mississippi River | Grand Avenue | Summit Hill | Como Park",
+  "Toledo": "the Maumee River | the Glass City | downtown | the university | the port",
+  "Newark": "the airport | downtown | Penn Station | Branch Brook Park | the Ironbound",
+  "Greensboro": "the university | downtown | the coliseum | Friendly Center | the science center",
+  "Plano": "Legacy West | the Shops at Legacy | downtown | Arbor Hills | the community center",
+  "Henderson": "Green Valley | the Strip casinos | Lake Las Vegas | downtown | the parks",
+  "Lincoln": "the University of Nebraska | downtown | the State Capitol | Haymarket | Memorial Stadium",
+  "Buffalo": "Niagara Falls | the waterfront | Elmwood Village | the university | downtown",
+  "Jersey City": "Liberty State Park | Newport | the waterfront | downtown | the PATH station",
+  "Chula Vista": "the bay | Eastlake | downtown San Diego | the marina | Otay Lakes",
+  "Orlando": "Disney World | Universal Studios | downtown | Lake Eola | the theme parks",
+  "St. Petersburg": "the Pier | downtown | the beaches | Tropicana Field | the museums",
+  "Norfolk": "the Naval Station | downtown | the Botanical Garden | the zoo | the waterfront",
+  "Chandler": "downtown | the tech corridor | the community center | the golf courses | Ahwatukee",
+  "Laredo": "the Rio Grande | the border crossing | downtown | the university | the bridges",
+  "Madison": "the University of Wisconsin | the State Capitol | the lakes | State Street | the Isthmus",
+  "Durham": "Duke University | downtown | the tobacco district | the university | Research Triangle",
+  "Lubbock": "Texas Tech | downtown | the cotton fields | the university | Buddy Holly Center",
+  "Winston-Salem": "Wake Forest University | downtown | Old Salem | the university | Reynolda House",
+  "Garland": "downtown Dallas | the lake | the Square | Firewheel | the community center",
+  "Glendale": "downtown Phoenix | the Westgate | the arena | the university | Arrowhead Ranch",
+  "Hialeah": "Miami | the racetrack | downtown | Amelia Earhart Park | the community center",
+  "Reno": "the casinos | Lake Tahoe | downtown | the university | the Truckee River",
+  "Baton Rouge": "LSU | the Mississippi River | downtown | the State Capitol | the lakes",
+  "Irvine": "UC Irvine | the Spectrum | Fashion Island | the coast | Newport Beach",
+  "Chesapeake": "the Great Dismal Swamp | Virginia Beach | Norfolk | the waterways | Greenbrier",
+  "Irving": "Dallas | DFW Airport | the Mustangs | Las Colinas | the entertainment district",
+  "Scottsdale": "Old Town | the desert | Camelback Mountain | the golf courses | Fashion Square",
+  "North Las Vegas": "the Strip | downtown Vegas | Nellis Air Force Base | the speedway | the community center",
+  "Fremont": "Silicon Valley | the bay | the hills | downtown | the tech companies",
+  "Gilbert": "downtown Phoenix | the community center | Freestone Park | San Tan Village | the golf courses",
+  "San Bernardino": "the mountains | downtown | the university | the airport | Route 66",
+  "Boise": "the Boise River | downtown | the foothills | Boise State | the State Capitol",
+  "Birmingham": "downtown | Vulcan Park | the university | Red Mountain | Five Points South",
+  
+  // International cities
+  "Toronto": "the CN Tower | Yonge Street | the harbourfront | the University of Toronto | Casa Loma",
+  "Montreal": "Old Montreal | Mount Royal | the Metro | McGill University | the St. Lawrence River",
+  "Vancouver": "Stanley Park | the seawall | downtown | Granville Island | the mountains",
+  "Calgary": "the Stampede Grounds | downtown | the Bow River | Prince's Island Park | the foothills",
+  "Edmonton": "West Edmonton Mall | the North Saskatchewan River | downtown | the university | the oil refineries",
+  "Ottawa": "Parliament Hill | the Rideau Canal | ByWard Market | the museums | Gatineau Park",
+  "Winnipeg": "the Forks | downtown | the Red River | the university | Portage and Main",
+  "Quebec": "Old Quebec | the Citadel | the Plains of Abraham | the St. Lawrence River | Château Frontenac",
+  "Hamilton": "the steel mills | McMaster University | the bay | the escarpment | downtown",
+  "Kitchener": "the University of Waterloo | downtown | the Grand River | the farmers market | Victoria Park",
+  "London": "the University of Western Ontario | downtown | the Thames River | Fanshawe College | Victoria Park",
+  "Halifax": "the harbor | Citadel Hill | the waterfront | Dalhousie University | Point Pleasant Park",
+  "Oshawa": "General Motors | the university | downtown | the lakeshore | Parkwood Estate",
+  "Victoria": "the Inner Harbour | the Parliament Buildings | Beacon Hill Park | the university | downtown",
+  "Windsor": "the Ambassador Bridge | the riverfront | the university | downtown | Walkerville",
+  "Saskatoon": "the South Saskatchewan River | the university | downtown | Broadway Bridge | Wanuskewin",
+  "Regina": "Wascana Park | the Legislature | downtown | the university | the RCMP Academy",
+  "St. Johns": "Signal Hill | the harbour | downtown | Memorial University | Cape Spear",
+  "Mexico City": "the Zócalo | Chapultepec | the cathedral | the museums | Xochimilco",
+  "Guadalajara": "the cathedral | the historic center | the university | Tlaquepaque | Lake Chapala",
+  "Monterrey": "Cerro de la Silla | the Macroplaza | the university | the steel mills | Santa Catarina",
+  "Puebla": "the cathedral | the historic center | the volcanoes | the university | Cholula",
+  "Tijuana": "the border | Avenida Revolución | the cultural center | the beaches | downtown",
+  "Mexicali": "the border | downtown | the university | the desert | the Colorado River",
+  "Chihuahua": "the cathedral | downtown | the desert | Pancho Villa's house | the university",
+  "Saltillo": "the cathedral | downtown | the desert | the university | the auto plants",
+  "Hermosillo": "the cathedral | downtown | the desert | the university | the Sonoran landscape",
+  "Culiacan": "the cathedral | downtown | the rivers | the university | the agricultural lands",
+  "Torreon": "the cotton exchange | downtown | the desert | the lagoon | Cristo de las Noas",
+  "San Luis Potosi": "the cathedral | the historic center | the desert | the university | the mining history",
+  "Aguascalientes": "the cathedral | the historic center | the hot springs | the university | the fair grounds",
+  "Tampico": "the port | the Pánuco River | downtown | the refineries | the beaches",
+  "Veracruz": "the port | the historic center | the fortress | the malecón | the Gulf of Mexico",
+  "Acapulco": "the bay | the cliff divers | the beaches | downtown | the hotels",
+  "Cancun": "the beaches | the hotel zone | the Mayan ruins | downtown | the cenotes",
+  "Merida": "the cathedral | the historic center | the henequen haciendas | the university | the markets",
+  "Oaxaca": "the cathedral | the historic center | Monte Albán | the markets | the mezcal distilleries",
+  "Leon": "the cathedral | the leather industry | downtown | the university | the plazas",
+  "Queretaro": "the aqueduct | the historic center | the university | the industrial parks | the colonial architecture",
+  "Cuernavaca": "the Palace of Cortés | the cathedral | the university | the gardens | the springs",
+  "Tuxtla Gutierrez": "the cathedral | the canyon | the zoo | the university | the Grijalva River",
+  "Villahermosa": "the Olmec heads | the rivers | downtown | the university | the wetlands",
+  "Campeche": "the fortified city | the historic center | the Gulf of Mexico | the university | the colonial walls",
+  "Chetumal": "the bay | the border | the university | the Mayan ruins | the mangroves",
+  "Havana": "the Malecón | Old Havana | the Capitol | the harbor | the plazas",
+  "Santiago de Cuba": "the cathedral | the fortress | the bay | the Sierra Maestra | the historic center",
+  "Santa Clara": "the Che Guevara memorial | the university | the historic center | the train derailment monument | the parks",
+  "Kingston": "the harbor | Bob Marley's house | the Blue Mountains | downtown | Spanish Town",
+  "Montego Bay": "the beaches | the airport | the tourist strip | Rose Hall | the coral reefs",
+  "Port-au-Prince": "the Iron Market | the cathedral | the harbor | the hills | the palace ruins",
+  "Cap-Haitien": "the Citadel | the harbor | the historic center | the cathedral | Sans-Souci Palace",
+  "Santo Domingo": "the cathedral | the Alcázar | the Malecón | the university | the colonial zone",
+  "Santiago": "the cathedral | the Cibao Valley | the university | the tobacco fields | the monument",
+  "San Juan": "Old San Juan | El Morro | the beaches | the university | Condado",
+  "Port-of-Spain": "Queen's Park Savannah | the Magnificent Seven | the harbor | the university | the Botanical Gardens",
+  "Bridgetown": "the harbor | Garrison Historic Area | the parliament | the beaches | the rum distilleries",
+  "Castries": "the harbor | Derek Walcott Square | the cathedral | the markets | Morne Fortune",
+  "Kingston": "the Blue Mountains | the harbor | Devon House | the university | Emancipation Park",
+  "Paramaribo": "the historic center | the Suriname River | the synagogue | Fort Zeelandia | the presidential palace"
+};
+
+// Helper function to create generic POIs based on location type and region
+function generateGenericPOIs(name, state, country) {
+  const poiOptions = {
+    // US small towns and cities
+    us_small: [
+      "Main Street | the courthouse | the high school | the water tower | the grain elevator",
+      "the town square | the old hotel | the railroad tracks | the cemetery | the church",
+      "downtown | the post office | the diner | the bank | the fire station",
+      "the elementary school | the community center | the library | the park | the bridge",
+      "the hospital | the nursing home | the gas station | the grocery store | the auto shop",
+      "the football field | the swimming pool | the fairgrounds | the antique shop | the cafe",
+      "the pharmacy | the hardware store | the barber shop | the beauty salon | the laundromat",
+      "the pizza place | the movie theater | the bowling alley | the roller rink | the arcade",
+      "the farmers market | the flea market | the craft store | the florist | the bakery",
+      "the credit union | the insurance office | the real estate office | the dentist | the veterinarian"
+    ],
+    
+    // US medium cities
+    us_medium: [
+      "downtown | the mall | the university | the hospital | the industrial district",
+      "the historic district | the riverfront | the municipal airport | the convention center | the civic center",
+      "the community college | the high school stadium | the country club | the zoo | the museum",
+      "the shopping center | the business district | the medical center | the tech park | the golf course",
+      "the arts center | the performing arts theater | the sports complex | the recreation center | the aquatic center",
+      "the regional airport | the transit center | the conference center | the trade center | the expo center",
+      "the medical plaza | the professional building | the office park | the retail plaza | the strip mall",
+      "the city hall | the courthouse | the police station | the fire department | the public works",
+      "the senior center | the youth center | the boys and girls club | the YMCA | the community garden",
+      "the farmers market | the food bank | the homeless shelter | the rehabilitation center | the mental health clinic"
+    ],
+    
+    // Canadian small towns
+    canada_small: [
+      "the Tim Hortons | the hockey arena | the community center | the elementary school | the main street",
+      "the Legion hall | the curling rink | the church | the post office | the LCBO",
+      "the grain elevator | the co-op | the hockey rink | the library | the town hall",
+      "the high school | the health clinic | the pharmacy | the grocery store | the gas station",
+      "the fairgrounds | the conservation area | the marina | the boat launch | the fishing pier",
+      "the snowmobile trails | the cross-country ski trails | the baseball diamond | the soccer field | the playground",
+      "the old mill | the heritage building | the pioneer museum | the art gallery | the craft shop",
+      "the bed and breakfast | the motel | the restaurant | the cafe | the diner",
+      "the hardware store | the auto repair shop | the feed store | the equipment dealer | the lumber yard",
+      "the seniors center | the youth center | the day care | the nursing home | the medical clinic"
+    ],
+    
+    // Mexican towns
+    mexico: [
+      "la plaza principal | la iglesia | el mercado | la escuela | el palacio municipal",
+      "el zócalo | la catedral | el convento | la biblioteca | el centro de salud",
+      "la preparatoria | el kiosco | los portales | la farmacia | la panadería",
+      "el parque | la fuente | el cementerio | la gasolinera | el taller mecánico",
+      "la cantina | el restaurante | la tienda de abarrotes | la carnicería | la tortillería",
+      "el templo | la capilla | el santuario | la ermita | la cruz",
+      "la escuela primaria | el jardín de niños | la clínica | el centro de salud | la casa de cultura",
+      "el banco | la presidencia municipal | la comisaría | la oficina de correos | la central de autobuses",
+      "el molino | la hacienda | el ingenio | la fábrica | el taller",
+      "la plaza de toros | el estadio | la cancha | el campo deportivo | la alberca"
+    ],
+    
+    // Caribbean towns
+    caribbean: [
+      "the town square | the Anglican church | the marketplace | the primary school | the police station",
+      "the harbor | the pier | the beach | the rum shop | the cricket ground",
+      "the Catholic church | the Methodist church | the community center | the health clinic | the post office",
+      "the tourist shops | the hotel | the guest house | the restaurant | the beach bar",
+      "the fishing boats | the marina | the lighthouse | the fort ruins | the sugar mill ruins",
+      "the botanical garden | the nature preserve | the hiking trails | the waterfall | the coral reef",
+      "the museum | the art gallery | the craft center | the cultural center | the festival grounds",
+      "the supermarket | the pharmacy | the bank | the gas station | the auto repair shop",
+      "the school playground | the football field | the basketball court | the tennis court | the golf course",
+      "the cemetery | the memorial | the war memorial | the clock tower | the bandstand"
+    ],
+    
+    // Remote/northern locations
+    remote: [
+      "the airstrip | the general store | the community hall | the health station | the school",
+      "the fuel depot | the generator station | the radio tower | the weather station | the dock",
+      "the trading post | the lodge | the outfitters | the marina | the boat launch",
+      "the church | the cemetery | the old mine | the abandoned buildings | the dump",
+      "the snowmobile trails | the ice road | the hunting lodge | the fishing camp | the ranger station",
+      "the first aid station | the clinic | the nursing station | the elder care center | the day care",
+      "the co-op store | the Northern Store | the post office | the bank machine | the satellite dish",
+      "the hockey rink | the community center | the gymnasium | the library | the internet cafe",
+      "the runway | the helicopter pad | the cargo terminal | the freight depot | the storage facility",
+      "the traditional grounds | the cultural center | the language school | the band office | the powwow grounds"
+    ],
+    
+    // Coastal locations
+    coastal: [
+      "the harbor | the lighthouse | the pier | the marina | the shipyard",
+      "the fish market | the cannery | the processing plant | the cold storage | the ice house",
+      "the coast guard station | the rescue station | the weather station | the harbor master | the customs house",
+      "the seafood restaurant | the wharf | the boardwalk | the promenade | the seawall",
+      "the fishing fleet | the pleasure boats | the yacht club | the sailing club | the boat builders",
+      "the beach | the dunes | the sea cliffs | the tidal pools | the salt marsh",
+      "the aquarium | the marine center | the visitor center | the nature preserve | the bird sanctuary",
+      "the ferry terminal | the cruise ship dock | the container port | the oil terminal | the grain elevator",
+      "the fishermen's memorial | the maritime museum | the old fort | the signal station | the pilot house",
+      "the bait shop | the tackle store | the gear shop | the marine supply | the boat repair"
+    ],
+    
+    // Mountain/desert locations
+    mountain_desert: [
+      "the mining town | the ghost town | the trading post | the ranch | the cattle guard",
+      "the mesa | the butte | the canyon | the wash | the desert springs",
+      "the mining equipment | the headframe | the tailings | the smelter | the mill",
+      "the desert highway | the truck stop | the gas station | the auto repair | the tire shop",
+      "the rodeo grounds | the fairgrounds | the casino | the travel center | the visitor center",
+      "the national park | the state park | the wilderness area | the recreation area | the campground",
+      "the Indian reservation | the tribal lands | the casino | the cultural center | the trading post",
+      "the old mission | the adobe church | the cemetery | the pioneer cemetery | the boot hill",
+      "the cattle ranch | the horse ranch | the dude ranch | the guest ranch | the working ranch",
+      "the desert research station | the solar farm | the wind farm | the radio telescope | the military base"
+    ],
+    
+    // Agricultural areas
+    agricultural: [
+      "the grain elevator | the co-op | the farm supply store | the equipment dealer | the feed mill",
+      "the dairy farm | the cattle ranch | the pig farm | the chicken farm | the turkey farm",
+      "the corn fields | the wheat fields | the soybean fields | the cotton fields | the rice paddies",
+      "the farm equipment | the tractors | the combines | the planters | the cultivators",
+      "the grain storage | the silos | the barns | the machine sheds | the livestock pens",
+      "the farmers market | the roadside stand | the pick-your-own | the pumpkin patch | the corn maze",
+      "the agricultural extension | the farm bureau | the grange hall | the 4-H club | the FFA chapter",
+      "the veterinary clinic | the animal hospital | the livestock auction | the stockyards | the processing plant",
+      "the irrigation system | the center pivot | the canal | the drainage ditch | the farm pond",
+      "the country church | the one-room schoolhouse | the community center | the volunteer fire department | the ambulance service"
+    ]
+  };
+
+  // Determine region and type
+  let regionType = 'us_small'; // default
+  
+  if (state) {
+    // US states
+    const usStates = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming', 'District of Columbia', 'Puerto Rico'];
+    const canadianProvinces = ['Alberta', 'British Columbia', 'Manitoba', 'New Brunswick', 'Newfoundland and Labrador', 'Northwest Territories', 'Nova Scotia', 'Nunavut', 'Ontario', 'Prince Edward Island', 'Quebec', 'Québec', 'Saskatchewan', 'Yukon'];
+    const mexicanStates = ['Aguascalientes', 'Baja California', 'Baja California Sur', 'Campeche', 'Chiapas', 'Chihuahua', 'Coahuila', 'Colima', 'Distrito Federal', 'Durango', 'Guanajuato', 'Guerrero', 'Hidalgo', 'Jalisco', 'México', 'Michoacán', 'Morelos', 'Nayarit', 'Nuevo León', 'Oaxaca', 'Puebla', 'Querétaro', 'Quintana Roo', 'San Luis Potosí', 'Sinaloa', 'Sonora', 'Tabasco', 'Tamaulipas', 'Tlaxcala', 'Veracruz', 'Yucatán', 'Zacatecas'];
+    const caribbeanStates = ['Saint Michael', 'Kingston', 'Saint James', 'Clarendon', 'Saint Catherine', 'Portland', 'Saint Ann', 'Saint Mary', 'Saint Andrew', 'Saint Thomas', 'Manchester', 'Westmoreland', 'Hanover', 'Trelawny', 'Saint Elizabeth', 'Nord', 'Sud', 'Ouest', 'Grand\'Anse', 'Centre', 'L\'Artibonite', 'Nord-Est', 'Nord-Ouest', 'Sud-Est'];
+    
+    if (usStates.includes(state)) {
+      // Determine if it's a major city, medium city, or small town
+      const majorCities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose', 'Austin', 'Jacksonville', 'Fort Worth', 'Columbus', 'Charlotte', 'San Francisco', 'Indianapolis', 'Seattle', 'Denver', 'Boston', 'El Paso', 'Nashville', 'Detroit', 'Oklahoma City', 'Portland', 'Las Vegas', 'Memphis', 'Louisville', 'Baltimore', 'Milwaukee', 'Albuquerque', 'Tucson', 'Fresno', 'Sacramento', 'Kansas City', 'Mesa', 'Atlanta', 'Omaha', 'Colorado Springs', 'Raleigh', 'Miami', 'Oakland', 'Minneapolis', 'Tulsa', 'Cleveland', 'Wichita', 'Arlington', 'Tampa', 'New Orleans', 'Honolulu', 'Anaheim', 'Santa Ana', 'St. Louis', 'Riverside', 'Corpus Christi', 'Pittsburgh', 'Lexington', 'Anchorage', 'Stockton', 'Cincinnati', 'St. Paul', 'Toledo', 'Newark', 'Greensboro', 'Plano', 'Henderson', 'Lincoln', 'Buffalo', 'Jersey City', 'Chula Vista', 'Orlando', 'St. Petersburg', 'Norfolk', 'Chandler', 'Laredo', 'Madison', 'Durham', 'Lubbock', 'Winston-Salem', 'Garland', 'Glendale', 'Hialeah', 'Reno', 'Baton Rouge', 'Irvine', 'Chesapeake', 'Irving', 'Scottsdale', 'North Las Vegas', 'Fremont', 'Gilbert', 'San Bernardino', 'Boise', 'Birmingham'];
+      const mediumCities = ['Virginia Beach', 'Washington', 'Nashville', 'Memphis', 'Portland', 'Oklahoma City', 'Las Vegas', 'Louisville', 'Baltimore', 'Milwaukee', 'Albuquerque', 'Tucson', 'Fresno', 'Sacramento', 'Kansas City', 'Mesa', 'Atlanta', 'Colorado Springs', 'Omaha', 'Raleigh', 'Miami', 'Long Beach', 'Virginia Beach', 'Oakland', 'Minneapolis', 'Tulsa', 'Arlington', 'New Orleans', 'Wichita', 'Santa Ana', 'Tampa', 'Aurora', 'Anaheim', 'St. Louis', 'Riverside', 'Corpus Christi', 'Lexington', 'Pittsburgh', 'Anchorage', 'Stockton', 'Cincinnati', 'St. Paul', 'Toledo', 'Greensboro', 'Newark', 'Plano', 'Henderson', 'Lincoln', 'Buffalo', 'Jersey City', 'Chula Vista', 'Fort Wayne', 'Orlando', 'St. Petersburg', 'Chandler', 'Laredo', 'Norfolk', 'Durham', 'Madison', 'Lubbock', 'Baton Rouge', 'Akron', 'Birmingham', 'Fayetteville', 'Grand Rapids', 'Hunt

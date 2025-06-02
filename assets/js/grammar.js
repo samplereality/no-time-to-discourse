@@ -18,7 +18,7 @@ var rules = {
     // Personal Reflections
     personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
-    personalNews: "The (stories | reports) are (endless | neverending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
+    personalNews: "The (stories | reports) are (endless | never ending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
 
     personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You (message | text | DM) $person, wondering if $pronoun's (okay | safe | hanging in).",
 
@@ -112,7 +112,7 @@ var rules = {
     slowStorm: "The storm had been (brewing | building | gathering) for days. $barometer $finally",
     fastStorm: "The storm came (out of nowhere | on fast | suddenly)(|, like a bolt of lightning |, with astonishing speed|, in a furious blur). $sky",
     barometer: "The barometer was (dropping | falling | low | lower than it had ever been). The air was (heavy | thick | oppressive).",
-    finally: "When the storm finally came, it was (fierce | strong | powerful | devastating | destructive | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth).",
+    finally: "When the storm finally came to .cityName(), it was (fierce | strong | powerful | devastating | destructive | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth).",
     sky: "The sky (darkened | turned black). $person had a fleeting thought, that (the sky was (falling | collapsing | caving in) | evil was rising | $pronoun had left $posPro $object outside).",
     stormResult: "$stormUtilities | $stormDamage",
     stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads were impassable) | the floodwaters took days to recede | $person's home was flooded and inhabitable).",
@@ -135,7 +135,7 @@ var rules = {
 
     // Fire
     fire: "$fireGeneral | $fireSpecific",
-    fireGeneral: "(The (city | country) is burning, (man [2] | dear Lord). There are $count of fires burning across $stateCount states. ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside the city | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). ($fireCause | $fireJob [2])",
+    fireGeneral: "(The (city | country) is burning, (man [2] | dear Lord). There are $count of fires burning across $stateCount states. ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside .cityName() | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). ($fireCause | $fireJob [2])",
     fireCause: "What caused the fires? $fireCauses.nr()? $fireCauses.nr()? (Does it matter? | Who knows. | Who can tell.) It might as well have been (a meteor strike | a UFO laser beam | the divine hand of God).",
     fireCauses: "Lightning | A spark from a power line | A careless camper | A campfire | Arson | A dropped cigarette | The spark from a mower blade striking a rock | A controlled burn that wasn't so controlled",
     fireSpecific: "$fireHome $fireEnd | $fireNow | $fireRescue",

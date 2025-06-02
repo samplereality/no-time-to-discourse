@@ -1,6 +1,8 @@
 "use strict";
 
 let geoJsonLayer; // store globally or in a higher scope
+let currentFeature; // Store the current feature being processed
+
 
 // Load RiTa
 let context = {
@@ -9,7 +11,29 @@ let context = {
     noun: () => RiTa.randomWord({ pos: "nn" }),
     date: () => makeDate(),
     time: () => makeTime(),
-    device: () => getDeviceType()
+    device: () => getDeviceType(),
+    cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
+    POI: () => {
+        if (!currentFeature) return '';
+        
+        const poiField = currentFeature.properties.POI;
+        
+        // Return empty string if POI is null or undefined
+        if (!poiField) return '';
+        
+        // Check if the POI contains RiTa grammar syntax (contains | or other grammar symbols)
+        if (poiField.includes('|')) {
+            // Create a temporary grammar with just this rule
+            const tempRules = {
+                poiRule: poiField
+            };
+            const tempGrammar = RiTa.grammar(tempRules, context);
+            return tempGrammar.expand('poiRule');
+        } else {
+            // Return the POI as-is if it's not a grammar rule
+            return poiField;
+        }
+    }
 };
 
 let rg = RiTa.grammar(rules, context); 
@@ -100,12 +124,11 @@ $.getJSON('assets/js/disasters.json', function(data) {
             color: feature.properties.color,        };
     }
 }).bindTooltip(function (layer) {
-    let state = layer.feature.properties.sov0name; // Default to sovereign state name
-    if (layer.feature.properties.adm1name && layer.feature.properties.adm0name === "United States of America") {
-        state = layer.feature.properties.adm1name; // Use admin-1 name for USA
-    } else if (layer.feature.properties.adm1name) {
-        state = layer.feature.properties.adm0name; // Use admin-0 name otherwise
-    }
+    // Set the current feature for the context to access
+    currentFeature = layer.feature;
+
+    let city = layer.feature.properties.name;
+    let state = layer.feature.properties.adm1name;
     
     if (layer.feature.properties.note === 2) {
         rule = "orlando";
@@ -122,7 +145,7 @@ $.getJSON('assets/js/disasters.json', function(data) {
         rule = "start";
         }
     
-    return "<strong>" + layer.feature.properties.name + ", " + state + "</strong><br>" + rg.expand(rule); 
+    return "<strong>" + city + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
 });
