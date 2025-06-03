@@ -887,7 +887,7 @@
         "name": "Mesa",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Superstition Mountains | downtown | Hohokam Stadium | the riverfronts | Red Mountain Park"
       },
       "geometry": {
         "type": "Point",
@@ -1399,7 +1399,7 @@
         "name": "Kansas City",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Plaza | Arrowhead Stadium | the barbecue joint | Union Station | Crown Center"
       },
       "geometry": {
         "type": "Point",
@@ -14791,7 +14791,7 @@
         "name": "Wichita",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Botanica | Intrust Bank Arena | Sedgwick County Zoo | downtown"
       },
       "geometry": {
         "type": "Point",
@@ -15799,7 +15799,7 @@
         "name": "Oakland",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "12th and Broadway | Lake Merritt | Oracle Arena | downtown | the hills"
       },
       "geometry": {
         "type": "Point",
@@ -18151,7 +18151,7 @@
         "name": "Tucson",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Sonoran Desert | the university | Saguaro National Park | downtown | the mountains"
       },
       "geometry": {
         "type": "Point",
@@ -18183,7 +18183,7 @@
         "name": "Fresno",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Tower District | Forestiere Underground Gardens | the fairgrounds | Woodward Park | downtown"
       },
       "geometry": {
         "type": "Point",
@@ -18263,7 +18263,7 @@
         "name": "Albuquerque",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Old Town | the Sandia Mountains | the balloon fiesta park | the Rio Grande | Route 66"
       },
       "geometry": {
         "type": "Point",
@@ -18343,7 +18343,7 @@
         "name": "Tulsa",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Arkansas River | downtown | Brookside | the Golden Driller | Gathering Place"
       },
       "geometry": {
         "type": "Point",
@@ -18695,7 +18695,7 @@
         "name": "Baltimore",
         "adm1name": "Maryland",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fort McHenry | the Inner Harbor | Camden Yards | Federal Hill | Fell's Point"
       },
       "geometry": {
         "type": "Point",
@@ -19527,7 +19527,7 @@
         "name": "Sacramento",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the State Capitol | Old Sacramento | the river | Tower Bridge | midtown"
       },
       "geometry": {
         "type": "Point",
@@ -19639,7 +19639,7 @@
         "name": "Omaha",
         "adm1name": "Nebraska",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Old Market | Boys Town | the Henry Doorly Zoo | the riverfront | downtown"
       },
       "geometry": {
         "type": "Point",
@@ -19735,7 +19735,7 @@
         "name": "Cleveland",
         "adm1name": "Ohio",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lake Erie | the Flats | the West Side Market | Progressive Field | the Rock and Roll Hall of Fame"
       },
       "geometry": {
         "type": "Point",
@@ -19815,7 +19815,7 @@
         "name": "Milwaukee",
         "adm1name": "Wisconsin",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the lakefront | Lambeau Field | the brewery district | the Riverwalk | the Summerfest grounds"
       },
       "geometry": {
         "type": "Point",
@@ -20583,7 +20583,7 @@
         "name": "Minneapolis",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Mississippi River | the Skyway | the Walker Art Center | downtown | the U of M campus"
       },
       "geometry": {
         "type": "Point",
@@ -20935,7 +20935,7 @@
         "name": "Miami",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "South Beach | Biscayne Bay | the Art Deco District | Little Havana | Calle Ocho"
       },
       "geometry": {
         "type": "Point",
@@ -20951,7 +20951,7 @@
         "name": "Atlanta",
         "adm1name": "Georgia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercedes-Benz Stadium | Peachtree Street | the Beltline | Piedmont Park | the CDC | the airport"
       },
       "geometry": {
         "type": "Point",

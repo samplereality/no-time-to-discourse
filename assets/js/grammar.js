@@ -35,7 +35,7 @@ var rules = {
     stateCount: "(1|2)$singleDigit",
 
     // Sea levels
-    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing the land. | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [3] | $floridaPerson | $floridaMan)",
+    seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing .cityName(). | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [3] | $floridaPerson | $floridaMan)",
     floridaAttractions: "$floridaAmusement [2] | $floridaFruit | $floridaEverglades",
     floridaAmusement: "Flooding shut down ($floridaDisney | $floridaEpcot | $floridaUniversal). ($floridaDisease.cap() runs rampant at $floridaFood | There was an outbreak of $floridaDisease at $floridaFood). $floridaKids",
     floridaVacation: "$person's vacation was the worst. | $person swore off Florida forever after $posPro disaster there.",
@@ -112,10 +112,10 @@ var rules = {
     slowStorm: "The storm had been (brewing | building | gathering) for days. $barometer $finally",
     fastStorm: "The storm came (out of nowhere | on fast | suddenly)(|, like a bolt of lightning |, with astonishing speed|, in a furious blur). $sky",
     barometer: "The barometer was (dropping | falling | low | lower than it had ever been). The air was (heavy | thick | oppressive).",
-    finally: "When the storm finally came to .cityName(), it was (fierce | strong | powerful | devastating | destructive | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth).",
-    sky: "The sky (darkened | turned black). $person had a fleeting thought, that (the sky was (falling | collapsing | caving in) | evil was rising | $pronoun had left $posPro $object outside).",
+    finally: "When the storm finally came to .cityName(), it was (fierce | strong | powerful | devastating | destructive | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth | pounded .POI()).",
+    sky: "The sky over .cityName() (darkened | turned black). $person had a fleeting thought, that (the sky was (falling | collapsing | caving in) | evil was rising | $pronoun had left $posPro $object outside).",
     stormResult: "$stormUtilities | $stormDamage",
-    stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads were impassable) | the floodwaters took days to recede | $person's home was flooded and inhabitable).",
+    stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads were impassable)| the waters had flooded .POI() | the floodwaters took days to recede | $person's home was flooded and inhabitable).",
     stormUtilities: "$stormPower. $stormWater. | $stormWater. $stormPower.",
     stormPower: "The (lights were | power was) out for (days | weeks) | We had no gas, no heat, no lights | The hospitals ran on generators for days",
     stormWater: "They trucked in bottled water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris)",
@@ -163,13 +163,13 @@ var rules = {
     
     // Floods
     flood: "$reflection $damage $result | $damage $reflection $result",
-    damage: "$room | $count.cap() are $injury as $flooding $swamps $floodplain. | The $flooding washed away $floodThings.nr(), $floodThings.nr(), $floodThings.nr().",
+    damage: "$room | $person hears on the radio that $count are $injury as $flooding $swamps $floodplain. | $person saw the $flooding wash away $floodThings.nr(), $floodThings.nr(), $floodThings.nr(). .POI().cap().",
     room: "(gunky | thick | rank | fetid).cap() (black | dark | muddy) (water [5] | sludge) (sloshes around | flows through) $person's (basement | living room | kitchen | parlor | garage | dining room). $bobs",
     flooding: "flash flooding | (endless | relentless | rising | receding) water | flooding",
     swamps: "swamps | covers | inundates | washes away",
     floodThings: "trees | cars | houses | buildings | homes | businesses | schools | hospitals | churches | bridges | roads | sidewalks | streets | entire neighborhoods | whole communities",
     floodplain: "(low-lying (areas | regions | neighborhoods | communities)) | streets and sidewalks | roads and bridges",
-    reflection: "$person lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen here | didn't think it would be this bad). | $person boils $posPro water before (drinking | cooking | bathing). Who knew a hurricane could hit so far inland, $pronoun thinks.",
+    reflection: "$pronoun.cap() lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $person. $pronoun.cap() (wasn't prepared | didn't think it would happen here | didn't think it would be this bad). | $person boils $posPro water before (drinking | cooking | bathing). Who knew a hurricane could hit so far inland, $pronoun thinks.",
     bobs: "$object.art().cap() bobs in the (dark | ) water.",
     injury: "dead | injured | left homeless | homeless | stranded",
     result: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (declared a state of emergency | are staging a photo op | are tweeting safety tips).",
