@@ -161,12 +161,17 @@ blockquote {
     transition: opacity 6s;
   }
 
+#quote {
+    margin: 0 30px 25px 30px;
+}
+
 /* Hamburger Icon */
        .leaflet-control-hamburger {
             background: #fff;
-            border: 2px solid rbga(0,0,0,0.2);
+            border: 2px solid rgba(0, 0, 0, 0.2);
+            background-clip: padding-box;
             border-radius: 2px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            box-shadow: none;
             cursor: pointer;
             width: 30px;
             height: 30px;
@@ -178,8 +183,8 @@ blockquote {
             display: flex;
             align-items: center;
             justify-content: center;
-            background-clip: padding-box;
             margin-bottom: 10px; /* Add spacing between hamburger and zoom controls */
+            margin-left: 11px;  
         }
         
         .leaflet-control-hamburger:hover {
