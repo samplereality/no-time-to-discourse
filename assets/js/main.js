@@ -88,11 +88,12 @@ console.log("You are using a " + device + ".");
 
 
 
-// Create the map instance
+// Create the map instance (without zoom control initially)
 var map = L.map('map', {
     center: [35, -80],
     zoom: 4,
     maxBoundsViscosity: .5,
+    zoomControl: false // Disable default zoom control so we can add it after hamburger
 });
 
 // Set bounds for the map
@@ -115,6 +116,37 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	ext: 'jpg'
 }).addTo(map);
 
+// Create custom hamburger control
+L.Control.Hamburger = L.Control.extend({
+    options: {
+        position: 'topleft'
+    },
+
+    onAdd: function(map) {
+        var container = L.DomUtil.create('div', 'leaflet-control leaflet-control-hamburger');
+        
+        // Create hamburger icon
+        var icon = L.DomUtil.create('span', 'hamburger-icon', container);
+        
+        // Prevent map events when clicking on the control
+        L.DomEvent.disableClickPropagation(container);
+        L.DomEvent.disableScrollPropagation(container);
+        
+        // Add click event
+        L.DomEvent.on(container, 'click', function(e) {
+            L.DomEvent.stopPropagation(e);
+            $('#aboutModal').modal('show');
+        });
+
+        return container;
+    }
+});
+
+// Add the hamburger control to the map first
+map.addControl(new L.Control.Hamburger());
+
+// Then add the zoom control so it appears below the hamburger
+L.control.zoom({ position: 'topleft' }).addTo(map);
 
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {

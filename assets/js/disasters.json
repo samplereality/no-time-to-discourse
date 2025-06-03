@@ -1799,7 +1799,7 @@
         "name": "Harlingen",
         "adm1name": "Texas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the AT&T Stadium | Six Flags | the Ballpark | downtown | the entertainment district"
       },
       "geometry": {
         "type": "Point",
@@ -20727,7 +20727,7 @@
         "name": "Tampa",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ybor City | downtown | MacDill Air Force Base | the riverwalk"
       },
       "geometry": {
         "type": "Point",

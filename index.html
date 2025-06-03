@@ -25,8 +25,6 @@
 
     <!-- Leaflet Plugins -->
 
-
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       type="text/javascript"
@@ -64,17 +62,31 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/dialog.js"></script>
 
-    <div class="modal" tabindex="-1" role="dialog" id="coverModal">
-      <div class="modal-dialog" role="document">
+    <!-- About Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="aboutModal">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">No Time To Discourse</h5>
+            <h5 class="modal-title">About This Project</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <p>The day is hot, and the weather, and the wars, and the King, and the Dukes; it is no time to discourse. <br><br> - Henry V</p>
+            <h6>Interactive Atlas of Speculative Climate Disasters</h6>
+            <p>This project combines geographic visualization with generative storytelling to explore potential climate scenarios across North America. Each location on the map generates unique flash fiction stories that imagine how climate change might impact specific places and communities.</p>
+            
+            <h6>How It Works</h6>
+            <p>Using Leaflet for interactive mapping and RiTa.js for natural language generation, this atlas creates dynamic narratives that change each time you visit a location. The stories are grounded in real places but explore speculative futures, making abstract climate concepts more tangible through human-centered storytelling.</p>
+            
+            <h6>Technology</h6>
+            <ul>
+              <li><strong>Leaflet:</strong> Interactive mapping and geographic visualization</li>
+              <li><strong>RiTa.js:</strong> Computational text generation and grammar systems</li>
+              <li><strong>Day.js:</strong> Date and time manipulation for story contexts</li>
+            </ul>
+            
+            <p><em>"The day is hot, and the weather, and the wars, and the King, and the Dukes; it is no time to discourse."</em> - Henry V</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -82,6 +94,7 @@
         </div>
       </div>
     </div>
+
 </body>
 
 </html>

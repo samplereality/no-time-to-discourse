@@ -160,3 +160,54 @@ blockquote {
     opacity: 0;                 /* Start fully transparent */
     transition: opacity 6s;
   }
+
+/* Hamburger Icon */
+       .leaflet-control-hamburger {
+            background: #fff;
+            border: 2px solid rbga(0,0,0,0.2);
+            border-radius: 2px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-clip: padding-box;
+            margin-bottom: 10px; /* Add spacing between hamburger and zoom controls */
+        }
+        
+        .leaflet-control-hamburger:hover {
+            background: #f4f4f4;
+        }
+        
+        .hamburger-icon {
+            width: 18px;
+            height: 2px;
+            background-color: #333;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .hamburger-icon::before,
+        .hamburger-icon::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 18px;
+            height: 2px;
+            background-color: #333;
+        }
+        
+        .hamburger-icon::before {
+            top: -6px;
+        }
+        
+        .hamburger-icon::after {
+            top: 6px;
+        }

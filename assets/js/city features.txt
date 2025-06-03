@@ -42,8 +42,8 @@ const poiDatabase = {
   "Minneapolis": ,
   "Cleveland": ,
   "Wichita": 
-  "Arlington": "AT&T Stadium | Six Flags | the Ballpark | downtown | the entertainment district",
-  "Tampa": "the bay | Ybor City | downtown | MacDill Air Force Base | the riverwalk",
+  "Arlington": ,
+  "Tampa": ,
   "New Orleans": "the French Quarter | the levees | the streetcar lines | the Garden District | Lake Pontchartrain",
   "St. Louis": "the Gateway Arch | Forest Park | the Mississippi River | the Central West End | Busch Stadium",
   "Pittsburgh": "the Three Rivers | Heinz Field | the inclines | the Strip District | Schenley Park",
