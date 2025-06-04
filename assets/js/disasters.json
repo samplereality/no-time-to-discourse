@@ -16327,7 +16327,7 @@
         "name": "Lexington",
         "adm1name": "Kentucky",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Kentucky | Keeneland | downtown | the horse farms | Rupp Arena"
       },
       "geometry": {
         "type": "Point",
@@ -18423,7 +18423,7 @@
         "name": "Corpus Christi",
         "adm1name": "Texas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the harbor bridge | Padre Island | downtown | the naval air station"
       },
       "geometry": {
         "type": "Point",
@@ -19847,7 +19847,7 @@
         "name": "Pittsburgh",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Three Rivers | Heinz Field | the inclines | the Strip District | Schenley Park"
       },
       "geometry": {
         "type": "Point",
@@ -20663,7 +20663,7 @@
         "name": "St. Louis",
         "adm1name": "Missouri",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Gateway Arch | Forest Park | the Central West End | Busch Stadium"
       },
       "geometry": {
         "type": "Point",
@@ -20679,7 +20679,7 @@
         "name": "New Orleans",
         "adm1name": "Louisiana",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the French Quarter | the levees | the streetcar lines | the Garden District | Bourbon Street"
       },
       "geometry": {
         "type": "Point",
