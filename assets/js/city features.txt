@@ -96,7 +96,7 @@ const poiDatabase = {
   "Ottawa": "Parliament Hill | the Rideau Canal | ByWard Market | the museums | Gatineau Park",
   "Winnipeg": "the Forks | downtown | the Red River | the university | Portage and Main",
   "Quebec": "Old Quebec | the Citadel | the Plains of Abraham | the St. Lawrence River | Château Frontenac",
-  "Hamilton": "the steel mills | McMaster University | the bay | the escarpment | downtown",
+  "Hamilton": ,
   "Kitchener": "the University of Waterloo | downtown | the Grand River | the farmers market | Victoria Park",
   "London": "the University of Western Ontario | downtown | the Thames River | Fanshawe College | Victoria Park",
   "Halifax": "the harbor | Citadel Hill | the waterfront | Dalhousie University | Point Pleasant Park",

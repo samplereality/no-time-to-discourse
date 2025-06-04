@@ -5687,7 +5687,7 @@
         "name": "Peterborough",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Lift Lock | Trent University | Del Crary Park | the Canadian Canoe Museum | Little Lake"
       },
       "geometry": {
         "type": "Point",
@@ -5703,7 +5703,7 @@
         "name": "Oshawa",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI":"the Oshawa Centre | Parkwood Estate | the GM Centre | Lakeview Park | the Robert McLaughlin Gallery"
       },
       "geometry": {
         "type": "Point",
@@ -5719,7 +5719,7 @@
         "name": "London",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Victoria Park | the University of Western Ontario | Covent Garden Market | the Forks of the Thames | Springbank Park"
       },
       "geometry": {
         "type": "Point",
@@ -9975,7 +9975,7 @@
         "name": "Akron",
         "adm1name": "Ohio",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Stan Hywet Hall | Canal Park | the University of Akron | Goodyear Heights | Lock 3 Park"
       },
       "geometry": {
         "type": "Point",
@@ -10439,7 +10439,7 @@
         "name": "Utica",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Stanley Theatre | the Munson-Williams-Proctor Arts Institute | the Adirondack Scenic Railroad | Saranac Thursday | Fort Schuyler"
       },
       "geometry": {
         "type": "Point",
@@ -10471,7 +10471,7 @@
         "name": "Niagara Falls",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Falls | Maid of the Mist | Rainbow Bridge | Cave of the Winds | the American Falls"
       },
       "geometry": {
         "type": "Point",
@@ -10487,7 +10487,7 @@
         "name": "Jamestown",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the National Comedy Center | Chautauqua Lake | the Roger Tory Peterson Institute | Lucille Ball Memorial Park | the Reg Lenna Center"
       },
       "geometry": {
         "type": "Point",
@@ -10583,7 +10583,7 @@
         "name": "Erie",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Presque Isle State Park | the bayfront | Perry Square | the Warner Theatre | Millcreek Mall"
       },
       "geometry": {
         "type": "Point",
@@ -16951,7 +16951,7 @@
         "name": "Hamilton",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the steel mills | McMaster University | Lighthouse Point Park | the escarpment | downtown"
       },
       "geometry": {
         "type": "Point",
@@ -17943,7 +17943,7 @@
         "name": "Rochester",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the High Falls | Eastman Theatre | Highland Park | the Public Market | Mount Hope Cemetery"
       },
       "geometry": {
         "type": "Point",
@@ -18711,7 +18711,7 @@
         "name": "Syracuse",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Carrier Dome | Armory Square | Clinton Square | Syracuse University | Onondaga Lake Park"
       },
       "geometry": {
         "type": "Point",
@@ -19831,7 +19831,7 @@
         "name": "Buffalo",
         "adm1name": "New York",
         "note": null,
-        "POI": "a Niagara Falls gift shop | the waterfront | Elmwood Village | the university | downtown"
+        "POI": "the Elmwood Village | Canalside | a Frank Lloyd Wright house | the Central Terminal | Delaware Park"
       },
       "geometry": {
         "type": "Point",

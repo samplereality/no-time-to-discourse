@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 html,
 body {
     height: 100%;
@@ -116,17 +118,24 @@ blockquote {
 }
 
 .prologue {
-    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.5em;
     line-height: 1.5;
     color: #525252;
     padding: 25px;
+    font-weight: 400;
+}
+
+/* Modal content styling */
+#aboutModal, .modal-content, .modal-body {
+    font-family: 'Inter', sans-serif;
 }
 
 .about {
-    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     padding-top: 25px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 56em) {
