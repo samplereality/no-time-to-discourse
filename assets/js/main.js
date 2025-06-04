@@ -148,6 +148,7 @@ map.addControl(new L.Control.Hamburger());
 // Then add the zoom control so it appears below the hamburger
 L.control.zoom({ position: 'topleft' }).addTo(map);
 
+
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {
     geoJsonLayer = L.geoJson(data, {

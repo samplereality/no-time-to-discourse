@@ -2887,7 +2887,7 @@
         "name": "Durham",
         "adm1name": "North Carolina",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Duke University | downtown | the tobacco district | Brightleaf Square | the Amtrak station"
       },
       "geometry": {
         "type": "Point",
@@ -6807,7 +6807,7 @@
         "name": "Stockton",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Delta | downtown | the university | the port | Weber Point"
       },
       "geometry": {
         "type": "Point",
@@ -10391,7 +10391,7 @@
         "name": "Newark",
         "adm1name": "New Jersey",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the airport | downtown | Penn Station | Branch Brook Park | the Ironbound"
       },
       "geometry": {
         "type": "Point",
@@ -15047,7 +15047,7 @@
         "name": "St. Petersburg",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Pier | downtown | the botanical gardens | Tropicana Field | the Dalí Museum"
       },
       "geometry": {
         "type": "Point",
@@ -15111,7 +15111,7 @@
         "name": "Greensboro",
         "adm1name": "North Carolina",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the university | downtown | Kernersville | the Friendly Center | the science center"
       },
       "geometry": {
         "type": "Point",
@@ -15159,7 +15159,7 @@
         "name": "Madison",
         "adm1name": "Wisconsin",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Wisconsin campus | the State Capitol | the Willy Street Cooperative | State Street | the Isthmus"
       },
       "geometry": {
         "type": "Point",
@@ -15991,7 +15991,7 @@
         "name": "Lincoln",
         "adm1name": "Nebraska",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Nebraska | downtown | the State Capitol | Haymarket | Memorial Stadium"
       },
       "geometry": {
         "type": "Point",
@@ -16391,7 +16391,7 @@
         "name": "Toledo",
         "adm1name": "Ohio",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the GM plant | the Glass City | downtown | the university | the port"
       },
       "geometry": {
         "type": "Point",
@@ -17975,7 +17975,7 @@
         "name": "St. Paul",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the State Capitol | Grand Avenue | Summit Hill | Como Park"
       },
       "geometry": {
         "type": "Point",
@@ -18487,7 +18487,7 @@
         "name": "Laredo",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the border crossing | the Hamilton Hotel | San Agustin Cathedral | the bridges"
       },
       "geometry": {
         "type": "Point",
@@ -18551,7 +18551,7 @@
         "name": "Orlando",
         "adm1name": "Florida",
         "note": 2,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Disney World | Universal Studios | downtown | Lake Eola | the theme parks"
       },
       "geometry": {
         "type": "Point",
@@ -19751,7 +19751,7 @@
         "name": "Cincinnati",
         "adm1name": "Ohio",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Union Terminal | Fountain Square | Over-the-Rhine | Great American Ball Park | Mount Adams"
       },
       "geometry": {
         "type": "Point",
@@ -19799,7 +19799,7 @@
         "name": "Norfolk",
         "adm1name": "Virginia",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Naval Station | downtown | the Botanical Garden | the zoo | the waterfront"
       },
       "geometry": {
         "type": "Point",
@@ -19831,7 +19831,7 @@
         "name": "Buffalo",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "a Niagara Falls gift shop | the waterfront | Elmwood Village | the university | downtown"
       },
       "geometry": {
         "type": "Point",
@@ -20775,7 +20775,7 @@
         "name": "Anchorage",
         "adm1name": "Alaska",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Chugach Mountains | Cook Inlet | downtown | Elmendorf Air Force Base | the coastal trail"
       },
       "geometry": {
         "type": "Point",
@@ -21015,7 +21015,7 @@
         "name": "Toronto",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the CN Tower | Yonge Street | the harbourfront | York University | Casa Loma"
       },
       "geometry": {
         "type": "Point",
