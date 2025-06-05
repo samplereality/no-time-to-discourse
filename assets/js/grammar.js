@@ -98,7 +98,7 @@ var rules = {
     hurricaneReason: "refusing to abandon $posPro dying (father|mother) | unable to afford gas to leave | convinced it wouldn't be that bad | having survived Andrew in '92",
     hurricaneRegret: "regretted everything | wished $pronoun'd listened | couldn't stop shaking | wondered if this was how it would end",
     hurricaneReality: "the roof began to leak | windows exploded inward | water rose past the doorframe | the power died and didn't come back",
-    hurricaneName: "$girlName | $boyName",
+    hurricaneName: "$femaleName | $maleName",
     hurricaneIntensity: "roared ashore as a Category 5 monster | exploded from a tropical storm to Category 4 in hours | intensified over the warm (Gulf | Atlantic) waters | strengthened into a Category 3 nightmare overnight",
     hurricaneWarning: "giving residents barely (12|18) hours to evacuate | catching meteorologists off guard | defying every computer model | following the exact path forecasters feared most",
     hurricaneAftermath: "$hurricaneDamage $hurricaneEmotional | $hurricaneRescue $hurricaneReflection",

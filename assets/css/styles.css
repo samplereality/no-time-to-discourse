@@ -148,6 +148,43 @@ blockquote {
     .container {
         padding: 0 1.5em 1.5em;
     }
+    
+    /* Mobile font size adjustments */
+    .prologue {
+        font-size: 1.1em;
+        padding: 15px;
+        line-height: 1.4;
+    }
+    
+    .about {
+        font-size: 1rem;
+        padding-top: 15px;
+    }
+    
+    /* Mobile modal adjustments */
+    #dialog {
+        padding-top: 10px;
+    }
+    
+    .iframe-container {
+        margin: 10px;
+        max-height: 85vh;
+    }
+    
+    /* Mobile hamburger modal adjustments */
+    #aboutModal .modal-dialog {
+        margin: 10px;
+        max-width: calc(100% - 20px);
+    }
+    
+    #aboutModal .modal-content {
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+    
+    #aboutModal .modal-body {
+        padding: 10px 15px;
+    }
 }
 
 .hidden {

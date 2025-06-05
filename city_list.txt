@@ -1,0 +1,1318 @@
+Jeremie, Grand'Anse
+Port-De-Paix, Nord-Ouest
+Hinche, Centre
+Fort-Liberte, Nord-Est
+Jacmel, Sud-Est
+Lucea, Hanover
+Mandeville, Manchester
+Black River, Saint Elizabeth
+Falmouth, Trelawny
+Savanna-la-Mar, Westmoreland
+Port Antonio, Portland
+St. Ann's Bay, Saint Ann
+Port Maria, Saint Mary
+Half Way Tree, Saint Andrew
+Port Morant, Saint Thomas
+Sabaneta, Santiago Rodríguez
+Mao, Valverde
+Cotui, Sánchez Ramírez
+Puerto Plata, Puerto Plata
+Dajabon, Dajabón
+Moca, Espaillat
+Salcedo, Hermanas
+Jimani, Independencia
+Comendador, Elias Pina
+Pedernales, Pedernales
+Azua, Azua
+Bonao, Monseñor Nouel
+Bani, Peravia
+Hato Mayor, Hato Mayor
+Monte Plata, Monte Plata
+Nagua, María Trinidad Sánchez
+Samana, Samaná
+San Cristobal, San Cristóbal
+El Seibo, El Seybo
+Higuey, La Altagracia
+Onverwacht, Para
+Groningen, Saramacca
+Faribault, Minnesota
+Mankato, Minnesota
+Albert Lea, Minnesota
+Willmar, Minnesota
+Brainerd, Minnesota
+Crookston, Minnesota
+Hardin, Montana
+Glendive, Montana
+Dillon, Montana
+Polson, Montana
+Devils Lake, North Dakota
+Burley, Idaho
+Wallace, Idaho
+Kennewick, Washington
+Centralia, Washington
+Glendale, Arizona
+Safford, Arizona
+Casa Grande, Arizona
+Mesa, Arizona
+Lake Havasu City, Arizona
+Berkeley, California
+National City, California
+Mendocino, California
+Paso Robles, California
+Riverside, California
+Delano, California
+San Mateo, California
+Vallejo, California
+Glenwood Springs, Colorado
+Aurora, Colorado
+Greeley, Colorado
+Tonopah, Nevada
+Deming, New Mexico
+Truth or Consequences, New Mexico
+Las Vegas, New Mexico
+Farmington, New Mexico
+Springfield, Oregon
+Tillamook, Oregon
+Ontario, Oregon
+La Grande, Oregon
+Richfield, Utah
+Nephi, Utah
+Lander, Wyoming
+Powell, Wyoming
+Paragould, Arkansas
+Iowa City, Iowa
+Ottumwa, Iowa
+Spencer, Iowa
+Ft. Dodge, Iowa
+Hutchinson, Kansas
+Kansas City, Kansas
+Lawrence, Kansas
+Garden City, Kansas
+Manhattan, Kansas
+Hays, Kansas
+Goodland, Kansas
+Independence, Missouri
+Kirksville, Missouri
+Kearney, Nebraska
+Grand Island, Nebraska
+Alliance, Nebraska
+Bartlesville, Oklahoma
+Enid, Oklahoma
+Ardmore, Oklahoma
+McAlester, Oklahoma
+Stillwater, Oklahoma
+Lead, South Dakota
+Slidell, Louisiana
+Lake Charles, Louisiana
+Metairie, Louisiana
+New Iberia, Louisiana
+Bryan, Texas
+San Marcos, Texas
+Longview, Texas
+McAllen, Texas
+Harlingen, Texas
+Alice, Texas
+New Braunfels, Texas
+Cleburne, Texas
+Brownwood, Texas
+Alpine, Texas
+Van Horn, Texas
+Big Spring, Texas
+Vernon, Texas
+Childress, Texas
+Hereford, Texas
+Dalhart, Texas
+Texas City, Texas
+Pasadena, Texas
+Baytown, Texas
+Arlington, Texas
+New London, Connecticut
+Stamford, Connecticut
+Waterbury, Connecticut
+New Bedford, Massachusetts
+Springfield, Massachusetts
+Salem, Massachusetts
+Pittsfield, Massachusetts
+Montpelier, Vermont
+Auburn, Alabama
+Florence, Alabama
+Winter Haven, Florida
+Melbourne, Florida
+Homestead, Florida
+Sanford, Florida
+Miami Beach, Florida
+Coral Springs, Florida
+Port Charlotte, Florida
+Spring Hill, Florida
+Palm Coast, Florida
+Palatka, Florida
+Leesburg, Florida
+Lake City, Florida
+Crestview, Florida
+Panama City, Florida
+Dalton, Georgia
+Marietta, Georgia
+Waycross, Georgia
+La Grange, Georgia
+Southaven, Mississippi
+Meridian, Mississippi
+Laurel, Mississippi
+Spartanburg, South Carolina
+Orangeburg, South Carolina
+Galesburg, Illinois
+Joliet, Illinois
+Cape Girardeau, Illinois
+Rockford, Illinois
+Evanston, Illinois
+Rock Island, Illinois
+Elgin, Illinois
+Richmond, Indiana
+Terre Haute, Indiana
+Lafayette, Indiana
+Marion, Indiana
+South Bend, Indiana
+New Albany, Indiana
+Elkhart, Indiana
+Hopkinsville, Kentucky
+London, Kentucky
+Madisonville, Kentucky
+Rocky Mount, North Carolina
+Salisbury, North Carolina
+Durham, North Carolina
+Lumberton, North Carolina
+Zanesville, Ohio
+Mansfield, Ohio
+Bowling Green, Ohio
+Springfield, Ohio
+Lancaster, Ohio
+Johnson City, Tennessee
+Kingsport, Tennessee
+Columbia, Tennessee
+Barlett, Tennessee
+Blacksburg, Virginia
+Harrisonburg, Virginia
+Petersburg, Virginia
+Hampton, Virginia
+Sheboygan, Wisconsin
+Waukesha, Wisconsin
+La Crosse, Wisconsin
+Eau Claire, Wisconsin
+Tomah, Wisconsin
+Janesville, Wisconsin
+Appleton, Wisconsin
+Parkersburg, West Virginia
+White Sulphur Springs, West Virginia
+Clarksburg, West Virginia
+Dover, Delaware
+St. Charles, Maryland
+Annapolis, Maryland
+Hagerstown, Maryland
+Paterson, New Jersey
+Saratoga Springs, New York
+Poughkeepsie, New York
+Plattsburg, New York
+Beaver Falls, Pennsylvania
+Altoona, Pennsylvania
+Williamsport, Pennsylvania
+Lancaster, Pennsylvania
+Allentown, Pennsylvania
+San Fernando, San Fernando
+Brownsweg, Brokopondo
+Moengo, Marowijne
+Nieuw Amsterdam, Commewijne
+Waterville, Maine
+Calais, Maine
+Houlton, Maine
+Benton Harbor, Michigan
+Battle Creek, Michigan
+Bay City, Michigan
+Alpena, Michigan
+Iron Mountain, Michigan
+Ironwood, Michigan
+Sand Point, Alaska
+Hydaburg, Alaska
+Mekoryuk, Alaska
+Atqasuk, Alaska
+Port Heiden, Alaska
+Perryville, Alaska
+Dillingham, Alaska
+Goodnews Bay, Alaska
+Nyac, Alaska
+Tununak, Alaska
+Mountain Village, Alaska
+Emmonak, Alaska
+Kaltag, Alaska
+Teller, Alaska
+Koyukuk, Alaska
+Kobuk, Alaska
+Selawik, Alaska
+Talkeetna, Alaska
+Whittier, Alaska
+Montana, Alaska
+Lake Minchumina, Alaska
+Cantwell, Alaska
+Gulkana, Alaska
+Eagle, Alaska
+Nenana, Alaska
+Big Delta, Alaska
+Allakaket, Alaska
+Tanana, Alaska
+Vicente Guerrero, Baja California
+Loreto, Baja California Sur
+Ciudad Constitucion, Baja California Sur
+Allende, Coahuila
+Nueva Rosita, Coahuila
+Hidalgo del Parral, Chihuahua
+Ascension, Chihuahua
+Gomez Palacio, Durango
+Canatlan, Durango
+Villa Union, Sinaloa
+Altata, Sinaloa
+Esperanza, Sonora
+Magdalena, Sonora
+Nacozari Viejo, Sonora
+Villanueva, Zacatecas
+Montemorelos, Nuevo León
+Sabinas Hidalgo, Nuevo León
+Cardenas, San Luis Potosí
+Ciudad Valles, San Luis Potosí
+Rio Verde, San Luis Potosí
+Ciudad Mante, Tamaulipas
+Reynosa, Tamaulipas
+Ciudad Madero, Tamaulipas
+Autlan, Jalisco
+Ciudad Hidalgo, Michoacán
+Apatzingan, Michoacán
+Santiago Ixcuintla, Nayarit
+Juchitan, Oaxaca
+Miahuatlan, Oaxaca
+Atlixco, Puebla
+Acatlan, Puebla
+Paraiso, Tabasco
+Balancan, Tabasco
+Tlaxcala, Tlaxcala
+Irapuato, Guanajuato
+Celaya, Guanajuato
+Chilpancingo, Guerrero
+Iguala, Guerrero
+Tecpan, Guerrero
+Atoyac, Guerrero
+Nezahualcoyotl, México
+San Juan del Rio, Querétaro
+Jaltipan, Veracruz
+Orizaba, Veracruz
+Xalapa, Veracruz
+Nautla, Veracruz
+San Cristobal de Las Casas, Chiapas
+Escuintla, Chiapas
+Motul, Yucatán
+Tekax, Yucatán
+Peto, Yucatán
+Halacho, Yucatán
+Ciego de Avila, Ciego de Ávila
+Palma Soriano, Santiago de Cuba
+May Pen, Clarendon
+Spanish Town, Saint Catherine
+San Antonio de los Banos, La Habana
+Guines, La Habana
+Caibarien, Villa Clara
+Placetas, Villa Clara
+Neiba, Bahoruco
+La Vega, La Vega
+San Francisco de Macoris, Duarte
+Selkirk, Manitoba
+Berens River, Manitoba
+Pukatawagan, Manitoba
+Gimli, Manitoba
+Island Lake, Manitoba
+Melville, Saskatchewan
+Weyburn, Saskatchewan
+La Ronge, Saskatchewan
+Stony Rapids, Saskatchewan
+Camrose, Alberta
+Hinton, Alberta
+Vegreville, Alberta
+Stettler, Alberta
+Lac La Biche, Alberta
+Wetaskiwin, Alberta
+Meander River, Alberta
+Creston, British Columbia
+Cranbrook, British Columbia
+Terrace, British Columbia
+Chilliwack, British Columbia
+Hall Beach, Nunavut
+Lutselke, Northwest Territories
+Hay River, Northwest Territories
+Déline, Northwest Territories
+Paulatuk, Northwest Territories
+Tsiigehtchic, Northwest Territories
+Owen Sound, Ontario
+Orillia, Ontario
+Kapuskasing, Ontario
+Thessalon, Ontario
+Geraldton, Ontario
+Belleville, Ontario
+Sarnia, Ontario
+Peterborough, Ontario
+Oshawa, Ontario
+London, Ontario
+Kitchener, Ontario
+New Liskeard, Ontario
+Brockville, Ontario
+Big Beaver House, Ontario
+Port-Menier, Québec
+Riviere-du-Loup, Québec
+Drummondville, Québec
+Sherbrooke, Québec
+Cap-Chat, Québec
+Baie-Comeau, Québec
+Natashquan, Québec
+Eastmain, Québec
+Schefferville, Québec
+Salluit, Québec
+Amos, Québec
+Joliette, Québec
+St.-Jerome, Québec
+St-Augustin, Québec
+Rouyn-Noranda, Québec
+La Sarre, Québec
+New Glasgow, Nova Scotia
+Liverpool, Nova Scotia
+Amherst, Nova Scotia
+Baddeck, Nova Scotia
+Deer Lake, Newfoundland and Labrador
+La Scie, Newfoundland and Labrador
+Hopedale, Newfoundland and Labrador
+Happy Valley - Goose Bay, Newfoundland and Labrador
+Port Hope Simpson, Newfoundland and Labrador
+Tofino, British Columbia
+Virginia, Minnesota
+Winona, Minnesota
+Rochester, Minnesota
+Lakeville, Minnesota
+Ely, Minnesota
+Moorhead, Minnesota
+St. Cloud, Minnesota
+Miles City, Montana
+Bozeman, Montana
+Glasgow, Montana
+Dickinson, North Dakota
+Jamestown, North Dakota
+Williston, North Dakota
+Lihue, Hawaii
+Wahiawa, Hawaii
+Wailuku, Hawaii
+Montpelier, Idaho
+Twin Falls, Idaho
+Caldwell, Idaho
+Salmon, Idaho
+Coeur d'Alene, Idaho
+Richland, Washington
+Bellingham, Washington
+Longview, Washington
+Walla Walla, Washington
+Aberdeen, Washington
+Bremerton, Washington
+Everett, Washington
+Bullhead City, Arizona
+Winslow, Arizona
+Gila Bend, Arizona
+Tombstone, Arizona
+Willcox, Arizona
+Scottsdale, Arizona
+Kingman, Arizona
+Grand Canyon, Arizona
+Arcata, California
+Stockton, California
+Barstow, California
+Victorville, California
+Pasadena, California
+Visalia, California
+El Centro, California
+San Luis Obispo, California
+Merced, California
+Yuba City, California
+Redding, California
+Santa Rosa, California
+Oceanside, California
+Modesto, California
+Irvine, California
+Ukiah, California
+Needles, California
+Bishop, California
+Palm Springs, California
+Santa Maria, California
+Tulare, California
+Mt. Shasta, California
+Crescent City, California
+Fort Collins, Colorado
+Pueblo, Colorado
+Lamar, Colorado
+Trinidad, Colorado
+Gunnison, Colorado
+Durango, Colorado
+Montrose, Colorado
+Craig, Colorado
+Boulder, Colorado
+Boulder City, Nevada
+Winnemucca, Nevada
+Roswell, New Mexico
+Clovis, New Mexico
+Las Cruces, New Mexico
+Hobbs, New Mexico
+Socorro, New Mexico
+Gallup, New Mexico
+Raton, New Mexico
+Tucumcari, New Mexico
+Roseburg, Oregon
+Pendleton, Oregon
+John Day, Oregon
+Grants Pass, Oregon
+Corvallis, Oregon
+Albany, Oregon
+Astoria, Oregon
+Logan, Utah
+Parowan, Utah
+Kanab, Utah
+Monticello, Utah
+Moab, Utah
+Price, Utah
+Cedar City, Utah
+Vernal, Utah
+Ogden, Utah
+Green River, Wyoming
+Rawlins, Wyoming
+Douglas, Wyoming
+Riverton, Wyoming
+Thermopolis, Wyoming
+Gillette, Wyoming
+Jonesboro, Arkansas
+Texarkana, Arkansas
+Pine Bluff, Arkansas
+Hot Springs, Arkansas
+Fort Smith, Arkansas
+Fayetteville, Arkansas
+Conway, Arkansas
+El Dorado, Arkansas
+Davenport, Iowa
+Burlington, Iowa
+Dubuque, Iowa
+Waterloo, Iowa
+Sioux City, Iowa
+Council Bluffs, Iowa
+Ames, Iowa
+Mason City, Iowa
+Emporia, Kansas
+Salina, Kansas
+Dodge City, Kansas
+Coffeyville, Kansas
+St. Charles, Missouri
+Poplar Bluff, Missouri
+Joplin, Missouri
+Columbia, Missouri
+St. Joseph, Missouri
+McCook, Nebraska
+Norfolk, Nebraska
+North Platte, Nebraska
+Sidney, Nebraska
+Scottsbluff, Nebraska
+Chadron, Nebraska
+Lawton, Oklahoma
+Norman, Oklahoma
+Muskogee, Oklahoma
+Ponca City, Oklahoma
+Shawnee, Oklahoma
+Woodward, Oklahoma
+Guymon, Oklahoma
+Yankton, South Dakota
+Brookings, South Dakota
+Mitchell, South Dakota
+Aberdeen, South Dakota
+Mobridge, South Dakota
+Houma, Louisiana
+Monroe, Louisiana
+Conroe, Texas
+Nacogdoches, Texas
+Eagle Pass, Texas
+Edinburg, Texas
+Kingsville, Texas
+Port Arthur, Texas
+Huntsville, Texas
+Killeen, Texas
+Lufkin, Texas
+Del Rio, Texas
+San Angelo, Texas
+Sherman, Texas
+Beaumont, Texas
+Bay City, Texas
+Port Lavaca, Texas
+Falfurrias, Texas
+Beeville, Texas
+Fort Stockton, Texas
+Pecos, Texas
+Dumas, Texas
+Denton, Texas
+Midland, Texas
+Temple, Texas
+New Haven, Connecticut
+Lowell, Massachusetts
+Worcester, Massachusetts
+Manchester, New Hampshire
+Newport, Rhode Island
+Dothan, Alabama
+Tuscaloosa, Alabama
+Gadsden, Alabama
+Enterprise, Alabama
+Selma, Alabama
+Coral Gables, Florida
+Cape Coral, Florida
+Naples, Florida
+Fort Pierce, Florida
+Kissimmee, Florida
+Titusville, Florida
+St. Augustine, Florida
+Ocala, Florida
+Fort Lauderdale, Florida
+Apalachicola, Florida
+Vero Beach, Florida
+Valdosta, Georgia
+Albany, Georgia
+Athens, Georgia
+Macon, Georgia
+Columbus, Georgia
+Douglas, Georgia
+Dublin, Georgia
+Gulfport, Mississippi
+Hattiesburg, Mississippi
+Tupelo, Mississippi
+Greenville, Mississippi
+Natchez, Mississippi
+Florence, South Carolina
+Greenville, South Carolina
+Sumter, South Carolina
+Anderson, South Carolina
+Aiken, South Carolina
+Beaufort, South Carolina
+Rock Hill, South Carolina
+Decatur, Illinois
+Alton, Illinois
+Quincy, Illinois
+Urbana, Illinois
+Bloomington, Illinois
+Kankakee, Illinois
+Waukegan, Illinois
+Aurora, Illinois
+Carbondale, Illinois
+Belleville, Illinois
+Bloomington, Indiana
+Muncie, Indiana
+Kokomo, Indiana
+Gary, Indiana
+Fort Wayne, Indiana
+Covington, Kentucky
+Bowling Green, Kentucky
+Paducah, Kentucky
+Owensboro, Kentucky
+Jacksonville, North Carolina
+Goldsboro, North Carolina
+Greenville, North Carolina
+Fayetteville, North Carolina
+Hickory, North Carolina
+Asheville, North Carolina
+Winston-Salem, North Carolina
+Kitty Hawk, North Carolina
+Akron, Ohio
+Lima, Ohio
+Oak Ridge, Tennessee
+Murfreesboro, Tennessee
+Clarksville, Tennessee
+Jackson, Tennessee
+Alexandria, Virginia
+Fredericksburg, Virginia
+Roanoke, Virginia
+Danville, Virginia
+Winchester, Virginia
+Bristol, Virginia
+Superior, Wisconsin
+West Bend, Wisconsin
+Fond du Lac, Wisconsin
+Oshkosh, Wisconsin
+Rhinelander, Wisconsin
+Racine, Wisconsin
+Marinette, Wisconsin
+Wheeling, West Virginia
+Morgantown, West Virginia
+Huntington, West Virginia
+Beckley, West Virginia
+Wilmington, Delaware
+Cumberland, Maryland
+Atlantic City, New Jersey
+Newark, New Jersey
+Schenectady, New York
+Binghamton, New York
+Utica, New York
+Watertown, New York
+Niagara Falls, New York
+Jamestown, New York
+Elmira, New York
+York, Pennsylvania
+Johnstown, Pennsylvania
+Scranton, Pennsylvania
+State College, Pennsylvania
+Erie, Pennsylvania
+Wilkes Barre, Pennsylvania
+Nieuw Nickerie, Nickerie
+Brokopondo, Brokopondo
+Totness, Coronie
+Bar Harbor, Maine
+Lewiston, Maine
+Presque Isle, Maine
+Ann Arbor, Michigan
+Kalamazoo, Michigan
+Muskegon, Michigan
+Flint, Michigan
+Grand Rapids, Michigan
+Pontiac, Michigan
+Cadillac, Michigan
+Traverse City, Michigan
+Petoskey, Michigan
+Escanaba, Michigan
+Marquette, Michigan
+Hancock, Michigan
+Wrangell, Alaska
+Shishmaref, Alaska
+Hoonah, Alaska
+Atka, Alaska
+Nikolski, Alaska
+Karluk, Alaska
+False Pass, Alaska
+Kivalina, Alaska
+Newhalen, Alaska
+Pilot Point, Alaska
+Chignik, Alaska
+King Salmon, Alaska
+Quinhagak, Alaska
+Aniak, Alaska
+Kotlit, Alaska
+Unalakleet, Alaska
+Koyuk, Alaska
+McGrath, Alaska
+Hughes, Alaska
+Ambler, Alaska
+Wales, Alaska
+Kotzebue, Alaska
+Wasilla, Alaska
+Circle, Alaska
+Denali Park, Alaska
+Yakutat, Alaska
+Homer, Alaska
+Tanacross, Alaska
+Wiseman, Alaska
+Les Cayes, Sud
+Gonaives, L'Artibonite
+San Quintin, Baja California
+Punta Prieta, Baja California
+San Felipe, Baja California
+Santa Rosalia, Baja California Sur
+Guerrero Negro, Baja California Sur
+Piedras Negras, Coahuila
+San Pedro de las Colonias, Coahuila
+Sierra Mojada, Coahuila
+Parras, Coahuila
+Cuauhtemoc, Chihuahua
+Nuevo Casas Grandes, Chihuahua
+Ojinaga, Chihuahua
+Villa Ahumada, Chihuahua
+Santa Barbara, Chihuahua
+Ciudad Camargo, Chihuahua
+Cuencame, Durango
+Papasquiaro, Durango
+Escuinapa, Sinaloa
+Guamuchil, Sinaloa
+Guasave, Sinaloa
+El Fuerte, Sinaloa
+Eldorado, Sinaloa
+La Cruz, Sinaloa
+Agua Prieta, Sonora
+Ciudad Obregon, Sonora
+Navajoa, Sonora
+Caborca, Sonora
+Mazatlán, Sonora
+Cananea, Sonora
+Huatabampo, Sonora
+Zacatecas, Zacatecas
+Juan Aldama, Zacatecas
+Valparaiso, Zacatecas
+Fresnillo, Zacatecas
+Linares, Nuevo León
+Matehuala, San Luis Potosí
+Tamuin, San Luis Potosí
+Tamazunchale, San Luis Potosí
+Tula, Tamaulipas
+Aldama, Tamaulipas
+San Fernando, Tamaulipas
+Tecoman, Colima
+Puerto Vallarta, Jalisco
+La Barca, Jalisco
+Ciudad Guzman, Jalisco
+Lagos de Moreno, Jalisco
+Morelia, Michoacán
+Lazaro Cardenas, Michoacán
+Zamora, Michoacán
+Coalcoman, Michoacán
+Uruapan, Michoacán
+Tuxpan, Nayarit
+Tepic, Nayarit
+Compostela, Nayarit
+Tecuala, Nayarit
+Ciudad del Carmen, Campeche
+Champoton, Campeche
+Salina Cruz, Oaxaca
+Puerto Escondido, Oaxaca
+Pochutla, Oaxaca
+Mitla, Oaxaca
+Tlaxiaco, Oaxaca
+Huajuapan de Leon, Oaxaca
+Tehuacan, Puebla
+Teziutlan, Puebla
+Frontera, Tabasco
+Tenosique, Tabasco
+Salamanca, Guanajuato
+Guanajuato, Guanajuato
+Taxco, Guerrero
+Ayutla, Guerrero
+Ciudad Altamirano, Guerrero
+Petatlan, Guerrero
+Pachuca, Hidalgo
+Toluca, México
+Zumpango, México
+Minatitlan, Veracruz
+Coatzacoalcos, Veracruz
+Poza Rica de Hidalgo, Veracruz
+Cordoba, Veracruz
+Santiago Tuxtla, Veracruz
+Tuxpam, Veracruz
+Panuco, Veracruz
+Pijijiapan, Chiapas
+Isla Mujeres, Quintana Roo
+Felipe Carrillo Puerto, Quintana Roo
+Tizimin, Yucatán
+Valladolid, Yucatán
+Izamal, Yucatán
+Ticul, Yucatán
+Cienfuegos, Cienfuegos
+Nueva Gerona, Isla de la Juventud
+Sancti Spiritus, Sancti Spíritus
+Moron, Ciego de Ávila
+Nuevitas, Camagüey
+Manzanillo, Granma
+Bayamo, Granma
+Banes, Holguín
+Las Tunas, Las Tunas
+San Pedro de Macoris, San Pedro de Macorís
+Artemisa, La Habana
+Matanzas, Matanzas
+Colon, Matanzas
+Sagua la Grande, Villa Clara
+Monte Cristi, Monte Cristi
+Barahona, Barahona
+Bavaro, La Altagracia
+Steinbach, Manitoba
+Nelson House, Manitoba
+Shamattawa, Manitoba
+Oxford House, Manitoba
+Yorkton, Saskatchewan
+Swift Current, Saskatchewan
+Biggar, Saskatchewan
+Kindersley, Saskatchewan
+Meadow Lake, Saskatchewan
+Hudson Bay, Saskatchewan
+Lethbridge, Alberta
+Brooks, Alberta
+Lake Louise, Alberta
+Athabasca, Alberta
+Fort Chipewyan, Alberta
+Bella Bella, British Columbia
+Sandspit, British Columbia
+Campbell River, British Columbia
+Port Hardy, British Columbia
+Nanaimo, British Columbia
+Quesnel, British Columbia
+Abbotsford, British Columbia
+Dawson Creek, British Columbia
+Penticton, British Columbia
+Nelson, British Columbia
+Lillooet, British Columbia
+Powell River, British Columbia
+Revelstoke, British Columbia
+Burns Lake, British Columbia
+Dease Lake, British Columbia
+Coral Harbour, Nunavut
+Baker Lake, Nunavut
+Norman Wells, Northwest Territories
+Fort McPherson, Northwest Territories
+Burwash Landing, Yukon
+Orangeville, Ontario
+Little Current, Ontario
+Chapleau, Ontario
+Wawa, Ontario
+Hearst, Ontario
+Marathon, Ontario
+Sioux Lookout, Ontario
+Red Lake, Ontario
+Deer Lake, Ontario
+Cat Lake, Ontario
+Cornwall, Ontario
+Kingston, Ontario
+Barrie, Ontario
+Parry Sound, Ontario
+Wiarton, Ontario
+Cobalt, Ontario
+Cochrane, Ontario
+Nipigon, Ontario
+Atikokan, Ontario
+Rimouski, Québec
+Saint-Georges, Québec
+Victoriaville, Québec
+Chevery, Québec
+Mistassini, Québec
+Kangirsuk, Québec
+Shawinigan, Québec
+Matagami, Québec
+Mont-Laurier, Québec
+Pembroke, Québec
+Radisson, Québec
+Saint John, New Brunswick
+Edmundston, New Brunswick
+Shelburne, Nova Scotia
+Antigonish, Nova Scotia
+Windsor, Nova Scotia
+Digby, Nova Scotia
+Stephenville, Newfoundland and Labrador
+Argentia, Newfoundland and Labrador
+St. Anthony, Newfoundland and Labrador
+Channel-Port aux Basques, Newfoundland and Labrador
+Buchans, Newfoundland and Labrador
+Trout River, Newfoundland and Labrador
+Churchill Falls, Newfoundland and Labrador
+Forteau, Newfoundland and Labrador
+Ponce, Puerto Rico
+Mayaguez, Puerto Rico
+George Town, null
+Willemstad, null
+Oranjestad, null
+La Romana, La Romana
+Trepassey, Newfoundland and Labrador
+Kailua-Kona, Hawaii
+Butte, Montana
+Grand Forks, North Dakota
+Pocatello, Idaho
+Tacoma, Washington
+Yuma, Arizona
+Prescott, Arizona
+Long Beach, California
+Grand Junction, Colorado
+Ely, Nevada
+Carson City, Nevada
+Carlsbad, New Mexico
+Alamogordo, New Mexico
+Medford, Oregon
+Klamath Falls, Oregon
+St. George, Utah
+Provo, Utah
+Laramie, Wyoming
+Little Rock, Arkansas
+Wichita, Kansas
+Jefferson City, Missouri
+Rapid City, South Dakota
+Lafayette, Louisiana
+Galveston, Texas
+Freeport, Texas
+Victoria, Texas
+Odessa, Texas
+Wichita Falls, Texas
+Waco, Texas
+Lubbock, Texas
+Hartford, Connecticut
+Providence, Rhode Island
+Birmingham, Alabama
+Mobile, Alabama
+Pensacola, Florida
+St. Petersburg, Florida
+Biloxi, Mississippi
+Springfield, Illinois
+Frankfort, Kentucky
+Greensboro, North Carolina
+Dayton, Ohio
+Virginia Beach, Virginia
+Madison, Wisconsin
+Green Bay, Wisconsin
+Trenton, New Jersey
+Lansing, Michigan
+Gambell, Alaska
+Palmer, Alaska
+Seward, Alaska
+Cap-Haitien, Nord
+Ensenada, Baja California
+Saltillo, Coahuila
+Ciudad Juárez, Chihuahua
+Delicias, Chihuahua
+Durango, Durango
+Los Mochis, Sinaloa
+Ciudad Victoria, Tamaulipas
+Aguascalientes, Aguascalientes
+Manzanillo, Colima
+Tehuantepec, Oaxaca
+Villahermosa, Tabasco
+Cuernavaca, Morelos
+Queretaro, Querétaro
+Tapachula, Chiapas
+Chetumal, Quintana Roo
+Progreso, Yucatán
+Pinar del Rio, Pinar del Río
+Camaguey, Camagüey
+Guantanamo, Guantánamo
+Holguin, Holguín
+Montego Bay, Saint James
+Santa Clara, Villa Clara
+Duluth, Minnesota
+Bemidji, Minnesota
+Havre, Montana
+Kalispell, Montana
+Idaho Falls, Idaho
+Lewiston, Idaho
+Yakima, Washington
+Wenatchee, Washington
+Douglas, Arizona
+Bakersfield, California
+Oakland, California
+Lancaster, California
+Chico, California
+Monterey, California
+Salinas, California
+Los Alamos, New Mexico
+Eugene, Oregon
+Coos Bay, Oregon
+Bend, Oregon
+Cody, Wyoming
+Cedar Rapids, Iowa
+Springfield, Missouri
+Lincoln, Nebraska
+Alexandria, Louisiana
+Abilene, Texas
+Brownsville, Texas
+Tyler, Texas
+Concord, New Hampshire
+Huntsville, Alabama
+Key West, Florida
+West Palm Beach, Florida
+Sarasota, Florida
+Daytona Beach, Florida
+Gainesville, Florida
+Ft. Myers, Florida
+Brunswick, Georgia
+Augusta, Georgia
+Vicksburg, Mississippi
+Myrtle Beach, South Carolina
+Charleston, South Carolina
+Peoria, Illinois
+Evansville, Indiana
+Louisville, Kentucky
+Lexington, Kentucky
+Charlotte, North Carolina
+Youngstown, Ohio
+Canton, Ohio
+Toledo, Ohio
+Columbus, Ohio
+Chattanooga, Tennessee
+Charlottesville, Virginia
+Lynchburg, Virginia
+Wausau, Wisconsin
+Albany, New York
+Ithaca, New York
+Harrisburg, Pennsylvania
+Bangor, Maine
+Portland, Maine
+Saginaw, Michigan
+Ketchikan, Alaska
+Unalaska, Alaska
+Togiak, Alaska
+Red Devil, Alaska
+Hooper Bay, Alaska
+Wainwright, Alaska
+Galena, Alaska
+Kaktovik, Alaska
+Skagway, Alaska
+Cordova, Alaska
+Kenai, Alaska
+Fort Yukon, Alaska
+Brochet, Manitoba
+Lynn Lake, Manitoba
+Gillam, Manitoba
+North Battleford, Saskatchewan
+Prince Albert, Saskatchewan
+Courtenay, British Columbia
+Kelowna, British Columbia
+Pangnirtung, Nunavut
+Holman, Northwest Territories
+Dryden, Ontario
+Attawapiskat, Ontario
+Hamilton, Ontario
+Windsor, Ontario
+Trois-Rivières, Québec
+Sept-Îles, Québec
+Corner Brook, Newfoundland and Labrador
+Cabo San Lucas, Baja California Sur
+Monclova, Coahuila
+Ometepec, Guerrero
+Cozumel, Quintana Roo
+San Juan, San Juan
+Norway House, Manitoba
+Flin Flon, Manitoba
+Dauphin, Manitoba
+The Pas, Manitoba
+Uranium City, Saskatchewan
+Moose Jaw, Saskatchewan
+Jasper, Alberta
+Medicine Hat, Alberta
+Red Deer, Alberta
+Banff, Alberta
+Grand Prairie, Alberta
+Smithers, British Columbia
+Kamloops, British Columbia
+Williams Lake, British Columbia
+Prince George, British Columbia
+Fort Nelson, British Columbia
+Pond Inlet, Nunavut
+Cape Dorset, Nunavut
+Kimmirut, Nunavut
+Gjoa Haven, Nunavut
+Grise Fiord, Nunavut
+Alert, Nunavut
+Ennadai, Nunavut
+Rankin Inlet, Nunavut
+Fort Resolution, Northwest Territories
+Fort Simpson, Northwest Territories
+Inuvik, Northwest Territories
+Tuktoyaktuk, Northwest Territories
+Watson Lake, Yukon
+Lansdowne House, Ontario
+Moosonee, Ontario
+Sudbury, Ontario
+Kenora, Ontario
+Gaspe, Québec
+Mingan, Québec
+Dolbeau, Québec
+Val d'Or, Québec
+Ivugivik, Québec
+Inukjuak, Québec
+Chicoutimi, Québec
+Moncton, New Brunswick
+Fredericton, New Brunswick
+Bathurst, New Brunswick
+Yarmouth, Nova Scotia
+Gander, Newfoundland and Labrador
+Cartwright, Newfoundland and Labrador
+Rigolet, Newfoundland and Labrador
+Port Burwell, Newfoundland and Labrador
+Arecibo, Puerto Rico
+Santa Cruz, California
+San Bernardino, California
+Bridgeport, Connecticut
+Rochester, New York
+International Falls, Minnesota
+St. Paul, Minnesota
+Billings, Montana
+Great Falls, Montana
+Missoula, Montana
+Minot, North Dakota
+Fargo, North Dakota
+Hilo, Hawaii
+Olympia, Washington
+Spokane, Washington
+Vancouver, Washington
+Flagstaff, Arizona
+Tucson, Arizona
+Santa Barbara, California
+Fresno, California
+Eureka, California
+Colorado Springs, Colorado
+Reno, Nevada
+Elko, Nevada
+Albuquerque, New Mexico
+Salem, Oregon
+Casper, Wyoming
+Topeka, Kansas
+Kansas City, Missouri
+Tulsa, Oklahoma
+Sioux Falls, South Dakota
+Shreveport, Louisiana
+Baton Rouge, Louisiana
+Ft. Worth, Texas
+Corpus Christi, Texas
+Austin, Texas
+Amarillo, Texas
+El Paso, Texas
+Laredo, Texas
+Burlington, Vermont
+Montgomery, Alabama
+Tallahassee, Florida
+Orlando, Florida
+Jacksonville, Florida
+Savannah, Georgia
+Columbia, South Carolina
+Indianapolis, Indiana
+Wilmington, North Carolina
+Knoxville, Tennessee
+Richmond, Virginia
+Charleston, West Virginia
+Baltimore, Maryland
+Syracuse, New York
+Port-of-Spain, Port of Spain
+Augusta, Maine
+Sault Ste. Marie, Michigan
+Sitka, Alaska
+Cottica, Sipaliwini
+Mexicali, Baja California
+La Paz, Baja California Sur
+Torreon, Coahuila
+Culiacan, Sinaloa
+Nogales, Sonora
+Hermosillo, Sonora
+Guaymas, Sonora
+San Luis Potosi, San Luis Potosí
+Matamoros, Tamaulipas
+Nuevo Laredo, Tamaulipas
+Colima, Colima
+Campeche, Campeche
+Oaxaca, Oaxaca
+Leon, Guanajuato
+Santiago de Cuba, Santiago de Cuba
+Santiago, Santiago
+Thompson, Manitoba
+Brandon, Manitoba
+Fort Smith, Alberta
+Fort McMurray, Alberta
+Peace River, Alberta
+Fort St. John, British Columbia
+Iqaluit, Nunavut
+Cambridge Bay, Nunavut
+Kugluktuk, Nunavut
+Chesterfield Inlet, Nunavut
+Arviat, Nunavut
+Taloyoak, Nunavut
+Igloolik, Nunavut
+Dawson City, Yukon
+Timmins, Ontario
+North Bay, Ontario
+Kuujjuarapik, Québec
+Kuujjuaq, Québec
+Sydney, Nova Scotia
+Labrador City, Newfoundland and Labrador
+Bridgetown, Saint Michael
+Kingstown, null
+Castries, null
+Basseterre, Saint Kitts and Nevis
+Saint George's, null
+Helena, Montana
+Bismarck, North Dakota
+Boise, Idaho
+San Jose, California
+Sacramento, California
+Las Vegas, Nevada
+Santa Fe, New Mexico
+Portland, Oregon
+Salt Lake City, Utah
+Cheyenne, Wyoming
+Des Moines, Iowa
+Omaha, Nebraska
+Oklahoma City, Oklahoma
+Pierre, South Dakota
+San Antonio, Texas
+Jackson, Mississippi
+Raleigh, North Carolina
+Cleveland, Ohio
+Cincinnati, Ohio
+Nashville, Tennessee
+Memphis, Tennessee
+Norfolk, Virginia
+Milwaukee, Wisconsin
+Buffalo, New York
+Pittsburgh, Pennsylvania
+Kodiak, Alaska
+Cold Bay, Alaska
+Bethel, Alaska
+Point Hope, Alaska
+Barrow, Alaska
+Nome, Alaska
+Valdez, Alaska
+Juneau, Alaska
+Fairbanks, Alaska
+Prudhoe Bay, Alaska
+Port-au-Prince, Ouest
+Paramaribo, Paramaribo
+Tijuana, Baja California
+Chihuahua, Chihuahua
+Mazatlan, Sinaloa
+Tampico, Tamaulipas
+Acapulco, Guerrero
+Veracruz, Veracruz
+Tuxtla Gutierrez, Chiapas
+Cancun, Quintana Roo
+Merida, Yucatán
+Kingston, Kingston
+Winnipeg, Manitoba
+Churchill, Manitoba
+Regina, Saskatchewan
+Saskatoon, Saskatchewan
+Calgary, Alberta
+Prince Rupert, British Columbia
+Victoria, British Columbia
+Arctic Bay, Nunavut
+Resolute, Nunavut
+Repulse Bay, Nunavut
+Yellowknife, Northwest Territories
+Fort Good Hope, Northwest Territories
+Whitehorse, Yukon
+Ottawa, Ontario
+Fort Severn, Ontario
+Thunder Bay, Ontario
+Québec, Québec
+Halifax, Nova Scotia
+St. Johns, Newfoundland and Labrador
+Nain, Newfoundland and Labrador
+Charlottetown, Prince Edward Island
+San Juan, Puerto Rico
+Hamilton, Bermuda
+Minneapolis, Minnesota
+Honolulu, Hawaii
+Seattle, Washington
+Phoenix, Arizona
+San Diego, California
+St. Louis, Missouri
+New Orleans, Louisiana
+Dallas, Texas
+Boston, Massachusetts
+Tampa, Florida
+Philadelphia, Pennsylvania
+Detroit, Michigan
+Anchorage, Alaska
+Guadalajara, Jalisco
+Puebla, Puebla
+Havana, Ciudad de la Habana
+Santo Domingo, Distrito Nacional
+Edmonton, Alberta
+Montréal, Québec
+San Francisco, California
+Denver, Colorado
+Houston, Texas
+Miami, Florida
+Atlanta, Georgia
+Chicago, Illinois
+Monterrey, Nuevo León
+Vancouver, British Columbia
+Toronto, Ontario
+Los Angeles, California
+Washington, D.C., District of Columbia
+New York, New York
+Mexico City, Distrito Federal
