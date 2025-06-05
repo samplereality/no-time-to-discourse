@@ -179,6 +179,10 @@ var rules = {
     floodBobs: "$object.art().cap() bobs in the (dark | ) water.",
     floodInjury: "dead | injured | left homeless | homeless | stranded",
     floodResult: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (declared a state of emergency | are staging a photo op | are tweeting safety tips). | The flooding in .cityName() didn't even make the national news.",
+
+    // Mudslides
+
+    // Heatwaves
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 

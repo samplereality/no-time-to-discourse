@@ -14404,54 +14404,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "George Town",
-        "adm1name": null,
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.3299817318831,
-          19.280436827567485
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Willemstad",
-        "adm1name": null,
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.01998376633918,
-          12.200429706771047
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Oranjestad",
-        "adm1name": null,
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.02899194505409,
-          12.530383726954597
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "La Romana",
         "adm1name": "La Romana",
         "note": null,
@@ -19380,86 +19332,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bridgetown",
-        "adm1name": "Saint Michael",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.61652673505159,
-          13.10200258275114
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kingstown",
-        "adm1name": null,
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.212062420279324,
-          13.14827882786841
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Castries",
-        "adm1name": null,
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.00000818036955,
-          14.00197348933034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Basseterre",
-        "adm1name": "Saint Kitts and Nevis",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.71700931969934,
-          17.302030455489387
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Saint George's",
-        "adm1name": null,
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.74164322607476,
-          12.052633401720414
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Helena",
         "adm1name": "Montana",
         "note": null,
@@ -20558,22 +20430,6 @@
         "coordinates": [
           -66.12997929041614,
           18.440023009204765
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hamilton",
-        "adm1name": "Bermuda",
-        "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.78393742029346,
-          32.29419028627848
         ]
       }
     },
