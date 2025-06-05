@@ -1,5 +1,5 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = 24 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = 12 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 // Add development mode flag
 var DEVELOPMENT_MODE = false; // Set to false for production
