@@ -152,11 +152,12 @@ L.control.zoom({ position: 'topleft' }).addTo(map);
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {
     geoJsonLayer = L.geoJson(data, {
-    style: function (feature) {
-        return {
-            color: feature.properties.color,        };
-    }
-}).bindTooltip(function (layer) {
+        style: function (feature) {
+            return {
+                color: feature.properties.color
+            };
+        }
+    }).bindTooltip(function (layer) {
     // Set the current feature for the context to access
     currentFeature = layer.feature;
 
