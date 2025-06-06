@@ -1,12 +1,12 @@
 var rules = {
 
-    start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
+    // start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
     // Types of Disasters: rising sea levels, Gulf oil spills, hurricanes, storms, droughts, fires, floods
 
     byline: "<em>.date()</em><br><br>",
 
-    // start: "$byline $drought",
+    start: "$byline $fireGeneral",
 
     // Location-Specific Disasters
     florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
@@ -18,11 +18,22 @@ var rules = {
     gulfCoast: "$byline ($gulfOil | $gulfTide)",
 
     // Personal Reflections
-    personal: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
+
+    personal: "$personalCallous | $personalPathos",
+
+    personalPathos: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
     personalNews: "The (stories | reports) are (endless | never ending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
 
     personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You (message | text | DM) $person, wondering if $pronoun's (okay | safe | hanging in).",
+
+    personalCallous: "You see the map on your .device() but close it out. $personalDisavowal $personalPodcast",
+
+    personalDisavowal : "It doesn't affect you. | Somebody else's problem. | Not like it matters.",
+
+    personalPodcast: "You switch to a podcast. $personalPodcaster.nr() is interviewing $personalPodcaster.nr(). It's going to be (great | epic).",
+
+    personalPodcaster: "Joe Rogan | Ezra Klein | Lex Fridman | Curtis Yarvin | Jordan Petersen | Matt Walsh | Ben Shapiro | Richard Hanania | Barry Weiss | Andrew Huberman",
 
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
@@ -141,7 +152,7 @@ var rules = {
 
     // Fire
     fire: "$fireGeneral | $fireSpecific",
-    fireGeneral: "(The (city | country) is burning, (man [2] | dear Lord). There are $count of fires burning across $stateCount states. ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside .cityName() | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). ($fireCause | $fireJob [2])",
+    fireGeneral: "(The (city | country | world) is burning, (man [2] | dear Lord). There are $count of fires (burning across $stateCount states | closing in on .POI()). ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside .cityName() | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). ($fireCause | $fireJob [2])",
     fireCause: "What caused the fires? $fireCauses.nr()? $fireCauses.nr()? (Does it matter? | Who knows. | Who can tell.) It might as well have been (a meteor strike | a UFO laser beam | the divine hand of God).",
     fireCauses: "Lightning | A spark from a power line | A careless camper | A campfire | Arson | A dropped cigarette | The spark from a mower blade striking a rock | A controlled burn that wasn't so controlled",
     fireSpecific: "$fireHome $fireEnd | $fireNow | $fireRescue",

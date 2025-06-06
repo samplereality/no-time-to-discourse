@@ -20887,7 +20887,7 @@
         "name": "Los Angeles",
         "adm1name": "California",
         "note": 1,
-        "POI": "the Hollywood sign | Sunset Boulevard | the freeway overpass | Venice Beach | the Walk of Fame"
+        "POI": "the Hollywood sign | Sunset Boulevard | LACMA | the Getty | the Huntington | the La Brea Tar Pits | Venice Beach | the Walk of Fame"
       },
       "geometry": {
         "type": "Point",
