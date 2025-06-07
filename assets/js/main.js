@@ -129,7 +129,8 @@ L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/
 	subdomains: 'abcd',
 	minZoom: 4,
 	maxZoom: 16,
-	ext: 'jpg'
+	ext: 'jpg',
+    edgeBufferTiles: 2
 }).addTo(map);
 
 // Create custom hamburger control
