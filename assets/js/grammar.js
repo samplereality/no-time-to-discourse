@@ -1,12 +1,12 @@
 var rules = {
 
-    // start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
+    start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
     // Types of Disasters: rising sea levels, Gulf oil spills, hurricanes, storms, droughts, fires, floods
 
     byline: "<em>.date()</em><br><br>",
 
-    start: "$byline $fireGeneral",
+    // start: "$byline $mud",
 
     // Location-Specific Disasters
     florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
@@ -16,6 +16,8 @@ var rules = {
     eastCoast: "$byline ($hurricane [10] | $storm [10] | $drought [10] | $fire [10] | $personal)",
 
     gulfCoast: "$byline ($gulfOil | $gulfTide)",
+
+    california: "$byline ($fire | $drought | $mud)",
 
     // Personal Reflections
 
@@ -192,6 +194,21 @@ var rules = {
     floodResult: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (declared a state of emergency | are staging a photo op | are tweeting safety tips). | The flooding in .cityName() didn't even make the national news.",
 
     // Mudslides
+    mud: "$mudOpening $mudSurprise $mudResult",
+    
+    mudOpening: "The (rain was relentless | storm was biblical | atmospheric river was interminable | precipitation was unprecedented | downpour was torrential | rain came in sheets | storm systems were converging | weather was apocalyptic| deluge was relentless).",
+
+    mudSurprise: "By $mudTime $person thought the worst was over. .cityName() seemed almost peaceful. (Suddenly | All at once | Then out of nowhere | But without warning | In the blink of an eye), $mudSurpriseAction.",
+
+    mudTime: "nightfall | the next morning | evening | dawn | the next day",
+
+    mudSurpriseAction: "a (wall | torrent | cascade | river | surge | flood | wave) of mud came (rushing | barreling) down the (hill | road | street), like $mudMetaphor",
+
+    $mudMetaphor: "a runaway freight train | a tsunami of dirt | the bulldozer of God | a tidal wave of earth",
+
+    mudResult: "The mud (swept away | buried) (.POI() | $mudObjects.nr(), $mudObjects.nr(). (People | Children)).",
+
+    mudObjects: "cars | trucks | buildings | power lines | street lights | traffic lights | trees",
 
     // Heatwaves
     
