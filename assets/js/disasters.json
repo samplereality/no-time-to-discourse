@@ -806,7 +806,7 @@
       "properties": {
         "name": "Kennewick",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -822,7 +822,7 @@
       "properties": {
         "name": "Centralia",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -1174,7 +1174,7 @@
       "properties": {
         "name": "Springfield",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -1190,7 +1190,7 @@
       "properties": {
         "name": "Tillamook",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -1206,7 +1206,7 @@
       "properties": {
         "name": "Ontario",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -1222,7 +1222,7 @@
       "properties": {
         "name": "La Grande",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6550,7 +6550,7 @@
       "properties": {
         "name": "Richland",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6566,7 +6566,7 @@
       "properties": {
         "name": "Bellingham",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6582,7 +6582,7 @@
       "properties": {
         "name": "Longview",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6598,7 +6598,7 @@
       "properties": {
         "name": "Walla Walla",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6614,7 +6614,7 @@
       "properties": {
         "name": "Aberdeen",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6630,7 +6630,7 @@
       "properties": {
         "name": "Bremerton",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6646,7 +6646,7 @@
       "properties": {
         "name": "Everett",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7462,7 +7462,7 @@
       "properties": {
         "name": "Roseburg",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7478,7 +7478,7 @@
       "properties": {
         "name": "Pendleton",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7494,7 +7494,7 @@
       "properties": {
         "name": "John Day",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7510,7 +7510,7 @@
       "properties": {
         "name": "Grants Pass",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7526,7 +7526,7 @@
       "properties": {
         "name": "Corvallis",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7542,7 +7542,7 @@
       "properties": {
         "name": "Albany",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -7558,7 +7558,7 @@
       "properties": {
         "name": "Astoria",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -14502,7 +14502,7 @@
       "properties": {
         "name": "Tacoma",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -14646,7 +14646,7 @@
       "properties": {
         "name": "Medford",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -14662,7 +14662,7 @@
       "properties": {
         "name": "Klamath Falls",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15686,7 +15686,7 @@
       "properties": {
         "name": "Yakima",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15702,7 +15702,7 @@
       "properties": {
         "name": "Wenatchee",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15846,7 +15846,7 @@
       "properties": {
         "name": "Eugene",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15862,7 +15862,7 @@
       "properties": {
         "name": "Coos Bay",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15878,7 +15878,7 @@
       "properties": {
         "name": "Bend",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -18038,7 +18038,7 @@
       "properties": {
         "name": "Olympia",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -18054,7 +18054,7 @@
       "properties": {
         "name": "Spokane",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -18070,7 +18070,7 @@
       "properties": {
         "name": "Vancouver",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -18230,7 +18230,7 @@
       "properties": {
         "name": "Salem",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19446,7 +19446,7 @@
       "properties": {
         "name": "Portland",
         "adm1name": "Oregon",
-        "note": null,
+        "note": 1,
         "POI": "Powell's Books | the waterfront | Forest Park | the Pearl District | food trucks"
       },
       "geometry": {
@@ -20470,7 +20470,7 @@
       "properties": {
         "name": "Seattle",
         "adm1name": "Washington",
-        "note": null,
+        "note": 1,
         "POI": "Pike Place Market | the Space Needle | Elliott Bay | Capitol Hill | the ferry terminal"
       },
       "geometry": {

@@ -15,17 +15,17 @@ var rules = {
 
     eastCoast: "$byline ($hurricane [10] | $storm [10] | $drought [10] | $fire [10] | $personal)",
 
-    gulfCoast: "$byline ($gulfOil | $gulfTide)",
+    gulfCoast: "$byline ($gulfOil [10] | $gulfTide [10] | $personal)",
 
-    california: "$byline ($fire | $drought | $mud)",
+    westCoast: "$byline ($fire [10] | $drought [10] | $mud [10] | $personal)",
 
     // Personal Reflections
 
-    personal: "$personalCallous | $personalPathos",
+    personal: "<em>.time()</em><br><br>($personalCallous | $personalPathos)",
 
-    personalPathos: "<em>.time()</em><br><br>You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
+    personalPathos: "You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
-    personalNews: "The (stories | reports) are (endless | never ending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom.",
+    personalNews: "The (stories | reports) are (endless | never ending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom. | The fires are hundreds of miles away but you still smell smoke. | Outside the .timeOfDay() glows (a smokey | an eerie | a ghastly | a sickly) (ochre | yellow | sulfurous | bilious | crimson) haze.",
 
     personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You (message | text | DM) $person, wondering if $pronoun's (okay | safe | hanging in).",
 
@@ -191,7 +191,7 @@ var rules = {
     floodReflection: "$floodCharacter lost everything, (and no one knows how to help | everything | and $pronoun's not the only one). | (The problem is water, there's too much of it, | There's too much water and yet not enough water, | There's too much water,) (thinks | marvels | reflects) $floodCharacter. $pronoun.cap() (wasn't prepared | didn't think it would happen here | didn't think it would be this bad). | $floodCharacter boils $posPro water before (drinking | cooking | bathing). The storm didn't even have a name, $pronoun thinks.",
     floodBobs: "$object.art().cap() bobs in the (dark | ) water.",
     floodInjury: "dead | injured | left homeless | homeless | stranded",
-    floodResult: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (declared a state of emergency | are staging a photo op | are tweeting safety tips). | The flooding in .cityName() didn't even make the national news.",
+    floodResult: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (have yet to declare a state of emergency | are staging a photo op | are tweeting safety tips). | The flooding in .cityName() didn't even make the national news.",
 
     // Mudslides
     mud: "$mudOpening $mudSurprise $mudResult",

@@ -11,6 +11,7 @@ let context = {
     noun: () => RiTa.randomWord({ pos: "nn" }),
     date: () => makeDate(),
     time: () => makeTime(),
+    timeOfDay: () => makeTimeOfDay(),
     device: () => getDeviceType(),
     cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
     POI: () => {
@@ -53,6 +54,21 @@ function makeDate() {
 // Grab the current time
 function makeTime() {
     return dayjs().format('dddd, h:mm a');
+}
+
+// Determine time of day period
+function makeTimeOfDay() {
+    const hour = dayjs().hour();
+    
+    if (hour >= 5 && hour < 12) {
+        return 'morning';
+    } else if (hour >= 12 && hour < 17) {
+        return 'afternoon';
+    } else if (hour >= 17 && hour < 21) {
+        return 'evening';
+    } else {
+        return 'night';
+    }
 }
 
 // Determine phone or not
@@ -164,12 +180,15 @@ $.getJSON('assets/js/disasters.json', function(data) {
     let city = layer.feature.properties.name;
     let state = layer.feature.properties.adm1name;
     
-    if (layer.feature.properties.note === 2) {
+    if (layer.feature.properties.note === 1) {
+        rule = "westCoast";
+        } else if (layer.feature.properties.note === 2) {
         rule = "orlando";
         console.log("I'm going to Disney World!");
         } else if (layer.feature.properties.note === 3) {
         rule = "florida";
-        } else if (layer.feature.properties.note === 4) {
+        }
+        else if (layer.feature.properties.note === 4) {
         rule = "eastCoast";
         }
         else if (layer.feature.properties.note === 5) {
