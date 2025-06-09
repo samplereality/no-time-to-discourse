@@ -7,7 +7,7 @@
         "name": "Jeremie",
         "adm1name": "Grand'Anse",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Cathedral of Jeremie | Place d'Armes | Jeremie Market"
       },
       "geometry": {
         "type": "Point",
@@ -23,7 +23,7 @@
         "name": "Port-De-Paix",
         "adm1name": "Nord-Ouest",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fort de la Boucan | the cathedral | the central market"
       },
       "geometry": {
         "type": "Point",
@@ -39,7 +39,7 @@
         "name": "Hinche",
         "adm1name": "Centre",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +55,7 @@
         "name": "Fort-Liberte",
         "adm1name": "Nord-Est",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the ruins of Fort Dauphin | the harbor area | the central plaza | the lighthouse"
       },
       "geometry": {
         "type": "Point",
@@ -71,7 +71,7 @@
         "name": "Jacmel",
         "adm1name": "Sud-Est",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cathedral | the carnival grounds | the market | Jacmel Beach"
       },
       "geometry": {
         "type": "Point",
@@ -87,7 +87,7 @@
         "name": "Lucea",
         "adm1name": "Hanover",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the clock tower | the ruins of Fort Charlotte | the parish church | the town square | the historic courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +103,7 @@
         "name": "Mandeville",
         "adm1name": "Manchester",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Mandeville courthouse | the Manchester Golf Club | Cecil Charlton Park | Marshall's Pen Great House"
       },
       "geometry": {
         "type": "Point",
@@ -119,7 +119,7 @@
         "name": "Black River",
         "adm1name": "Saint Elizabeth",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "YS Falls | Appleton Estate | the historic courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +135,7 @@
         "name": "Falmouth",
         "adm1name": "Trelawny",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cruise ship pier | the Jewish Cemetery | Baptist Manse"
       },
       "geometry": {
         "type": "Point",
@@ -151,7 +151,7 @@
         "name": "Savanna-la-Mar",
         "adm1name": "Westmoreland",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the courthouse | the parish church | the coastal area"
       },
       "geometry": {
         "type": "Point",
