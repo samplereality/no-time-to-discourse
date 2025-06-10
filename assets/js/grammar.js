@@ -1,6 +1,6 @@
 var rules = {
 
-    // start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
+    // start: "$byline ($fire | $drought | $flood | $storm) [8] | $personal",
 
     // Types of Disasters: rising sea levels, Gulf oil spills, hurricanes, storms, droughts, fires, floods
 
@@ -9,25 +9,25 @@ var rules = {
     start: "$byline $heat",
 
     // Location-Specific Disasters
-    florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
+    florida: "$byline ($seaLevel | $hurricane) [8] | $personal",
 
     orlando: "$byline $floridaVacation $floridaAmusement",
 
-    eastCoast: "$byline ($hurricane [10] | $storm [10] | $drought [10] | $fire [10] | $personal)",
+    eastCoast: "$byline ($hurricane | $storm | $drought | $fire) [8] | $personal",
 
-    gulfCoast: "$byline ($gulfOil [10] | $gulfTide [10] | $personal)",
+    gulfCoast: "$byline ($gulfOil | $gulfTide) [8] | $personal",
 
-    westCoast: "$byline ($fire [10] | $drought [10] | $mud [10] | $personal)",
+    westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
 
     // Personal Reflections
 
-    personal: "<em>.time(): </em>($personalCallous | $personalPathos)",
+    personal: "<em>.time()</em><br><br>($personalCallous | $personalPathos)",
 
     personalPathos: "You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
     personalNews: "The (stories | reports) are (endless | never ending | relentless). | Doomscrolling, to (prolong | bring on | forget) the doom. | The fires are hundreds of miles away but you still smell smoke. | Outside the .timeOfDay() glows (a smokey | an eerie | a ghastly | a sickly) (ochre | yellow | sulfurous | bilious | crimson) haze.",
 
-    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You (message | text | DM) $person, wondering if $pronoun's (okay | safe | hanging in).",
+    personalReflection: "You think of (a pale rider on a pale horse | the (third | fourth) seal). | (What are you going to do? | What can you do? | What's the point? | Is there any hope?) | You (message | text | DM) $person, wondering if $pronoun's (okay | safe | hanging in). | There's no call to action on the map. (But | Why) (should | do) you need one?",
 
     personalCallous: "You see the map on your .device() but close it out. $personalDisavowal $personalPodcast",
 
@@ -213,7 +213,9 @@ var rules = {
 
     // Heat
 
-    heat: "$heatDetail",
+    heat: "$heatComment $heatDetail",
+
+    heatComment: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat.",
 
     $heatDetail: "$heatMelt | $heatBurn", 
     
