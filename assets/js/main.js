@@ -2,6 +2,7 @@
 
 let geoJsonLayer; // store globally or in a higher scope
 let currentFeature; // Store the current feature being processed
+let currentMonth; // Store the month from makeDate() for grammar access
 
 
 // Load RiTa
@@ -14,6 +15,7 @@ let context = {
     timeOfDay: () => makeTimeOfDay(),
     device: () => getDeviceType(),
     cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
+    month: () => currentMonth,
     POI: () => {
         if (!currentFeature) return '';
         
@@ -48,7 +50,10 @@ function makeDate() {
     // Generate a random number between minDays and maxDays
     const randomDaysToAdd = Math.floor(Math.random() * (maxDays - minDays + 1)) + minDays;
 
-    return dayjs().add(randomDaysToAdd, 'day').format('dddd, MMMM D, YYYY');
+    const futureDate = dayjs().add(randomDaysToAdd, 'day');
+    currentMonth = futureDate.format('MMMM'); // Store the month name for grammar access
+    
+    return futureDate.format('dddd, MMMM D, YYYY');
 }
 
 // Grab the current time

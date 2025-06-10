@@ -1,12 +1,12 @@
 var rules = {
 
-    start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
+    // start: "$byline ($fire | $drought | $flood | $storm) [10] | $personal",
 
     // Types of Disasters: rising sea levels, Gulf oil spills, hurricanes, storms, droughts, fires, floods
 
     byline: "<em>.date()</em><br><br>",
 
-    // start: "$byline $mud",
+    start: "$byline $heat",
 
     // Location-Specific Disasters
     florida: "$byline ($seaLevel [10] | $hurricane [10] | $personal)",
@@ -21,7 +21,7 @@ var rules = {
 
     // Personal Reflections
 
-    personal: "<em>.time()</em><br><br>($personalCallous | $personalPathos)",
+    personal: "<em>.time(): </em>($personalCallous | $personalPathos)",
 
     personalPathos: "You stare (in a daze | numbly | dumbly | ) at the screen, your (sallow | wan | ashen) face (awash in blue light | reflected in the harsh light) of your .device(). $personalNews $personalReflection",
 
@@ -36,6 +36,7 @@ var rules = {
     personalPodcast: "You switch to a podcast. $personalPodcaster.nr() is interviewing $personalPodcaster.nr(). It's going to be (great | epic).",
 
     personalPodcaster: "Joe Rogan | Ezra Klein | Lex Fridman | Curtis Yarvin | Jordan Petersen | Matt Walsh | Ben Shapiro | Richard Hanania | Barry Weiss | Andrew Huberman",
+    
 
     // Months
     month: "January | February | March | April | May | June | July | August | September | October | November | December",
@@ -138,10 +139,10 @@ var rules = {
     // // Drought
     drought: "$droughtStart $droughtUncovered $droughtMiddle $droughtEnd",
     droughtStart: "$droughtLand.cap(), and $droughtWater. | $droughtWater.cap(), and $droughtLand.",
-    droughtMiddle: "$droughtAction $droughtThought $droughtTime | $droughtTime $droughtAction $droughtThought",
+    droughtMiddle: "$droughtAction $droughtThought $droughtTime | $droughtThought $droughtTime $droughtAction",
     droughtEnd: "$droughtMeditation | $droughtThroat | $droughtWords | $droughtIrony",
     droughtLand: "the (soil | land) is (cracked | parched | dust) | the earth (withers | is dying | lies barren)( |, wicked and brown | &nbsp;in mute desolation | , shrouded in silence ) | a (brown | thick | foul) layer of (dust | sand | dirt) (covers | coats) .POI() | .cityName() is dying",
-    droughtWater: "the (streams | rivers | riverbeds | lakes ) are (low | dry | empty | a soggy muck) | the (wells | reservoirs | aquifers) run (dry | empty | low) | the fire department had to truck in water to fill their own tanks",
+    droughtWater: "the (streams | rivers | riverbeds | lakes ) are (low | dry | empty | a soggy muck) | the (wells | reservoirs | aquifers) run (dry | empty | low) | the fire department had to truck in water to fill their tanks",
     droughtUncovered: "(weathered docks | gnarled roots | (once sunken | the remains of | rusted hulls of) boats | (ancient | desiccated |) bones | tangles of trash | (dying |) fish).cap() (lie | bake | cook | roast | broil) ( | bare | uncovered) in the ( | scorching) sun.",
     droughtAction: "The (fields | livestock | crops | towns | suburbs | trees | plants) are (dead | dying | decimated | barely holding on).",
     droughtIrony: "But the golf course is green. | A billionaire flies overhead, his jet trailing a cloud of white in the sky. | Private jets crisscross the drought-stricken sky, ferrying climate summit attendees. | Tech executives tweet about water conservation from their rooftop infinity pools. | The data center's cooling systems run 24/7, (keeping the cloud alive | mining crypto | training AI).",
@@ -202,15 +203,23 @@ var rules = {
 
     mudTime: "nightfall | the next morning | evening | dawn | the next day",
 
-    mudSurpriseAction: "a (wall | torrent | cascade | river | surge | flood | wave) of mud came (rushing | barreling) down the (hill | road | street), like $mudMetaphor",
+    mudSurpriseAction: "a (wall | torrent | cascade | river | surge | flood | wave) of mud came (rushing | barreling) down the (hill | road | street), $mudMetaphor",
 
-    $mudMetaphor: "a runaway freight train | a tsunami of dirt | the bulldozer of God | a tidal wave of earth",
+    $mudMetaphor: "like a runaway freight train | a tsunami of dirt | like the bulldozer of God | a tidal wave of earth, unstoppable and unyielding",
 
     mudResult: "The mud (swept away | buried) (.POI() | $mudObjects.nr(), $mudObjects.nr(). (People | Children)).",
 
     mudObjects: "cars | trucks | buildings | power lines | street lights | traffic lights | trees",
 
-    // Heatwaves
+    // Heat
+
+    heat: "$heatDetail",
+
+    $heatDetail: "$heatMelt | $heatBurn", 
+    
+    heatMelt: "The (runway | sidewalk | tarmac | asphalt | street) melts in the .month() heat.",
+
+    heatBurn: "$person sustains (first | second | third) degree burns just walking to $posPro car.",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 
