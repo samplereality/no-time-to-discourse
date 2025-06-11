@@ -9,6 +9,7 @@ let currentMonth; // Store the month from makeDate() for grammar access
 let context = {
     silent: () => '',
     pluralNoun: () => RiTa.randomWord({ pos: "nns" }),
+    adjective: () => RiTa.randomWord({pos: 'jj'}),
     noun: () => RiTa.randomWord({ pos: "nn" }),
     date: () => makeDate(),
     time: () => makeTime(),

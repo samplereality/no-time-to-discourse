@@ -205,7 +205,7 @@ var rules = {
 
     mudSurpriseAction: "a (wall | torrent | cascade | river | surge | flood | wave) of mud came (rushing | barreling) down the (hill | road | street), $mudMetaphor",
 
-    $mudMetaphor: "like a runaway freight train | a tsunami of dirt | like the bulldozer of God | a tidal wave of earth, unstoppable and unyielding",
+    $mudMetaphor: "faster than a runaway freight train | a tsunami of dirt | like the bulldozer of God | a tidal wave of earth, unstoppable and unyielding",
 
     mudResult: "The mud (swept away | buried) (.POI() | $mudObjects.nr(), $mudObjects.nr(). (People | Children)).",
 
@@ -219,11 +219,13 @@ var rules = {
 
     $heatDetail: "$heatMelt | $heatBurn", 
     
-    heatMelt: "The (runway | road | tarmac | asphalt | street) (buckles | bubbles | bleeds) in the .month() heat. | $person blows out $posPro tire on $posPro way (home from work | to work). The (tire | rubber) is a (soft | liquefied) gooey mess. | The road to .POI() is jammed with abandoned cars, shimmering in the heat. | The paint on the sign leading to .POI() (peels | blisters | bubbles | cracks) in the (infernal | searing | torrid) heat. | The train track near .cityName() buckles, a sun kink it's called, (and all rail travel ceases for the (day | week) | derailing a freight train carrying $heatFreight.nr() and $heatFreight.nr()).",
+    heatMelt: "The (runway | road | tarmac | asphalt | street) (buckles | bubbles | bleeds) in the .month() heat. | $person blows out $posPro tire on $posPro way (home from work | to work). The (tire | rubber) is a (soft | liquefied) gooey mess. | The road to .POI() is jammed with abandoned cars, shimmering in the heat. | The paint on the sign leading to .POI() (peels | blisters | bubbles | cracks) in the (infernal | searing | torrid) heat. | The tracks near .cityName() buckle, a sun kink it's called, (and all rail travel stops for the (day | week) | derailing a freight train carrying $heatFreight.nr() and $heatFreight.nr()).",
 
     heatFreight: "coal | crude | natural gas | rolled steel | aluminum | copper | iron | lumber | new automobiles | corn | soybeans | wheat | ammonia | chlorine | methanol | ethanol | ethylene | sulfuric acid",
 
-    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car.",
+    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car. | The .month() heat hit $person hard and fast, $heatStroke.nr(), $heatStroke.nr(). Nonsense thoughts drift through $posPro head. <em>.adjective().cap() .pluralNoun(). .adjective().cap() .pluralNoun(). </em> | The heat makes $person crazy, $pronoun can't even say why. But $pronoun feels like (screaming | yelling | punching someone).",
+
+    heatStroke: "a swooning | a dizziness | disorientation | a headache | confusion | seizures | fatigue",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 
