@@ -215,13 +215,13 @@ var rules = {
 
     heat: "$heatComment $heatDetail",
 
-    heatComment: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat.",
+    heatComment: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat. | <q>You could fry an egg on the sidewalk,</q> they say. No. Not when the sidewalk itself is melting. | <q>It's like a sauna out there,</q> they say. Yeah, a sauna in hell. | <q>It's a scorcher today,</q> they say. Today? You mean this year. | <q>It’s hotter than Hades,</q> they say. No. It <em>is</em> Hades. | <q>It's an oven out there,</q> they say. Yeah, and we're the meal.",
 
     $heatDetail: "$heatMelt | $heatBurn", 
     
-    heatMelt: "The (runway | sidewalk | tarmac | asphalt | street) melts in the .month() heat.",
+    heatMelt: "The (runway | sidewalk | tarmac | asphalt | street) buckles in the .month() heat. | $person blows out $posPro tire on $posPro way (home from work | to work). The rubber is a soft gooey mess.",
 
-    heatBurn: "$person sustains (first | second | third) degree burns just walking to $posPro car.",
+    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car.",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 
