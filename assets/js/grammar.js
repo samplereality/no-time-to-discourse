@@ -155,7 +155,7 @@ var rules = {
 
     // Fire
     fire: "$fireGeneral | $fireSpecific",
-    fireGeneral: "(The (city | country | world) is burning, (man [2] | dear Lord). There are $count of fires (burning across $stateCount states | closing in on .POI()). ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside .cityName() | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | now | completely) destroyed | gone). ($fireCause | $fireJob [2])",
+    fireGeneral: "(The (city | country | world) is burning, (man [2] | dear Lord). There are $count of fires (burning across $stateCount states | closing in on .POI()). ($fireCause | $fireJob)) | Wildfires (rage | burn | smolder) (outside .cityName() | across the countryside | along the interstate | in the hills). (Thousands | Tens of thousands | Hundreds of thousands) of acres are ((already | utterly | completely) destroyed | gone). ($fireCause | $fireJob [2])",
     fireCause: "What caused the fires? $fireCauses.nr()? $fireCauses.nr()? (Does it matter? | Who knows. | Who can tell.) It might as well have been (a meteor strike | a UFO laser beam | the divine hand of God).",
     fireCauses: "Lightning | A spark from a power line | A careless camper | A campfire | Arson | A dropped cigarette | The spark from a mower blade striking a rock | A controlled burn that wasn't so controlled",
     fireSpecific: "$fireHome $fireEnd | $fireNow | $fireRescue",
@@ -213,13 +213,15 @@ var rules = {
 
     // Heat
 
-    heat: "$heatComment $heatDetail",
+    heat: "$heatCliche $heatDetail",
 
-    heatComment: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat. | <q>You could fry an egg on the sidewalk,</q> they say. No. Not when the sidewalk itself is melting. | <q>It's like a sauna out there,</q> they say. Yeah, a sauna in hell. | <q>It's a scorcher today,</q> they say. Today? You mean this year. | <q>It’s hotter than Hades,</q> they say. No. It <em>is</em> Hades. | <q>It's an oven out there,</q> they say. Yeah, and we're the meal.",
+    heatCliche: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat. | <q>You could fry an egg on the sidewalk,</q> they say. No. Not when the sidewalk itself is melting. | <q>It's like a sauna out there,</q> they say. Yeah, a sauna in hell. | <q>It's a scorcher today,</q> they say. Today? You mean this year. | <q>It’s hotter than Hades,</q> they say. No. It <em>is</em> Hades. | <q>It's an oven out there,</q> they say. Yeah, and we're the meal.",
 
     $heatDetail: "$heatMelt | $heatBurn", 
     
-    heatMelt: "The (runway | sidewalk | tarmac | asphalt | street) buckles in the .month() heat. | $person blows out $posPro tire on $posPro way (home from work | to work). The rubber is a soft gooey mess.",
+    heatMelt: "The (runway | road | tarmac | asphalt | street) (buckles | bubbles | bleeds) in the .month() heat. | $person blows out $posPro tire on $posPro way (home from work | to work). The (tire | rubber) is a (soft | liquefied) gooey mess. | The road to .POI() is jammed with abandoned cars, shimmering in the heat. | The paint on the sign leading to .POI() (peels | blisters | bubbles | cracks) in the (infernal | searing | torrid) heat. | The train track near .cityName() buckles, a sun kink it's called, (and all rail travel ceases for the (day | week) | derailing a freight train carrying $heatFreight.nr() and $heatFreight.nr()).",
+
+    heatFreight: "coal | crude | natural gas | rolled steel | aluminum | copper | iron | lumber | new automobiles | corn | soybeans | wheat | ammonia | chlorine | methanol | ethanol | ethylene | sulfuric acid",
 
     heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car.",
     

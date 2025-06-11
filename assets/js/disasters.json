@@ -20487,7 +20487,7 @@
         "name": "Phoenix",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "Camelback Mountain | the desert preserve | Sky Harbor Airport | Chase Field | Papago Park"
+        "POI": "Camelback Mountain | Sky Harbor | Chase Field | Papago Park"
       },
       "geometry": {
         "type": "Point",
