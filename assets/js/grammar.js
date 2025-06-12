@@ -151,7 +151,7 @@ var rules = {
     droughtMeditation: "$pronoun.cap() (stands there (in a daze | in a trance | as in a dream | in a haze | in a fog | in disbelief) | can't take much more of this | looks up to the sky and (prays | weeps | wonders what's next)).",
     droughtTime: "It's been ($pronoun doesn't even know how many | seven | eight | nine | ten | eleven) months since rain. | It hasn't rained in (weeks and weeks | months | what feels like years).",
     droughtThroat: "(Dust | Smoke | Ash) (blows | swirls | gusts | dances) in the (air | wind | breeze), (stinging $posPro eyes | clogging $posPro throat | gritty on $posPro skin).",
-    droughtWords: "Meaningless words tumble around in $posPro head. .noun().cap(), .pluralNoun(). .noun().cap().",
+    droughtWords: "Meaningless words tumble around in $posPro head. <em>.noun().cap(), .pluralNoun(). .noun().cap()</em>.",
 
     // Fire
     fire: "$fireGeneral | $fireSpecific",
@@ -223,9 +223,11 @@ var rules = {
 
     heatFreight: "coal | crude | natural gas | rolled steel | aluminum | copper | iron | lumber | new automobiles | corn | soybeans | wheat | ammonia | chlorine | methanol | ethanol | ethylene | sulfuric acid",
 
-    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car. | The .month() heat hit $person hard and fast, $heatStroke.nr(), $heatStroke.nr(). Nonsense thoughts drift through $posPro head. <em>.adjective().cap() .pluralNoun(). .adjective().cap() .pluralNoun(). </em> | The heat makes $person crazy, $pronoun can't even say why. But $pronoun feels like (screaming | yelling | punching someone).",
+    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car. | The .month() heat hits $person fast and hard. $heatStroke.nr().cap(), $heatStroke.nr(). Nonsense thoughts drift through $posPro head. <em>$heatStrokeAd.nr(), $heatStrokeAd.nr(), .adjective().cap() .pluralNoun().cap().</em> | The heat makes $person crazy, $pronoun can't even say why. But $pronoun feels like (screaming | yelling | punching someone).",
 
-    heatStroke: "a swooning | a dizziness | disorientation | a headache | confusion | seizures | fatigue",
+    heatStroke: "swooning | dizziness | disorientation | brain fog | confusion | seizures | fatigue",
+
+    heatStrokeAd: "Chase Visa | Google Nest | Toyota Celica | Ford Mustang | Ikea Poäng | Instant Pot | Patagonia Nano Puff | Levi's 501 | Big Mac | LaCroix | Yeti Tumbler | Red Bull | Williams Sonoma | Crate & Barrel | Whole Foods | Pure Barre | Neiman Marcus | Harry & David | Goldman Sachs | ExxonMobil | ConocoPhillips | Novo Nordisk | Bristol Myers Squibb | Georgia-Pacific | Archer Daniel Midlands",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 
