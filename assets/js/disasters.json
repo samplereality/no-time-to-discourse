@@ -519,7 +519,7 @@
         "name": "San Cristobal",
         "adm1name": "San Cristóbal",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "San Cristóbal cathedral | the jail | the city center"
       },
       "geometry": {
         "type": "Point",
@@ -535,11 +535,11 @@
         "name": "El Seibo",
         "adm1name": "El Seybo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the jail | the old depot | the historic district"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
+        "coordinates": [  
           -69.03500346065482,
           18.764001136217246
         ]
@@ -551,7 +551,7 @@
         "name": "Higuey",
         "adm1name": "La Altagracia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Basílica de la Altagracia"
       },
       "geometry": {
         "type": "Point",
@@ -567,7 +567,7 @@
         "name": "Onverwacht",
         "adm1name": "Para",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the central square | the old depot | the market"
       },
       "geometry": {
         "type": "Point",
@@ -583,7 +583,7 @@
         "name": "Groningen",
         "adm1name": "Saramacca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Central square | the old depot | Town hall | Market area | Historic district"
       },
       "geometry": {
         "type": "Point",
@@ -599,7 +599,7 @@
         "name": "Faribault",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Faribault Woolen Mill | the Cathedral of Our Merciful Saviour | the Rice County Courthouse | Central Lakes College | Shattuck-St. Mary's School"
       },
       "geometry": {
         "type": "Point",
@@ -615,7 +615,7 @@
         "name": "Mankato",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Minnesota State University Mankato | the Blue Earth County courthouse | Sibley Park | Reconciliation Park"
       },
       "geometry": {
         "type": "Point",
@@ -631,7 +631,7 @@
         "name": "Albert Lea",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Freeborn County Museum | the jail | Myre-Big Island State Park | the Freeborn County courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -647,7 +647,7 @@
         "name": "Willmar",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Kandiyohi County Museum | the Willmar Conference Center | Robbins Island Park | the West Central Tribune building"
       },
       "geometry": {
         "type": "Point",
@@ -663,7 +663,7 @@
         "name": "Brainerd",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Paul Bunyan State Trail | the Crow Wing County courthouse | the Safari North Wildlife Park | Lumbertown USA"
       },
       "geometry": {
         "type": "Point",
@@ -679,7 +679,7 @@
         "name": "Crookston",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Minnesota Crookston | the Polk County Museum | the jail | the old courthouse | the Red Lake Valley Fair Grounds"
       },
       "geometry": {
         "type": "Point",

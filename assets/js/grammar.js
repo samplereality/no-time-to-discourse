@@ -6,7 +6,7 @@ var rules = {
 
     byline: "<em>.date()</em><br><br>",
 
-    // start: "$byline $heat",
+    // start: "$byline $ice",
 
     // Location-Specific Disasters
     florida: "$byline ($seaLevel | $hurricane) [8] | $personal",
@@ -18,6 +18,8 @@ var rules = {
     gulfCoast: "$byline ($gulfOil | $gulfTide | $hurricane | $heat) [8] | $personal",
 
     westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
+
+    farNorth: "$byline ($ice) [8] | $personal",
 
     // Personal Reflections
 
@@ -232,6 +234,12 @@ var rules = {
     heatStroke: "swooning | dizziness | disorientation | brain fog | confusion | seizures | fatigue",
 
     heatStrokeAd: "Chase Visa | Google Nest | Toyota Celica | Ford Mustang | Ikea Poäng | Instant Pot | Patagonia Nano Puff | Levi's 501 | Big Mac and fries | LaCroix | Yeti Tumbler | Red Bull | Williams Sonoma | Crate & Barrel | Whole Foods | Pure Barre | Neiman Marcus | Harry & David | Goldman Sachs | ExxonMobil | ConocoPhillips | Novo Nordisk | Bristol Myers Squibb | Georgia-Pacific | Archer Daniel Midlands",
+
+    // The far North
+
+    ice: "$icePermafrost",
+
+    icePermafrost: "The permafrost was neither permanent nor frost any longer.",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 
