@@ -1,12 +1,12 @@
 var rules = {
 
-    // start: "$byline ($fire | $drought | $flood | $storm) [8] | $personal",
+    start: "$byline ($fire | $drought | $flood | $storm | $heat) [8] | $personal",
 
     // Types of Disasters: rising sea levels, Gulf oil spills, hurricanes, storms, droughts, fires, floods
 
     byline: "<em>.date()</em><br><br>",
 
-    start: "$byline $heat",
+    // start: "$byline $heat",
 
     // Location-Specific Disasters
     florida: "$byline ($seaLevel | $hurricane) [8] | $personal",
@@ -15,7 +15,7 @@ var rules = {
 
     eastCoast: "$byline ($hurricane | $storm | $drought | $fire) [8] | $personal",
 
-    gulfCoast: "$byline ($gulfOil | $gulfTide) [8] | $personal",
+    gulfCoast: "$byline ($gulfOil | $gulfTide | $hurricane | $heat) [8] | $personal",
 
     westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
 
@@ -215,19 +215,23 @@ var rules = {
 
     heat: "$heatCliche $heatDetail",
 
-    heatCliche: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat. | <q>You could fry an egg on the sidewalk,</q> they say. No. Not when the sidewalk itself is melting. | <q>It's like a sauna out there,</q> they say. Yeah, a sauna in hell. | <q>It's a scorcher today,</q> they say. Today? You mean this year. | <q>It’s hotter than Hades,</q> they say. No. It <em>is</em> Hades. | <q>It's an oven out there,</q> they say. Yeah, and we're the meal.",
+    heatCliche: "<q>It's not the heat,</q> they say, <q>it's the humidity.</q> No. It's the heat. | <q>You could fry an egg on the sidewalk,</q> they say. No. Not when the sidewalk itself is melting. | <q>It's a sauna out there,</q> they say. Yeah, a sauna in hell. | <q>It's a scorcher today,</q> they say. Today? You mean this year. | <q>It’s hotter than Hades,</q> they say. They're right. Hades is the devil's icebox compared to this. | <q>It's an oven out there,</q> they say. Yeah, and we're the meal.",
 
-    $heatDetail: "$heatMelt | $heatBurn", 
+    $heatDetail: "$heatMelt $heatSounds | $heatBurn", 
     
     heatMelt: "The (runway | road | tarmac | asphalt | street) (buckles | bubbles | bleeds) in the .month() heat. | $person blows out $posPro tire on $posPro way (home from work | to work). The (tire | rubber) is a (soft | liquefied) gooey mess. | The road to .POI() is jammed with abandoned cars, shimmering in the heat. | The paint on the sign leading to .POI() (peels | blisters | bubbles | cracks) in the (infernal | searing | torrid) heat. | The tracks near .cityName() buckle, a sun kink it's called, (and all rail travel stops for the (day | week) | derailing a freight train carrying $heatFreight.nr() and $heatFreight.nr()).",
 
+    heatSounds: "The power lines (crackle | hum | vibrate) with (dark magic | numinous energy | American dread). | The ambient sound of ten thousand (HVACs | air conditioners) washes over the land. | Not a single bird flies in the silent sky.",
+
     heatFreight: "coal | crude | natural gas | rolled steel | aluminum | copper | iron | lumber | new automobiles | corn | soybeans | wheat | ammonia | chlorine | methanol | ethanol | ethylene | sulfuric acid",
 
-    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car. | The .month() heat hits $person fast and hard. $heatStroke.nr().cap(), $heatStroke.nr(). Nonsense thoughts drift through $posPro head. <em>$heatStrokeAd.nr(), $heatStrokeAd.nr(), .adjective().cap() .pluralNoun().cap().</em> | The heat makes $person crazy, $pronoun can't even say why. But $pronoun feels like (screaming | yelling | punching someone).",
+    heatBurn: "$person got (first | second | third) degree burns just walking to $posPro car. $heatER | The .month() heat hits $person fast and hard. $heatStroke.nr().cap(), $heatStroke.nr(). Nonsense thoughts drift through $posPro head. <em>$heatStrokeAd.nr(), $heatStrokeAd.nr(), .adjective().cap() .pluralNoun().cap().</em> | The heat makes $person crazy, $pronoun can't even say why. But $pronoun feels like (screaming | yelling | punching (something | someone)). | Paramedics zipped $person inside a body bag stuffed with ice, trying to lower $posPro body temperature.",
+
+    heatER: "Urgent Care was (backed up for hours | closed). | The (sores | blisters) on $posPro (feet | hands | face | arms) would eventually heal into baroque knotted scars.",
 
     heatStroke: "swooning | dizziness | disorientation | brain fog | confusion | seizures | fatigue",
 
-    heatStrokeAd: "Chase Visa | Google Nest | Toyota Celica | Ford Mustang | Ikea Poäng | Instant Pot | Patagonia Nano Puff | Levi's 501 | Big Mac | LaCroix | Yeti Tumbler | Red Bull | Williams Sonoma | Crate & Barrel | Whole Foods | Pure Barre | Neiman Marcus | Harry & David | Goldman Sachs | ExxonMobil | ConocoPhillips | Novo Nordisk | Bristol Myers Squibb | Georgia-Pacific | Archer Daniel Midlands",
+    heatStrokeAd: "Chase Visa | Google Nest | Toyota Celica | Ford Mustang | Ikea Poäng | Instant Pot | Patagonia Nano Puff | Levi's 501 | Big Mac and fries | LaCroix | Yeti Tumbler | Red Bull | Williams Sonoma | Crate & Barrel | Whole Foods | Pure Barre | Neiman Marcus | Harry & David | Goldman Sachs | ExxonMobil | ConocoPhillips | Novo Nordisk | Bristol Myers Squibb | Georgia-Pacific | Archer Daniel Midlands",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 

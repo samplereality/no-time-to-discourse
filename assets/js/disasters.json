@@ -167,7 +167,7 @@
         "name": "Port Antonio",
         "adm1name": "Portland",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Blue Lagoon | Frenchman's Cove | Bonnie View Hotel | Navy Island | Titchfield Peninsula"
       },
       "geometry": {
         "type": "Point",
@@ -183,7 +183,7 @@
         "name": "St. Ann's Bay",
         "adm1name": "Saint Ann",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Seville Great House | Columbus Park | St. Ann's Bay Parish Church | Marcus Garvey's birthplace | Discovery Bay"
       },
       "geometry": {
         "type": "Point",
@@ -199,7 +199,7 @@
         "name": "Port Maria",
         "adm1name": "Saint Mary",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fort Haldane | Tacky Monument | the parish church | the courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -215,7 +215,7 @@
         "name": "Half Way Tree",
         "adm1name": "Saint Andrew",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the clock tower | the parish church | Emancipation Park"
       },
       "geometry": {
         "type": "Point",
@@ -231,7 +231,7 @@
         "name": "Port Morant",
         "adm1name": "Saint Thomas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the courthouse | the Paul Bogle Monument | the harbor area"
       },
       "geometry": {
         "type": "Point",
@@ -247,7 +247,7 @@
         "name": "Sabaneta",
         "adm1name": "Santiago Rodríguez",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the primary school | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +263,7 @@
         "name": "Mao",
         "adm1name": "Valverde",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the cathedral | the primary school | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -279,7 +279,7 @@
         "name": "Cotui",
         "adm1name": "Sánchez Ramírez",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Cotui Cathedral | the jail | Hato Viejo ruins"
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +295,7 @@
         "name": "Puerto Plata",
         "adm1name": "Puerto Plata",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fortaleza San Felipe | the cable car to Mount Isabel de Torres | the Amber Museum | the Malecón waterfront"
       },
       "geometry": {
         "type": "Point",
@@ -311,7 +311,7 @@
         "name": "Dajabon",
         "adm1name": "Dajabón",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Dajabon Market | the border crossing | the jail | the old depot"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +327,7 @@
         "name": "Moca",
         "adm1name": "Espaillat",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old cathedral | the coffee plantation | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -343,7 +343,7 @@
         "name": "Salcedo",
         "adm1name": "Hermanas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the jail | the parish church | the town hall | the market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -359,7 +359,7 @@
         "name": "Jimani",
         "adm1name": "Independencia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the border crossing | the parish church | the town hall | the market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -375,7 +375,7 @@
         "name": "Comendador",
         "adm1name": "Elias Pina",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the border crossing | the parish church | the town hall | the market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -391,7 +391,7 @@
         "name": "Pedernales",
         "adm1name": "Pedernales",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the border crossing | the parish church | the town hall | the market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -407,7 +407,7 @@
         "name": "Azua",
         "adm1name": "Azua",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the border crossing | the cathedral | the town hall | the market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +423,7 @@
         "name": "Bonao",
         "adm1name": "Monseñor Nouel",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cathedral | the jail | town hall | the local market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +439,7 @@
         "name": "Bani",
         "adm1name": "Peravia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cathedral | the jail | town hall | the local market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -455,7 +455,7 @@
         "name": "Hato Mayor",
         "adm1name": "Hato Mayor",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cathedral | the jail | town hall | the local market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -471,7 +471,7 @@
         "name": "Monte Plata",
         "adm1name": "Monte Plata",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cathedral | the jail | town hall | the local market | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -487,7 +487,7 @@
         "name": "Nagua",
         "adm1name": "María Trinidad Sánchez",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the cathedral | the jail | town hall | the harbor | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -503,7 +503,7 @@
         "name": "Samana",
         "adm1name": "Samaná",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Samaná Bay | the jail | the old depot | the town hall | the historic district"
       },
       "geometry": {
         "type": "Point",
@@ -3702,7 +3702,7 @@
       "properties": {
         "name": "Sand Point",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3718,7 +3718,7 @@
       "properties": {
         "name": "Hydaburg",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3734,7 +3734,7 @@
       "properties": {
         "name": "Mekoryuk",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3750,7 +3750,7 @@
       "properties": {
         "name": "Atqasuk",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3766,7 +3766,7 @@
       "properties": {
         "name": "Port Heiden",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3782,7 +3782,7 @@
       "properties": {
         "name": "Perryville",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3798,7 +3798,7 @@
       "properties": {
         "name": "Dillingham",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3814,7 +3814,7 @@
       "properties": {
         "name": "Goodnews Bay",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3830,7 +3830,7 @@
       "properties": {
         "name": "Nyac",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3846,7 +3846,7 @@
       "properties": {
         "name": "Tununak",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3862,7 +3862,7 @@
       "properties": {
         "name": "Mountain Village",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3878,7 +3878,7 @@
       "properties": {
         "name": "Emmonak",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3894,7 +3894,7 @@
       "properties": {
         "name": "Kaltag",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3910,7 +3910,7 @@
       "properties": {
         "name": "Teller",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3926,7 +3926,7 @@
       "properties": {
         "name": "Koyukuk",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3942,7 +3942,7 @@
       "properties": {
         "name": "Kobuk",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3958,7 +3958,7 @@
       "properties": {
         "name": "Selawik",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3974,7 +3974,7 @@
       "properties": {
         "name": "Talkeetna",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -3990,7 +3990,7 @@
       "properties": {
         "name": "Whittier",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4006,7 +4006,7 @@
       "properties": {
         "name": "Montana",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4022,7 +4022,7 @@
       "properties": {
         "name": "Lake Minchumina",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4038,7 +4038,7 @@
       "properties": {
         "name": "Cantwell",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4054,7 +4054,7 @@
       "properties": {
         "name": "Gulkana",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4070,7 +4070,7 @@
       "properties": {
         "name": "Eagle",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4086,7 +4086,7 @@
       "properties": {
         "name": "Nenana",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4102,7 +4102,7 @@
       "properties": {
         "name": "Big Delta",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4118,7 +4118,7 @@
       "properties": {
         "name": "Allakaket",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -4134,7 +4134,7 @@
       "properties": {
         "name": "Tanana",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5190,7 +5190,7 @@
       "properties": {
         "name": "Pukatawagan",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5286,7 +5286,7 @@
       "properties": {
         "name": "Stony Rapids",
         "adm1name": "Saskatchewan",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5398,7 +5398,7 @@
       "properties": {
         "name": "Meander River",
         "adm1name": "Alberta",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5478,7 +5478,7 @@
       "properties": {
         "name": "Hall Beach",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5494,7 +5494,7 @@
       "properties": {
         "name": "Lutselke",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5510,7 +5510,7 @@
       "properties": {
         "name": "Hay River",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5526,7 +5526,7 @@
       "properties": {
         "name": "Déline",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5542,7 +5542,7 @@
       "properties": {
         "name": "Paulatuk",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5558,7 +5558,7 @@
       "properties": {
         "name": "Tsiigehtchic",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -5703,7 +5703,7 @@
         "name": "Oshawa",
         "adm1name": "Ontario",
         "note": null,
-        "POI":"the Oshawa Centre | Parkwood Estate | the GM Centre | Lakeview Park | the Robert McLaughlin Gallery"
+        "POI": "the Oshawa Centre | Parkwood Estate | the GM Centre | Lakeview Park | the Robert McLaughlin Gallery"
       },
       "geometry": {
         "type": "Point",
@@ -5942,7 +5942,7 @@
       "properties": {
         "name": "Salluit",
         "adm1name": "Québec",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -6150,7 +6150,7 @@
       "properties": {
         "name": "Hopedale",
         "adm1name": "Newfoundland and Labrador",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10902,7 +10902,7 @@
       "properties": {
         "name": "Wrangell",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10918,7 +10918,7 @@
       "properties": {
         "name": "Shishmaref",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10934,7 +10934,7 @@
       "properties": {
         "name": "Hoonah",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10950,7 +10950,7 @@
       "properties": {
         "name": "Atka",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10966,7 +10966,7 @@
       "properties": {
         "name": "Nikolski",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10982,7 +10982,7 @@
       "properties": {
         "name": "Karluk",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -10998,7 +10998,7 @@
       "properties": {
         "name": "False Pass",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11014,7 +11014,7 @@
       "properties": {
         "name": "Kivalina",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11030,7 +11030,7 @@
       "properties": {
         "name": "Newhalen",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11046,7 +11046,7 @@
       "properties": {
         "name": "Pilot Point",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11062,7 +11062,7 @@
       "properties": {
         "name": "Chignik",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11078,7 +11078,7 @@
       "properties": {
         "name": "King Salmon",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11094,7 +11094,7 @@
       "properties": {
         "name": "Quinhagak",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11110,7 +11110,7 @@
       "properties": {
         "name": "Aniak",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11126,7 +11126,7 @@
       "properties": {
         "name": "Kotlit",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11142,7 +11142,7 @@
       "properties": {
         "name": "Unalakleet",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11158,7 +11158,7 @@
       "properties": {
         "name": "Koyuk",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11174,7 +11174,7 @@
       "properties": {
         "name": "McGrath",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11190,7 +11190,7 @@
       "properties": {
         "name": "Hughes",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11206,7 +11206,7 @@
       "properties": {
         "name": "Ambler",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11222,7 +11222,7 @@
       "properties": {
         "name": "Wales",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11238,7 +11238,7 @@
       "properties": {
         "name": "Kotzebue",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11254,7 +11254,7 @@
       "properties": {
         "name": "Wasilla",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11270,7 +11270,7 @@
       "properties": {
         "name": "Circle",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11286,7 +11286,7 @@
       "properties": {
         "name": "Denali Park",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11302,7 +11302,7 @@
       "properties": {
         "name": "Yakutat",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11318,7 +11318,7 @@
       "properties": {
         "name": "Homer",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11334,7 +11334,7 @@
       "properties": {
         "name": "Tanacross",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -11350,7 +11350,7 @@
       "properties": {
         "name": "Wiseman",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13126,7 +13126,7 @@
       "properties": {
         "name": "Nelson House",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13142,7 +13142,7 @@
       "properties": {
         "name": "Shamattawa",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13334,7 +13334,7 @@
       "properties": {
         "name": "Fort Chipewyan",
         "adm1name": "Alberta",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13462,7 +13462,7 @@
       "properties": {
         "name": "Dawson Creek",
         "adm1name": "British Columbia",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13574,7 +13574,7 @@
       "properties": {
         "name": "Dease Lake",
         "adm1name": "British Columbia",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13590,7 +13590,7 @@
       "properties": {
         "name": "Coral Harbour",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13606,7 +13606,7 @@
       "properties": {
         "name": "Baker Lake",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13622,7 +13622,7 @@
       "properties": {
         "name": "Norman Wells",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13638,7 +13638,7 @@
       "properties": {
         "name": "Fort McPherson",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -13654,7 +13654,7 @@
       "properties": {
         "name": "Burwash Landing",
         "adm1name": "Yukon",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -14054,7 +14054,7 @@
       "properties": {
         "name": "Kangirsuk",
         "adm1name": "Québec",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15174,7 +15174,7 @@
       "properties": {
         "name": "Gambell",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15190,7 +15190,7 @@
       "properties": {
         "name": "Palmer",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -15206,7 +15206,7 @@
       "properties": {
         "name": "Seward",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16534,7 +16534,7 @@
       "properties": {
         "name": "Ketchikan",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16550,7 +16550,7 @@
       "properties": {
         "name": "Unalaska",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16566,7 +16566,7 @@
       "properties": {
         "name": "Togiak",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16582,7 +16582,7 @@
       "properties": {
         "name": "Red Devil",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16598,7 +16598,7 @@
       "properties": {
         "name": "Hooper Bay",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16614,7 +16614,7 @@
       "properties": {
         "name": "Wainwright",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16630,7 +16630,7 @@
       "properties": {
         "name": "Galena",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16646,7 +16646,7 @@
       "properties": {
         "name": "Kaktovik",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16662,7 +16662,7 @@
       "properties": {
         "name": "Skagway",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16678,7 +16678,7 @@
       "properties": {
         "name": "Cordova",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16694,7 +16694,7 @@
       "properties": {
         "name": "Kenai",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16710,7 +16710,7 @@
       "properties": {
         "name": "Fort Yukon",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16726,7 +16726,7 @@
       "properties": {
         "name": "Brochet",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16742,7 +16742,7 @@
       "properties": {
         "name": "Lynn Lake",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16758,7 +16758,7 @@
       "properties": {
         "name": "Gillam",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16838,7 +16838,7 @@
       "properties": {
         "name": "Pangnirtung",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -16854,7 +16854,7 @@
       "properties": {
         "name": "Holman",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17126,7 +17126,7 @@
       "properties": {
         "name": "Uranium City",
         "adm1name": "Saskatchewan",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17302,7 +17302,7 @@
       "properties": {
         "name": "Fort Nelson",
         "adm1name": "British Columbia",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17318,7 +17318,7 @@
       "properties": {
         "name": "Pond Inlet",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17334,7 +17334,7 @@
       "properties": {
         "name": "Cape Dorset",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17350,7 +17350,7 @@
       "properties": {
         "name": "Kimmirut",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17366,7 +17366,7 @@
       "properties": {
         "name": "Gjoa Haven",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17382,7 +17382,7 @@
       "properties": {
         "name": "Grise Fiord",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17398,7 +17398,7 @@
       "properties": {
         "name": "Alert",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17414,7 +17414,7 @@
       "properties": {
         "name": "Ennadai",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17430,7 +17430,7 @@
       "properties": {
         "name": "Rankin Inlet",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17446,7 +17446,7 @@
       "properties": {
         "name": "Fort Resolution",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17462,7 +17462,7 @@
       "properties": {
         "name": "Fort Simpson",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17478,7 +17478,7 @@
       "properties": {
         "name": "Inuvik",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17494,7 +17494,7 @@
       "properties": {
         "name": "Tuktoyaktuk",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17510,7 +17510,7 @@
       "properties": {
         "name": "Watson Lake",
         "adm1name": "Yukon",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17654,7 +17654,7 @@
       "properties": {
         "name": "Ivugivik",
         "adm1name": "Québec",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17670,7 +17670,7 @@
       "properties": {
         "name": "Inukjuak",
         "adm1name": "Québec",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -17814,7 +17814,7 @@
       "properties": {
         "name": "Port Burwell",
         "adm1name": "Newfoundland and Labrador",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -18726,7 +18726,7 @@
       "properties": {
         "name": "Sitka",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19014,7 +19014,7 @@
       "properties": {
         "name": "Thompson",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19046,7 +19046,7 @@
       "properties": {
         "name": "Fort Smith",
         "adm1name": "Alberta",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19062,7 +19062,7 @@
       "properties": {
         "name": "Fort McMurray",
         "adm1name": "Alberta",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19078,7 +19078,7 @@
       "properties": {
         "name": "Peace River",
         "adm1name": "Alberta",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19094,7 +19094,7 @@
       "properties": {
         "name": "Fort St. John",
         "adm1name": "British Columbia",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19110,7 +19110,7 @@
       "properties": {
         "name": "Iqaluit",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19126,7 +19126,7 @@
       "properties": {
         "name": "Cambridge Bay",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19142,7 +19142,7 @@
       "properties": {
         "name": "Kugluktuk",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19158,7 +19158,7 @@
       "properties": {
         "name": "Chesterfield Inlet",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19174,7 +19174,7 @@
       "properties": {
         "name": "Arviat",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19190,7 +19190,7 @@
       "properties": {
         "name": "Taloyoak",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19206,7 +19206,7 @@
       "properties": {
         "name": "Igloolik",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19222,7 +19222,7 @@
       "properties": {
         "name": "Dawson City",
         "adm1name": "Yukon",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19270,7 +19270,7 @@
       "properties": {
         "name": "Kuujjuarapik",
         "adm1name": "Québec",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19286,7 +19286,7 @@
       "properties": {
         "name": "Kuujjuaq",
         "adm1name": "Québec",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19734,7 +19734,7 @@
       "properties": {
         "name": "Kodiak",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19750,7 +19750,7 @@
       "properties": {
         "name": "Cold Bay",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19766,7 +19766,7 @@
       "properties": {
         "name": "Bethel",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19782,7 +19782,7 @@
       "properties": {
         "name": "Point Hope",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19798,7 +19798,7 @@
       "properties": {
         "name": "Barrow",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19814,7 +19814,7 @@
       "properties": {
         "name": "Nome",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19830,7 +19830,7 @@
       "properties": {
         "name": "Valdez",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19846,7 +19846,7 @@
       "properties": {
         "name": "Juneau",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19862,7 +19862,7 @@
       "properties": {
         "name": "Fairbanks",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -19878,7 +19878,7 @@
       "properties": {
         "name": "Prudhoe Bay",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20102,7 +20102,7 @@
       "properties": {
         "name": "Churchill",
         "adm1name": "Manitoba",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20198,7 +20198,7 @@
       "properties": {
         "name": "Arctic Bay",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20214,7 +20214,7 @@
       "properties": {
         "name": "Resolute",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20230,7 +20230,7 @@
       "properties": {
         "name": "Repulse Bay",
         "adm1name": "Nunavut",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20246,7 +20246,7 @@
       "properties": {
         "name": "Yellowknife",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20262,7 +20262,7 @@
       "properties": {
         "name": "Fort Good Hope",
         "adm1name": "Northwest Territories",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20278,7 +20278,7 @@
       "properties": {
         "name": "Whitehorse",
         "adm1name": "Yukon",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20310,7 +20310,7 @@
       "properties": {
         "name": "Fort Severn",
         "adm1name": "Ontario",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20390,7 +20390,7 @@
       "properties": {
         "name": "Nain",
         "adm1name": "Newfoundland and Labrador",
-        "note": null,
+        "note": 6,
         "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
@@ -20630,7 +20630,7 @@
       "properties": {
         "name": "Anchorage",
         "adm1name": "Alaska",
-        "note": null,
+        "note": 6,
         "POI": "the Chugach Mountains | Cook Inlet | downtown | Elmendorf Air Force Base | the coastal trail"
       },
       "geometry": {

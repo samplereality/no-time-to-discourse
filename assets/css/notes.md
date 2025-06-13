@@ -3,17 +3,18 @@
 ## Coding for Geospecific Disasters
 
 ### Types of Disasters
-* fracking earthquakes
-* hurricanes
-* rising sea level
-* wildfires
-* tsunamis
-* tornadoes
-* droughts
-* heatwaves
-* floods
-* storms
-* mudslides
+- [ ] fracking earthquakes
+- [x] hurricanes
+- [x] rising sea level
+- [x] wildfires
+- [ ] tsunamis
+- [ ] tornadoes
+- [x] droughts
+- [x] heatwaves
+- [x] floods
+- [x] storms
+- [x] mudslides
+- [ ] melting ice
 
 ### How to Code for Disasters
 * 1 (West Coast) = hurricanes, sea level, wildfire, tsunamis, droughts, heatwaves, floods, storms, mudslides,earthquakes
@@ -21,3 +22,4 @@
 * 3 (Florida) = sea levels, hurricanes 
 * 4 (East Coast) = wildfire, hurricanes, droughts, heatwaves, wildfire
 * 5 (Gulf Coast) = hurricanes, floods, storms, Gulf disasters
+* 6 (Arctic) = melting ice, heatwaves
