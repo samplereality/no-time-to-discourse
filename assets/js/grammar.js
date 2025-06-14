@@ -239,7 +239,9 @@ var rules = {
 
     ice: "$icePermafrost",
 
-    icePermafrost: "The permafrost was neither permanent nor frost any longer.",
+    icePermafrost: "The .season() was too hot. The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal.",
+
+    iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 

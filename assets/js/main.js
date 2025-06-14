@@ -3,6 +3,7 @@
 let geoJsonLayer; // store globally or in a higher scope
 let currentFeature; // Store the current feature being processed
 let currentMonth; // Store the month from makeDate() for grammar access
+let season;
 
 
 // Load RiTa
@@ -17,6 +18,21 @@ let context = {
     device: () => getDeviceType(),
     cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
     month: () => currentMonth,
+    season: () => {
+        if (!currentMonth) return 'unknown';
+        
+        const winterMonths = ['November', 'December', 'January', 'February', 'March'];
+        const springMonths = ['April', 'May', 'June'];
+        const summerMonths = ['July', 'August'];
+        const fallMonths = ['September', 'October'];
+        
+        if (winterMonths.includes(currentMonth)) return 'winter';
+        if (springMonths.includes(currentMonth)) return 'spring';
+        if (summerMonths.includes(currentMonth)) return 'summer';
+        if (fallMonths.includes(currentMonth)) return 'fall';
+        
+        return 'unknown';
+    },
     POI: () => {
         if (!currentFeature) return '';
         
