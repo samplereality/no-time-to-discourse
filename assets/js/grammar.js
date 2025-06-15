@@ -237,11 +237,13 @@ var rules = {
 
     // The far North
 
-    ice: "$icePermafrost",
+    ice: "$icePermafrost | $iceFuture",
 
-    icePermafrost: "The .season() was too hot. The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal.",
+    icePermafrost: "The .season() was too hot. The ice was .iceCondition(). The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal.",
 
     iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx",
+
+    iceFuture: "The future.",
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 

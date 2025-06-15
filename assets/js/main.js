@@ -21,15 +21,25 @@ let context = {
     season: () => {
         if (!currentMonth) return 'unknown';
         
-        const winterMonths = ['November', 'December', 'January', 'February', 'March'];
-        const springMonths = ['April', 'May', 'June'];
-        const summerMonths = ['July', 'August'];
-        const fallMonths = ['September', 'October'];
+        const winterMonths = ['November', 'December', 'January', 'February'];
+        const springMonths = ['March', 'April', 'May'];
+        const summerMonths = ['June', 'July', 'August'];
+        const fallMonths = ['September','October'];
         
         if (winterMonths.includes(currentMonth)) return 'winter';
         if (springMonths.includes(currentMonth)) return 'spring';
         if (summerMonths.includes(currentMonth)) return 'summer';
         if (fallMonths.includes(currentMonth)) return 'fall';
+        
+        return 'unknown';
+    },
+        iceCondition: () => {
+        const currentSeason = context.season();
+        
+        if (currentSeason === 'winter') return '(surprisingly slushy | not solid at all)';
+        if (currentSeason === 'spring') return '(mostly melted | softening | patchy)';
+        if (currentSeason === 'summer') return '(thawed | gone)';
+        if (currentSeason === 'fall') return '(mushy | barely refreezing)';
         
         return 'unknown';
     },
