@@ -239,15 +239,19 @@ var rules = {
 
     // The far North
 
-    ice: "$icePermafrost | $iceFuture",
+    ice: "$icePermafrost | $iceDeserted | $iceRefugees",
 
     icePermafrost: "The .season() was too hot. The ice was .iceCondition(). The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal.",
 
     iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx",
 
-    iceFuture: "$iceDeserted",
-
     iceDeserted: "A warm wind blows through .cityName(). The streets are empty. Deserted. The fires, the floods, hell, the locusts, it was all too much. We all went farther north, farther west, farther east, anywhere but here.",
+
+    iceRefugees: ".cityName() is flooded with refugees. They trudge in (pulling wagons | carting wheelbarrows | with backpacks) full of useless possessions—$object.s.nr(), $object.s.nr(), $object.s.nr(). They come from the cities, the towns. $iceCities.nr(). $iceCities.nr(). $icePush",
+
+    icePush: "Places (too hot | too dry | too flooded | too burned) to live. | Places (too dangerous | too toxic | too radioactive) to survive. | Places (too far gone | too broken) to fix. | Places (too expensive | too crowded) to stay.",
+
+    iceCities: "New York | Chicago | Los Angeles | Miami | Houston | Phoenix | Seattle | San Francisco | Boston | Philadelphia | Washington D.C. | Atlanta | Dallas | Denver | Minneapolis | Detroit | Portland | Toronto | Vancouver | Montreal | Calgary | Ottawa | Ontario | Winnipeg | Windsor | Detroit | Charlotte | Cleveland | Cincinnati | St. Louis | Kansas City | Indianapolis | Nashville | Memphis | Louisville | Milwaukee | Baltimore | Pittsburgh | New Orleans | Salt Lake City | Albuquerque | Omaha | Tucson",
 
     recentPast: "yesterday | last night | this morning | minutes ago",
 
