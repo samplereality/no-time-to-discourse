@@ -3,6 +3,8 @@
 let geoJsonLayer; // store globally or in a higher scope
 let currentFeature; // Store the current feature being processed
 let currentMonth; // Store the month from makeDate() for grammar access
+let distantFutureMonth; // Store the month from makeDistantFutureDate() for grammar access
+let isDistantFutureContext = false; // Flag to track if we're in distant future context
 let season;
 
 
@@ -12,24 +14,25 @@ let context = {
     pluralNoun: () => RiTa.randomWord({ pos: "nns" }),
     adjective: () => RiTa.randomWord({pos: 'jj'}),
     noun: () => RiTa.randomWord({ pos: "nn" }),
-    date: () => makeDate(),
+    date: () => makeDateSmart(),
     time: () => makeTime(),
     timeOfDay: () => makeTimeOfDay(),
     device: () => getDeviceType(),
     cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
-    month: () => currentMonth,
+    month: () => isDistantFutureContext ? distantFutureMonth : currentMonth,
     season: () => {
-        if (!currentMonth) return 'unknown';
+        const monthToCheck = isDistantFutureContext ? distantFutureMonth : currentMonth;
+        if (!monthToCheck) return 'unknown';
         
         const winterMonths = ['November', 'December', 'January', 'February'];
         const springMonths = ['March', 'April', 'May'];
         const summerMonths = ['June', 'July', 'August'];
         const fallMonths = ['September','October'];
         
-        if (winterMonths.includes(currentMonth)) return 'winter';
-        if (springMonths.includes(currentMonth)) return 'spring';
-        if (summerMonths.includes(currentMonth)) return 'summer';
-        if (fallMonths.includes(currentMonth)) return 'fall';
+        if (winterMonths.includes(monthToCheck)) return 'winter';
+        if (springMonths.includes(monthToCheck)) return 'spring';
+        if (summerMonths.includes(monthToCheck)) return 'summer';
+        if (fallMonths.includes(monthToCheck)) return 'fall';
         
         return 'unknown';
     },
@@ -70,7 +73,6 @@ let rg = RiTa.grammar(rules, context);
 let rule;
 
 // A function for future dates
-
 function makeDate() {
     const minDays = 3;
     const maxDays = 1460;
@@ -81,6 +83,30 @@ function makeDate() {
     currentMonth = futureDate.format('MMMM'); // Store the month name for grammar access
     
     return futureDate.format('dddd, MMMM D, YYYY');
+}
+
+// A function for distant future dates
+function makeDistantFutureDate() {
+    const minYears = 15;
+    const maxYears = 100;
+    // Generate a random number between minYears and maxYears
+    const randomYearsToAdd = Math.floor(Math.random() * (maxYears - minYears + 1)) + minYears;
+
+    const distantFutureDate = dayjs().add(randomYearsToAdd, 'year');
+    distantFutureMonth = distantFutureDate.format('MMMM'); // Store the month name for grammar access
+    isDistantFutureContext = true; // Set the flag
+    
+    return distantFutureDate.format('dddd, MMMM D, YYYY');
+}
+
+// A single date function that chooses based on current feature
+function makeDateSmart() {
+    // Check if this is a far north location (note === 6)
+    if (currentFeature && currentFeature.properties.note === 6) {
+        return makeDistantFutureDate();
+    } else {
+        return makeDate();
+    }
 }
 
 // Grab the current time
@@ -210,6 +236,11 @@ $.getJSON('assets/js/disasters.json', function(data) {
             };
         }
     }).bindTooltip(function (layer) {
+    // Reset date variables for each tooltip generation
+    currentMonth = null;
+    distantFutureMonth = null;
+    isDistantFutureContext = false;
+    
     // Set the current feature for the context to access
     currentFeature = layer.feature;
 

@@ -6,6 +6,8 @@ var rules = {
 
     byline: "<em>.date()</em><br><br>",
 
+    farFutureByline: "<em>.date()</em><br><br>",
+
     // start: "$byline $ice",
 
     // Location-Specific Disasters
@@ -19,7 +21,7 @@ var rules = {
 
     westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
 
-    farNorth: "$byline ($ice) [8] | $personal",
+    farNorth: "$farFutureByline ($ice) [8] | $personal",
 
     // Personal Reflections
 
@@ -243,7 +245,11 @@ var rules = {
 
     iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx",
 
-    iceFuture: "The future.",
+    iceFuture: "$iceDeserted",
+
+    iceDeserted: "A warm wind blows through .cityName(). The streets are empty. Deserted. The fires, the floods, hell, the locusts, it was all too much. We all went farther north, farther west, farther east, anywhere but here.",
+
+
     
     recentPast: "yesterday | last night | this morning | minutes ago",
 
