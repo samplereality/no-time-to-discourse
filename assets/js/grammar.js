@@ -21,7 +21,7 @@ var rules = {
 
     westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
 
-    farNorth: "$farFutureByline ($ice) [8] | $personal",
+    farNorth: "$byline ($ice)  | $icePersonal [8]",
 
     // Personal Reflections
 
@@ -252,6 +252,12 @@ var rules = {
     icePush: "Places (too hot | too dry | too flooded | too burned) to live. | Places (too dangerous | too toxic | too radioactive) to survive. | Places (too far gone | too broken) to fix. | Places (too expensive | too crowded) to stay.",
 
     iceCities: "New York | Chicago | Los Angeles | Miami | Houston | Phoenix | Seattle | San Francisco | Boston | Philadelphia | Washington D.C. | Atlanta | Dallas | Denver | Minneapolis | Detroit | Portland | Toronto | Vancouver | Montreal | Calgary | Ottawa | Ontario | Winnipeg | Windsor | Detroit | Charlotte | Cleveland | Cincinnati | St. Louis | Kansas City | Indianapolis | Nashville | Memphis | Louisville | Milwaukee | Baltimore | Pittsburgh | New Orleans | Salt Lake City | Albuquerque | Omaha | Tucson",
+
+    icePersonal: "<em>.time()</em><br><br>$icePersonalFiction",
+
+    icePersonalFiction: "You put down <em>$cliFi</em> and stare at your .device(). The news out of .cityName() isn't good. | You take a break from your .device() and pick up <em>$cliFi</em>. You read a few pages of $author, then put it down. Fiction is no longer an escape.",
+
+    $cliFi: "The Deluge ($author=Markley).silent | Parable of the Sower ($author=Butler).silent | The Overstory ($author=Power).silent | The Ministry for the Future ($author=Robinson).silent | Under the Dome ($author=King).silent | Moon of the Crusted Snow ($author=Rice).silent | Leave the World Behind ($author=Alam).silent | Things We Didn't See Coming ($author=Amsterdam).silent | American War ($author=El&nbsp;Akkad).silent | The Water Knife ($author=Bacigalupi).silent | Weather ($author=Offill).silent | How High We Go in the Dark ($author=Nagamatsu).silent",
 
     recentPast: "yesterday | last night | this morning | minutes ago",
 
