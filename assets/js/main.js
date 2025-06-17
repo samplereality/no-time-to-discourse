@@ -1,5 +1,33 @@
 "use strict";
 
+// Load version information
+async function loadVersionInfo() {
+    try {
+        const response = await fetch('/package.json');
+        const packageData = await response.json();
+        
+        // Set version number
+        document.getElementById('version-number').textContent = packageData.version;
+        
+        // Get last modified date from the page itself
+        const lastModified = document.lastModified;
+        const formattedDate = new Date(lastModified).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        
+        document.getElementById('last-updated').textContent = formattedDate;
+    } catch (error) {
+        console.log('Could not load version info:', error);
+        document.getElementById('version-number').textContent = '1.0.0';
+        document.getElementById('last-updated').textContent = 'Unknown';
+    }
+}
+
+// Load version info when page loads
+document.addEventListener('DOMContentLoaded', loadVersionInfo);
+
 let geoJsonLayer; // store globally or in a higher scope
 let currentFeature; // Store the current feature being processed
 let currentMonth; // Store the month from makeDate() for grammar access

@@ -695,7 +695,7 @@
         "name": "Hardin",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Big Horn County Museum | the Little Bighorn College | the jail | the old courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -711,7 +711,7 @@
         "name": "Glendive",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Frontier Gateway Museum | Makoshika State Park | the Dawson County Courthouse | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -727,7 +727,7 @@
         "name": "Dillon",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Montana Western | the Beaverhead County Museum | the old courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -743,7 +743,7 @@
         "name": "Polson",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Miracle of America Museum | the Mission Mountain Winery | the old courthouse | Flathead Lake State Park | the central business district"
       },
       "geometry": {
         "type": "Point",
@@ -759,7 +759,7 @@
         "name": "Devils Lake",
         "adm1name": "North Dakota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Fort Totten State Historic Site | the Lake Region Heritage Center | the Ramsey County Courthouse | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -775,7 +775,7 @@
         "name": "Burley",
         "adm1name": "Idaho",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Cassia County Museum | the old courthouse | the jail | the Snake River Heritage Center"
       },
       "geometry": {
         "type": "Point",
@@ -791,7 +791,7 @@
         "name": "Wallace",
         "adm1name": "Idaho",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Wallace District Mining Museum | the Sierra Silver Mine | the Oasis Bordello Museum | the central business district"
       },
       "geometry": {
         "type": "Point",
@@ -807,7 +807,7 @@
         "name": "Kennewick",
         "adm1name": "Washington",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Columbia Park | the East Benton County Historical Museum | the old courthouse | the Three Rivers Children's Festival grounds | the central business district"
       },
       "geometry": {
         "type": "Point",
@@ -823,7 +823,7 @@
         "name": "Centralia",
         "adm1name": "Washington",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Centralia Antique Mall | Fort Borst Park | George Washington Park"
       },
       "geometry": {
         "type": "Point",
@@ -839,7 +839,7 @@
         "name": "Glendale",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Arrowhead Ranch | the Thunderbird Conservation Park | the old courthouse | the Foothills Recreation Center"
       },
       "geometry": {
         "type": "Point",
@@ -855,7 +855,7 @@
         "name": "Safford",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Eastern Arizona College | Mount Graham | the old courthouse | the jail | the Graham County Courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -871,7 +871,7 @@
         "name": "Casa Grande",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Casa Grande Ruins National Monument | the Francisco Grande Hotel & Golf Resort | the central business district"
       },
       "geometry": {
         "type": "Point",
@@ -887,7 +887,7 @@
         "name": "Mesa",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the Superstition Mountains | downtown | Hohokam Stadium | the riverfronts | Red Mountain Park"
+        "POI": "the Superstition Mountains | downtown | Hohokam Stadium | the riverfronts | Red Mountain Park | the Mesa Arts Center"
       },
       "geometry": {
         "type": "Point",
@@ -903,7 +903,7 @@
         "name": "Lake Havasu City",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "London Bridge | Lake Havasu State Park | the old courthouse | the Rotary Community Park"
       },
       "geometry": {
         "type": "Point",
@@ -919,7 +919,7 @@
         "name": "Berkeley",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of California Berkeley | Moe's Books | the Berkeley Rose Garden | the Lawrence Berkeley National Laboratory"
       },
       "geometry": {
         "type": "Point",
@@ -935,7 +935,7 @@
         "name": "National City",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Mile of Cars | Pepper Park | the old courthouse | the jail | the Kimball House"
       },
       "geometry": {
         "type": "Point",
@@ -951,7 +951,7 @@
         "name": "Mendocino",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mendocino Headlands State Park | the Mendocino Art Center | the old courthouse | the Kelley House Museum"
       },
       "geometry": {
         "type": "Point",
@@ -967,7 +967,7 @@
         "name": "Paso Robles",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Paso Robles Wine Country | the Paso Robles Event Center | the old courthouse | the jail | the Carnegie Historical Library"
       },
       "geometry": {
         "type": "Point",
@@ -983,7 +983,7 @@
         "name": "Riverside",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Mission Inn Hotel & Spa | the University of California Riverside | Mount Rubidoux"
       },
       "geometry": {
         "type": "Point",
@@ -999,7 +999,7 @@
         "name": "Delano",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Delano Historical Society Museum | the jail | the old courthouse | the Filipino Community Center | the central business district"
       },
       "geometry": {
         "type": "Point",

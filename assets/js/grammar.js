@@ -255,7 +255,9 @@ var rules = {
 
     // iceInterview can be reporters, VR, documentary. Describe the person differently (hungry, frail, tired, sick). Also come up with an evocative name for originating events.
 
-    iceDocumentary: "The (man | lady) in the documentary coughs and carries on. <q>Things started getting bad in .cityName() in .startYear(). Yeah, things were bad before that, maybe decades before that. But under the surface, you know? You couldn't see, especially if you didn't wanna see. But .startYear(), that was the year.</q>",
+    iceDocumentary: "The (old | ) (man ($interviewee=he).silent | lady ($interviewee=she).silent) in the documentary coughs and carries on. $interviewee.cap()'s standing in front of $iceDocumentaryBackground. <q>Things started getting bad in .cityName() in .startYear(),</q> $interviewee says. <q>Yeah, things were bad before that. But under the surface, you know? You couldn't see, especially if you didn't wanna see. But .startYear(), that was the year.</q>",
+
+    iceDocumentaryBackground: "barricades |a shantytown | a tent city | a refugee camp | iron gates | the radiation shelter | a makeshift landfill",
 
     icePersonal: "<em>.time()</em><br><br>$icePersonalFiction",
 
