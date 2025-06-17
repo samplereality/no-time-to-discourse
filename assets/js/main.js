@@ -4,6 +4,8 @@ let geoJsonLayer; // store globally or in a higher scope
 let currentFeature; // Store the current feature being processed
 let currentMonth; // Store the month from makeDate() for grammar access
 let distantFutureMonth; // Store the month from makeDistantFutureDate() for grammar access
+let currentYear; // Store the year from date generation for grammar access
+let cachedStartYear; // Cache the start year so it's consistent within same tooltip
 let isDistantFutureContext = false; // Flag to track if we're in distant future context
 let season;
 
@@ -20,6 +22,16 @@ let context = {
     device: () => getDeviceType(),
     cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
     month: () => isDistantFutureContext ? distantFutureMonth : currentMonth,
+    year: () => currentYear,
+    startYear: () => {
+        if (!currentYear) return 'unknown';
+        // Only calculate once per tooltip, then cache it
+        if (cachedStartYear === null) {
+            const yearsBefore = Math.floor(Math.random() * 21) + 10; // Random between 10-30
+            cachedStartYear = parseInt(currentYear) - yearsBefore;
+        }
+        return cachedStartYear;
+    },
     season: () => {
         const monthToCheck = isDistantFutureContext ? distantFutureMonth : currentMonth;
         if (!monthToCheck) return 'unknown';
@@ -81,6 +93,7 @@ function makeDate() {
 
     const futureDate = dayjs().add(randomDaysToAdd, 'day');
     currentMonth = futureDate.format('MMMM'); // Store the month name for grammar access
+    currentYear = futureDate.format('YYYY'); // Store the year for grammar access
     
     return futureDate.format('dddd, MMMM D, YYYY');
 }
@@ -94,6 +107,7 @@ function makeDistantFutureDate() {
 
     const distantFutureDate = dayjs().add(randomYearsToAdd, 'year');
     distantFutureMonth = distantFutureDate.format('MMMM'); // Store the month name for grammar access
+    currentYear = distantFutureDate.format('YYYY'); // Store the year for grammar access
     isDistantFutureContext = true; // Set the flag
     
     return distantFutureDate.format('dddd, MMMM D, YYYY');
@@ -239,6 +253,8 @@ $.getJSON('assets/js/disasters.json', function(data) {
     // Reset date variables for each tooltip generation
     currentMonth = null;
     distantFutureMonth = null;
+    currentYear = null;
+    cachedStartYear = null;
     isDistantFutureContext = false;
     
     // Set the current feature for the context to access

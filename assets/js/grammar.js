@@ -6,8 +6,6 @@ var rules = {
 
     byline: "<em>.date()</em><br><br>",
 
-    farFutureByline: "<em>.date()</em><br><br>",
-
     // start: "$byline $ice",
 
     // Location-Specific Disasters
@@ -21,7 +19,7 @@ var rules = {
 
     westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
 
-    farNorth: "$byline ($ice)  | $icePersonal [8]",
+    farNorth: "$byline ($ice) [8] | $icePersonal",
 
     // Personal Reflections
 
@@ -239,7 +237,7 @@ var rules = {
 
     // The far North
 
-    ice: "$icePermafrost | $iceDeserted | $iceRefugees",
+    ice: "$icePermafrost | $iceDeserted | $iceRefugees | $iceInterview",
 
     icePermafrost: "The .season() was too hot. The ice was .iceCondition(). The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal.",
 
@@ -252,6 +250,12 @@ var rules = {
     icePush: "Places (too hot | too dry | too flooded | too burned) to live. | Places (too dangerous | too toxic | too radioactive) to survive. | Places (too far gone | too broken) to fix. | Places (too expensive | too crowded) to stay.",
 
     iceCities: "New York | Chicago | Los Angeles | Miami | Houston | Phoenix | Seattle | San Francisco | Boston | Philadelphia | Washington D.C. | Atlanta | Dallas | Denver | Minneapolis | Detroit | Portland | Toronto | Vancouver | Montreal | Calgary | Ottawa | Ontario | Winnipeg | Windsor | Detroit | Charlotte | Cleveland | Cincinnati | St. Louis | Kansas City | Indianapolis | Nashville | Memphis | Louisville | Milwaukee | Baltimore | Pittsburgh | New Orleans | Salt Lake City | Albuquerque | Omaha | Tucson",
+
+    iceInterview: "$iceDocumentary",
+
+    // iceInterview can be reporters, VR, documentary. Describe the person differently (hungry, frail, tired, sick). Also come up with an evocative name for originating events.
+
+    iceDocumentary: "The (man | lady) in the documentary coughs and carries on. <q>Things started getting bad in .cityName() in .startYear(). Yeah, things were bad before that, maybe decades before that. But under the surface, you know? You couldn't see, especially if you didn't wanna see. But .startYear(), that was the year.</q>",
 
     icePersonal: "<em>.time()</em><br><br>$icePersonalFiction",
 
