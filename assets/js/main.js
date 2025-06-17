@@ -154,7 +154,7 @@ function getDeviceType() {
 
     // Check for iPad
     if (/iPad/.test(userAgent)) {
-        return "phone"; // or "tablet" if you want a separate category for tablets
+        return "tablet"; // or "tablet" if you want a separate category for tablets
     }
 
     // Check for Android mobile (not tablets)
