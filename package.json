@@ -1,0 +1,29 @@
+{
+  "name": "no-time-to-discourse",
+  "version": "1.0.0",
+  "description": "An atlas of speculative climate disasters",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "version": "git add -A && git commit -m \"Release version %s\"",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samplereality/no-time-to-discourse.git"
+  },
+  "keywords": [
+    "climate",
+    "speculative",
+    "disasters",
+    "atlas",
+    "interactive",
+    "map"
+  ],
+  "author": "Mark Sample",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samplereality/no-time-to-discourse/issues"
+  },
+  "homepage": "https://github.com/samplereality/no-time-to-discourse#readme"
+}
