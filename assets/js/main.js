@@ -308,6 +308,9 @@ $.getJSON('assets/js/disasters.json', function(data) {
         else if (layer.feature.properties.note === 6) {
         rule = "farNorth";
         }
+        else if (layer.feature.properties.note === 7) {
+        rule = "hawaii";
+        }
         else {
         rule = "start";
         }

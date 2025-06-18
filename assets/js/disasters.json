@@ -1255,7 +1255,7 @@
         "name": "Nephi",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the jail | the Juab County Courthouse | the Nephi City Cemetery"
       },
       "geometry": {
         "type": "Point",
@@ -1271,7 +1271,7 @@
         "name": "Lander",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Museum of the American West | the old courthouse | the jail | the Fremont County Courthouse | the cemetery"
       },
       "geometry": {
         "type": "Point",
@@ -1287,7 +1287,7 @@
         "name": "Powell",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Heart Mountain Interpretive Center | the old courthouse | the jail | Northwest College | the cemetery"
       },
       "geometry": {
         "type": "Point",
@@ -1303,7 +1303,7 @@
         "name": "Paragould",
         "adm1name": "Arkansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Crowley's Ridge State Park | the Arkansas State University campus | the Greene County Courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -1319,7 +1319,7 @@
         "name": "Iowa City",
         "adm1name": "Iowa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Iowa | the Old Capitol Building | the Iowa Writers' Workshop"
       },
       "geometry": {
         "type": "Point",
@@ -1335,7 +1335,7 @@
         "name": "Ottumwa",
         "adm1name": "Iowa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Wapello County Museum | the Bridge View Center | the American Gothic House"
       },
       "geometry": {
         "type": "Point",
@@ -1351,7 +1351,7 @@
         "name": "Spencer",
         "adm1name": "Iowa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Clay County Fair | the old courthouse | the jail | the Spencer Municipal Airport"
       },
       "geometry": {
         "type": "Point",
@@ -1367,7 +1367,7 @@
         "name": "Ft. Dodge",
         "adm1name": "Iowa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Historic Fort Dodge | the Blanden Memorial Art Museum | the Webster County Courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -1383,7 +1383,7 @@
         "name": "Hutchinson",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Kansas Cosmosphere and Space Center | the Reno County Courthouse | the Kansas State Fairgrounds"
       },
       "geometry": {
         "type": "Point",
@@ -1399,7 +1399,7 @@
         "name": "Kansas City",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the Plaza | Arrowhead Stadium | the barbecue joint | Union Station | Crown Center"
+        "POI": "the Argentine District | the University of Kansas Medical Center | the Wyandotte County Courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -1415,7 +1415,7 @@
         "name": "Lawrence",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Kansas | Massachusetts Street | the Spencer Museum of Art | South Park"
       },
       "geometry": {
         "type": "Point",
@@ -1431,7 +1431,7 @@
         "name": "Garden City",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Lee Richardson Zoo | the Finney County Courthouse | the Buffalo Dunes Golf Course"
       },
       "geometry": {
         "type": "Point",
@@ -1447,7 +1447,7 @@
         "name": "Manhattan",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Kansas State University | Aggieville | the Riley County Courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -1463,7 +1463,7 @@
         "name": "Hays",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fort Hays State University | the Ellis County Courthouse | the Sternberg Museum of Natural History"
       },
       "geometry": {
         "type": "Point",
@@ -1479,7 +1479,7 @@
         "name": "Goodland",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the High Plains Museum | the giant Van Gogh sunflowers painting"
       },
       "geometry": {
         "type": "Point",
@@ -1495,7 +1495,7 @@
         "name": "Independence",
         "adm1name": "Missouri",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Harry S Truman Presidential Library | the National Frontier Trails Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1511,7 +1511,7 @@
         "name": "Kirksville",
         "adm1name": "Missouri",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Truman State University | the Thousand Hills State Park"
       },
       "geometry": {
         "type": "Point",
@@ -1527,7 +1527,7 @@
         "name": "Kearney",
         "adm1name": "Nebraska",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Great Platte River Road Archway | the University of Nebraska at Kearney | the Buffalo County Courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -1543,7 +1543,7 @@
         "name": "Grand Island",
         "adm1name": "Nebraska",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Stuhr Museum of the Prairie Pioneer | the jail | the Hall County Courthouse | the Nebraska State Fair Park"
       },
       "geometry": {
         "type": "Point",
@@ -1559,7 +1559,7 @@
         "name": "Alliance",
         "adm1name": "Nebraska",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Knight Museum | Carhenge"
       },
       "geometry": {
         "type": "Point",
@@ -1575,7 +1575,7 @@
         "name": "Bartlesville",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Price Tower | the Woolaroc Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1591,7 +1591,7 @@
         "name": "Enid",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Railroad Museum of Oklahoma | George's Antique Auto Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1607,7 +1607,7 @@
         "name": "Ardmore",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the doll museum | Interstate 35 | the Hardy Murphy Coliseum"
       },
       "geometry": {
         "type": "Point",
@@ -1623,7 +1623,7 @@
         "name": "McAlester",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Oklahoma Prison Historical Museum | the Scottish Rite Temple"
       },
       "geometry": {
         "type": "Point",
@@ -1639,7 +1639,7 @@
         "name": "Stillwater",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the William Frick House | the National Wrestling Hall of Fame"
       },
       "geometry": {
         "type": "Point",
@@ -6422,8 +6422,8 @@
       "properties": {
         "name": "Lihue",
         "adm1name": "Hawaii",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "note": 7,
+        "POI": "the Kukui Grove Center | the airport | Nāwiliwili Bay"
       },
       "geometry": {
         "type": "Point",
@@ -6438,8 +6438,8 @@
       "properties": {
         "name": "Wahiawa",
         "adm1name": "Hawaii",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "note": 7,
+        "POI": "the botanical gardens | Kamehameha Highway | the Kaukonahua Bridge"
       },
       "geometry": {
         "type": "Point",
@@ -6454,8 +6454,8 @@
       "properties": {
         "name": "Wailuku",
         "adm1name": "Hawaii",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "note": 7,
+        "POI": "the Bailey House Museum | Halekiʻi Heiau | Pihanakalani Heiau"
       },
       "geometry": {
         "type": "Point",
@@ -14438,8 +14438,8 @@
       "properties": {
         "name": "Kailua-Kona",
         "adm1name": "Hawaii",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "note": 7,
+        "POI": "the Pālamanui Community Forest preserve | Ali'i Drive | Mokuaikaua Church"
       },
       "geometry": {
         "type": "Point",
@@ -18022,8 +18022,8 @@
       "properties": {
         "name": "Hilo",
         "adm1name": "Hawaii",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "note": 7,
+        "POI": "the headquarters of the Mauna Loa Macadamia Nut Corporation | the ʻImiloa Planetarium and Museum"
       },
       "geometry": {
         "type": "Point",
@@ -20454,8 +20454,8 @@
       "properties": {
         "name": "Honolulu",
         "adm1name": "Hawaii",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "note": 7,
+        "POI": "Waikiki Aquarium | Honolulu Museum of Art | Kapi'olani Park"
       },
       "geometry": {
         "type": "Point",

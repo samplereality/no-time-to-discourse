@@ -21,6 +21,8 @@ var rules = {
 
     farNorth: "$byline ($ice) [8] | $icePersonal",
 
+    hawaii: "$byline ($fire | $drought | $heat | $storm) [8] | $personal",
+
     // Personal Reflections
 
     personal: "<em>.time()</em><br><br>($personalCallous | $personalPathos)",
@@ -239,9 +241,13 @@ var rules = {
 
     ice: "$icePermafrost | $iceDeserted | $iceRefugees | $iceInterview",
 
-    icePermafrost: "The .season() was too hot. The ice was .iceCondition(). The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal.",
+    icePermafrost: "The .season() is too hot. The ice is .iceCondition(). The permafrost is neither permanent nor frost. (Trackers had been out in the field for days and haven't seen a single $iceAnimal. | The $iceInfrastructure are (sinking | tilting | crumbling | collapsing). What was solid ground for (generations | decades | centuries) is now $iceGroundCondition.)",
 
     iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx",
+
+    iceInfrastructure: "power lines | water pipes | building foundations | road surfaces | bridge supports | sewage systems | communication towers | fuel storage tanks",
+
+    iceGroundCondition: "a swampy marsh | an unstable bog | a muddy slurry | treacherous quicksand | waterlogged soil | a shifting foundation",
 
     iceDeserted: "A warm wind blows through .cityName(). The streets are empty. Deserted. The fires, the floods, hell, the locusts, it was all too much. We all went farther north, farther west, farther east, anywhere but here.",
 
@@ -259,7 +265,7 @@ var rules = {
 
     iceReport: "The (BBC | CNN | FOX News | Truth Social | War Room | X TV) correspondent stands in front of $iceDocumentaryBackground.nr(). <q>Tensions between factions in .cityName() have only gotten worse,</q> (he | she) reports. <q>Ever since .startYear(), (food | water | electricity | housing) has been in short supply.</q> The camera pans to $iceDocumentaryBackground.nr().",
 
-    iceDocumentaryBackground: "barricades | a shantytown | a tent city | a refugee camp | iron gates | the fallout shelter | a makeshift landfill | a gated compound | a burned-out building | a makeshift hospital | a row of diesel generators | a military checkpoint",
+    iceDocumentaryBackground: "the barricades | a shantytown | a tent city | a refugee camp | iron gates | the fallout shelter | a makeshift landfill | a gated compound | a burned-out building | a makeshift hospital | a row of diesel generators | a military checkpoint | a detention center",
 
     icePersonal: "<em>.time()</em><br><br>$icePersonalFiction",
 

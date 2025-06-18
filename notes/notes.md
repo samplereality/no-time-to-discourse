@@ -23,3 +23,4 @@
 * 4 (East Coast) = wildfire, hurricanes, droughts, heatwaves, wildfire
 * 5 (Gulf Coast) = hurricanes, floods, storms, Gulf disasters
 * 6 (Arctic) = melting ice, heatwaves
+* 7 (Hawaii) = wildfires, sea level, droughts, heatwaves

@@ -1,0 +1,170 @@
+ice: "$icePermafrost | $iceDeserted | $iceRefugees | $iceInterview | $iceHostility | $iceAdaptation | $iceEconomics",
+
+// Original entries with minor expansions
+icePermafrost: "The .season() was too hot. The ice was .iceCondition(). The permafrost was neither permanent nor frost any longer. Trackers had been out in the field for days and haven't seen a single $iceAnimal. | The $iceInfrastructure is (sinking | tilting | crumbling | collapsing). What was solid ground for (generations | decades | centuries) is now $iceGroundCondition.",
+
+iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx | seal | walrus | polar bear | muskox | ptarmigan | Arctic char",
+
+iceDeserted: "A warm wind blows through .cityName(). The streets are empty. Deserted. The fires, the floods, hell, the locusts, it was all too much. We all went farther north, farther west, farther east, anywhere but here. | The $iceAbandonedBuilding stands empty in .cityName(). A (handwritten | spray-painted | carved) sign reads: <q>$iceEvacuationMessage</q>",
+
+iceRefugees: ".cityName() is flooded with refugees. They trudge in (pulling wagons | carting wheelbarrows | with backpacks | dragging sleds | pushing shopping carts) full of useless possessions—$object.s.nr(), $object.s.nr(), $object.s.nr(). They come from the cities, the towns. $iceCities.nr(). $iceCities.nr(). $icePush | The $iceRefugeeGroup arrives at the checkpoint outside .cityName(). (Children cry | Engines sputter | Voices argue) in the cold. They've been traveling for $iceTravelTime from $iceCities.nr(), carrying $iceCarriedItems in $iceTransport.",
+
+icePush: "Places (too hot | too dry | too flooded | too burned) to live. | Places (too dangerous | too toxic | too radioactive) to survive. | Places (too far gone | too broken) to fix. | Places (too expensive | too crowded) to stay. | Places where the (power grid failed | water stopped flowing | supply chains collapsed | social order broke down).",
+
+iceCities: "New York | Chicago | Los Angeles | Miami | Houston | Phoenix | Seattle | San Francisco | Boston | Philadelphia | Washington D.C. | Atlanta | Dallas | Denver | Minneapolis | Detroit | Portland | Toronto | Vancouver | Montreal | Calgary | Ottawa | Ontario | Winnipeg | Windsor | Detroit | Charlotte | Cleveland | Cincinnati | St. Louis | Kansas City | Indianapolis | Nashville | Memphis | Louisville | Milwaukee | Baltimore | Pittsburgh | New Orleans | Salt Lake City | Albuquerque | Omaha | Tucson | Jacksonville | Las Vegas | Oklahoma City | Fresno | Sacramento | Long Beach | Colorado Springs | Raleigh | Virginia Beach | Buffalo | Tampa | Newark | Corpus Christi | Lexington | Anchorage | Stockton | Henderson",
+
+// New hostile/unwelcoming entries
+iceHostility: "$iceCheckpoint | $iceProtest | $iceSegregation | $iceVigilante",
+
+iceCheckpoint: "At the checkpoint, $iceOfficialType checks papers with (barely concealed disgust | obvious impatience | cold efficiency). <q>$iceCheckpointDialogue</q> The line of refugees stretches back $iceDistance. Some have been waiting for $iceWaitTime.",
+
+iceOfficialType: "border patrol | local militia | volunteer guards | immigration officers | town council members",
+
+iceCheckpointDialogue: "You got sponsors? | Work permit? | Where you planning to stay? | How long you been traveling? | Got any skills we need? | You carrying any diseases? | Can't let everyone through. | Quota's full for this month. | Got to prove you won't be a burden.",
+
+iceDistance: "for miles | around the block | past the horizon | into the treeline | as far as you can see",
+
+iceWaitTime: "days | weeks | since dawn | through the night | longer than they can remember",
+
+iceProtest: "The (rally | protest | town meeting) in .cityName() grows (heated | ugly | violent). Local voices (shout | chant | demand): <q>$iceProtestChants</q> Signs read: <q>$iceProtestSigns</q>",
+
+iceProtestChants: "Our town, our rules! | Send them back! | We were here first! | No more freeloaders! | Protect our children! | Our resources, our people! | They ruined their own cities!",
+
+iceProtestSigns: "LOCALS ONLY | NO VACANCY | IMMIGRANTS GO HOME | SAVE OUR JOBS | THEY BROUGHT THIS ON THEMSELVES | WE'RE FULL | DISEASE CARRIERS STAY OUT",
+
+iceSegregation: "The $iceHousingType in .cityName() is (strictly | quietly | obviously) segregated. (Newcomers | Refugees | Outsiders) live in $iceRefugeeHousing while (locals | longtime residents | natives) enjoy $iceLocalHousing. The $iceDivision between them grows daily.",
+
+iceHousingType: "housing market | rental system | neighborhood planning | zoning laws | settlement pattern",
+
+iceRefugeeHousing: "converted warehouses | trailer parks | tent cities | abandoned malls | repurposed shipping containers | overcrowded apartments | makeshift shelters",
+
+iceLocalHousing: "heated homes | established neighborhoods | gated communities | comfortable suburbs | well-maintained houses | secure compounds",
+
+iceDivision: "tension | mistrust | resentment | hostility | violence | fear",
+
+iceVigilante: "$iceVigilanteGroup (patrols | monitors | polices) the $iceLocation in .cityName(). They claim they're (protecting the community | maintaining order | keeping the peace), but everyone knows they're $iceVigilanteAction. Last week: $iceVigilanteIncident.",
+
+iceVigilanteGroup: "Citizens' patrol | Neighborhood watch | Local militia | Town guard | Volunteer security | Border guardians",
+
+iceLocation: "refugee camps | newcomer districts | tent cities | border crossings | supply distribution centers | job centers",
+
+iceVigilanteAction: "harassing outsiders | enforcing their own laws | settling old scores | looking for trouble | making examples",
+
+iceVigilanteIncident: "three families were turned away at gunpoint | someone's tent was burned down | food supplies went missing | a checkpoint was attacked | warning shots were fired | identification papers were confiscated",
+
+// Adaptation and survival
+iceAdaptation: "$iceNewCommunity | $iceResourceSharing | $iceSurvivalSkills",
+
+iceNewCommunity: "Despite everything, $iceCommunityType has formed in .cityName(). (Locals and newcomers | Old-timers and refugees | Different groups) work together to $iceCommunityActivity. It's not perfect, but it's $iceCommunityOutcome.",
+
+iceCommunityType: "an unlikely partnership | a mutual aid network | a trading cooperative | a shared settlement | a blended community | a survival collective",
+
+iceCommunityActivity: "share resources | build shelters | grow food | maintain equipment | teach skills | protect each other | organize supplies | care for children",
+
+iceCommunityOutcome: "better than the alternative | holding together | what they have | enough for now | a start | hope",
+
+iceResourceSharing: "The $iceResource in .cityName() runs on $iceSharingSystem. Everyone contributes what they can: (newcomers bring | refugees offer | locals provide) $iceContributions while (established residents | longtime families | original inhabitants) share $iceLocalResources.",
+
+iceResource: "community garden | tool library | childcare network | medical clinic | power grid | water system | food bank | workshop",
+
+iceSharingSystem: "bartering | time banking | contribution points | community labor | shared ownership | rotation schedules",
+
+iceContributions: "labor | specialized skills | materials from the south | knowledge of new techniques | willing hands | fresh perspectives",
+
+iceLocalResources: "land access | equipment | local knowledge | established networks | shelter space | connections",
+
+iceSurvivalSkills: "Everyone in .cityName() has learned to $iceSurvivalActivity. (Children | Teenagers | Adults | Elders) who once (lived in apartments | worked in offices | shopped at malls | went to school) now $iceNewSkills out of necessity.",
+
+iceSurvivalActivity: "repair their own equipment | preserve food | generate power | treat injuries | build shelter | hunt and fish | grow vegetables in harsh conditions",
+
+iceNewSkills: "fix generators | set snares | identify edible plants | stitch wounds | insulate buildings | jerry-rig solar panels | smoke meat | purify water",
+
+// Economic pressures
+iceEconomics: "$iceLaborDispute | $iceResourceScarcity | $iceBoomBust",
+
+iceLaborDispute: "The $iceIndustry jobs in .cityName() have become a flashpoint. (Refugees work for less | Newcomers take dangerous jobs | Outsiders accept terrible conditions), and $iceLocalWorkerReaction. The $iceBusinessResponse.",
+
+iceIndustry: "fishing | logging | mining | construction | farming | transportation | energy production | waste management",
+
+iceLocalWorkerReaction: "locals are furious | longtime workers feel betrayed | unions are splitting apart | protests are daily | violence has erupted | families are struggling",
+
+iceBusinessResponse: "owners are profiting | managers play groups against each other | companies threaten to leave | bosses promise changes they won't deliver | industry leaders stay silent",
+
+iceResourceScarcity: "The $iceEssentialResource shortage in .cityName() has everyone on edge. What used to (be abundant | go around | last all winter | be taken for granted) now $iceScarcityReality. People (hoard | fight over | guard jealously) every $iceResourceUnit.",
+
+iceEssentialResource: "heating fuel | fresh water | food supplies | medicine | building materials | electricity | transportation fuel | communication networks",
+
+iceScarcityReality: "runs out by midwinter | costs more than most can afford | requires waiting in long lines | gets rationed by committee | disappears overnight | becomes a luxury item",
+
+iceResourceUnit: "gallon | kilowatt-hour | bag of flour | tank of propane | bottle of medicine | cord of wood | gallon of gasoline",
+
+iceBoomBust: ".cityName() experienced a brief $iceBoomType when the refugees first arrived. $iceBoomDescription. Now, $iceBustReality.",
+
+iceBoomType: "economic boom | construction surge | population explosion | service expansion | development rush",
+
+iceBoomDescription: "New businesses opened overnight | Rents skyrocketed | Everyone thought they'd get rich | Investment poured in | The future looked bright",
+
+iceBustReality: "the money's gone | infrastructure is overwhelmed | the bubble has burst | reality has set in | the bills are coming due | nothing was sustainable",
+
+// Infrastructure and environmental details
+iceInfrastructure: "power lines | water pipes | building foundations | road surfaces | bridge supports | sewage systems | communication towers | fuel storage tanks",
+
+iceGroundCondition: "swampy marsh | unstable bog | muddy slurry | treacherous quicksand | waterlogged soil | shifting foundation",
+
+iceAbandonedBuilding: "school | hospital | shopping center | apartment complex | government building | community center | church | library",
+
+iceEvacuationMessage: "GONE NORTH — FOLLOW HIGHWAY 1 | FAMILY SAFE — HEADED TO WHITEHORSE | WATER RISING — BRIDGE OUT | MOVED TO YELLOWKNIFE — JONES FAMILY | LAST ONE OUT TURN OFF THE LIGHTS | SEE YOU IN TIMMINS | NO FOOD LEFT — TRY FORT MAC",
+
+iceRefugeeGroup: "convoy of families | stream of individuals | organized evacuation | desperate crowd | mixed group of strangers | extended family unit",
+
+iceTravelTime: "three weeks | two months | over a year | since the spring thaw | since the evacuation order | since the crisis began",
+
+iceCarriedItems: "family photos and important documents | tools and spare parts | seeds and preserved food | medical supplies and medications | electronics and batteries | warm clothing and blankets | water purification tablets and emergency supplies",
+
+iceTransport: "overloaded pickup trucks | converted school buses | station wagons packed to the roof | motorcycles with trailers | modified snowmobiles | all-terrain vehicles",
+
+iceInterview: "$iceDocumentary | $iceReport | $icePodcast | $iceSocialMedia",
+
+iceDocumentary: "The (old | weathered | tired | determined) (man ($interviewee=he).silent | lady ($interviewee=she).silent | person ($interviewee=they).silent) in the documentary coughs and carries on. $interviewee.cap()'s standing in front of $iceDocumentaryBackground. <q>Things started getting bad in .cityName() in .startYear(),</q> $interviewee says. <q>Yeah, things were bad before that. But under the surface, you know? You couldn't see, especially if you didn't wanna see. But .startYear(), that was the year $iceWhatHappened.</q>",
+
+iceReport: "The (BBC | CNN | FOX News | Truth Social | War Room | X TV | CBC | CTV | Global News | APTN) correspondent stands in front of $iceDocumentaryBackground.nr(). <q>Tensions between (factions | communities | groups) in .cityName() have only gotten worse,</q> (he | she | they) reports. <q>Ever since .startYear(), (food | water | electricity | housing | jobs | medical care) has been in short supply.</q> The camera pans to $iceReportDetail.",
+
+icePodcast: "On the <em>$icePodcastName</em> podcast, host $icePodcastHost interviews $icePodcastGuest about the situation in .cityName(). <q>$icePodcastQuote</q> The conversation reveals $icePodcastRevelation.",
+
+iceSocialMedia: "$iceSocialPlatform is full of posts from .cityName(). <q>$iceSocialPost</q> The comments section is (predictably toxic | surprisingly supportive | mostly deleted | turned off entirely). Shares: $iceSocialShares. Reactions: $iceSocialReactions.",
+
+iceDocumentaryBackground: "the barricades | a shantytown | a tent city | a refugee camp | iron gates | the fallout shelter | a makeshift landfill | a gated compound | a burned-out building | a makeshift hospital | a row of diesel generators | a military checkpoint | a detention center | a community kitchen | a school converted to housing | a former shopping mall now serving as shelter",
+
+iceWhatHappened: "everything fell apart | the heat became unbearable | the water stopped flowing | the power grid failed | the supply chains broke | the social contract collapsed | people started leaving | the government gave up",
+
+iceReportDetail: "families waiting in line for supplies | children playing in the muddy streets | protesters carrying handmade signs | empty storefronts with broken windows | solar panels jerry-rigged to shipping containers | community gardens built in parking lots",
+
+icePodcastName: "Crisis Point | The New North | Refuge | Climate Witness | After the Flood | The Last Stand | Northern Exposure | Breaking Point | Displaced | Survival Stories",
+
+icePodcastHost: "Sarah Chen | Marcus Rodriguez | Dr. Elena Vasquez | Ahmed Hassan | Jennifer Iron-Eagle | David Mackenzie | Lisa Trudeau | Robert Bear-Comes-Out",
+
+icePodcastGuest: "a climate refugee from Miami | a local town councillor | an aid worker | a community organizer | a former oil worker | a Indigenous elder | a medical volunteer | a small business owner",
+
+icePodcastQuote: "Nobody wanted this to happen, but here we are | The old rules don't apply anymore | We're all just trying to survive | Community is all we have left | The government abandoned us years ago | This is what climate change actually looks like | We can't go back, only forward",
+
+icePodcastRevelation: "the depth of the crisis | how unprepared everyone was | the resilience of ordinary people | the failure of institutions | the importance of mutual aid | the reality of climate migration",
+
+iceSocialPlatform: "Twitter | Facebook | TikTok | Instagram | LinkedIn | NextDoor | Reddit | Discord",
+
+iceSocialPost: "#ClimateRefugee life in the north is harder than expected | Just arrived in Yellowknife. Anyone know about housing? | Locals here are NOT welcoming. Fair warning. | Found community garden accepting volunteers! | Third power outage this week 😤 | Miss the old life but no going back | Kids asking when we go home. This IS home now. | Anyone else notice the wildlife disappearing?",
+
+iceSocialShares: "47K | 12K | 890 | 156K | 2.3M | 45 | 5.7K | 234K",
+
+iceSocialReactions: "mostly angry faces | hearts and crying emojis | 60% angry, 40% sad | surprising number of laughing faces | care reactions and solidarity | flame emojis and arguments | more engagement than expected | typical online toxicity",
+
+icePersonal: "<em>.time()</em><br><br>$icePersonalFiction | <em>.time()</em><br><br>$icePersonalMemory",
+
+icePersonalFiction: "You put down <em>$cliFi</em> and stare at your .device(). The news out of .cityName() isn't good. | You take a break from your .device() and pick up <em>$cliFi</em>. You read a few pages of $author, then put it down. Fiction is no longer an escape. | The book <em>$cliFi</em> sits on your shelf, unread. Reality is stranger and more terrible than anything $author imagined.",
+
+icePersonalMemory: "You remember when .cityName() was different. $iceMemoryDetail. Now $iceMemoryContrast. The old life feels like someone else's dream.",
+
+iceMemoryDetail: "The streets were quieter then | Everyone knew each other | The seasons were predictable | There was enough for everyone | People trusted their neighbors | The future seemed certain | Children played outside without worry | The land provided what you needed",
+
+iceMemoryContrast: "strangers outnumber locals | the weather follows no pattern | resources are fought over | suspicion rules daily life | nobody knows what comes next | safety is never guaranteed | the ecosystem is collapsing",
+
+cliFi: "The Deluge ($author=Markley).silent | Parable of the Sower ($author=Butler).silent | The Overstory ($author=Powers).silent | The Ministry for the Future ($author=Robinson).silent | Under the Dome ($author=King).silent | Moon of the Crusted Snow ($author=Rice).silent | Leave the World Behind ($author=Alam).silent | Things We Didn't See Coming ($author=Amsterdam).silent | American War ($author=El&nbsp;Akkad).silent | The Water Knife ($author=Bacigalupi).silent | Weather ($author=Offill).silent | How High We Go in the Dark ($author=Nagamatsu).silent | The Marrow Thieves ($author=Dimaline).silent | New York 2140 ($author=Robinson).silent | The Windup Girl ($author=Bacigalupi).silent | Station Eleven ($author=St.&nbsp;John&nbsp;Mandel).silent | The Road ($author=McCarthy).silent | Flight Behavior ($author=Kingsolver).silent"
