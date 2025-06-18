@@ -1015,7 +1015,7 @@
         "name": "San Mateo",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the jail | the San Mateo County History Museum | the old courthouse | Hillsdale Mall | the Japanese Tea Garden"
       },
       "geometry": {
         "type": "Point",
@@ -1031,7 +1031,7 @@
         "name": "Vallejo",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mare Island Historic Park | the Vallejo Naval and Historical Museum | Six Flags Discovery Kingdom"
       },
       "geometry": {
         "type": "Point",
@@ -1047,7 +1047,7 @@
         "name": "Glenwood Springs",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Glenwood Hot Springs Pool | the Hotel Colorado | the Frontier Historical Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1063,7 +1063,7 @@
         "name": "Aurora",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Aurora History Museum | the jail | the Plains Conservation Center"
       },
       "geometry": {
         "type": "Point",
@@ -1079,7 +1079,7 @@
         "name": "Greeley",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the University of Northern Colorado | the elementary school | the old courthouse | the Greeley History Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1095,7 +1095,7 @@
         "name": "Tonopah",
         "adm1name": "Nevada",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Central Nevada Museum | the Mizpah Hotel | the Tonopah Historic Mining Park"
       },
       "geometry": {
         "type": "Point",
@@ -1111,7 +1111,7 @@
         "name": "Deming",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Deming Luna Mimbres Museum | the New Mexico National Guard Armory | the central business district"
       },
       "geometry": {
         "type": "Point",
@@ -1127,7 +1127,7 @@
         "name": "Truth or Consequences",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Geronimo Springs Museum | Elephant Butte Lake State Park"
       },
       "geometry": {
         "type": "Point",
@@ -1143,7 +1143,7 @@
         "name": "Las Vegas",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the City of Las Vegas Museum | the old Carnegie Library | the central business district"
       },
       "geometry": {
         "type": "Point",
@@ -1159,7 +1159,7 @@
         "name": "Farmington",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Farmington Museum | San Juan College | the Children's Museum & Science Center"
       },
       "geometry": {
         "type": "Point",
@@ -1175,7 +1175,7 @@
         "name": "Springfield",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Springfield Museum| Willamette University"
       },
       "geometry": {
         "type": "Point",
@@ -1191,7 +1191,7 @@
         "name": "Tillamook",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Tillamook Cheese Factory | the Tillamook Air Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1207,7 +1207,7 @@
         "name": "Ontario",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Four Rivers Cultural Center| the Treasure Valley Community College"
       },
       "geometry": {
         "type": "Point",
@@ -1223,7 +1223,7 @@
         "name": "La Grande",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Eastern Oregon University | the Union County Museum"
       },
       "geometry": {
         "type": "Point",
@@ -1239,7 +1239,7 @@
         "name": "Richfield",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Sevier County Courthouse | the Fremont Indian State Park"
       },
       "geometry": {
         "type": "Point",

@@ -168,7 +168,7 @@ var rules = {
     fireJob: "$fireInsurance | $fireFighter [2] | $fireFEMA",
     fireInsurance: "$person's job is to (calculate property damage | assess fire losses | process the (State Farm | Progressive | USAA | Allstate | Nationwide | Liberty Mutual) claims). (There's no way | It's a cold, cruel task | What's the point | I'm supposed to lowball as much as possible), $pronoun (complains | brags | writes | laments) (in a text to $posPro (wife | husband | partner)).",
     fireFEMA: "$person's job is to help people (deal with incalculable loss | find temporary housing | get back on their feet). $pronoun.cap() doesn't know (how to help | where to begin).",
-    fireFighter: "$person couldn't even fly the (airtanker ($vehicle=$firePlane).silent | helitanker ($vehicle=$fireCopter).silent) (this morning | today | tonight), with updrafts so intense the $vehicle (would be in danger | wasn't safe). | $firePlane.art().cap() roared overhead, shooting $fireFoam into the (flank | edge) of the $fireName. The (orange | red) (retardant | foam) (streamed | gushed | cascaded) out like (liquified bubblegum | melted Starbusts | the devil's cotton candy | cherry slush) onto the shimmering (homes | houses | apartments | offices). | The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
+    fireFighter: "$person couldn't even fly the (airtanker ($vehicle=$firePlane).silent | helitanker ($vehicle=$fireCopter).silent) (this morning | today | tonight), with updrafts so intense the $vehicle (would be in danger | wasn't safe). | $firePlane.art().cap() roars overhead, shooting $fireFoam into the (flank | edge) of the $fireName. The (orange | red) (retardant | foam) (streams | gushes | cascades) out like (liquified bubblegum | melted Starbusts | the devil's cotton candy | cherry slush) onto the shimmering (homes | houses | apartments | offices). | The exhaustion $person feels, $pronoun's been up for days, (building a fire line. It was breached $recentPast | riding shotgun on the helitack crew. (The copter rotors beat endlessly above the burning world | Up here above the smoke you can almost imagine the earth is gone, and there's nowhere to land ever again ) | smokejumping into new patches. $pronoun.cap()'s the front line, and the last line).",
     $fireCopter: "chopper | Huey | Sikorsky | Bell 204 | Boeing Vertol",
     $firePlane: "Boeing | Air Tractor | Lockheed | C-130 | DC-10",
     $fireFoam: "Phos-Chek | FireFoam | Pyrocap | FlameOut | FireIce",
@@ -251,13 +251,15 @@ var rules = {
 
     iceCities: "New York | Chicago | Los Angeles | Miami | Houston | Phoenix | Seattle | San Francisco | Boston | Philadelphia | Washington D.C. | Atlanta | Dallas | Denver | Minneapolis | Detroit | Portland | Toronto | Vancouver | Montreal | Calgary | Ottawa | Ontario | Winnipeg | Windsor | Detroit | Charlotte | Cleveland | Cincinnati | St. Louis | Kansas City | Indianapolis | Nashville | Memphis | Louisville | Milwaukee | Baltimore | Pittsburgh | New Orleans | Salt Lake City | Albuquerque | Omaha | Tucson",
 
-    iceInterview: "$iceDocumentary",
+    iceInterview: "$iceDocumentary | $iceReport",
 
     // iceInterview can be reporters, VR, documentary. Describe the person differently (hungry, frail, tired, sick). Also come up with an evocative name for originating events.
 
     iceDocumentary: "The (old | ) (man ($interviewee=he).silent | lady ($interviewee=she).silent) in the documentary coughs and carries on. $interviewee.cap()'s standing in front of $iceDocumentaryBackground. <q>Things started getting bad in .cityName() in .startYear(),</q> $interviewee says. <q>Yeah, things were bad before that. But under the surface, you know? You couldn't see, especially if you didn't wanna see. But .startYear(), that was the year.</q>",
 
-    iceDocumentaryBackground: "barricades |a shantytown | a tent city | a refugee camp | iron gates | the radiation shelter | a makeshift landfill",
+    iceReport: "The (BBC | CNN | FOX News | Truth Social | War Room | X TV) correspondent stands in front of $iceDocumentaryBackground.nr(). <q>Tensions between factions in .cityName() have only gotten worse,</q> (he | she) reports. <q>Ever since .startYear(), (food | water | electricity | housing) has been in short supply.</q> The camera pans to $iceDocumentaryBackground.nr().",
+
+    iceDocumentaryBackground: "barricades | a shantytown | a tent city | a refugee camp | iron gates | the fallout shelter | a makeshift landfill | a gated compound | a burned-out building | a makeshift hospital | a row of diesel generators | a military checkpoint",
 
     icePersonal: "<em>.time()</em><br><br>$icePersonalFiction",
 
