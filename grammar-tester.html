@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Tester</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 10px;
+            border-radius: 4px;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+        
+        .instances {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .instance {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            line-height: 1.6;
+        }
+        
+        .instance em {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Grammar Tester</h1>
+        <p>Testing the "start" rule from grammar.js</p>
+    </div>
+    
+    <div class="controls">
+        <button onclick="generateInitial()">Generate 18 Instances</button>
+        <button onclick="generateMore()">Generate 9 More</button>
+        <button onclick="clearAll()">Clear All</button>
+    </div>
+    
+    <div id="instances" class="instances">
+        <div class="loading">Click "Generate 18 Instances" to begin testing...</div>
+    </div>
+
+    <script src="assets/js/rita.js"></script>
+    <script src="assets/js/grammar.js"></script>
+    <script src="https://unpkg.com/dayjs@1.11.5/dayjs.min.js"></script>
+    <script>
+        // Global variables from main.js
+        let currentFeature = null;
+        let currentMonth;
+        let distantFutureMonth;
+        let currentYear;
+        let cachedStartYear;
+        let isDistantFutureContext = false;
+        let season;
+
+        // Context object from main.js
+        let context = {
+            silent: () => '',
+            pluralNoun: () => RiTa.randomWord({ pos: "nns" }),
+            adjective: () => RiTa.randomWord({pos: 'jj'}),
+            noun: () => RiTa.randomWord({ pos: "nn" }),
+            date: () => makeDateSmart(),
+            time: () => makeTime(),
+            timeOfDay: () => makeTimeOfDay(),
+            device: () => getDeviceType(),
+            cityName: () => currentFeature ? currentFeature.properties.name : 'Unknown City',
+            month: () => isDistantFutureContext ? distantFutureMonth : currentMonth,
+            year: () => currentYear,
+            startYear: () => {
+                if (!currentYear) return 'unknown';
+                if (cachedStartYear === null) {
+                    const yearsBefore = Math.floor(Math.random() * 21) + 10;
+                    cachedStartYear = parseInt(currentYear) - yearsBefore;
+                }
+                return cachedStartYear;
+            },
+            season: () => {
+                const monthToCheck = isDistantFutureContext ? distantFutureMonth : currentMonth;
+                if (!monthToCheck) return 'unknown';
+                
+                const winterMonths = ['November', 'December', 'January', 'February'];
+                const springMonths = ['March', 'April', 'May'];
+                const summerMonths = ['June', 'July', 'August'];
+                const fallMonths = ['September','October'];
+                
+                if (winterMonths.includes(monthToCheck)) return 'winter';
+                if (springMonths.includes(monthToCheck)) return 'spring';
+                if (summerMonths.includes(monthToCheck)) return 'summer';
+                if (fallMonths.includes(monthToCheck)) return 'fall';
+                
+                return 'unknown';
+            },
+            iceCondition: () => {
+                const currentSeason = context.season();
+                
+                if (currentSeason === 'winter') return '(surprisingly slushy | not solid at all)';
+                if (currentSeason === 'spring') return '(mostly melted | softening | patchy)';
+                if (currentSeason === 'summer') return '(thawed | gone)';
+                if (currentSeason === 'fall') return '(mushy | barely refreezing)';
+                
+                return 'unknown';
+            },
+            POI: () => {
+                if (!currentFeature) return '';
+                
+                const poiField = currentFeature.properties.POI;
+                
+                if (!poiField) return '';
+                
+                if (poiField.includes('|')) {
+                    const tempRules = {
+                        poiRule: poiField
+                    };
+                    const tempGrammar = RiTa.grammar(tempRules, context);
+                    return tempGrammar.expand('poiRule');
+                } else {
+                    return poiField;
+                }
+            }
+        };
+
+        // Date functions from main.js
+        function makeDate() {
+            const minDays = 3;
+            const maxDays = 1460;
+            const randomDaysToAdd = Math.floor(Math.random() * (maxDays - minDays + 1)) + minDays;
+
+            const futureDate = dayjs().add(randomDaysToAdd, 'day');
+            currentMonth = futureDate.format('MMMM');
+            currentYear = futureDate.format('YYYY');
+            
+            return futureDate.format('dddd, MMMM D, YYYY');
+        }
+
+        function makeDistantFutureDate() {
+            const minYears = 15;
+            const maxYears = 100;
+            const randomYearsToAdd = Math.floor(Math.random() * (maxYears - minYears + 1)) + minYears;
+
+            const distantFutureDate = dayjs().add(randomYearsToAdd, 'year');
+            distantFutureMonth = distantFutureDate.format('MMMM');
+            currentYear = distantFutureDate.format('YYYY');
+            isDistantFutureContext = true;
+            
+            return distantFutureDate.format('dddd, MMMM D, YYYY');
+        }
+
+        function makeDateSmart() {
+            if (currentFeature && currentFeature.properties.note === 6) {
+                return makeDistantFutureDate();
+            } else {
+                return makeDate();
+            }
+        }
+
+        function makeTime() {
+            return dayjs().format('dddd, h:mm a');
+        }
+
+        function makeTimeOfDay() {
+            const hour = dayjs().hour();
+            
+            if (hour >= 5 && hour < 12) {
+                return 'morning';
+            } else if (hour >= 12 && hour < 17) {
+                return 'afternoon';
+            } else if (hour >= 17 && hour < 21) {
+                return 'evening';
+            } else {
+                return 'night';
+            }
+        }
+
+        function getDeviceType() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/iPhone/.test(userAgent)) {
+                return "phone";
+            }
+
+            if (/iPad/.test(userAgent)) {
+                return "tablet";
+            }
+
+            if (/android/i.test(userAgent) && /mobile/i.test(userAgent)) {
+                return "phone";
+            }
+
+            if (/blackberry|mini|windows\sce|palm/i.test(userAgent)) {
+                return "phone";
+            }
+
+            return "computer";
+        }
+
+        // Initialize grammar with context
+        let grammar = RiTa.grammar(rules, context);
+        let instanceCount = 0;
+        
+        function generateText() {
+            return grammar.expand();
+        }
+        
+        function addInstance() {
+            instanceCount++;
+            const instancesContainer = document.getElementById('instances');
+            const instanceDiv = document.createElement('div');
+            instanceDiv.className = 'instance';
+            instanceDiv.innerHTML = `<strong>#${instanceCount}</strong><br><br>${generateText()}`;
+            instancesContainer.appendChild(instanceDiv);
+        }
+        
+        function generateInitial() {
+            const instancesContainer = document.getElementById('instances');
+            instancesContainer.innerHTML = '';
+            instanceCount = 0;
+            
+            for (let i = 0; i < 18; i++) {
+                addInstance();
+            }
+        }
+        
+        function generateMore() {
+            for (let i = 0; i < 9; i++) {
+                addInstance();
+            }
+        }
+        
+        function clearAll() {
+            const instancesContainer = document.getElementById('instances');
+            instancesContainer.innerHTML = '<div class="loading">Click "Generate 18 Instances" to begin testing...</div>';
+            instanceCount = 0;
+        }
+    </script>
+</body>
+</html>
