@@ -65,7 +65,8 @@ https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/
 }
 
 #dialog .iframe-container {
-	height: 400px;
+	min-height: auto;
+	height: auto;
 	border-radius: 5px;
 	padding: 20px;
 	background: #fff;
@@ -75,7 +76,8 @@ https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/
 
 #dialog iframe {
 	width: 100%;
-	height: 360px;
+	height: auto;
+	min-height: 200px;
 	border: 0;
 }
 
@@ -162,14 +164,15 @@ blockquote {
 
 @media screen and (max-width: 500px) {
     .container {
-        padding: 0 1.5em 1.5em;
+        padding: 0 1em 1em;
+        max-width: 90%;
     }
     
     /* Mobile font size adjustments */
     .prologue {
-        font-size: 1.1em;
-        padding: 15px;
-        line-height: 1.4;
+        font-size: 0.9em;
+        padding: 20px 15px;
+        line-height: 1.3;
     }
     
     .about {
@@ -179,12 +182,18 @@ blockquote {
     
     /* Mobile modal adjustments */
     #dialog {
-        padding-top: 10px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .iframe-container {
-        margin: 10px;
-        max-height: 85vh;
+        margin: 5px;
+        max-height: 90vh;
+        max-width: 95vw;
+        height: auto !important;
+        overflow-y: auto;
     }
     
     /* Mobile hamburger modal adjustments */
@@ -200,6 +209,32 @@ blockquote {
     
     #aboutModal .modal-body {
         padding: 10px 15px;
+    }
+}
+
+/* Extra small mobile devices */
+@media screen and (max-width: 350px) {
+    .container {
+        padding: 0 0.5em 0.5em;
+        max-width: 95%;
+    }
+    
+    .prologue {
+        font-size: 0.8em;
+        padding: 15px 10px;
+        line-height: 1.2;
+    }
+    
+    #dialog {
+        padding: 2px;
+    }
+    
+    .iframe-container {
+        margin: 2px;
+        padding: 15px;
+        max-height: 95vh;
+        max-width: 98vw;
+        height: auto !important;
     }
 }
 

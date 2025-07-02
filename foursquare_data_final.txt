@@ -18,7 +18,6 @@ Melbourne: "Wickham Park | Slices Pizza | Melbourne Square Mall Food Court | Hea
 Homestead: "La Morenitau | Roscoe Warren Muncipal Park | Bangkok Cuisine | Sedano's | Homestead-Miami Speedway"
 Sanford: "West Sanford Goodwill | Sanford Moose Lodge | Airport Hanger Bar | The Preserve At Eagle Lake | China Wok"
 Miami Beach: "Miami Beach | South Pointe Park | Lincoln Road Mall | North Beach Oceanside Park | Welcome To Miami Beach Sign"
-
 Coral Springs: "Riverside Park | Cypress Park | Church by the Glades | Cypress Park - Soccer Fields | Macys Men And Home"
 Port Charlotte: "Riverwood Golf Club | Portside Tavern | Sweet Scoops | Charlotte County Fair Grounds | Prime Serious Steak"
 Spring Hill: "Veterans Memorial Park | Marker 48 Brewing | Richie Cheesesteak | PJ's Brick Oven Pizza | Buffet City"
@@ -48,9 +47,6 @@ Richmond: "Glen Miller Park | Fricker's | La Mexicana Mini Market LLC | Golden L
 Terre Haute: "Cheddar's Scratch Kitchen | Twiggy's Pub | Los Tres Caminos | Hawthorne Park | Baesler's Market"
 Lafayette: "IU Health Arnett Hospital | Mike Aulby's Arrowhead Bowl | Igloo Frozen Custard | Cheddar's Scratch Kitchen | the John T Myers Pedestrian Bridge"
 Marion: "Lucas Oil Stadium | the Indianapolis Zoo | White River State Park | The Children's Museum of Indianapolis | Long's Bakery"
-
-
-
 South Bend: "Martin's Supermarket | Four Winds Casino | the Potawatomi Zoo | Kitchenette II | Ice Box"
 New Albany: "Baptist Health Floyd | Feeders Supply | Sam Peden Community Park | The Asian Buffet | Discount Labels"
 Elkhart: "Elkhart General Hospital | Simonton Lake Drive-In | Flippin Cow | Bruno's Pizza | Hall Of Heroes"
@@ -113,6 +109,9 @@ Ironwood: "Higher Love Cannabis Dispensary Ironwood | Super One Foods | High Pro
 Sand Point: "Aleutian China Restaurant | Trident Seafoods Corporation | Anchor Inn & Lounge | Peter Pan Sandpoint Docks | North West Company"
 Hydaburg: "Hydaburg Cooperative Association | Hydaburg Health Center | Hydaburg High School Gym"
 Atqasuk: "Meade River Boat Access | Atqasuk | P&J Store | United States Postal Service | Tauqsigvik"
+
+
+
 Port Heiden: "Port Heiden, Alaska"
 Perryville: "Perryville"
 Dillingham: "Peter Pan Seafoods | Sea Inn Bar | Twin Dragon | Curyung Tribal Council | Dillingham Chamber Of Commerce"
