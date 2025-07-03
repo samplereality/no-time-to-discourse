@@ -1,5 +1,5 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = 12 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = 0 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 // Add development mode flag
 var DEVELOPMENT_MODE = false; // Set to false for production
@@ -98,35 +98,37 @@ function openDialog() {
 		}
 	}
 
-	var html = '<div class=\'container iframe-container\'><iframe src=\'dialog.html\'></iframe><button type="submit" class=\'close-dialog\' aria-label=\'close\'>&times;</button></div>';
+	var modalHtml = `
+		<div class="modal fade" id="openingModal" tabindex="-1" role="dialog" aria-labelledby="openingModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+                        <h5 class="modal-title">No Time to Discourse</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="prologue">
+							<p><em>No Time To Discourse</em> is a speculative atlas of climate disaster throughout North America. There are thousands of disasters, none of which have happened, all of which are happening, today, tomorrow, and tomorrow's tomorrow.</p>
+							<p>Mark Sample<br>North Carolina<br>2025</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	`;
 
-	var dialog = document.createElement('div');
-	dialog.id = 'dialog';
-	dialog.setAttribute('role', 'dialog');
-	dialog.innerHTML = html;
-
-	document.body.insertBefore(dialog, document.body.firstChild);
-	document.body.classList.add('overflowHidden');
-
-	setTimeout(function () {
-		dialog.focus();
-	}, 100);
-
-	var closeBtn = document.querySelector('.close-dialog');
-	closeBtn.addEventListener('click', function () {
-		var dialog = document.getElementById('dialog');
-		document.body.removeChild(dialog);
-		document.body.classList.remove('overflowHidden');
+	document.body.insertAdjacentHTML('beforeend', modalHtml);
+	
+	$('#openingModal').modal('show');
+	
+	$('#openingModal').on('hidden.bs.modal', function () {
+		$(this).remove();
 		performFlyTo();
 		if (localStorage) {
 			localStorage.setItem(SESSION_KEY, Date.now());
 		}
-	});
-
-	// keep focus in dialog
-	// https://css-tricks.com/a-css-approach-to-trap-focus-inside-of-an-element/
-	dialog.addEventListener('transitionend', function () {
-		dialog.querySelector('iframe').focus();
 	});
 }
 
