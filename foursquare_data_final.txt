@@ -109,13 +109,10 @@ Ironwood: "Higher Love Cannabis Dispensary Ironwood | Super One Foods | High Pro
 Sand Point: "Aleutian China Restaurant | Trident Seafoods Corporation | Anchor Inn & Lounge | Peter Pan Sandpoint Docks | North West Company"
 Hydaburg: "Hydaburg Cooperative Association | Hydaburg Health Center | Hydaburg High School Gym"
 Atqasuk: "Meade River Boat Access | Atqasuk | P&J Store | United States Postal Service | Tauqsigvik"
-
-
-
 Port Heiden: "Port Heiden, Alaska"
 Perryville: "Perryville"
 Dillingham: "Peter Pan Seafoods | Sea Inn Bar | Twin Dragon | Curyung Tribal Council | Dillingham Chamber Of Commerce"
-Goodnews Bay: "Goodnews Bay, Ak | Goodnews Bay"
+Goodnews Bay: "Rocky Mountain School"
 Mountain Village: "Mountain Village | Alaska Commercial"
 Emmonak: "Emmonak Sub-Regional Clinic"
 Kaltag: "Kaltag"
@@ -148,6 +145,10 @@ Nacozari Viejo: "Mariscos Los Tumbados | El Sonorense | Maquina 501 Monumento Hi
 Villanueva: "FEREVI | Templo de San Judas Tadeo | Carnitas El Jacal | farmacia guadalajara | Birrieria El Charro"
 Montemorelos: "Rocca Rocca | Flipy Mariscos | Plaza Comercial Paseo Fundadores | Cinépolis Paseo Fundadores (Cinépolis) | Milton Tacos"
 Sabinas Hidalgo: "Los Jacales | la fogata | Siberbiana | Restaurant Sillares | Super 85"
+
+
+
+
 Cardenas: "Quesos De Magozal | Mercado Cárdenas | Presidencia Municipal  Cardenas | Bodega Aurrera, Cárdenas, SLP | Restaurante El Casal"
 Ciudad Valles: "Plaza Principal | Laca Laca | Glorieta Hidalgo | Rincón Huasteco | Steren"
 Rio Verde: "Cafe Maria's | Plaza Principal | Las Cazuelas | Las Isabeles | La Querencia"
