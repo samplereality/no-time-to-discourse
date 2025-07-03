@@ -145,10 +145,6 @@ Nacozari Viejo: "Mariscos Los Tumbados | El Sonorense | Maquina 501 Monumento Hi
 Villanueva: "FEREVI | Templo de San Judas Tadeo | Carnitas El Jacal | farmacia guadalajara | Birrieria El Charro"
 Montemorelos: "Rocca Rocca | Flipy Mariscos | Plaza Comercial Paseo Fundadores | Cinépolis Paseo Fundadores (Cinépolis) | Milton Tacos"
 Sabinas Hidalgo: "Los Jacales | la fogata | Siberbiana | Restaurant Sillares | Super 85"
-
-
-
-
 Cardenas: "Quesos De Magozal | Mercado Cárdenas | Presidencia Municipal  Cardenas | Bodega Aurrera, Cárdenas, SLP | Restaurante El Casal"
 Ciudad Valles: "Plaza Principal | Laca Laca | Glorieta Hidalgo | Rincón Huasteco | Steren"
 Rio Verde: "Cafe Maria's | Plaza Principal | Las Cazuelas | Las Isabeles | La Querencia"
@@ -198,6 +194,10 @@ Pukatawagan: "Roman Catholic Rectory | Mathias Colomb Cree Nation Youth Drop in 
 Gimli: "Gimli Watershed | Gimli Community Health Centre | Winnipeg Beach | Gimli Super A Foods | Dairy Queen"
 Island Lake: "Kistiganwacheeng Elementary School | Tim Hortons | KFC | Garden Hill Community Health | Garden Hill High School"
 Melville: "Kim's Your Independent Grocer | Melville Disc Golf Course | Melville Agri-Park | The Bargain Shop | Community Works Building"
+
+
+
+
 Weyburn: "Wholesale Club | Weyburn Co-Op Convenience Store | Dollarama | River Park | Tatagwa View"
 La Ronge: "Kosta's | The Zoo Beverage Room | Liquor Store | Lac La Ronge Indian Band | Bargain Center"
 Stony Rapids: "RCMP Detachment | Northern Stores | White Water Inn Restaurant | Al's Place | Stony Rapids"
