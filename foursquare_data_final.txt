@@ -251,10 +251,6 @@ Happy Valley - Goose Bay: "Mary Brown's Chicken | Terrington Co-Op | Tim Hortons
 Port Hope Simpson: "Jc Variety | Alexis Hotel | Penney’s Pitstop | P&B Supermarket (Clover Farm) | Blow Me Down Trailhead"
 Tofino: "Coop Foodstore | Cox Bay | North Chesterman Beach | Tofino Brewing Co. | Tacofino"
 Virginia: "Super One | Natural Harvest Food Co-op | Dave's Pizza | F & D Meats | Sawmill Saloon & Restaurant"
-
-
-
-
 Winona: "Midtown Foods | Bloedow's | Garvin Heights City Park | Signatures | Mango's Mexican & American Grill"
 Rochester: "Scheels | Fleet Farm | Colonial Lanes | Rochester National Volleyball Center | Bowlocity Entertainment Center"
 Lakeville: "The Red Fox Tavern | Lakeville Liquors | Emagine Lakeville | the Hosanna Lutheran Church | the St Johns Lutheran Church"
@@ -298,6 +294,10 @@ Pasadena: "Rose Bowl Loop | Brookside Park | Rose Bowl Flea Market and Market Pl
 Visalia: "KOA Visalia | R-N Market | Vossler Farms Pumpkin Patch & Corn Maze | Vallarta Supermarkets | Riverway Sports Park"
 El Centro: "The Plaza | Hamburger Stand | Bucklin Park | Las Conchitas Bakery | Diosa Cantina"
 San Luis Obispo: "Performing Arts Center | Laguna Lake Park | Mustang Lanes | Firestone Grill | Spirit of San Luis Restaurant"
+
+
+
+
 Merced: "Merced Mall | McKee Strawberry Stand | Merced Fruit Barn | Rancho San Miguel | FoodMaxx"
 Yuba City: "The Ranch House | The Fountains | Tortilla Flores | Lumberjacks | the St. Isidore Catholic Church"
 Redding: "Mt Shasta Mall | Holiday Market | Turtle Bay Exploration Park | The Fly Shop | Shasta Community Health Center"
