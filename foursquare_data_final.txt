@@ -221,9 +221,6 @@ Geraldton: "North Shore Outreach Program | Robin's Donuts | Superior Court of Ju
 Belleville: "Quinte Mall | McDowell’s Your Independent Grocer | Value Village | East Side Mario's Belleville | Taste Of Country"
 Sarnia: "Clearwater Arena | Lambton Mall | Farmer's Market | Two Amigos | Canatara Beach"
 Peterborough: "Lansdowne Place | Morello's Your Independent Grocer | Shoppers Drug Mart | Peterborough Memorial Centre | the Riverview Park & Zoo"
-
-
-
 Oshawa: "Oshawa Centre | Harmony Valley Dog Park | Delpark Homes Centre | Teddy's Restaurant & Deli | Lakeview Park"
 London: "Masonville Place | Heeman's | White Oaks Mall | SuperKing SuperMarket | The Rec Room"
 Kitchener: "Sunrise Shopping Centre | The Boardwalk | CF Fairview Park | Food Court | Zehrs"
@@ -254,6 +251,10 @@ Happy Valley - Goose Bay: "Mary Brown's Chicken | Terrington Co-Op | Tim Hortons
 Port Hope Simpson: "Jc Variety | Alexis Hotel | Penney’s Pitstop | P&B Supermarket (Clover Farm) | Blow Me Down Trailhead"
 Tofino: "Coop Foodstore | Cox Bay | North Chesterman Beach | Tofino Brewing Co. | Tacofino"
 Virginia: "Super One | Natural Harvest Food Co-op | Dave's Pizza | F & D Meats | Sawmill Saloon & Restaurant"
+
+
+
+
 Winona: "Midtown Foods | Bloedow's | Garvin Heights City Park | Signatures | Mango's Mexican & American Grill"
 Rochester: "Scheels | Fleet Farm | Colonial Lanes | Rochester National Volleyball Center | Bowlocity Entertainment Center"
 Lakeville: "The Red Fox Tavern | Lakeville Liquors | Emagine Lakeville | the Hosanna Lutheran Church | the St Johns Lutheran Church"

@@ -5703,7 +5703,7 @@
         "name": "Oshawa",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the Oshawa Centre | Parkwood Estate | the GM Centre | Lakeview Park | the Robert McLaughlin Gallery"
+        "POI": "the Oshawa Centre | Parkwood Estate | the GM Centre | Lakeview Park | Teddy's Restaurant & Deli"
       },
       "geometry": {
         "type": "Point",
@@ -5719,7 +5719,7 @@
         "name": "London",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "Victoria Park | the University of Western Ontario | Covent Garden Market | the Forks of the Thames | Springbank Park"
+        "POI": "Victoria Park | the University of Western Ontario | Covent Garden Market | Masonville Place | Heeman's | White Oaks Mall | SuperKing SuperMarket | The Rec Room"
       },
       "geometry": {
         "type": "Point",
@@ -5735,7 +5735,7 @@
         "name": "Kitchener",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sunrise Shopping Centre | The Boardwalk | CF Fairview Park | Zehrs"
       },
       "geometry": {
         "type": "Point",
@@ -5751,7 +5751,7 @@
         "name": "New Liskeard",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Davy's Grocer | Dollarama | the Empire Theatre | Wild Wing | 28 On The Lake"
       },
       "geometry": {
         "type": "Point",
@@ -5767,7 +5767,7 @@
         "name": "Brockville",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Brockville General Hospital | St. Lawrence Park | 1000 Islands Plaza | Cowan's Neighbourhood Store & Dairy Bar | Blockhouse Island"
       },
       "geometry": {
         "type": "Point",
@@ -5783,7 +5783,7 @@
         "name": "Big Beaver House",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the water tower | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -5799,7 +5799,7 @@
         "name": "Port-Menier",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Auberge Port-Menier | Home Hardware | L'Accommodeur Malouin"
       },
       "geometry": {
         "type": "Point",
@@ -5815,7 +5815,7 @@
         "name": "Riviere-du-Loup",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parc des chutes de Rivière-du-Loup | Restaurant le Tournesol | Bis La Boulange | Mini-Putt Casse-Croûte"
       },
       "geometry": {
         "type": "Point",
@@ -5831,7 +5831,7 @@
         "name": "Drummondville",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Marché public de Drummondville | Maison des arts Desjardins Drummondville | Le Roy Jucep | Édifice Francine-Ruest-Jutras | Village Québécois d’Antan"
       },
       "geometry": {
         "type": "Point",
@@ -5847,7 +5847,7 @@
         "name": "Sherbrooke",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Canac | Siboire | Palais des Sports | Chez Stanley Resto-Bar | Louis Luncheonette"
       },
       "geometry": {
         "type": "Point",
@@ -5863,7 +5863,7 @@
         "name": "Cap-Chat",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Camping Au Bord De La Mer | Les Chalets Valmont | Valmont Plein Air | Maison du gardien du phare de Cap-Chat | Baie des Capucins"
       },
       "geometry": {
         "type": "Point",
@@ -5879,7 +5879,7 @@
         "name": "Baie-Comeau",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chez Gréco | Microbrasserie St-Pancrace | Distillerie Vent Du Nord | Manoir du café | Jardin Des Glaciers"
       },
       "geometry": {
         "type": "Point",
@@ -5895,7 +5895,7 @@
         "name": "Natashquan",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Magasin Jean Landry | Centre d’interprétation : Le Bord du Cap | Café de L'Échouerie | Le Goût Du Large | Vieille école de Nathasquan"
       },
       "geometry": {
         "type": "Point",
@@ -5911,7 +5911,7 @@
         "name": "Eastmain",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bell Canada | Cree Trappers Association | Northern Stores"
       },
       "geometry": {
         "type": "Point",
@@ -5927,7 +5927,7 @@
         "name": "Schefferville",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Conseil de la Nation Innu Matimekush-Lac John | Caribou Bar | Ville de Schefferville | Dispensaire de Schefferville | Ungava Caribous Expeditions"
       },
       "geometry": {
         "type": "Point",
@@ -5943,7 +5943,7 @@
         "name": "Salluit",
         "adm1name": "Québec",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse"
       },
       "geometry": {
         "type": "Point",
@@ -5959,7 +5959,7 @@
         "name": "Amos",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Dépanneur de l'Est | Dollarama | Buffet Suco | Complexe Sportif | Chevaliers De Colomb"
       },
       "geometry": {
         "type": "Point",
@@ -5975,7 +5975,7 @@
         "name": "Joliette",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Distinction | Club de tir Lanaudière | Bibliothèque Rina-Lasnier | Brasserie artisanale Albion | Galeries Joliette"
       },
       "geometry": {
         "type": "Point",
@@ -5991,7 +5991,7 @@
         "name": "St.-Jerome",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bedondaine & Bedons Ronds | Parc Jean-Drapeau | Mont Orford | Parc Omega | Parc de l'Île St-Quentin"
       },
       "geometry": {
         "type": "Point",
@@ -6007,7 +6007,7 @@
         "name": "St-Augustin",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -6023,7 +6023,7 @@
         "name": "Rouyn-Noranda",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Promenades du Cuivre | Pub Goût Gueule | Olive et Basil | Depanneur Chez Ti-guy | Chez Morasse"
       },
       "geometry": {
         "type": "Point",
@@ -6039,7 +6039,7 @@
         "name": "La Sarre",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Consommation Plus | Brasserie La Brute du Coin | Toujours Mikes | Club De Golf Beattie | Bar L’Alambic"
       },
       "geometry": {
         "type": "Point",
@@ -6055,7 +6055,7 @@
         "name": "New Glasgow",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pictou County Wellness Centre | Real Atlantic Superstore | Sam's Family Restaurant | Giant Tiger"
       },
       "geometry": {
         "type": "Point",
@@ -6071,7 +6071,7 @@
         "name": "Liverpool",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Liverpool Curling Club | Fort Port Lighthouse Park | Liverpooooool | Pine Grove Park"
       },
       "geometry": {
         "type": "Point",
@@ -6087,7 +6087,7 @@
         "name": "Amherst",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Dollarama | Highland Market | Dayle's Dept. Store | Amherst Stadium | House Of Birria"
       },
       "geometry": {
         "type": "Point",
@@ -6103,7 +6103,7 @@
         "name": "Baddeck",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Victoria Farmers Co-op Baddeck | Alexander Graham Bell National Historic Site | Tom's Pizza | The Freight Shed At The Terrace"
       },
       "geometry": {
         "type": "Point",
@@ -6119,7 +6119,7 @@
         "name": "Deer Lake",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Foodland | Jungle Jim's | Off The Hook Fish & Chips | Mary Brown's Chicken & Taters | Deer Lake Irving Big Stop"
       },
       "geometry": {
         "type": "Point",
@@ -6135,7 +6135,7 @@
         "name": "La Scie",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -6151,7 +6151,7 @@
         "name": "Hopedale",
         "adm1name": "Newfoundland and Labrador",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the water tower | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -6167,7 +6167,7 @@
         "name": "Happy Valley - Goose Bay",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mary Brown's Chicken | Terrington Co-Op | Tim Hortons | E. J. Broomfield Memorial Arena"
       },
       "geometry": {
         "type": "Point",
@@ -6183,7 +6183,7 @@
         "name": "Port Hope Simpson",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Alexis Hotel | Penney’s Pitstop | P&B Supermarket"
       },
       "geometry": {
         "type": "Point",
@@ -6199,7 +6199,7 @@
         "name": "Tofino",
         "adm1name": "British Columbia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Coop Foodstore | Cox Bay | North Chesterman Beach | Tofino Brewing Co. | Tacofino"
       },
       "geometry": {
         "type": "Point",
@@ -6215,7 +6215,7 @@
         "name": "Virginia",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Super One | Natural Harvest Food Co-op | Dave's Pizza | F & D Meats | Sawmill Saloon & Restaurant"
       },
       "geometry": {
         "type": "Point",
