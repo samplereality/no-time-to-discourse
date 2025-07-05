@@ -6919,7 +6919,7 @@
         "name": "Merced",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Merced Mall | McKee Strawberry Stand | Merced Fruit Barn | Rancho San Miguel | FoodMaxx"
       },
       "geometry": {
         "type": "Point",
@@ -6935,7 +6935,7 @@
         "name": "Yuba City",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The Ranch House | The Fountains | Tortilla Flores | Lumberjacks | the St. Isidore Catholic Church"
       },
       "geometry": {
         "type": "Point",
@@ -6951,7 +6951,7 @@
         "name": "Redding",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mt. Shasta Mall | Holiday Market | Turtle Bay Exploration Park | The Fly Shop | Shasta Community Health Center"
       },
       "geometry": {
         "type": "Point",
@@ -6967,7 +6967,7 @@
         "name": "Santa Rosa",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Taylor Mountain Open Space Preserve | Epicenter Sports And Entertainment | Oliver's Market | Wine Country Cafe & Deli | Kaiser Permanente Medical Center"
       },
       "geometry": {
         "type": "Point",
@@ -6983,7 +6983,7 @@
         "name": "Oceanside",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Guajome Regional Park | El Super | Mission San Luis Rey de Francia | Oceanside Beach | the So Cal Sports Complex"
       },
       "geometry": {
         "type": "Point",
@@ -6999,7 +6999,7 @@
         "name": "Modesto",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "El Rematito Flea Market | Taqueria El Maguey | Cost Less Foods | Sutter Gould Medical Foundation | Cost Less"
       },
       "geometry": {
         "type": "Point",
@@ -7015,7 +7015,7 @@
         "name": "Irvine",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the campus | Woodbury Town Center | Heritage Plaza Shopping Center | Diamond Jamboree Shopping Center"
       },
       "geometry": {
         "type": "Point",
@@ -7031,7 +7031,7 @@
         "name": "Ukiah",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chavez Market | Low Gap Park | Todd Grove Park | Lalo's | Ukiah Natural Foods Co-Op"
       },
       "geometry": {
         "type": "Point",
@@ -7047,7 +7047,7 @@
         "name": "Needles",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Needles High School | The Wagon Wheel | Kush on 66 | the dispensary"
       },
       "geometry": {
         "type": "Point",
@@ -7063,7 +7063,7 @@
         "name": "Bishop",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Erick Schat’s Bakkery | Bishop High School | Lake Sabrina Boat Landing | Bishop City Park | Astorgas"
       },
       "geometry": {
         "type": "Point",
@@ -7079,7 +7079,7 @@
         "name": "Palm Springs",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Agua Caliente Casino | Demuth Park | the Forever Marylin Statue | Indian Canyons | the Tool Shed"
       },
       "geometry": {
         "type": "Point",
@@ -7095,7 +7095,7 @@
         "name": "Santa Maria",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Far Western Liquor | Vallarta Supermarkets | Pappy's Restaurant | Waller Park | Beth’s Tamales"
       },
       "geometry": {
         "type": "Point",
@@ -7111,7 +7111,7 @@
         "name": "Tulare",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Salles Café | Vallarta Supermarkets | Tulare Outlets | Vejar's Mexican Restaurant & Cocktail Lounge | Sno White Drive In"
       },
       "geometry": {
         "type": "Point",
@@ -7127,7 +7127,7 @@
         "name": "Mt. Shasta",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ray's Food Place | Berryvale Grocery | Say Cheese Pizza | Mt. Shasta Supermarket"
       },
       "geometry": {
         "type": "Point",
@@ -7143,7 +7143,7 @@
         "name": "Crescent City",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Port O' Pints Brewing Co. | Pacific Ocean | Fisherman's Restaurant | CC's Diner | SeaQuake Brewing"
       },
       "geometry": {
         "type": "Point",
@@ -7159,7 +7159,7 @@
         "name": "Fort Collins",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Front Range Village Shopping Center | Twin Silo Park | Arc Thrift Store | City Park | Holiday Twin Drive In"
       },
       "geometry": {
         "type": "Point",
@@ -7175,7 +7175,7 @@
         "name": "Pueblo",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pueblo City Park | Schornack Saloon | Big Bear Liquor | Collette's | Big Daddy's Sunset Bowl"
       },
       "geometry": {
         "type": "Point",
@@ -7191,7 +7191,7 @@
         "name": "Lamar",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Willow Creek Park | the Happy Garden | Main Street Shoppe | BJ's Burger and Beverage"
       },
       "geometry": {
         "type": "Point",
@@ -7207,7 +7207,7 @@
         "name": "Trinidad",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tony's Diner | The Santa Fe Tavern | Sunset Grill | Las Animas County Courthouse | The Market Bar"
       },
       "geometry": {
         "type": "Point",
@@ -7223,7 +7223,7 @@
         "name": "Gunnison",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Gunnison Coffee Company | Gunnsion National Forest | Pitas in Paradise | Mario's Pizza & Pasta | Path Finder Bear"
       },
       "geometry": {
         "type": "Point",
@@ -7239,7 +7239,7 @@
         "name": "Durango",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Durango High School | Durango Recreation Center | Steamworks Brewing Company | Pop Sushi Durango | Durango Mall"
       },
       "geometry": {
         "type": "Point",
@@ -7255,7 +7255,7 @@
         "name": "Montrose",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "City Market | Backstreet Bagel Company | Horsefly Brewing Company | Clean Choice Car Wash | The Liquor Store"
       },
       "geometry": {
         "type": "Point",
@@ -7271,7 +7271,7 @@
         "name": "Craig",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Museum of Northwest Colorado | Thunder Rolls Bowling Center | Ace Hardware | Centennial Mall"
       },
       "geometry": {
         "type": "Point",
@@ -7287,7 +7287,7 @@
         "name": "Boulder",
         "adm1name": "Colorado",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Boulder Public Library | Chautauqua Trail | Hazel's Beverage World | Boulder Country Club | Avanti Food & Beverage"
       },
       "geometry": {
         "type": "Point",
@@ -7303,7 +7303,7 @@
         "name": "Boulder City",
         "adm1name": "Nevada",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Boulder City Municipal Golf Course | Hemenway Park | the Pro Gun Club | Boulder City Cemetery"
       },
       "geometry": {
         "type": "Point",
@@ -7319,7 +7319,7 @@
         "name": "Winnemucca",
         "adm1name": "Nevada",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mariscos El Rey | Boys & Girls Club of Winnemucca | Highland Park | Humboldt General Hospital | New Frontier RV Park"
       },
       "geometry": {
         "type": "Point",

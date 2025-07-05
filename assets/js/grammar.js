@@ -4,10 +4,10 @@ var rules = {
 
     byline: "<em>.date()</em><br><br>",
 
-    // start: "$byline $ice",
+    // start: "$florida",
 
     // Location-Specific Disasters
-        florida: "$byline ($seaLevel | $hurricane) [8] | $personal",
+        florida: "$byline ($floridaSeaLevel | $hurricane) [8] | $personal",
         orlando: "$byline $floridaVacation $floridaAmusement",
         eastCoast: "$byline ($hurricane | $storm | $drought | $fire) [8] | $personal",
         gulfCoast: "$byline ($gulfOil | $gulfTide | $hurricane | $heat) [8] | $personal",
@@ -38,7 +38,7 @@ var rules = {
         stateCount: "(1|2)$singleDigit",
 
     // Sea levels
-        seaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing .cityName(). | High tide is higher than ever. (The sea is coming | Low tide, there is no such thing).) ($floridaAttractions [3] | $floridaPerson | $floridaMan)",
+        floridaSeaLevel: "(The waters are rising. | Is the water rising or is the land sinking? | The sea is swallowing .cityName(). | High tide is higher than ever. | This year's low tide is higher than last year's high tide.) ($floridaFruit | $floridaEverglades | $floridaPerson | $floridaMan)",
         floridaAttractions: "$floridaAmusement [2] | $floridaFruit | $floridaEverglades",
         floridaAmusement: "Flooding shut down ($floridaDisney | $floridaEpcot | $floridaUniversal). ($floridaDisease.cap() runs rampant at $floridaFood | There was an outbreak of $floridaDisease at $floridaFood). $floridaKids",
         floridaVacation: "$person's vacation was the worst. | $person swore off Florida forever after $posPro disaster there.",
@@ -51,9 +51,10 @@ var rules = {
         floridaUniversalFood: "the Three Broomsticks | the Leaky Cauldron | the Toothsome Chocolate Emporium & Savory Feast Kitchen | Hooligan’s Grog & Gruel | the Thunder Falls Terrace",
         floridaDisease: "cholera | typhoid fever | E. coli | norovirus | necrotizing fasciitis | staph | West Nile virus | dengue fever | Zika virus | Legionnaires' disease | leptospirosis | hepatitis A",
         floridaFruit: "The groves are full of (rotten | moldy | inedible) fruit, (hanging from battered boughs | the (bitter | sour | acrid | sickly) oranges (stinking | steaming) in the (brackish | swampy) mud).",
-        floridaEverglades: "Salt water leeches into the Everglades, killing the sawgrass marshes. | Salt water crocodiles seem to outnumber the fresh water alligators. | The last (panther | Cape Sable seaside sparrow | wood stork | black bear) is gone. | Pythons are everywhere.",
+        floridaEverglades: "Salt water leeches into the Everglades, killing the sawgrass marshes. | Salt water crocodiles seem to outnumber the fresh water alligators. | The last (panther | Cape Sable seaside sparrow | wood stork | black bear) is gone. | Pythons are everywhere. | The ICE detention center in the middle of the Everglades flooded, drowning an undisclosed number of (detainees | refugees | asylum seekers | naturalized citizens).",
         floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks about | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
-        floridaMan: "Despite everything, $person knows the truth. The (weird | wacky) weather is from $floridaConspiracy. | (The (government is | media is | so-called scientists are | the libtards are) (lying | wrong | stupid) about climate change.) | ((The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the truth | the facts | the data).)",
+        floridaMan: "$person switches over to (Fox News | One America News | Newsmax | RT America). $pronoun.cap() knows they speak the truth. $floridaTruth",
+        floridaTruth: "The (weird | wacky) weather is from $floridaConspiracy. | The (government is | lamestream media is | so-called scientists are | libtards are) (lying | wrong | stupid) about climate change. | (The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the groupthink| the facts | the data).",
         floridaConspiracy: "the chemtrails | the vaccines | 5G | the Epstein coverup",
     
     // Gulf Disasters (Oil Spills, Red Tides, and more)
@@ -101,12 +102,12 @@ var rules = {
         hurricaneReality: "the roof began to leak | windows exploded inward | water rose past the doorframe | the power died and didn't come back",
         hurricaneName: "$femaleName | $maleName",
         hurricaneIntensity: "roared ashore as a Category 5 monster | exploded from a tropical storm to Category 4 in hours | intensified over the warm (Gulf | Atlantic) waters | strengthened into a Category 3 nightmare overnight",
-        hurricaneWarning: "giving residents barely (12|18) hours to evacuate | catching meteorologists off guard | defying every computer model | following the exact path forecasters feared most",
+        hurricaneWarning: "giving residents barely (12|18) hours to evacuate | catching meteorologists off guard | defying every computer model | following the path forecasters feared most",
         hurricaneAftermath: "$hurricaneDamage $hurricaneEmotional | $hurricaneRescue $hurricaneReflection",
-        hurricaneDamage: "When it passed, $pronoun found .cityName() unrecognizable. | The storm left behind a landscape of snapped power lines and roofless houses. | Three feet of mud covered everything $pronoun'd ever owned.",
-        hurricaneEmotional: "$pronoun.cap() wept for the life that was. | $pronoun.cap() felt grateful just to be breathing. | $pronoun.cap() couldn't stop thinking about the neighbors who didn't make it.",
-        hurricaneRescue: "Coast Guard helicopters plucked $objPro from $posPro roof at dawn. | Volunteers in fishing boats found $objPro clinging to (a stop sign | floating debris).",
-        hurricaneReflection: "$pronoun.cap() would never go home again. | $pronoun.cap() didn't have flood insurance, or any insurance, really. | $pronoun.cap() still doubted climate change was real. | On social media the President bragged about his new (plane | wife | golf course).",
+        hurricaneDamage: "When it passed, $pronoun found .cityName() unrecognizable. | The storm left behind a landscape of snapped power lines and roofless houses. | Three feet of mud covered everything $pronoun ever owned. | Everything $pronoun worked thirty years to build was now driftwood and debris scattered across three counties. | The hurricane redefined geography. Streets became rivers, parking lots lakes, and home was just a GPS coordinate in the middle of nowhere.",
+        hurricaneEmotional: "$pronoun.cap() wept for the life that was. | $pronoun.cap() felt grateful just to be breathing. | $pronoun.cap() couldn't stop thinking about the neighbors who didn't make it. | $pronoun.cap() couldn't stop refreshing the missing persons list, looking for names $pronoun recognized. | $pronoun.cap() laughed bitterly at the FEMA trailer's mold problem—at least it was consistent. | $pronoun.cap() wondered if this was God's way of saying the coast was no longer for sale.",
+        hurricaneRescue: "Coast Guard helicopters plucked $objPro from $posPro roof at dawn. | Volunteers in fishing boats found $objPro clinging to (a stop sign | floating debris). | $pronoun.cap() spent eighteen hours on a highway overpass with forty strangers, sharing the last bottle of water while waiting for help that came three days late.",
+        hurricaneReflection: "$pronoun.cap() would never go home again. | $pronoun.cap() didn't have flood insurance, or any insurance, really. | $pronoun.cap() still doubted climate change was real. | On social media the President bragged about his new (plane | wife | golf course). | Congress appropriated &dollar;75 million for a military parade on the President's birthday.",
 
     // Storms
         storm: "$stormGeneral $stormResult",
