@@ -354,10 +354,6 @@ Jonesboro: "The Mall at Turtle Creek | Craighead Forest Park | Fox Meadow Interm
 Texarkana: "Bubba's 33 | Fat Jack's Oyster Bar | Holiday Bowl | Joe's Pizza and Pasta | Zapata's"
 Pine Bluff: "Chef Lee's | Red Oak Steakhouse | Big Banjo Pizza Parlor | Ocean's Fish & Chicken 4 | Hwy 79 south Church of Christ"
 Hot Springs: "Oaklawn Racing & Gaming | Sam's Pizza | Harp's | Magic Springs and Crystal Falls Theme Park | Back Porch Grill"
-
-
-
-
 Fort Smith: "Parrot Island Waterpark | Central Mall Fort Smith | Braum's | Spirit 106.3 FM | JJ'S Grill"
 Fayetteville: "Northwest Arkansas Mall | Wright's Barbecue | Premier Wine & Spirit | Baum Stadium | NWA Mall"
 Conway: "Baptist Health Medical Center | 7 Brew Drive-Thru Coffee | Stoby's Restaurant | Conway Commons Shopping Center | Don Pepe’s Gourmet Tacos and Burritos"
@@ -398,6 +394,9 @@ Mitchell: "County Fair Food Store | The Corn Palace | Marlins Family Restaurant 
 Aberdeen: "Ken’s SuperFair Foods | Kessler's Food & Liquor | Holiday | Avera Family Physicians | Marlin's Family Restaurant"
 Mobridge: "Merkel's Foods | Slumberland Furniture | Pheasant Drive-In | Payless Foods | KT's Fireside Supper Club"
 Houma: "Creole Lanes | Big Al's Seafood Restaurant | Cajun Critters | El Paso Mexican Restaurant | Big Mike's BBQ Smokehouse"
+
+
+
 Monroe: "Waterfront Grill | Bayou Bowl | Big Momma's Fine Foods | the Louisiana Purchase Gardens & Zoo | Monroe Civic Center"
 Conroe: "Montgomery County Fair Grounds | Carl Barton Jr Park | River Plantation Country Club | Vernon's Kuntry Katfish | Phở & Sushi Bar"
 Nacogdoches: "Auntie Pasta's | Mike's Barbeque House | Macklemore's Ale House and Bistro | The Forest Ranch | Butcher Boys"
