@@ -76,6 +76,9 @@ let context = {
         
         return 'unknown';
     },
+    waterLevel: () => {
+        return Math.floor(Math.random() * 41) + 10; // Random number between 10 and 50
+    },
         iceCondition: () => {
         const currentSeason = context.season();
         

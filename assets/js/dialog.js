@@ -40,11 +40,11 @@ function performFlyTo() {
     if (map) {
         if (DEVELOPMENT_MODE) {
             // Development mode: jump directly to location
-            // map.setView([43, -79], 7); // Toronto coordinates
+            map.setView([43, -79], 7); // Toronto coordinates
 			// map.setView([30, -97], 7); // Gulf coordinates
             // map.setView([33.9, -118],7); // LA Coordinates
             // map.setView([55.2, -100],6); // Arctic coordinates
-            map.setView([21.2, -159],4); // Hawaii coordinates
+            // map.setView([21.2, -159],4); // Hawaii coordinates
 
             
             // Show icons immediately

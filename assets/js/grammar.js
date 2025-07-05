@@ -4,14 +4,14 @@ var rules = {
 
     byline: "<em>.date()</em><br><br>",
 
-    // start: "$florida",
+    // start: "$byline $flood",
 
     // Location-Specific Disasters
         florida: "$byline ($floridaSeaLevel | $hurricane) [8] | $personal",
         orlando: "$byline $floridaVacation $floridaAmusement",
-        eastCoast: "$byline ($hurricane | $storm | $drought | $fire) [8] | $personal",
-        gulfCoast: "$byline ($gulfOil | $gulfTide | $hurricane | $heat) [8] | $personal",
-        westCoast: "$byline ($fire | $drought | $mud | $heat) [8] | $personal",
+        eastCoast: "$byline ($hurricane | $storm | $drought | $fire | $flood) [8] | $personal",
+        gulfCoast: "$byline ($gulfOil [2] | $gulfTide [2] | $hurricane [2] | $heat | $flood) [8] | $personal",
+        westCoast: "$byline ($fire | $drought | $mud | $heat | $flood) [8] | $personal",
         farNorth: "$byline ($ice) [8] | $icePersonal",
         hawaii: "$byline $hawaiiWoes [8] | $personal",
 
@@ -31,7 +31,7 @@ var rules = {
     // Numbers
         digit: "0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
         singleDigit: "1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9",
-        textDigit: "two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen",
+        textDigit: "two | three | four | five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | twenty-one | twenty-two | twenty-three | twenty-four | twenty-five",
         number: "$singleDigit | $singleDigit$digit | hundreds",
         reallyBigNumber: "$singleDigit$digit$digit | thousands",
         count: "dozens | scores | hundreds | thousands",
@@ -170,7 +170,7 @@ var rules = {
         fireRescue: "$person (rushes | speeds | races) home, (frantically | desperately | feverishly) (hoping | praying) $posPro ((kids | family) have | (husband | wife | son | daughter) has) already (escaped | gotten out | found safety). But $pronoun can't even get within (5 | 10 | 15) miles of .cityName(). (The roads are blocked. | The fire is too close. | (Police turn | Firefighters turn | The National Guard turns) $objPro away.) ($pronoun.cap() (numbly | dumbly | ) watches the firestorm from the Ring camera on $posPro front door, until the feed goes dead. | $pronoun.cap() looks up into the (orange | red | blackened) sky, ash drifting onto $posPro shoulders like snow. | $pronoun.cap() (calls | texts) home, but (there's no answer | the cell towers are down).)",
     
     // Floods
-        flood: "$floodReflection $floodDamage $floodResult ($floodCharacter=$person).silent | $floodDamage $floodReflection $floodResult ($floodCharacter=$person).silent",
+        flood: "$floodReflection $floodDamage $floodResult ($floodCharacter=$person).silent | $floodDamage $floodReflection $floodResult ($floodCharacter=$person).silent | $floodRiver",
         floodDamage: "$floodRoom | $floodCharacter hears on the radio that $count are $floodInjury as $floodWaters $floodSwamps $floodPlain. | $floodCharacter saw the $floodWaters wash away $floodThings.nr(), $floodThings.nr(), $floodThings.nr(). .POI().cap().",
         floodRoom: "(gunky | thick | rank | fetid).cap() (black | dark | muddy) (water [4] | sludge) (sloshes around | swamps) $floodCharacter's (basement | living room | kitchen | parlor | garage | dining room). $floodBobs",
         floodWaters: "flash flooding | (endless | relentless | rising | receding) water | flooding",
@@ -181,6 +181,7 @@ var rules = {
         floodBobs: "$object.art().cap() bobs in the (dark | ) water.",
         floodInjury: "dead | injured | left homeless | homeless | stranded",
         floodResult: "(Rescue | Paramedic | Emergency) teams are (coming, (maybe | probably | soon)? | nowhere to be seen. | working around the clock. | tired, so tired.) | Authorities (have yet to declare a state of emergency | are staging a photo op | are tweeting safety tips). | The flooding in .cityName() didn't even make the national news.",
+        floodRiver:  "The storm isn't even over before the (stream | river | creek) (swells | overflows | bursts its banks), the water rising .waterLevel() feet and (flooding | inundating | swamping) parts of .cityName(). It's bad enough when $person sees .POI() wash away, but then $pronoun hears (on the radio | on the news |) about the (summer camp | playground | preschool | elementary school). $textDigit.cap() (missing | dead | swept away).",
 
     // Mudslides
         mud: "$mudOpening $mudSurprise $mudResult",

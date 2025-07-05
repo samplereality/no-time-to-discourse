@@ -7335,7 +7335,7 @@
         "name": "Roswell",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Farmers Country Market | the International UFO Museum and Research Center | the Anderson Museum Of Contemporary Art | Farley's Bar and Grill | Geli's Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -7351,7 +7351,7 @@
         "name": "Clovis",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Foxy Drive-In | Guy Leeder Complex | Greene Acres Park | Bob Spencer Softball Fields | Leal's Mexican Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -7367,7 +7367,7 @@
         "name": "Las Cruces",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Spotted Dog Brewery | the NMSU Golf Course | Field Of Dreams | Mesilla Valley Mall | Si Señor Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -7383,7 +7383,7 @@
         "name": "Hobbs",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mail Services Etc. | Nipa Hut | Rosa's Cafe | PurLife | Undergrounds Coffee Co."
       },
       "geometry": {
         "type": "Point",
@@ -7399,7 +7399,7 @@
         "name": "Socorro",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Water & Ice Store | Socorro Plaza | Blake's Lotaburger | The Capitol Bar"
       },
       "geometry": {
         "type": "Point",
@@ -7415,7 +7415,7 @@
         "name": "Gallup",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Gallup Indian Medical Center | the Gallup Flea Market | Blake's Lotaburger | Sundance Dental Care of Gallup | Red Rock State Park"
       },
       "geometry": {
         "type": "Point",
@@ -7431,7 +7431,7 @@
         "name": "Raton",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Super Save | Heart's Desire | Oasis Restaurant | Goat Hill Scenic Overlook | K–Bobs"
       },
       "geometry": {
         "type": "Point",
@@ -7447,7 +7447,7 @@
         "name": "Tucumcari",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chester's Chicken | Lowe's | Rocky Mountain Cannabis Tucumcari | Tucumcari Cemetery | La Cita"
       },
       "geometry": {
         "type": "Point",
@@ -7463,7 +7463,7 @@
         "name": "Roseburg",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sherm's Thunderbird | Blac-N-Bleu Bistro | The Kodiak | Chi's Garden Restaurant | Gilberto's Mexican Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -7479,7 +7479,7 @@
         "name": "Pendleton",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Roosters | Eastern Oregon Correctional Instituation | The Prodigal Son Brewery & Pub | Pendleton Woolen Mills | Hal's Hamburgers"
       },
       "geometry": {
         "type": "Point",
@@ -7495,7 +7495,7 @@
         "name": "John Day",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chester’s Markets | The Snaffle Bit Dinner House | 1188 Brewing Company | Grant County Fair Grounds | Squeeze-In"
       },
       "geometry": {
         "type": "Point",
@@ -7511,7 +7511,7 @@
         "name": "Grants Pass",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "River's Edge Restaurant | Mini Pet Mart | Bi-Mart | Diamond Home Improvement"
       },
       "geometry": {
         "type": "Point",
@@ -7527,7 +7527,7 @@
         "name": "Corvallis",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the First Alternative Natural Foods Co-Op | Chip Ross Park | Riva's Tacos | the Corvallis-Benton County Public Library | Goodwill"
       },
       "geometry": {
         "type": "Point",
@@ -7543,7 +7543,7 @@
         "name": "Albany",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Deerfield Park | Linn County Fairgrounds | Lakeshore Lanes | Rigoberto's | Timber Linn Park"
       },
       "geometry": {
         "type": "Point",
@@ -7559,7 +7559,7 @@
         "name": "Astoria",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Astoria Column | Fultano's Pizza | Fort George Brewery & Public House | Astoria Co-op | the Goonie's House"
       },
       "geometry": {
         "type": "Point",
@@ -7575,7 +7575,7 @@
         "name": "Logan",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cache Valley Fairgrounds | Tandoori Oven | Gossner's Cheese | Lee's Marketplace | Angie's Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -7591,7 +7591,7 @@
         "name": "Parowan",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parowan High School | Dairy Freeze | Dede’s Farmhouse Cafe | Parowan Market | the Iron County fair grounds"
       },
       "geometry": {
         "type": "Point",
@@ -7607,7 +7607,7 @@
         "name": "Kanab",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Glazier's Family Market | Honey's Marketplace | Kanab Center | Walker's 7 Eleven | Sego Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -7623,7 +7623,7 @@
         "name": "Monticello",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Blue Mountain Foods | Ja Roen Thai Sushi | Gustavo’s | Monticello Utah Temple | Thatzza Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -7639,7 +7639,7 @@
         "name": "Moab",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Moab Food Truck Park | Hells Revenge Trailhead | Walker Drug | Moab Diner | Village Market"
       },
       "geometry": {
         "type": "Point",
@@ -7655,7 +7655,7 @@
         "name": "Price",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Carbon High School | Los 2 Amigos | Club Mecca | Sherald's | Dino-Mine Park"
       },
       "geometry": {
         "type": "Point",
@@ -7671,7 +7671,7 @@
         "name": "Cedar City",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bruno's Italian Deli | C-A-L Ranch Stores | Utah Shakespeare Festival | Stadium 8 | Slurps Up"
       },
       "geometry": {
         "type": "Point",
@@ -7687,7 +7687,7 @@
         "name": "Vernal",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Khao Hom Thai Kitchen | Gateway Saloon | Vernal Brewing Co. | Uintah Recreation Center | Uintah County Public Safety Complex"
       },
       "geometry": {
         "type": "Point",
@@ -7703,7 +7703,7 @@
         "name": "Ogden",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Dylan's | BDO Outlet | Ogden Utah Temple | Kaffe Mercantile | Beto's"
       },
       "geometry": {
         "type": "Point",
@@ -7719,7 +7719,7 @@
         "name": "Green River",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Green River High School | Mr Waffles And Crepes | Get Real Coffee | Sweetwater County Court House | Jackson Elementary School"
       },
       "geometry": {
         "type": "Point",
@@ -7735,7 +7735,7 @@
         "name": "Rawlins",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Anong's Thai Cuisine | Rawlins High School | Ichiban Japanese Restaurant | Cactus Jack's Restaurant | the Wyoming Frontier Prison Museum"
       },
       "geometry": {
         "type": "Point",
@@ -7751,7 +7751,7 @@
         "name": "Douglas",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Praire Pantry | Grasslands Market | Blend Coffee & Co. | Douglass High School"
       },
       "geometry": {
         "type": "Point",
@@ -7767,7 +7767,7 @@
         "name": "Riverton",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Speedway Cafe | Ichiban | Central Wyoming College | Perrett's | Brown Sugar Coffee Roastery"
       },
       "geometry": {
         "type": "Point",
@@ -7783,7 +7783,7 @@
         "name": "Thermopolis",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The Wyoming Dinosaur Center | One Eyed Buffalo Brewing Company | Super Blair's Market | Hot Springs County High School | Hot Springs State Park"
       },
       "geometry": {
         "type": "Point",
@@ -7799,7 +7799,7 @@
         "name": "Gillette",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cam-plex Wyoming Center | Pizza Ranch | Humphrey's Bar & Grill | Rocky Mountain Discount Sports"
       },
       "geometry": {
         "type": "Point",
@@ -7815,7 +7815,7 @@
         "name": "Jonesboro",
         "adm1name": "Arkansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Mall at Turtle Creek | Craighead Forest Park | Fox Meadow Intermediate Center | the Craighead County Jonesboro Public Library | Sage Meadows Country Club"
       },
       "geometry": {
         "type": "Point",
@@ -7831,7 +7831,7 @@
         "name": "Texarkana",
         "adm1name": "Arkansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bubba's 33 | Fat Jack's Oyster Bar | Holiday Bowl | Joe's Pizza and Pasta | Zapata's"
       },
       "geometry": {
         "type": "Point",
@@ -7847,7 +7847,7 @@
         "name": "Pine Bluff",
         "adm1name": "Arkansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chef Lee's | Red Oak Steakhouse | Big Banjo Pizza Parlor | Ocean's Fish & Chicken 4 | the Church of Christ"
       },
       "geometry": {
         "type": "Point",
@@ -7863,7 +7863,7 @@
         "name": "Hot Springs",
         "adm1name": "Arkansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Oaklawn Racing & Gaming | Sam's Pizza | Harp's | Magic Springs and Crystal Falls Theme Park | Back Porch Grill"
       },
       "geometry": {
         "type": "Point",
