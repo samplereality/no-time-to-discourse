@@ -415,10 +415,6 @@ Beeville: "Taqueria Vallarta | VFW Hall | the St. Joseph's Catholic Church | the
 Fort Stockton: "Taqueria Guadalajara | Glitzy’s | V's Kitchen | The Grey Mule | K-Bob's Steakhouse"
 Pecos: "United Supermarkets | Noodles & Dumplings | Pecos River | Reeves County Hospital (Emergency Room) | Alpine Lodge Restaurant"
 Dumas: "Lowes Grocery | Dumas High School | 287 Road House Sports Bar | Moore County Hospital District | Moore County Courthouse"
-
-
-
-
 Denton: "Golden Triangle Mall | Thrift Giant | Braum's | the Old Alton Bridge | CH Collins Athletic Complex"
 Midland: "the Midland Beer Garden | La Hacienda Event Center | Green Tree Country Club | Market Street | Midland Memorial Hospital"
 Temple: "Temple VA Hospital | Stripes | Lion Junction Water Park | Miller Park | Spec's"
@@ -438,6 +434,10 @@ Naples: "Tin City | Lowdermilk Beach | the Naples Zoo | 5th Ave S Beach | the Cl
 Fort Pierce: "Fort Pierce Jetty Park | Nelson Family Farms | Joy's Ice Cream | Lawnwood Baseball Complex | Bealls Outlet"
 Kissimmee: "Loop West | Shingle Creek Regional Park at Babb Landing | Coliseum of Comics | El Tenampa Mexican Restaurant | Osceola County Softball Complex"
 Titusville: "Parrish Park | Dixie Crossroads | the Titusville Public Library | Spca Thrift Store | Victorio's Oyster Bar and Grille / Titusville"
+
+
+
+
 St. Augustine: "the St. Augustine Amphitheatre | The Fountain of Youth Archaeological Park | The Spot | the St. Augustine Lighthouse & Maritime Museum | the Memorial Presbyterian Church"
 Ocala: "La Hacienda | I75 Super Flea Market | Rural King | Market At Heath Brook | China Lee Buffet"
 Fort Lauderdale: "Holiday Park | Broward Center for the Performing Arts | Elbo Room | Revolution Live | Fort Lauderdale Beach"

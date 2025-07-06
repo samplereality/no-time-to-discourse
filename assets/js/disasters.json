@@ -8855,7 +8855,7 @@
         "name": "Denton",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Golden Triangle Mall | Thrift Giant | Braum's | the Old Alton Bridge | CH Collins Athletic Complex"
       },
       "geometry": {
         "type": "Point",
@@ -8871,7 +8871,7 @@
         "name": "Midland",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Midland Beer Garden | La Hacienda Event Center | Green Tree Country Club | Market Street | Midland Memorial Hospital"
       },
       "geometry": {
         "type": "Point",
@@ -8887,7 +8887,7 @@
         "name": "Temple",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Temple VA Hospital | Stripes | Lion Junction Water Park | Miller Park | Spec's"
       },
       "geometry": {
         "type": "Point",
@@ -8903,7 +8903,7 @@
         "name": "New Haven",
         "adm1name": "Connecticut",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "New Haven Green | Yale University | Long Wharf | the Beinecke"
       },
       "geometry": {
         "type": "Point",
@@ -8919,7 +8919,7 @@
         "name": "Lowell",
         "adm1name": "Massachusetts",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lowell General Medical office | Eggroll Cafe | the Pollard Memorial Library | Shedd Park | Peephuptmei Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -8935,7 +8935,7 @@
         "name": "Worcester",
         "adm1name": "Massachusetts",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lincoln Plaza | White City Shopping Center | The Atrium @ St. Vs | Polar Park | Elm Park"
       },
       "geometry": {
         "type": "Point",
@@ -8951,7 +8951,7 @@
         "name": "Manchester",
         "adm1name": "New Hampshire",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mall of New Hampshire Food Court | The Elliot at River's Edge | Aldi | Chunky's Cinema Pub"
       },
       "geometry": {
         "type": "Point",
@@ -8967,7 +8967,7 @@
         "name": "Newport",
         "adm1name": "Rhode Island",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Newport Claiborne Pell Bridge | the Cliff Walk | The Breakers | Newport Storm Brewery | Brick Alley Pub & Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -8983,7 +8983,7 @@
         "name": "Dothan",
         "adm1name": "Alabama",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Smokey Joe's | Folklore Brewing & Meadery | Rural King | Zack's Family Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -8999,7 +8999,7 @@
         "name": "Tuscaloosa",
         "adm1name": "Alabama",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Midtown Village | University Mall | Cook Out | Dreamland BBQ | Wrights"
       },
       "geometry": {
         "type": "Point",
@@ -9015,7 +9015,7 @@
         "name": "Gadsden",
         "adm1name": "Alabama",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Food City | Giant Johnson's Food | Pruett's BBQ | Noccalula Falls"
       },
       "geometry": {
         "type": "Point",
@@ -9031,7 +9031,7 @@
         "name": "Enterprise",
         "adm1name": "Alabama",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Santa Fe Cattle Company | Enterprise Mini Golf | Grocery Advantage | Cutts Restaurant | Johnny Henderson Family Park"
       },
       "geometry": {
         "type": "Point",
@@ -9047,7 +9047,7 @@
         "name": "Selma",
         "adm1name": "Alabama",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Edmund Pettus Bridge | Lannies BBQ | the National Voting Rights Museum | Lannie's BBQ | the Tabernacle Baptist Church"
       },
       "geometry": {
         "type": "Point",
@@ -9063,7 +9063,7 @@
         "name": "Coral Gables",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "downtown Coral Gables | the Fairchild Tropical Botanic Garden | The Lennar Foundation Medical Center | Matheson Hammock Park | Chapman Field Park"
       },
       "geometry": {
         "type": "Point",
@@ -9079,7 +9079,7 @@
         "name": "Cape Coral",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Farmer Joe's | North Fort Myers High School | Back Streets Sports Bar | Lelulo's | Mangia Bene Restaurant Italian"
       },
       "geometry": {
         "type": "Point",
@@ -9095,7 +9095,7 @@
         "name": "Naples",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tin City | Lowdermilk Beach | the Naples Zoo | 5th Ave S Beach | the Clam Pass Boardwalk"
       },
       "geometry": {
         "type": "Point",
@@ -9111,7 +9111,7 @@
         "name": "Fort Pierce",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fort Pierce Jetty Park | Nelson Family Farms | Joy's Ice Cream | Lawnwood Baseball Complex | Bealls Outlet"
       },
       "geometry": {
         "type": "Point",
@@ -9127,7 +9127,7 @@
         "name": "Kissimmee",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Loop West | the Coliseum of Comics | El Tenampa Mexican Restaurant | Osceola County Softball Complex"
       },
       "geometry": {
         "type": "Point",
@@ -9143,7 +9143,7 @@
         "name": "Titusville",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parrish Park | Dixie Crossroads | the Titusville Public Library | Victorio's Oyster Bar and Grille"
       },
       "geometry": {
         "type": "Point",
