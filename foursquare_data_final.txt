@@ -394,9 +394,6 @@ Mitchell: "County Fair Food Store | The Corn Palace | Marlins Family Restaurant 
 Aberdeen: "Ken’s SuperFair Foods | Kessler's Food & Liquor | Holiday | Avera Family Physicians | Marlin's Family Restaurant"
 Mobridge: "Merkel's Foods | Slumberland Furniture | Pheasant Drive-In | Payless Foods | KT's Fireside Supper Club"
 Houma: "Creole Lanes | Big Al's Seafood Restaurant | Cajun Critters | El Paso Mexican Restaurant | Big Mike's BBQ Smokehouse"
-
-
-
 Monroe: "Waterfront Grill | Bayou Bowl | Big Momma's Fine Foods | the Louisiana Purchase Gardens & Zoo | Monroe Civic Center"
 Conroe: "Montgomery County Fair Grounds | Carl Barton Jr Park | River Plantation Country Club | Vernon's Kuntry Katfish | Phở & Sushi Bar"
 Nacogdoches: "Auntie Pasta's | Mike's Barbeque House | Macklemore's Ale House and Bistro | The Forest Ranch | Butcher Boys"
@@ -418,6 +415,10 @@ Beeville: "Taqueria Vallarta | VFW Hall | the St. Joseph's Catholic Church | the
 Fort Stockton: "Taqueria Guadalajara | Glitzy’s | V's Kitchen | The Grey Mule | K-Bob's Steakhouse"
 Pecos: "United Supermarkets | Noodles & Dumplings | Pecos River | Reeves County Hospital (Emergency Room) | Alpine Lodge Restaurant"
 Dumas: "Lowes Grocery | Dumas High School | 287 Road House Sports Bar | Moore County Hospital District | Moore County Courthouse"
+
+
+
+
 Denton: "Golden Triangle Mall | Thrift Giant | Braum's | the Old Alton Bridge | CH Collins Athletic Complex"
 Midland: "the Midland Beer Garden | La Hacienda Event Center | Green Tree Country Club | Market Street | Midland Memorial Hospital"
 Temple: "Temple VA Hospital | Stripes | Lion Junction Water Park | Miller Park | Spec's"

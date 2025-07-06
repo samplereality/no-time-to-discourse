@@ -8519,7 +8519,7 @@
         "name": "Monroe",
         "adm1name": "Louisiana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Waterfront Grill | Bayou Bowl | Big Momma's Fine Foods | the Louisiana Purchase Gardens & Zoo | Monroe Civic Center"
       },
       "geometry": {
         "type": "Point",
@@ -8535,7 +8535,7 @@
         "name": "Conroe",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Montgomery County Fair Grounds | Carl Barton Jr Park | River Plantation Country Club | Vernon's Kuntry Katfish | Phở & Sushi Bar"
       },
       "geometry": {
         "type": "Point",
@@ -8551,7 +8551,7 @@
         "name": "Nacogdoches",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Auntie Pasta's | Mike's Barbeque House | Macklemore's Ale House and Bistro | The Forest Ranch | Butcher Boys"
       },
       "geometry": {
         "type": "Point",
@@ -8567,7 +8567,7 @@
         "name": "Eagle Pass",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Dg Market | the international bridge | Desert Lanes Bowling Center"
       },
       "geometry": {
         "type": "Point",
@@ -8583,7 +8583,7 @@
         "name": "Edinburg",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Monte Cristo Golf & Country Club | Los Lagos Golf Club | Stripes Store #2404 | Junior's Super Market | Anitas Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -8599,7 +8599,7 @@
         "name": "Kingsville",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "King Ranch | El Tapatio | El Dorado"
       },
       "geometry": {
         "type": "Point",
@@ -8615,7 +8615,7 @@
         "name": "Port Arthur",
         "adm1name": "Texas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tyrrell Elementary School | Jefferson City Shopping Center | Tony's Mexican bar and Grill | the Port Arthur Public Library | Cheddar's Scratch Kitchen"
       },
       "geometry": {
         "type": "Point",
@@ -8631,7 +8631,7 @@
         "name": "Huntsville",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Potato Shack | Grand Buffet | the Sam Houston Statue | the Texas State Prison"
       },
       "geometry": {
         "type": "Point",
@@ -8647,7 +8647,7 @@
         "name": "Killeen",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the 3d Cavalry Regiment Museum | Warrior Way Post Exchange | Los Burritos | C.E. Ellison High School"
       },
       "geometry": {
         "type": "Point",
@@ -8663,7 +8663,7 @@
         "name": "Lufkin",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Moms Other Diner | The Spud | the Chevron | Zesty Burger | El Coco Loco"
       },
       "geometry": {
         "type": "Point",
@@ -8679,7 +8679,7 @@
         "name": "Del Rio",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Del Sol Mall | River City Donut & Coffee  House | Momo’s Coffee | Luceros Mexican Food Truck"
       },
       "geometry": {
         "type": "Point",
@@ -8695,7 +8695,7 @@
         "name": "San Angelo",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Shannon Medical Center | San Angelo State Park | La Esperanza | Bentwood Country Club | Rosa's Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -8711,7 +8711,7 @@
         "name": "Sherman",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sherman Town Center | Fairview Park | Braum's | Whitney Food Store"
       },
       "geometry": {
         "type": "Point",
@@ -8727,7 +8727,7 @@
         "name": "Beaumont",
         "adm1name": "Texas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Patillo's Barbeque | Chicken Express | J Wilson's | Happy Donut | Ford Park"
       },
       "geometry": {
         "type": "Point",
@@ -8743,7 +8743,7 @@
         "name": "Bay City",
         "adm1name": "Texas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Schulman's Movie Bowl & Grille | Diamond S | K 2 Steak House | Medical Arts Clinic | La Casona"
       },
       "geometry": {
         "type": "Point",
@@ -8759,7 +8759,7 @@
         "name": "Port Lavaca",
         "adm1name": "Texas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Texas Traditions Grill & Bakery | Bush’s Chicken | La Antigua Mexican Restaurant | Calhoun High School | Habanero's South Texas Cuisine"
       },
       "geometry": {
         "type": "Point",
@@ -8775,7 +8775,7 @@
         "name": "Falfurrias",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Brooks County Courthouse Annex | Stars | Falfurrias High School | Taqueria Jalisco | Laredo Taco Company"
       },
       "geometry": {
         "type": "Point",
@@ -8791,7 +8791,7 @@
         "name": "Beeville",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Taqueria Vallarta | the VFW Hall | St. Joseph's Catholic Church | the Monte Del Olivar Christian Church | Taqueria Jalisco"
       },
       "geometry": {
         "type": "Point",
@@ -8807,7 +8807,7 @@
         "name": "Fort Stockton",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Taqueria Guadalajara | Glitzy’s | V's Kitchen | The Grey Mule | K-Bob's Steakhouse"
       },
       "geometry": {
         "type": "Point",
@@ -8823,7 +8823,7 @@
         "name": "Pecos",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "United Supermarkets | Noodles & Dumplings | Pecos River | Reeves County Hospital (Emergency Room) | Alpine Lodge Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -8839,7 +8839,7 @@
         "name": "Dumas",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lowes Grocery | Dumas High School | 287 Road House Sports Bar | Moore County Hospital District | Moore County Courthouse"
       },
       "geometry": {
         "type": "Point",
