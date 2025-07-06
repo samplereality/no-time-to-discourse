@@ -207,7 +207,7 @@ var rules = {
 
     // The far North
         ice: "$icePermafrost | $iceDeserted | $iceRefugees | $iceInterview | $iceHostility",
-        icePermafrost: "The .season()'s heat has left the ground .iceGroundCondition(). (The permafrost is neither permanent nor frost. | No one knows what was sleeping in the permafrost. Whatever it is, it's waking up. | Trackers had been out in the field for days and haven't seen a single $iceAnimal. | The $iceInfrastructure are (sinking | tilting | crumbling | collapsing). What was solid ground for (generations | decades | centuries) is now $iceGroundCondition.)",
+        icePermafrost: "The .season()'s heat has left the ground $iceGroundCondition. (The permafrost is neither permanent nor frost. | No one knows what was sleeping in the permafrost. Whatever it is, it's waking up. | Trackers had been out in the field for days and haven't seen a single $iceAnimal. | The $iceInfrastructure are (sinking | tilting | crumbling | collapsing). What was solid ground for (generations | decades | centuries) is now $iceGroundCondition.)",
         iceAnimal: "bear | caribou | fox | wolf | snowy owl | wolverine | Arctic hare | raven | moose | lynx",
         iceInfrastructure: "power lines | water pipes | building foundations | road surfaces | bridge supports | sewage systems | communication towers | fuel storage tanks",
         iceGroundCondition: "a swampy marsh | an unstable bog | a muddy slurry | treacherous quicksand | waterlogged soil | a shifting foundation",
