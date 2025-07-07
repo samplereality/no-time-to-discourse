@@ -434,10 +434,6 @@ Naples: "Tin City | Lowdermilk Beach | the Naples Zoo | 5th Ave S Beach | the Cl
 Fort Pierce: "Fort Pierce Jetty Park | Nelson Family Farms | Joy's Ice Cream | Lawnwood Baseball Complex | Bealls Outlet"
 Kissimmee: "Loop West | Shingle Creek Regional Park at Babb Landing | Coliseum of Comics | El Tenampa Mexican Restaurant | Osceola County Softball Complex"
 Titusville: "Parrish Park | Dixie Crossroads | the Titusville Public Library | Spca Thrift Store | Victorio's Oyster Bar and Grille / Titusville"
-
-
-
-
 St. Augustine: "the St. Augustine Amphitheatre | The Fountain of Youth Archaeological Park | The Spot | the St. Augustine Lighthouse & Maritime Museum | the Memorial Presbyterian Church"
 Ocala: "La Hacienda | I75 Super Flea Market | Rural King | Market At Heath Brook | China Lee Buffet"
 Fort Lauderdale: "Holiday Park | Broward Center for the Performing Arts | Elbo Room | Revolution Live | Fort Lauderdale Beach"
@@ -504,6 +500,10 @@ Superior: "Mama T's Smokin Eats | Village Lanes | Kingdom Hall-Jehovah's Witness
 West Bend: "Fleet Farm | Washington County Human Services | Regner Park | The Charcoal Grill | King Pin Bowl & Ale House"
 Fond du Lac: "Lakeside Park | Forest Mall | Schmitty's Oar House Bar & Grill | Gilles Frozen Custard | Dutch's Trading Post"
 Oshkosh: "Menominee Park | The Outlet Shoppes at Oshkosh | Bare Bones Brewery | Oshkosh North High School | Ruby Owl Tap Room"
+
+
+
+
 Rhinelander: "Trig's | Friendship House | Rhinelander Ice Arena | Hodag Park | Golden Harvest"
 Racine: "Racine Curling Club | West Town  Food Liquors | El Rodeo | Johnson Park | Castle Lanes"
 Marinette: "Pine Tree Mall | Apple Jack's Bar & Grill | Jack's Cleveland | Tyco Fire Products | Goodwill Industries of Northern Wisconsin and Upper Michigan"
