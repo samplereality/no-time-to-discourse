@@ -564,38 +564,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Onverwacht",
-        "adm1name": "Para",
-        "note": null,
-        "POI": "the central square | the old depot | the market"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.199996481031974,
-          5.599998125365516
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Groningen",
-        "adm1name": "Saramacca",
-        "note": null,
-        "POI": "Central square | the old depot | Town hall | Market area | Historic district"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.48100345531316,
-          5.79699897488689
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Faribault",
         "adm1name": "Minnesota",
         "note": null,
@@ -3486,70 +3454,6 @@
         "coordinates": [
           -75.50002750822705,
           40.599988219254385
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "San Fernando",
-        "adm1name": "San Fernando",
-        "note": null,
-        "POI": "Estadio Municipal | Lider | Colegio Americano | Parroquia San Agustín"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.45937678404846,
-          10.28046166255649
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Brownsweg",
-        "adm1name": "Brokopondo",
-        "note": null,
-        "POI": "Brokopondo | Brownsweg | Nieuw Ganzè"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.16995060384886,
-          5.020015278031224
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Moengo",
-        "adm1name": "Marowijne",
-        "note": null,
-        "POI": "Surpost Moengo | August A. Meijer Congresshall | Ronnie Brunswijkstadion | Kibii Wi Koni Marcel Pinas The Event | V.H.J.I Moengo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.40999699056454,
-          5.63000388480458
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Nieuw Amsterdam",
-        "adm1name": "Commewijne",
-        "note": null,
-        "POI": "’T Vcm Hoekhuis"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.07000838379639,
-          5.909986794961867
         ]
       }
     },
@@ -12679,7 +12583,7 @@
         "name": "Pijijiapan",
         "adm1name": "Chiapas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Refugio del Sol Hotel & Club de Playa | soriana expres | Miramar | Río Pijijiapan | Iglesia Santa Rita de Casia"
       },
       "geometry": {
         "type": "Point",
@@ -12695,7 +12599,7 @@
         "name": "Isla Mujeres",
         "adm1name": "Quintana Roo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Playita Isla Mujeres | Playa Norte | Punta Sur | Chedraui | Coco Restaurant And Beach Bar"
       },
       "geometry": {
         "type": "Point",
@@ -12711,7 +12615,7 @@
         "name": "Felipe Carrillo Puerto",
         "adm1name": "Quintana Roo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza principal | Parque La Colmena | Snackbar \"El Ruedo\" | Panadería San Juán"
       },
       "geometry": {
         "type": "Point",
@@ -12727,7 +12631,7 @@
         "name": "Tizimin",
         "adm1name": "Yucatán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Zoológico De La Reina | Mercado de Tizimín | Casa Makech | Bodega Aurrera | Los Delfines"
       },
       "geometry": {
         "type": "Point",
@@ -12743,7 +12647,7 @@
         "name": "Valladolid",
         "adm1name": "Yucatán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Histórico de Valladolid | Casona Valladolid | Mercado Municipal Donato Bates Herrera | Las Campanas | Plaza Bella"
       },
       "geometry": {
         "type": "Point",
@@ -12759,7 +12663,7 @@
         "name": "Izamal",
         "adm1name": "Yucatán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Convento de San Antonio de Padua | Restaurante Kinich | Parque Central Izamal Yucatan | Restaurant Café \"Los Arcos\""
       },
       "geometry": {
         "type": "Point",
@@ -12775,7 +12679,7 @@
         "name": "Ticul",
         "adm1name": "Yucatán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercado de Ticul | Parroquia San Antonio De Padua | El Principe Tutul-Xiu | H. Ayuntamiento de Ticul | Iglesia de Ticul"
       },
       "geometry": {
         "type": "Point",
@@ -12791,7 +12695,7 @@
         "name": "Cienfuegos",
         "adm1name": "Cienfuegos",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Paladar Aché | Palacio del Valle | Malecón | Parque José Martí | Parque Serafin Sanchez | Meson De La Plaza | La Guaybera Casa Museo | La Parrilla"
       },
       "geometry": {
         "type": "Point",
@@ -12807,7 +12711,7 @@
         "name": "Nueva Gerona",
         "adm1name": "Isla de la Juventud",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the airstrip | the beach"
       },
       "geometry": {
         "type": "Point",
@@ -12823,7 +12727,7 @@
         "name": "Sancti Spiritus",
         "adm1name": "Sancti Spíritus",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Serafin Sanchez | Meson De La Plaza | La Guaybera Casa Museo | La Parrilla"
       },
       "geometry": {
         "type": "Point",
@@ -12839,7 +12743,7 @@
         "name": "Moron",
         "adm1name": "Ciego de Ávila",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Marti | Las Ruedas | Rey Gallo | Confraria Das Quinta"
       },
       "geometry": {
         "type": "Point",
@@ -12855,7 +12759,7 @@
         "name": "Nuevitas",
         "adm1name": "Camagüey",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ciringito Restaurant Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -12871,7 +12775,7 @@
         "name": "Manzanillo",
         "adm1name": "Granma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Glorieta Manzanillo | Dinos Pizza | Parque Valle Esping | Bulevar Manzanillo | Casa De Abuela"
       },
       "geometry": {
         "type": "Point",
@@ -12887,7 +12791,7 @@
         "name": "Bayamo",
         "adm1name": "Granma",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza de la Revolucion | Restaurants Manegua | La Cuchipapa"
       },
       "geometry": {
         "type": "Point",
@@ -18628,22 +18532,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Port-of-Spain",
-        "adm1name": "Port of Spain",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.51703088544974,
-          10.651997089577264
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Augusta",
         "adm1name": "Maine",
         "note": null,
@@ -19870,22 +19758,6 @@
         "coordinates": [
           -72.33798044690553,
           18.54297045473237
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Paramaribo",
-        "adm1name": "Paramaribo",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.16703088542437,
-          5.835030129922586
         ]
       }
     },

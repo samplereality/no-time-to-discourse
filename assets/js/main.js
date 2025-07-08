@@ -217,7 +217,7 @@ var map = L.map('map', {
 
 // Set bounds for the map
 // Approximate bounds for North America
-var southWest = L.latLng(24, -140), // Adjusted to southern tip of South America and further west to include ocean
+var southWest = L.latLng(20, -175), // Adjusted to southern tip of South America and further west to include ocean
     northEast = L.latLng(63, -56); // Adjusted to include far north of North America and east towards the mid-Atlantic
 var bounds = L.latLngBounds(southWest, northEast);
 

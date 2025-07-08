@@ -649,10 +649,6 @@ Cordoba: "Office Depot | Plaza Crystal | Calufe Cafetos | OXXO Sinfonola | Chedr
 Santiago Tuxtla: "La Enamorada Restaurante & Lounge | La Parroquia panderia | Pizzas Angelotti | Flor De La Canela | Las chicas"
 Tuxpam: "Sam's Club | La Parroquia de Veracruz Tuxpan | Chedrahui | Infonavit Tenechaco | El T Bone"
 Panuco: "Mr. Pizza | Malecón | Asociacion Ganadera Local | OXXO Burocrata | Gorditas Doña Lupita"
-
-
-
-
 Pijijiapan: "Refugio del Sol Hotel & Club de Playa | soriana expres | Miramar | Río Pijijiapan | Iglesia Santa Rita de Casia"
 Isla Mujeres: "La Playita Isla Mujeres | Playa Norte | Punta Sur | Chedraui | Coco Restaurant And Beach Bar"
 Felipe Carrillo Puerto: "Plaza principal | Parque La Colmena | Snackbar "El Ruedo" | Panadería San Juán | OXXO Milano"
@@ -666,6 +662,10 @@ Moron: "Parque Marti | Las Ruedas | Rey Gallo | Confraria Das Quinta"
 Nuevitas: "Ciringito Restaurant Cafe"
 Manzanillo: "Glorieta Manzanillo | Dinos Pizza | Parque Valle Esping | Bulevar Manzanillo | Casa De Abuela"
 Bayamo: "Plaza de la Revolucion | Restaurants Manegua | La Cuchipapa"
+
+
+
+
 Las Tunas: "Parque 26 de Julio"
 San Pedro de Macoris: "Hospital Regional Dr. Antonio Musa | Marbella | Oregano @ Emotions by Hodelpa | Oficinas Gubernamentales | Pasteles Amable"
 Artemisa: "Plaza de la Revolución | Plaza de Armas | Plaza de San Francisco | Plaza de la Catedral | Parque Lennon"

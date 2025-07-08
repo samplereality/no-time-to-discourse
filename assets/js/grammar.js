@@ -121,8 +121,11 @@ var rules = {
         stormResult: "$stormUtilities | $stormDamage",
         stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads in .cityName() were impassable) | the waters had flooded .POI() | the floodwaters took days to recede | $person's home was (utterly destroyed | gone)).",
         stormUtilities: "$stormPower. $stormWater. | $stormWater. $stormPower.",
-        stormPower: "The (lights were | power was) out for (days | weeks) | We had no gas, no heat, no lights | The hospitals ran on generators for days",
+        stormPower: "The (lights were | power was) out for (days | weeks) | We had no gas, no heat, no lights | The hospitals ran on generators for days | The clocks stopped at $stormTime",
         stormWater: "They trucked in bottled water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris) | Somewhere in .cityName(), ((twenty | thirty | forty) years of $person's life floated away in cardboard boxes) | Somewhere in .cityName(), $person's (child | son | daughter)'s kindergarten artwork dissolved in muddy water",
+        stormTime: "$stormHour:$stormMinute (AM|PM)",
+        $stormHour: "1|2|3|4|5|6|7|8|9|10|11|12",
+        $stormMinute: "(1|2|3|4|5)(0|1|2|3|4|5|6|7|8|9)",
 
     // Drought
         drought: "$droughtStart $droughtUncovered $droughtMiddle $droughtEnd",
