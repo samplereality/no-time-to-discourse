@@ -10231,7 +10231,7 @@
         "name": "Rhinelander",
         "adm1name": "Wisconsin",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Trig's | Friendship House | Rhinelander Ice Arena | Hodag Park | Golden Harvest"
       },
       "geometry": {
         "type": "Point",
@@ -10247,7 +10247,7 @@
         "name": "Racine",
         "adm1name": "Wisconsin",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Racine Curling Club | West Town Liquors | El Rodeo | Johnson Park | Castle Lanes"
       },
       "geometry": {
         "type": "Point",
@@ -10263,7 +10263,7 @@
         "name": "Marinette",
         "adm1name": "Wisconsin",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pine Tree Mall | Apple Jack's Bar & Grill"
       },
       "geometry": {
         "type": "Point",
@@ -10279,7 +10279,7 @@
         "name": "Wheeling",
         "adm1name": "West Virginia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Riesbeck Food Markets | Oglebay Park | WesBanco Arena | Pickles' | the Good Zoo and Benedum Theater at Oglebay Resort"
       },
       "geometry": {
         "type": "Point",
@@ -10295,7 +10295,7 @@
         "name": "Morgantown",
         "adm1name": "West Virginia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fat Daddy's Bar and Grill | Varsity Club | Kegler's Sports Bar & Lounge | White Park | campus"
       },
       "geometry": {
         "type": "Point",
@@ -10311,7 +10311,7 @@
         "name": "Huntington",
         "adm1name": "West Virginia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "St. Mary's Medical Center | Cabell Huntington Hospital | Cook Out | Ritter Park | Tudor's Biscuit World"
       },
       "geometry": {
         "type": "Point",
@@ -10327,7 +10327,7 @@
         "name": "Beckley",
         "adm1name": "West Virginia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Wasabi Fusion | Pasquale's | the quilting fair | Cook Out | Calacino's Pizzeria"
       },
       "geometry": {
         "type": "Point",
@@ -10343,7 +10343,7 @@
         "name": "Wilmington",
         "adm1name": "Delaware",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pete's Pizza | China House Express | Chase Fieldhouse | Brandywine Park | Salesianum School"
       },
       "geometry": {
         "type": "Point",
@@ -10359,7 +10359,7 @@
         "name": "Cumberland",
         "adm1name": "Maryland",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Puccini Restaurant | Oscar's Restaurant | Kline's Restaurant | C&O Canal Towpath"
       },
       "geometry": {
         "type": "Point",
@@ -10375,7 +10375,7 @@
         "name": "Atlantic City",
         "adm1name": "New Jersey",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bally's | Caesars | the Golden Nugget | the Tropicana | Harrah's"
       },
       "geometry": {
         "type": "Point",
@@ -10391,7 +10391,7 @@
         "name": "Newark",
         "adm1name": "New Jersey",
         "note": 4,
-        "POI": "the airport | downtown | Penn Station | Branch Brook Park | the Ironbound"
+        "POI": "Prudential Center | Branch Brook Park | Newark airport | Soul Food Chess House"
       },
       "geometry": {
         "type": "Point",
@@ -10407,7 +10407,7 @@
         "name": "Schenectady",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Rivers Casino & Resort | Alltown Fresh | Central Park | Sportsmans Bowling Academy | DeAngelo's Ristorante"
       },
       "geometry": {
         "type": "Point",
@@ -10423,7 +10423,7 @@
         "name": "Binghamton",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Otsiningo Park | Little Venice Restaurant | Recreation Park | Robot City Games and Arcade | Thai Thai Cuisine"
       },
       "geometry": {
         "type": "Point",
@@ -10439,7 +10439,7 @@
         "name": "Utica",
         "adm1name": "New York",
         "note": null,
-        "POI": "the Stanley Theatre | the Munson-Williams-Proctor Arts Institute | the Adirondack Scenic Railroad | Saranac Thursday | Fort Schuyler"
+        "POI": "North Utica Shopping Center | Ventura's Restaurant | Utica Coffee Roasting | the Utica Zoo | O'Scugnizzo Pizzeria"
       },
       "geometry": {
         "type": "Point",
@@ -10455,7 +10455,7 @@
         "name": "Watertown",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bear World | The Cowlick Ice Cream | Case Middle School | Lotus Restaurant | Thompson Park"
       },
       "geometry": {
         "type": "Point",
@@ -10471,7 +10471,7 @@
         "name": "Niagara Falls",
         "adm1name": "New York",
         "note": null,
-        "POI": "the Falls | Maid of the Mist | Rainbow Bridge | Cave of the Winds | the American Falls"
+        "POI": "Terrapin Point | Maid of the Mist | Rainbow Bridge | Cave of the Winds | the American Falls"
       },
       "geometry": {
         "type": "Point",
@@ -10503,7 +10503,7 @@
         "name": "Elmira",
         "adm1name": "New York",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pietro & Son | Diven Elementary School | Bernie Murray's | Pudgies Pizza | King Kone"
       },
       "geometry": {
         "type": "Point",
@@ -10519,7 +10519,7 @@
         "name": "York",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "York Fairgrounds & Expo Center | Memorial Hall | Mission BBQ | Rita's Italian Ice & Frozen Custard"
       },
       "geometry": {
         "type": "Point",
@@ -10535,7 +10535,7 @@
         "name": "Johnstown",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Roxbury Park | Boulevard Grill | Habits | Franklin Street Bar & Grill"
       },
       "geometry": {
         "type": "Point",
@@ -10551,7 +10551,7 @@
         "name": "Scranton",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Gerrity's | Alfredo's Pizza Cafe | Maroni's Pizza House"
       },
       "geometry": {
         "type": "Point",
@@ -10567,7 +10567,7 @@
         "name": "State College",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Berkey Creamery | Federal Taphouse | the dorms | Café 210 West | Irving's"
       },
       "geometry": {
         "type": "Point",
@@ -10583,7 +10583,7 @@
         "name": "Erie",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "Presque Isle State Park | the bayfront | Perry Square | the Warner Theatre | Millcreek Mall"
+        "POI": "Perry Square | Erie Insurance Arena | Golden Wok | Odis 12 Bar & Grille | New York Lunch"
       },
       "geometry": {
         "type": "Point",
@@ -10599,7 +10599,7 @@
         "name": "Wilkes Barre",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Schiel's Family Market | Wilkes Barre Movies 14 | Patte's Sports Bar & Restaurant | Kirby Park"
       },
       "geometry": {
         "type": "Point",
@@ -10612,58 +10612,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nieuw Nickerie",
-        "adm1name": "Nickerie",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.98999454916867,
-          5.950423603230263
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Brokopondo",
-        "adm1name": "Brokopondo",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.02001143555401,
-          5.040375792354268
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Totness",
-        "adm1name": "Coronie",
-        "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.319983766288374,
-          5.89042726533944
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Bar Harbor",
         "adm1name": "Maine",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Thunder Hole | Cadillac Mountain | Sand Beach | Sand Beach Overlook | Jordan Pond Path"
       },
       "geometry": {
         "type": "Point",
@@ -10679,7 +10631,7 @@
         "name": "Lewiston",
         "adm1name": "Maine",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pettengill Academy | the Bates campus | Mount David | the Lewiston Public Library"
       },
       "geometry": {
         "type": "Point",
@@ -10695,7 +10647,7 @@
         "name": "Presque Isle",
         "adm1name": "Maine",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Governor's Restaurant | Riverside Park | the Catholic Charities Thrift Store | Steaks N Stuff"
       },
       "geometry": {
         "type": "Point",
@@ -10711,7 +10663,7 @@
         "name": "Ann Arbor",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Ark | Nickels Arcade | Busch's Fresh Food Market | Main Street | the stadium"
       },
       "geometry": {
         "type": "Point",
@@ -10727,7 +10679,7 @@
         "name": "Kalamazoo",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The Old Goat Tavern | Sweetwater's Donut Mill | One Well Brewing"
       },
       "geometry": {
         "type": "Point",
@@ -10743,7 +10695,7 @@
         "name": "Muskegon",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pere Marquette Park Beach | Northway Lanes | Ryke's | Mr. Quick | Mr. B's Pancake House"
       },
       "geometry": {
         "type": "Point",
@@ -10759,7 +10711,7 @@
         "name": "Flint",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Donna's Donuts | Krystal Joe's Diner | Captain Coty's | Westside Diner | Big John's Steak & Onion | the GM plant | the Flint Water Plant"
       },
       "geometry": {
         "type": "Point",
@@ -10775,7 +10727,7 @@
         "name": "Grand Rapids",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Van Andel Arena | Frederik Meijer Gardens & Sculpture Park | John Ball Park | the John Ball Zoo | Riverside Park"
       },
       "geometry": {
         "type": "Point",
@@ -10791,7 +10743,7 @@
         "name": "Pontiac",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Carnival Market | Owen Elementary School | the Michigan Animal Rescue League | Leone's Frosty Treat | Avon Donuts"
       },
       "geometry": {
         "type": "Point",
@@ -10807,7 +10759,7 @@
         "name": "Cadillac",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "G & D Pizza & Party Store | The Pines Sports Bar & Bowling Center | Cheryl's Landing | Clam Lake Beer Company"
       },
       "geometry": {
         "type": "Point",
@@ -10823,7 +10775,7 @@
         "name": "Traverse City",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Clinch Park | Sue's J & S Hamburg | Oleson's | Family Fare Supermarket | Tom's Food Market"
       },
       "geometry": {
         "type": "Point",
@@ -10839,7 +10791,7 @@
         "name": "Petoskey",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Kilwins Chocolate Kitchen | Independence Village of Petoskey | the Petoskey District Library | the Petoskey Waterfront | Southwoods Pub And Grill"
       },
       "geometry": {
         "type": "Point",
@@ -10855,7 +10807,7 @@
         "name": "Escanaba",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Elmer's County Market | Gordon Food Service | Ludington Park | Drifter's"
       },
       "geometry": {
         "type": "Point",
@@ -10871,7 +10823,7 @@
         "name": "Marquette",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Presque Isle Park | Lions Field | Thomas Theatre Marquette | Marquette Mountain"
       },
       "geometry": {
         "type": "Point",
@@ -10887,7 +10839,7 @@
         "name": "Hancock",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Cantina Mexican Restaurant of Hancock | Gino's Restaurant & Cocktail Lounge | the Portage Lake Lift Bridge | Nisu Bakery & Cafe | Monte Carlo"
       },
       "geometry": {
         "type": "Point",
@@ -10903,7 +10855,7 @@
         "name": "Wrangell",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Muskeg Meadows Golf Course"
       },
       "geometry": {
         "type": "Point",
@@ -10919,7 +10871,7 @@
         "name": "Shishmaref",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -10935,7 +10887,7 @@
         "name": "Hoonah",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Hoonah Treasures | Hoonah Elementary School | Icy Stright Brewing | Oso Gordito | Hoonah High School"
       },
       "geometry": {
         "type": "Point",
@@ -10951,7 +10903,7 @@
         "name": "Atka",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the jail | the school"
       },
       "geometry": {
         "type": "Point",
@@ -10967,7 +10919,7 @@
         "name": "Nikolski",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Nikolski Air Station"
       },
       "geometry": {
         "type": "Point",
@@ -10983,7 +10935,7 @@
         "name": "Karluk",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Karluk Spit | the Ascension of Our Lord Chapel"
       },
       "geometry": {
         "type": "Point",
@@ -10999,7 +10951,7 @@
         "name": "False Pass",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Isanotski Store | Trident Seafoods | Sheet Pile Dock | Dunkin"
       },
       "geometry": {
         "type": "Point",
@@ -11015,7 +10967,7 @@
         "name": "Kivalina",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The G6"
       },
       "geometry": {
         "type": "Point",
@@ -11031,7 +10983,7 @@
         "name": "Newhalen",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the fishing camp | the hunting camp"
       },
       "geometry": {
         "type": "Point",
@@ -11047,7 +10999,7 @@
         "name": "Pilot Point",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the salmon fishery"
       },
       "geometry": {
         "type": "Point",
@@ -11063,7 +11015,7 @@
         "name": "Chignik",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the fishing camp | the hunting camp"
       },
       "geometry": {
         "type": "Point",
@@ -11079,7 +11031,7 @@
         "name": "King Salmon",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "King Ko Inn | the salmon fishery | Chinook Gift Shop"
       },
       "geometry": {
         "type": "Point",
@@ -11095,7 +11047,7 @@
         "name": "Quinhagak",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the fishery"
       },
       "geometry": {
         "type": "Point",
@@ -11111,7 +11063,7 @@
         "name": "Aniak",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the air field"
       },
       "geometry": {
         "type": "Point",
@@ -11127,7 +11079,7 @@
         "name": "Kotlit",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tikahtnu Commons | Little Millers | Mendenhall Glacier | The Pump House"
       },
       "geometry": {
         "type": "Point",
@@ -11143,7 +11095,7 @@
         "name": "Unalakleet",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pullman | the Igloo | the Nome Community Baptist Church"
       },
       "geometry": {
         "type": "Point",
@@ -11159,7 +11111,7 @@
         "name": "Koyuk",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Koyuk Native Store | the Koyuk Library | Koyuk School"
       },
       "geometry": {
         "type": "Point",
@@ -11175,7 +11127,7 @@
         "name": "McGrath",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "McGrath Airport | the McGrath Community Library | Susie's Cafe | Joe's Bar"
       },
       "geometry": {
         "type": "Point",
@@ -11191,7 +11143,7 @@
         "name": "Hughes",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Johnny Oldman School "
       },
       "geometry": {
         "type": "Point",
@@ -11207,7 +11159,7 @@
         "name": "Ambler",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ambler Airport | the mine"
       },
       "geometry": {
         "type": "Point",
@@ -11223,7 +11175,7 @@
         "name": "Wales",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Kingikmiut School | Rice and Spam"
       },
       "geometry": {
         "type": "Point",
@@ -11239,7 +11191,7 @@
         "name": "Kotzebue",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Maniilaq Health Center | AC Value Center | Northwest Arctic Heritage Center | Nullagvik Restaurant | Kotzebue High School"
       },
       "geometry": {
         "type": "Point",
@@ -11255,7 +11207,7 @@
         "name": "Wasilla",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Alaska Industrial Hardware | The Metro Cafe | the Sacred Heart Church | Menard Memorial Sports Center | Chepo’s Mexican Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -11271,7 +11223,7 @@
         "name": "Circle",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Hutchinson Commercial"
       },
       "geometry": {
         "type": "Point",
@@ -11287,7 +11239,7 @@
         "name": "Denali Park",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tikahtnu Commons | Little Millers | Glacier Bay | Mendenhall Glacier | The Pump House"
       },
       "geometry": {
         "type": "Point",
@@ -11303,7 +11255,7 @@
         "name": "Yakutat",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Leonards Landing Lodge | Yakutat Lodge | Glacier Bear Lodge"
       },
       "geometry": {
         "type": "Point",
@@ -11319,7 +11271,7 @@
         "name": "Homer",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Save-U-More | Cole’s Market | Bishop's Beach | West Homer Elementary School | River Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -11335,7 +11287,7 @@
         "name": "Tanacross",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the village | the air strip"
       },
       "geometry": {
         "type": "Point",
@@ -11351,7 +11303,7 @@
         "name": "Wiseman",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the mining village"
       },
       "geometry": {
         "type": "Point",

@@ -500,10 +500,6 @@ Superior: "Mama T's Smokin Eats | Village Lanes | Kingdom Hall-Jehovah's Witness
 West Bend: "Fleet Farm | Washington County Human Services | Regner Park | The Charcoal Grill | King Pin Bowl & Ale House"
 Fond du Lac: "Lakeside Park | Forest Mall | Schmitty's Oar House Bar & Grill | Gilles Frozen Custard | Dutch's Trading Post"
 Oshkosh: "Menominee Park | The Outlet Shoppes at Oshkosh | Bare Bones Brewery | Oshkosh North High School | Ruby Owl Tap Room"
-
-
-
-
 Rhinelander: "Trig's | Friendship House | Rhinelander Ice Arena | Hodag Park | Golden Harvest"
 Racine: "Racine Curling Club | West Town  Food Liquors | El Rodeo | Johnson Park | Castle Lanes"
 Marinette: "Pine Tree Mall | Apple Jack's Bar & Grill | Jack's Cleveland | Tyco Fire Products | Goodwill Industries of Northern Wisconsin and Upper Michigan"
@@ -552,8 +548,8 @@ Atka: "Uğurlu Balık"
 Nikolski: "Nikolskiy, Umnak, Alaska | Fox's Son Co"
 False Pass: "Isanotski Store | Trident Seafoods - False Pass | Galley - Trident Seafoods | Sheet Pile Dock | Dunkin"
 Kivalina: "The G6"
-Pilot Point: "Pilot Point, Alaska | Pilot Point"
-Chignik: "Chignik Bay Adventures"
+Pilot Point: "the fishing camp | the hunting camp"
+Chignik: "the fishing camp | the hunting camp"
 King Salmon: "King Ko Inn | Sockeye Saloon | Alaska Commercial Company | Koselig Fishing Charters | Chinook Gift Shop"
 Quinhagak: "Quinhagak"
 Kotlit: "Tikahtnu Commons | Little Millers | Glacier Bay | Mendenhall Glacier | The Pump House"
@@ -561,7 +557,7 @@ Unalakleet: "Pullman | The Igloo | Peace on earth | Unalakleet Police Department
 Koyuk: "Koyuk Native Store | the Koyuk Library | Koyuk School"
 McGrath: "McGrath Airport | the McGrath Community Library | Susie's Cafe | Warnie | Joes Bar"
 Hughes: "Hughes"
-Ambler: "Ambler School"
+Ambler: "Ambler Airport | the mine"
 Wales: "Kingikmiut School | Rice and Spam"
 Kotzebue: "Maniilaq Health Center | AC Value Center | Northwest Arctic Heritage Center | Nullagvik Restaurant | Kotzebue middle And High School"
 Wasilla: "Alaska Industrial Hardware | The Metro Cafe | the Sacred Heart Church | Menard Memorial Sports Center | Chepo’s Mexican Restaurant"
@@ -569,8 +565,12 @@ Circle: "Circle"
 Denali Park: "Tikahtnu Commons | Little Millers | Glacier Bay | Mendenhall Glacier | The Pump House"
 Yakutat: "Leonards Landing Lodge | Yakutat Lodge | Glacier Bear Lodge | shalehna | yakutat, ak"
 Homer: "Save-U-More | Cole’s Market | Bishop's Beach | West Homer Elementary School | River Cafe"
-Tanacross: "Moon Lake Recreation Area | Interior Alaska"
+Tanacross: "the village | the air strip"
 Wiseman: "Wiseman, AK | Aurora Cabin | Wiseman"
+
+
+
+
 Les Cayes: "Eau Secours | Cathédrale des Cayes | Hopital Immaculée Conception Des Cayes | Hot Spot | Timo Centre De Distribution"
 San Quintin: "Ministerio Público SQ | Tacos Los Poblanos | Valentina Cafe Restaurante | Restaurant Misión Santa Isabel | Oxxo -Gasolinera Eco- SQ"
 Punta Prieta: "Punta Prieta"
