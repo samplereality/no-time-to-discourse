@@ -599,9 +599,6 @@ Huatabampo: "birrieria don armando 2 | 1950 | Ley | Oxxo Mayitos | Los Álamos C
 Zacatecas: "Plaza Bicentenario | Alameda Trinidad García de la Cadena | Portal de Rosales | Bar Quinta Real | Mina El Edén"
 Juan Aldama: "Bodega Aurrerá | Plaza de Juan Aldama | Pollo Feliz | La Sanjuanera Terraza | Super Obregon"
 Valparaiso: "Puente Arroyo Atotonilco | Panaderia Santa Cruz | Plaza Principal Valparaiso | Mercado Valparaíso | paraiso restaurant"
-
-
-
 Fresnillo: "Autoservicio El Papalote | OXXO Salida Valparaiso | Agora Jose Gonzalez Echeverria | Auditorio nacional Silviano Carrillo SJS | Portal Fresnillo"
 Linares: "La Mision Supermercado | Plaza Juarez | Ferreteria Llavedares | Oxxo Gas | Taqueria Jorge"
 Matehuala: "Tortas Las Sevillanas | Arco Sur | Parque Del Pueblo | Walmart Matehuala (Arboledas) | Coppel Madero"
@@ -652,6 +649,10 @@ Cordoba: "Office Depot | Plaza Crystal | Calufe Cafetos | OXXO Sinfonola | Chedr
 Santiago Tuxtla: "La Enamorada Restaurante & Lounge | La Parroquia panderia | Pizzas Angelotti | Flor De La Canela | Las chicas"
 Tuxpam: "Sam's Club | La Parroquia de Veracruz Tuxpan | Chedrahui | Infonavit Tenechaco | El T Bone"
 Panuco: "Mr. Pizza | Malecón | Asociacion Ganadera Local | OXXO Burocrata | Gorditas Doña Lupita"
+
+
+
+
 Pijijiapan: "Refugio del Sol Hotel & Club de Playa | soriana expres | Miramar | Río Pijijiapan | Iglesia Santa Rita de Casia"
 Isla Mujeres: "La Playita Isla Mujeres | Playa Norte | Punta Sur | Chedraui | Coco Restaurant And Beach Bar"
 Felipe Carrillo Puerto: "Plaza principal | Parque La Colmena | Snackbar "El Ruedo" | Panadería San Juán | OXXO Milano"

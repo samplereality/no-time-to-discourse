@@ -11399,7 +11399,7 @@
         "name": "Santa Rosalia",
         "adm1name": "Baja California Sur",
         "note": null,
-        "POI": "Casa Ley Santa Rosalía | Tacos el paisano | Panaderia /"El Boleo/" | Tonka's Grill"
+        "POI": "Casa Ley Santa Rosalía | Tacos el paisano | Panaderia \"El Boleo\" | Tonka's Grill"
       },
       "geometry": {
         "type": "Point",
@@ -11591,7 +11591,7 @@
         "name": "Cuencame",
         "adm1name": "Durango",
         "note": null,
-        "POI": "Plaza Principal | La Concha | Modelorama | Menudo el /"Zancas/" | Ayuntamiento Municipal"
+        "POI": "Plaza Principal | La Concha | Modelorama | Menudo el \"Zancas\" | Ayuntamiento Municipal"
       },
       "geometry": {
         "type": "Point",
@@ -11879,7 +11879,7 @@
         "name": "Fresnillo",
         "adm1name": "Zacatecas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Autoservicio El Papalote | Agora Jose Gonzalez Echeverria | Auditorio nacional Silviano Carrillo | Portal Fresnillo"
       },
       "geometry": {
         "type": "Point",
@@ -11895,7 +11895,7 @@
         "name": "Linares",
         "adm1name": "Nuevo León",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Mision Supermercado | Plaza Juarez | Ferreteria Llavedares | Oxxo Gas | Taqueria Jorge"
       },
       "geometry": {
         "type": "Point",
@@ -11911,7 +11911,7 @@
         "name": "Matehuala",
         "adm1name": "San Luis Potosí",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tortas Las Sevillanas | Arco Sur | Parque Del Pueblo | Walmart Matehuala | Coppel Madero"
       },
       "geometry": {
         "type": "Point",
@@ -11927,7 +11927,7 @@
         "name": "Tamuin",
         "adm1name": "San Luis Potosí",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Media Luna | Estadio Municipal de Tamuín | Jugos El Arbolito | Maria Bonita | Mercado de Tamuín"
       },
       "geometry": {
         "type": "Point",
@@ -11943,7 +11943,7 @@
         "name": "Tamazunchale",
         "adm1name": "San Luis Potosí",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "El Rinconcito | La Fogata De Don Eligio | Plaza de Tamazunchale | Restaurante El Huasteco"
       },
       "geometry": {
         "type": "Point",
@@ -11959,7 +11959,7 @@
         "name": "Tula",
         "adm1name": "Tamaulipas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Presidencia Municipal de Tula | Terraza san Antonio  | Hospital Regional De Especialidades Tula"
       },
       "geometry": {
         "type": "Point",
@@ -11975,7 +11975,7 @@
         "name": "Aldama",
         "adm1name": "Tamaulipas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Restaurant Super Cream | Universidad Del Atlantico | Restaurante El Amigo Chon | Gimnasio Municipal Aldama | Restaurante \"El 7 Mares\""
       },
       "geometry": {
         "type": "Point",
@@ -11991,7 +11991,7 @@
         "name": "San Fernando",
         "adm1name": "Tamaulipas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Wide Open Outfitters | Mariscos La Gringa | Bodega Aurrera | Mariscos \"El Velero\" | El Papas"
       },
       "geometry": {
         "type": "Point",
@@ -12007,7 +12007,7 @@
         "name": "Tecoman",
         "adm1name": "Colima",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercado Cuauhtémoc | Tacos El Buen Sabor | El Torito Pillín | Tostadas Doña Yoli | Mariscos Homero"
       },
       "geometry": {
         "type": "Point",
@@ -12023,7 +12023,7 @@
         "name": "Puerto Vallarta",
         "adm1name": "Jalisco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "El Caballito | La Isla Shopping Village | Los Arcos | the resort"
       },
       "geometry": {
         "type": "Point",
@@ -12039,7 +12039,7 @@
         "name": "La Barca",
         "adm1name": "Jalisco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Iglesia de san juan bosco | Lety y Chela Cenaduria | Birria El Barril | Birriería Miguel"
       },
       "geometry": {
         "type": "Point",
@@ -12055,7 +12055,7 @@
         "name": "Ciudad Guzman",
         "adm1name": "Jalisco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mariscos Puerto Vallarta | Mercado Paulino Navarro | Las Peñas | Tianguis Municipal"
       },
       "geometry": {
         "type": "Point",
@@ -12071,7 +12071,7 @@
         "name": "Lagos de Moreno",
         "adm1name": "Jalisco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Portal Lagos | Farmacias Guadalajara | Tacos Don Alfred | Helados Bolonia | Tacos Ivan"
       },
       "geometry": {
         "type": "Point",
@@ -12087,7 +12087,7 @@
         "name": "Morelia",
         "adm1name": "Michoacán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Espacio Las Américas | Casa de la Cultura | Mr. Hot Burrito | Mercado de Dulces | Pura Vida Morelia"
       },
       "geometry": {
         "type": "Point",
@@ -12103,7 +12103,7 @@
         "name": "Lazaro Cardenas",
         "adm1name": "Michoacán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercado Cuauhtémoc | Pollo Feliz Melchor Ocampo | Micheladas \"Tariacuri\" | Caffeto"
       },
       "geometry": {
         "type": "Point",
@@ -12119,7 +12119,7 @@
         "name": "Zamora",
         "adm1name": "Michoacán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Ana | CT Telmex | Plaza Las Palomas | Mercado Hidalgo | La Casita"
       },
       "geometry": {
         "type": "Point",
@@ -12135,7 +12135,7 @@
         "name": "Coalcoman",
         "adm1name": "Michoacán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Jardin De Coalcoman | Restaurant El Palmar | Mariscos El Compadre"
       },
       "geometry": {
         "type": "Point",
@@ -12151,7 +12151,7 @@
         "name": "Uruapan",
         "adm1name": "Michoacán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Histórico Uruapan | Caltzontzin | Mega Comercial Mexicana | Plaza Ágora | Unidad Deportiva Hnos López Rayon"
       },
       "geometry": {
         "type": "Point",
@@ -12167,7 +12167,7 @@
         "name": "Tuxpan",
         "adm1name": "Nayarit",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cocoroloco bar | Estadio De Beis Bol Lorenzo López Ibañez | La Vitamina | Centro De Maestros"
       },
       "geometry": {
         "type": "Point",
@@ -12183,7 +12183,7 @@
         "name": "Tepic",
         "adm1name": "Nayarit",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Medico Puerta de Hierro | Hacienda La Higuera | Forum Tepic | Cerro De San Juan | Restaurant Vegetariano Quetzalcoatl"
       },
       "geometry": {
         "type": "Point",
@@ -12199,7 +12199,7 @@
         "name": "Compostela",
         "adm1name": "Nayarit",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Raspados \"El Manantial\" | Ley Express | Mariscos Barrabas | Restaurante \"El Chivo De Oro\" | La Choperia Compostela"
       },
       "geometry": {
         "type": "Point",
@@ -12215,7 +12215,7 @@
         "name": "Tecuala",
         "adm1name": "Nayarit",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cenaduria Luz | Centro Botanedo  \"El dorado\" | Plaza Principal | Presidencia Municipal de Tecuala"
       },
       "geometry": {
         "type": "Point",
@@ -12231,7 +12231,7 @@
         "name": "Ciudad del Carmen",
         "adm1name": "Campeche",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Zentralia | Unidad Deportiva Maderas | Hot Dogs \"Chendo\" | Tacolandia | Taqueria \"chico che\""
       },
       "geometry": {
         "type": "Point",
@@ -12247,7 +12247,7 @@
         "name": "Champoton",
         "adm1name": "Campeche",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Costero Champotón | The Italian Coffee Company | Crunch Chicken | Taco Fish | Teatro de la ciudad"
       },
       "geometry": {
         "type": "Point",
@@ -12263,7 +12263,7 @@
         "name": "Salina Cruz",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Antojitos Dobladas y Gorditas | DaVinci's | La Diabla | Mirador de Playa Abierta | Macao"
       },
       "geometry": {
         "type": "Point",
@@ -12279,7 +12279,7 @@
         "name": "Puerto Escondido",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "El Cafecito | Playa Principal | Playa Puerto Angelito | Adoquin | Mercado Benito Juárez"
       },
       "geometry": {
         "type": "Point",
@@ -12295,7 +12295,7 @@
         "name": "Pochutla",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Vidita Negra Café | Zócalo Pochutla | Oxxo Pochutla | Chedraui Pochutla | Catedral de Pochutla"
       },
       "geometry": {
         "type": "Point",
@@ -12311,7 +12311,7 @@
         "name": "Mitla",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Zona Arqueológica Mitla | Templo de San Pablo Apostol | Restaurante Donaji | La Choza del Chef | Zócalo"
       },
       "geometry": {
         "type": "Point",
@@ -12327,7 +12327,7 @@
         "name": "Tlaxiaco",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Histórico | Caldos de Gallina El Mixteco | Muebles Adecari | La Cocina De Casa | Parque Central General Porfirio Diaz"
       },
       "geometry": {
         "type": "Point",
@@ -12343,7 +12343,7 @@
         "name": "Huajuapan de Leon",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Soriana | Mercado Zaragoza | Italian Atlantic Pizza | Cinemas Henry | Mercado Porfirio Díaz"
       },
       "geometry": {
         "type": "Point",
@@ -12359,7 +12359,7 @@
         "name": "Tehuacan",
         "adm1name": "Puebla",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Comercial El Paseo. | Mueganos El Águila Real de Tehuacán | Parque Arcadia | Helados Rosita | La Granja"
       },
       "geometry": {
         "type": "Point",
@@ -12375,7 +12375,7 @@
         "name": "Teziutlan",
         "adm1name": "Puebla",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tortas Tacos Y Gringas Doña Glo | Las Limpiecitas | La Fogata | Restaurante Cristina | Bodega Aurrera Teziutlan"
       },
       "geometry": {
         "type": "Point",
@@ -12391,7 +12391,7 @@
         "name": "Frontera",
         "adm1name": "Tabasco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mi Bodega Aurrera | Puerto de Frontera | frontera | El Cevichon | Soriana"
       },
       "geometry": {
         "type": "Point",
@@ -12407,7 +12407,7 @@
         "name": "Tenosique",
         "adm1name": "Tabasco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Taco Felix | D' Manolo's pizzas | La Michoacana | Malecón | Parque Usumacinta"
       },
       "geometry": {
         "type": "Point",
@@ -12423,7 +12423,7 @@
         "name": "Salamanca",
         "adm1name": "Guanajuato",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cipreses Residencial | Mercado Tomasa Estevez | Tony's"
       },
       "geometry": {
         "type": "Point",
@@ -12439,7 +12439,7 @@
         "name": "Guanajuato",
         "adm1name": "Guanajuato",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Monumento a El Pípila | Glorieta monumento a Cervantes | Mercado Miguel Hidalgo | Jardín Embajadoras | Casa Valadez Anfitrión & Gourmet"
       },
       "geometry": {
         "type": "Point",
@@ -12455,7 +12455,7 @@
         "name": "Taxco",
         "adm1name": "Guerrero",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Exconvento | Zocalo De Taxco | Centro Cultural Taxco Casa Borda | Súper Che | Plazuela La Garita"
       },
       "geometry": {
         "type": "Point",
@@ -12471,7 +12471,7 @@
         "name": "Ayutla",
         "adm1name": "Guerrero",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Asadero Libra | La telareña | House Party | Aquaman | Telecom Telegrafos"
       },
       "geometry": {
         "type": "Point",
@@ -12487,7 +12487,7 @@
         "name": "Ciudad Altamirano",
         "adm1name": "Guerrero",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bodega Aurrera | Mercado Municipal Cd. Altamirano | Mercado del Oro | Catedral de Fray Juan Bautista Moya de Ciudad Altamirano"
       },
       "geometry": {
         "type": "Point",
@@ -12503,7 +12503,7 @@
         "name": "Petatlan",
         "adm1name": "Guerrero",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Iglesia Del Santo Señor De Petatlan | Yardas Pizza | Mercado Isidro Montes de Oca | Fonda Doña Vicky | Muebleria Petatlan"
       },
       "geometry": {
         "type": "Point",
@@ -12519,7 +12519,7 @@
         "name": "Pachuca",
         "adm1name": "Hidalgo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chaluperia Pruebe Papa | Escuela Americana de Pachuca A.C | Chedraui | Reloj Monumental de Pachuca | Parque Cultural Hidalguense Ben Gurión"
       },
       "geometry": {
         "type": "Point",
@@ -12535,7 +12535,7 @@
         "name": "Toluca",
         "adm1name": "México",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Patio Toluca | Estadio Nemesio Diez | Capultitlan Centro | Parque Alameda 2000 | Cosmovitral (Jardín Botánico)"
       },
       "geometry": {
         "type": "Point",
@@ -12551,7 +12551,7 @@
         "name": "Zumpango",
         "adm1name": "México",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Casa De La Cultura | Italians Pizza | san pedro de la laguna | Instituto Municipal De Cultura Física Y deporte De Zumpango | Mercado De Los Insurgentes"
       },
       "geometry": {
         "type": "Point",
@@ -12567,7 +12567,7 @@
         "name": "Minatitlan",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Central De Abastos Minatitlan | Farmacia Guadalajara | Mariscos El Jarocho | Parque Independencia | Boxito Minatitlan"
       },
       "geometry": {
         "type": "Point",
@@ -12583,7 +12583,7 @@
         "name": "Coatzacoalcos",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercado Popular Morelos | Bama de Lazaro Cardenas | Las Escolleras | Fabricas De Francia | Alameda"
       },
       "geometry": {
         "type": "Point",
@@ -12599,7 +12599,7 @@
         "name": "Poza Rica de Hidalgo",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Oxxo Naranjos | Chedraui | Panaderia Los Tampiqueños | Restaurante Toks | Asadero Campinas"
       },
       "geometry": {
         "type": "Point",
@@ -12615,7 +12615,7 @@
         "name": "Cordoba",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Office Depot | Plaza Crystal | Calufe Cafetos | Chedraui"
       },
       "geometry": {
         "type": "Point",
@@ -12631,7 +12631,7 @@
         "name": "Santiago Tuxtla",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Enamorada Restaurante & Lounge | La Parroquia panderia | Pizzas Angelotti | Flor De La Canela | Las chicas"
       },
       "geometry": {
         "type": "Point",
@@ -12647,7 +12647,7 @@
         "name": "Tuxpam",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Parroquia de Veracruz Tuxpan | Chedrahui | Infonavit Tenechaco | El T Bone"
       },
       "geometry": {
         "type": "Point",
@@ -12663,7 +12663,7 @@
         "name": "Panuco",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mr. Pizza | Malecón | Asociacion Ganadera Local | Gorditas Doña Lupita"
       },
       "geometry": {
         "type": "Point",

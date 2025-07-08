@@ -55,7 +55,7 @@ var rules = {
         floridaPerson: "$person (wades | swims | canoes | kayaks) through the (streets | parking lot | playground). $pronoun.cap() (wonders | thinks about | knows) (how | why) this happened. It's a (punishment | warning | message | reward) from God for the sins of this country.",
         floridaMan: "$person switches over to (Fox News | One America News | Newsmax | RT America). $pronoun.cap() knows they speak the truth. $floridaTruth",
         floridaTruth: "The (weird | wacky) weather is from $floridaConspiracy. | The (government is | lamestream media is | so-called scientists are | libtards are) (lying | wrong | stupid) about climate change. | (The government is | Scientists are | Aliens are | The UN is) (manipulating | controlling) the (weather | the groupthink| the facts | the data).",
-        floridaConspiracy: "the chemtrails | the vaccines | 5G | the Epstein coverup",
+        floridaConspiracy: "the chemtrails | the vaccines | 5G | the Epstein coverup | HAARP weather manipulation",
     
     // Gulf Disasters (Oil Spills, Red Tides, and more)
         gulfOil: "$gulfSpillOpening $gulfSpillMiddle $gulfSpillClimax $gulfSpillEnding",
