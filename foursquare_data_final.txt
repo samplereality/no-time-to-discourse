@@ -567,10 +567,6 @@ Yakutat: "Leonards Landing Lodge | Yakutat Lodge | Glacier Bear Lodge | shalehna
 Homer: "Save-U-More | Cole’s Market | Bishop's Beach | West Homer Elementary School | River Cafe"
 Tanacross: "the village | the air strip"
 Wiseman: "Wiseman, AK | Aurora Cabin | Wiseman"
-
-
-
-
 Les Cayes: "Eau Secours | Cathédrale des Cayes | Hopital Immaculée Conception Des Cayes | Hot Spot | Timo Centre De Distribution"
 San Quintin: "Ministerio Público SQ | Tacos Los Poblanos | Valentina Cafe Restaurante | Restaurant Misión Santa Isabel | Oxxo -Gasolinera Eco- SQ"
 Punta Prieta: "Punta Prieta"
@@ -598,11 +594,14 @@ Ciudad Obregon: "Carnes Clasificadas Chihuahua | Cahuamanta Las Palmas | Marisco
 Navajoa: "San Carlos Country Club | Empanaditas Gela de Cócorit | Álamos Sonora, Pueblo Magico | Circle S Saloon | Los Lagos"
 Caborca: "Restaurant Dueñas | Ley Caborca | templo guadalupano | El Timon | soriana"
 Mazatlán: "Restaurant Loma Linda | Mazatan | Puesto Doña Ivis | Centro De Salud"
-Cananea: "La Terraza 2 | El Antojo | Coffee Point | Ley Express | Tacos de la Cabaña del Tio Tom"
+Cananea: 
 Huatabampo: "birrieria don armando 2 | 1950 | Ley | Oxxo Mayitos | Los Álamos Café"
 Zacatecas: "Plaza Bicentenario | Alameda Trinidad García de la Cadena | Portal de Rosales | Bar Quinta Real | Mina El Edén"
 Juan Aldama: "Bodega Aurrerá | Plaza de Juan Aldama | Pollo Feliz | La Sanjuanera Terraza | Super Obregon"
 Valparaiso: "Puente Arroyo Atotonilco | Panaderia Santa Cruz | Plaza Principal Valparaiso | Mercado Valparaíso | paraiso restaurant"
+
+
+
 Fresnillo: "Autoservicio El Papalote | OXXO Salida Valparaiso | Agora Jose Gonzalez Echeverria | Auditorio nacional Silviano Carrillo SJS | Portal Fresnillo"
 Linares: "La Mision Supermercado | Plaza Juarez | Ferreteria Llavedares | Oxxo Gas | Taqueria Jorge"
 Matehuala: "Tortas Las Sevillanas | Arco Sur | Parque Del Pueblo | Walmart Matehuala (Arboledas) | Coppel Madero"
