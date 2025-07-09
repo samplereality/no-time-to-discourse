@@ -1,10 +1,10 @@
 var rules = {
 
-    start: "$byline ($fire | $drought | $flood | $storm | $heat) [8] | $personal",
+    // start: "$byline ($fire | $drought | $flood | $storm | $heat) [8] | $personal",
 
     byline: "<em>.date()</em><br><br>",
 
-    // start: "$byline $flood",
+    start: "$byline $storm",
 
     // Location-Specific Disasters
         florida: "$byline ($floridaSeaLevel | $hurricane) [8] | $personal",
@@ -118,8 +118,12 @@ var rules = {
         stormBarometer: "The barometer was (dropping | falling | low | lower than it had ever been). The air was (heavy | thick | oppressive).",
         stormFinally: "When the storm finally came to .cityName(), it was (fierce | apocalyptic | devastating | biblical | deadly). $person watched as the storm (lashed against $posPro windows | pummeled $posPro house | darkened the earth | pounded .POI()).",
         stormSky: "The sky over .cityName() (darkened | turned black). $person had a fleeting thought, that (the sky was (falling | collapsing | caving in) | evil was rising | $pronoun had left $posPro $object outside).",
-        stormResult: "$stormUtilities | $stormDamage",
-        stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads in .cityName() were impassable) | the waters had flooded .POI() | the floodwaters took days to recede | $person's home was (utterly destroyed | gone)).",
+        stormResult: "$stormUtilities | $stormDamage | Meanwhile $stormConspiracy",
+        stormConspiracy: "$stormConspiracyCreator | $stormConspiracyViewer",
+        stormConspiracyCreator: "$person spins up $posPro (YouTube | TikTok | Instagram) channel, ranting about $stormConspiracyTheories. (A hundred | A thousand | Five thousand) views and counting.",
+        stormConspiracyViewer: "$person taps open (YouTube | TikTok | Instagram), watching video after frenzied video revealing the truth about $stormConspiracyTheories. (A hour passes | Three hours pass | Six hours pass).",
+        stormConspiracyTheories: "weather modification | cloud seeding | HAARP | chemtrails | EMF weapons | solar radiation management",
+        stormDamage: "(In the end | When it was all over | When it had finally stopped), ($count of (buildings were leveled by mudslides | trees were downed | roads in .cityName() were impassable) | the waters had flooded .POI() | the floodwaters took days to recede | $person's home was (utterly destroyed | gone), and there's only so much a GoFundMe can do).",
         stormUtilities: "$stormPower. $stormWater. | $stormWater. $stormPower.",
         stormPower: "The (lights were | power was) out for (days | weeks) | We had no gas, no heat, no lights | The hospitals ran on generators for days | The clocks stopped at $stormTime",
         stormWater: "They trucked in bottled water, since nothing was safe to drink | No one had fresh water | The sewers backed up, filling the streets with noxious (raw sewage | human waste | filth | garbage | debris) | Somewhere in .cityName(), ((twenty | thirty | forty) years of $person's life floated away in cardboard boxes) | Somewhere in .cityName(), $person's (child | son | daughter)'s kindergarten artwork dissolved in muddy water",

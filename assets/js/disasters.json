@@ -13431,7 +13431,7 @@
         "name": "Dease Lake",
         "adm1name": "British Columbia",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Northway Motor Inn | Super A Foodsr | rumors | Pharmasave Telepharmacy | Royal Canadian Mounted Police"
       },
       "geometry": {
         "type": "Point",
@@ -13447,7 +13447,7 @@
         "name": "Coral Harbour",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the village store | the market | the fishery"
       },
       "geometry": {
         "type": "Point",
@@ -13463,7 +13463,7 @@
         "name": "Baker Lake",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pizza Hut | Tim Hortons | Northern Convenience"
       },
       "geometry": {
         "type": "Point",
@@ -13479,7 +13479,7 @@
         "name": "Norman Wells",
         "adm1name": "Northwest Territories",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The North West Company | the Normal Wells Museum | Ventures Restaurant | Canol Lounge | Riverview Stationary & Supplies"
       },
       "geometry": {
         "type": "Point",
@@ -13495,7 +13495,7 @@
         "name": "Fort McPherson",
         "adm1name": "Northwest Territories",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Northern Store | Big Momma’s | St. Matthew's Anglican Church"
       },
       "geometry": {
         "type": "Point",
@@ -13511,7 +13511,7 @@
         "name": "Burwash Landing",
         "adm1name": "Yukon",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the airport"
       },
       "geometry": {
         "type": "Point",
@@ -13527,7 +13527,7 @@
         "name": "Orangeville",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Dave's Butcher Shop | Zehrs | Alder Street Rec Center"
       },
       "geometry": {
         "type": "Point",
@@ -13543,7 +13543,7 @@
         "name": "Little Current",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Elliott's | Manitoulin Brewing Company | Orr's valu-mart | Farquhar's | Loco Beanz"
       },
       "geometry": {
         "type": "Point",
@@ -13559,7 +13559,7 @@
         "name": "Chapleau",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chapleau valu-mart | The Bargain! Shop | Chapleau Hub | Miss Muggins Coffee 'N Donuts | Dominion Family Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -13575,7 +13575,7 @@
         "name": "Wawa",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "John's Independent Grocer | Makade Nimkii Convenience Store | Wawa General Store | North of 17 | Wawa Lake"
       },
       "geometry": {
         "type": "Point",
@@ -13591,7 +13591,7 @@
         "name": "Hearst",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pizza Place | John's Restaurant | Your Independent Grocer | Moose & Wolves | Husky House Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -13607,7 +13607,7 @@
         "name": "Marathon",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tim Hortons | Marathon Centre Mall | The Bargain Shop | Your Independent Grocer | Wok with Chow"
       },
       "geometry": {
         "type": "Point",
@@ -13623,7 +13623,7 @@
         "name": "Sioux Lookout",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Forest Inn Dining Room and Lounge | Forest Inn | Pelican Lake Residential School | Frog Rapids Camp"
       },
       "geometry": {
         "type": "Point",
@@ -13639,7 +13639,7 @@
         "name": "Red Lake",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Antonio's | Howey Bay Restaurant | Ice Shack on Gull Rock"
       },
       "geometry": {
         "type": "Point",
@@ -13655,7 +13655,7 @@
         "name": "Deer Lake",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the airport"
       },
       "geometry": {
         "type": "Point",
@@ -13671,7 +13671,7 @@
         "name": "Cat Lake",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the airport | the ice road"
       },
       "geometry": {
         "type": "Point",
@@ -13687,7 +13687,7 @@
         "name": "Cornwall",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Benson Centre | Hops & Barley Restaurant & Lounge | Bulk Barn | Kelseys Original Roadhouse"
       },
       "geometry": {
         "type": "Point",
@@ -13703,7 +13703,7 @@
         "name": "Kingston",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Frontenac Mall | Value Village | Coffee Way | Dollarama"
       },
       "geometry": {
         "type": "Point",
@@ -13719,7 +13719,7 @@
         "name": "Barrie",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Bradford Greenhouses Garden Gallery | RioCan Georgian Mall | Barrie Country Club | Bayfield Mall | Zehrs"
       },
       "geometry": {
         "type": "Point",
@@ -13735,7 +13735,7 @@
         "name": "Parry Sound",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bobby Orr Community Centre | Popeyes Louisiana Kitchen | Parry Sound Mall | Parry Sound Salt Dock | Waubano Beach"
       },
       "geometry": {
         "type": "Point",
@@ -13751,7 +13751,7 @@
         "name": "Wiarton",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bluewater Park | Lost Art Espresso | Frosty Freeze | Wiarton Hospital | Ashanti Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -13767,7 +13767,7 @@
         "name": "Cobalt",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Urban Market & Eatery | Miner's Tavern | Laura's Art Shoppe"
       },
       "geometry": {
         "type": "Point",
@@ -13783,7 +13783,7 @@
         "name": "Cochrane",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lady Minto Hospital | Your Independent Grocer | Ice Hut | The Station Inn Resturant | Giant Tiger"
       },
       "geometry": {
         "type": "Point",
@@ -13799,7 +13799,7 @@
         "name": "Nipigon",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Nipigon Lookout | The Bargain! Shop | Nipigon River Twin Bridges | The Dock At The Lake"
       },
       "geometry": {
         "type": "Point",
@@ -13815,7 +13815,7 @@
         "name": "Atikokan",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Foodland | Museum Of Atikokan | Pinewood, ON | Atikokan Old Ski Hill | The Outdoorsman"
       },
       "geometry": {
         "type": "Point",
@@ -13831,7 +13831,7 @@
         "name": "Rimouski",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Colisée Financière Sun Life | Marché public de Rimouski | Parc Beauséjour | Restaurant Haute Ville | Dollorama"
       },
       "geometry": {
         "type": "Point",
@@ -13847,7 +13847,7 @@
         "name": "Saint-Georges",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Restaurant Chez Gérard | Les Halles Des Pères Nature | Centre sportif Lacroix Dutil | Rock Cafe | Parc Des 7 Chutes"
       },
       "geometry": {
         "type": "Point",
@@ -13863,7 +13863,7 @@
         "name": "Victoriaville",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fromagerie Victoria | Restaurant Max Poutine | Le Victorin | chic choco-latté | Parc Terre Des Jeunes"
       },
       "geometry": {
         "type": "Point",

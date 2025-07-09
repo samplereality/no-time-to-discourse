@@ -698,10 +698,6 @@ Lillooet: "Buy-Low Foods | Lilooet Gospel Chapel | Lillooet Brewing Company | Ti
 Powell River: "Serious Coffee | River City Coffee | Tla'amin Convenience Store | Townsite Brewing | Julie's Airport Market"
 Revelstoke: "Save-On-Foods | Little Spoon | the Revelstoke Suspension Bridge | Mount Revelstoke National Park | Mt. Begbie Brewing Co."
 Burns Lake: "The Office | Boer Mountain Coffee House | Wholesale Club | Sunshine Inn - Burns Lake | lake babine band office"
-
-
-
-
 Dease Lake: "Northway Motor Inn | Super A Foodsr | rumors | Pharmasave Telepharmacy | Royal Canadian Mounted Police"
 Baker Lake: "Pizza Hut | Tim Hortons | Northern Convenience"
 Norman Wells: "The North West Company | the Normal Wells Museum | Ventures Restaurant | Canol Lounge | Riverview Stationary & Supplies"
@@ -728,6 +724,10 @@ Atikokan: "Foodland | Museum Of Atikokan | Pinewood, ON | Atikokan Old Ski Hill 
 Rimouski: "Colisée Financière Sun Life | Marché public de Rimouski | Parc Beauséjour | Restaurant Haute Ville | Dollorama"
 Saint-Georges: "Restaurant Chez Gérard | Les Halles Des Pères Nature | Centre sportif Lacroix Dutil | Rock Cafe | Parc Des 7 Chutes"
 Victoriaville: "Fromagerie Victoria | Restaurant Max Poutine | Le Victorin | chic choco-latté | Parc Terre Des Jeunes"
+
+
+
+
 Chevery: "Netagamiou School | SAQ Agence - Dépanneur Bellecourt enr."
 Mistassini: "Resto des Copains | Parc de la Pointe des Pères (Société de gestion environnementale) | Maxi | salaison Besson | Le Roi du Chien Chaud"
 Kangirsuk: "kangirsuk hospital"
