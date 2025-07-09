@@ -13879,7 +13879,7 @@
         "name": "Chevery",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Netagamiou School | Parc de la Pointe des Pères | Maxi | salaison Besson | Le Roi du Chien Chaud"
       },
       "geometry": {
         "type": "Point",
@@ -13895,7 +13895,7 @@
         "name": "Mistassini",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the runway"
       },
       "geometry": {
         "type": "Point",
@@ -13911,7 +13911,7 @@
         "name": "Kangirsuk",
         "adm1name": "Québec",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the hospital"
       },
       "geometry": {
         "type": "Point",
@@ -13927,7 +13927,7 @@
         "name": "Shawinigan",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fromagerie Victoria | Marché Public de Shawinigan | Aubainerie | Place Biermans | Centre Gervais Auto"
       },
       "geometry": {
         "type": "Point",
@@ -13943,7 +13943,7 @@
         "name": "Matagami",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Poulet Fritou | Cabane A Sel | Dépanne-Nord Beau-Soir | Resto L'imprévu | Club de Golf Matagami"
       },
       "geometry": {
         "type": "Point",
@@ -13959,7 +13959,7 @@
         "name": "Mont-Laurier",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Paroisse cathédrale Notre-Dame-de-Fourvière | La Crémière | Plaza Paquette | La Chaumière | Boston Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -13975,7 +13975,7 @@
         "name": "Pembroke",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Fontaine De Venise | thorne | Algonquin | Euphoria Smoothie Cafe Royal"
       },
       "geometry": {
         "type": "Point",
@@ -13991,7 +13991,7 @@
         "name": "Radisson",
         "adm1name": "Québec",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Esso Radisson | Sentier Écologique | Gros Tas De Roches | Ville de Radisson | Bar Boreal"
       },
       "geometry": {
         "type": "Point",
@@ -14007,7 +14007,7 @@
         "name": "Saint John",
         "adm1name": "New Brunswick",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mclarens Beach | Real Atlantic Superstore | Millidgeville Market Superstore | Rockwood Park | Carleton Martello Tower"
       },
       "geometry": {
         "type": "Point",
@@ -14023,7 +14023,7 @@
         "name": "Edmundston",
         "adm1name": "New Brunswick",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Dollarama | Brasseurs du Petit-Sault Brewers | Fiddlehead | Pizza Delight | Mont Farlagne"
       },
       "geometry": {
         "type": "Point",
@@ -14039,7 +14039,7 @@
         "name": "Shelburne",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Boxing Rock Brewing | Roseway Hospital | Upper Sandy Point Cemetery | Shelburne Mall | Emerald Light"
       },
       "geometry": {
         "type": "Point",
@@ -14055,7 +14055,7 @@
         "name": "Antigonish",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Charles V. Keating Millennium Centre | Atlantic Superstore | Cleve's Source For Sports | Justamere Cafe | Gabrieau's Bistro"
       },
       "geometry": {
         "type": "Point",
@@ -14071,7 +14071,7 @@
         "name": "Windsor",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Hants Community Hospital | Magic Pizza | Bedard Bakery | Gerrish & Gray | Schoolhouse Brewery"
       },
       "geometry": {
         "type": "Point",
@@ -14087,7 +14087,7 @@
         "name": "Digby",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Real Atlantic Superstore | Walmart | Josie's Place | Tacocat | Digby Hospital"
       },
       "geometry": {
         "type": "Point",
@@ -14103,7 +14103,7 @@
         "name": "Stephenville",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The Bar | Hartery's Family Restaurant | Domino Pizza Place | Dollarama"
       },
       "geometry": {
         "type": "Point",
@@ -14119,7 +14119,7 @@
         "name": "Argentia",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the main street | the railroad bridge | the elementary school | the water tower | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -14135,7 +14135,7 @@
         "name": "St. Anthony",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ragnarock Northern Brewing | Fox Point Lighthouse | Fishing Point Emporium | The Lightkeepers | Water Bomber"
       },
       "geometry": {
         "type": "Point",
@@ -14151,7 +14151,7 @@
         "name": "Channel-Port aux Basques",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Foodland | Grand Bay West Trail | Channel Head Lighthouse | Grand Bay Mall | St. James Church & Memorial Centre"
       },
       "geometry": {
         "type": "Point",
@@ -14167,7 +14167,7 @@
         "name": "Buchans",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Buchaneer Lounge | Canadian Post | Colemans Grocery | Rick Noftle"
       },
       "geometry": {
         "type": "Point",
@@ -14183,7 +14183,7 @@
         "name": "Trout River",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Seaside Restaurant | Trout River Campground | Green Gardens Trail | Canadian Post | Hanns Confectionary"
       },
       "geometry": {
         "type": "Point",
@@ -14199,7 +14199,7 @@
         "name": "Churchill Falls",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Midway Restaurant | Churchill Falls Dental Clinic | Stricklands Convenience Store | Canadian Post | Department Store Basement"
       },
       "geometry": {
         "type": "Point",
@@ -14215,7 +14215,7 @@
         "name": "Forteau",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sea View Restaurant | Red Rocks Pub | Canadian Post | Krown Rust Control | Has Grocery & Hardware"
       },
       "geometry": {
         "type": "Point",
@@ -14231,7 +14231,7 @@
         "name": "Ponce",
         "adm1name": "Puerto Rico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza del Caribe | Econo | Ponce Town Center | Food Court | Plaza del Caribe | Ponce Mall"
       },
       "geometry": {
         "type": "Point",
@@ -14247,7 +14247,7 @@
         "name": "Mayaguez",
         "adm1name": "Puerto Rico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ricomini | El Mesón Sandwiches | Mandarin | Ricomini Bakery | Pueblo"
       },
       "geometry": {
         "type": "Point",
@@ -14263,7 +14263,7 @@
         "name": "La Romana",
         "adm1name": "La Romana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Playa Minitas | Minitas Beach Club & Restaurante | Boulevard de la Romana | Whelhams | Altos de Chavon"
       },
       "geometry": {
         "type": "Point",
@@ -14279,7 +14279,7 @@
         "name": "Trepassey",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "First Venture Family Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -14295,7 +14295,7 @@
         "name": "Kailua-Kona",
         "adm1name": "Hawaii",
         "note": 7,
-        "POI": "the Pālamanui Community Forest preserve | Ali'i Drive | Mokuaikaua Church"
+        "POI": "the Pālamanui Community Forest preserve | Ali'i Drive | Mokuaikaua Church | Kona Coast Shopping Center | Coconut Grove Marketplace"
       },
       "geometry": {
         "type": "Point",

@@ -724,10 +724,6 @@ Atikokan: "Foodland | Museum Of Atikokan | Pinewood, ON | Atikokan Old Ski Hill 
 Rimouski: "Colisée Financière Sun Life | Marché public de Rimouski | Parc Beauséjour | Restaurant Haute Ville | Dollorama"
 Saint-Georges: "Restaurant Chez Gérard | Les Halles Des Pères Nature | Centre sportif Lacroix Dutil | Rock Cafe | Parc Des 7 Chutes"
 Victoriaville: "Fromagerie Victoria | Restaurant Max Poutine | Le Victorin | chic choco-latté | Parc Terre Des Jeunes"
-
-
-
-
 Chevery: "Netagamiou School | SAQ Agence - Dépanneur Bellecourt enr."
 Mistassini: "Resto des Copains | Parc de la Pointe des Pères (Société de gestion environnementale) | Maxi | salaison Besson | Le Roi du Chien Chaud"
 Kangirsuk: "kangirsuk hospital"
@@ -754,6 +750,10 @@ Mayaguez: "Ricomini | El Mesón Sandwiches | Mandarin | Ricomini Bakery | Pueblo
 La Romana: "Playa Minitas | Minitas Beach Club & Restaurante | Boulevard de la Romana | Whelhams | Altos de Chavon"
 Trepassey: "First Venture Family Restaueant"
 Kailua-Kona: "Kona Commons Shopping Center | Kona Coast Shopping Center | Coconut Grove Marketplace | KTA Super Stores | Honokohau Harbor"
+
+
+
+
 Butte: "the Gold Hill Lutheran Church | Western Meat Block | Granite Mountain Memorial | Three Bears Alaska | East Side Athletic Club"
 Grand Forks: "Columbia Mall | Hugo's | the Grand Forks Public Library | Happy Harry's Bottle Shop | Paradiso Mexican Restaurant"
 Pocatello: "Juniper Hills Country Club | Ward Park | Deseret Industries | Ridley's Market Place | Bannock County Drivers License"
