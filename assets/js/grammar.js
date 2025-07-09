@@ -1,10 +1,10 @@
 var rules = {
 
-    // start: "$byline ($fire | $drought | $flood | $storm | $heat) [8] | $personal",
+    start: "$byline ($fire | $drought | $flood | $storm | $heat) [8] | $personal",
 
     byline: "<em>.date()</em><br><br>",
 
-    start: "$byline $storm",
+    // start: "$byline $storm",
 
     // Location-Specific Disasters
         florida: "$byline ($floridaSeaLevel | $hurricane) [8] | $personal",
