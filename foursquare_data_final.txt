@@ -662,10 +662,6 @@ Moron: "Parque Marti | Las Ruedas | Rey Gallo | Confraria Das Quinta"
 Nuevitas: "Ciringito Restaurant Cafe"
 Manzanillo: "Glorieta Manzanillo | Dinos Pizza | Parque Valle Esping | Bulevar Manzanillo | Casa De Abuela"
 Bayamo: "Plaza de la Revolucion | Restaurants Manegua | La Cuchipapa"
-
-
-
-
 Las Tunas: "Parque 26 de Julio"
 San Pedro de Macoris: "Hospital Regional Dr. Antonio Musa | Marbella | Oregano @ Emotions by Hodelpa | Oficinas Gubernamentales | Pasteles Amable"
 Artemisa: "Plaza de la Revolución | Plaza de Armas | Plaza de San Francisco | Plaza de la Catedral | Parque Lennon"
@@ -702,6 +698,10 @@ Lillooet: "Buy-Low Foods | Lilooet Gospel Chapel | Lillooet Brewing Company | Ti
 Powell River: "Serious Coffee | River City Coffee | Tla'amin Convenience Store | Townsite Brewing | Julie's Airport Market"
 Revelstoke: "Save-On-Foods | Little Spoon | the Revelstoke Suspension Bridge | Mount Revelstoke National Park | Mt. Begbie Brewing Co."
 Burns Lake: "The Office | Boer Mountain Coffee House | Wholesale Club | Sunshine Inn - Burns Lake | lake babine band office"
+
+
+
+
 Dease Lake: "Northway Motor Inn | Super A Foodsr | rumors | Pharmasave Telepharmacy | Royal Canadian Mounted Police"
 Baker Lake: "Pizza Hut | Tim Hortons | Northern Convenience"
 Norman Wells: "The North West Company | the Normal Wells Museum | Ventures Restaurant | Canol Lounge | Riverview Stationary & Supplies"
