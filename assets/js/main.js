@@ -231,7 +231,7 @@ map.attributionControl.setPrefix(false);
 
 // add tiles, attribution, etc.
 L.tileLayer('https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/{z}/{x}/{y}.jpg', {
-	attribution: 'No Time to Discourse | Stories by <a href="https://samplereality.itch.io/">Mark Sample</a> | Map by <a href="https://stamen.com/work/maps-stamen-com/">Stamen Design</a>',
+	attribution: 'No Time to Discourse | Stories by <a href="https://samplereality.itch.io/">Mark Sample</a> | Maps by <a href="https://stamen.com/work/maps-stamen-com/">Stamen Design</a>',
 	subdomains: 'abcd',
 	minZoom: 4,
 	maxZoom: 16,

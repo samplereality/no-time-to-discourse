@@ -2,7 +2,7 @@ var SESSION_KEY = 'dialog-session';
 var ONE_DAY_MILLI_SEC = 12 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 // Add development mode flag
-var DEVELOPMENT_MODE = false; // Set to false for production
+var DEVELOPMENT_MODE = true; // Set to false for production
 
 function disableMapInteraction() {
     map.dragging.disable();
@@ -110,7 +110,7 @@ function openDialog() {
 					</div>
 					<div class="modal-body">
 						<div class="prologue">
-							<p><em>No Time To Discourse</em> is a speculative atlas of climate disaster throughout North America. There are thousands of disasters, none of which have happened, all of which are happening, today, tomorrow, and tomorrow's tomorrow.</p>
+							<p><em>No Time To Discourse</em> is a speculative atlas of climate disaster throughout North America. Wildfires, floods, droughts, hurricanes, the unrelenting heat. There are thousands of disasters, none of which have happened, all of which are happening, today, tomorrow, and tomorrow's tomorrow.</p>
 							<p>Mark Sample<br>North Carolina<br>2025</p>
 						</div>
 					</div>
