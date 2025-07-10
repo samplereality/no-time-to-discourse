@@ -1013,6 +1013,10 @@ Baltimore: "Patterson Park | Mercy Medical Center | the National Aquarium | M&T 
 Syracuse: "Destiny USA | Green Hills Farms | Central NY Regional Market | SUNY Upstate Medical University Hospital | Dunk & Bright"
 Port-of-Spain: "International Waterfront Centre | The Savannah Strip | Long Circular Mall | Queen's Park Oval | Phase II Panyard"
 Augusta: "Sparetime Recreation | MaineGeneral Alfond Center for Health | Marketplace at Augusta | The Red Barn | Damon's Beverage Mart"
+
+
+
+
 Sault Ste. Marie: "Pino's | John Rhodes Community Centre | Ignition Eatery | Bellevue Park | Giovanni's"
 Sitka: "Sea Mart Quality Foods | Japonski Island | Pizza Express | Alaska Raptor Center | Harry Race Pharmacy & Photo"
 Mexicali: "Asadero Acatlan de Juarez | Plaza San Pedro | Plaza La Gran Via | China Town | Flautas "La Robledo""
@@ -1111,10 +1115,6 @@ Fort Good Hope: "Duman Senden Daha Guzell"
 Whitehorse: "Yukon Brewing | Whitehorse Fish Rapids | Yukon Beringia Interpretive Centre | Shipyard's Park | S.S. Klondike National Historic Site"
 Ottawa: "Commissioners Park | the Canada Science and Technology Museum | CF Rideau Centre | Scotiabank Theatre Ottawa | Mid East Food Centre"
 Thunder Bay: "Intercity Shopping Centre | Whitewater Golf Club | Port Arthur Arena | Maltese Grocery | Value Village"
-
-
-
-
 Québec: "Laurier Quebec | Les Galeries de la Capitale | Parc linéaire des rivières Saint-Charles et du Berger | Centre Vidéotron | Fruiterie 440"
 Halifax: "Halifax Shopping Centre | Parkside Pub & Grill | Real Atlantic Superstore | Point Pleasant Park | Dave's Fruit and Vegetables"
 St. Johns: "Port Rexton Brewing Co. | the Dildo Brewing Co & Museum | Au P'tit Mousse | Keith's Diner | La Terrasse à Steve"

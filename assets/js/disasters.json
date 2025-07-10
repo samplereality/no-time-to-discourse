@@ -18535,7 +18535,7 @@
         "name": "Augusta",
         "adm1name": "Maine",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sparetime Recreation | MaineGeneral Alfond Center for Health | Marketplace at Augusta | The Red Barn | Damon's Beverage Mart"
       },
       "geometry": {
         "type": "Point",
@@ -18551,7 +18551,7 @@
         "name": "Sault Ste. Marie",
         "adm1name": "Michigan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pino's | John Rhodes Community Centre | Ignition Eatery | Bellevue Park | Giovanni's"
       },
       "geometry": {
         "type": "Point",
@@ -18567,7 +18567,7 @@
         "name": "Sitka",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sea Mart Quality Foods | Japonski Island | Pizza Express | Alaska Raptor Center | Harry Race Pharmacy & Photo"
       },
       "geometry": {
         "type": "Point",
@@ -18583,7 +18583,7 @@
         "name": "Cottica",
         "adm1name": "Sipaliwini",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the plaza"
       },
       "geometry": {
         "type": "Point",
@@ -18599,7 +18599,7 @@
         "name": "Mexicali",
         "adm1name": "Baja California",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Asadero Acatlan de Juarez | Plaza San Pedro | Plaza La Gran Via | China Town | Flautas \"La Robledo\""
       },
       "geometry": {
         "type": "Point",
@@ -18615,7 +18615,7 @@
         "name": "La Paz",
         "adm1name": "Baja California Sur",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Kiosko del Malecón | Mega Dulceria Sotres | Bismark-cito | Malecón | Verde Mezcalina"
       },
       "geometry": {
         "type": "Point",
@@ -18631,7 +18631,7 @@
         "name": "Torreon",
         "adm1name": "Coahuila",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pollo Feliz | GM Pizzas | Alsuper store | Hamburguesas Lucas | Línea Verde"
       },
       "geometry": {
         "type": "Point",
@@ -18647,7 +18647,7 @@
         "name": "Culiacan",
         "adm1name": "Sinaloa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Forum Culiacán | Magara Real Food | Café Miró | Centro Histórico"
       },
       "geometry": {
         "type": "Point",
@@ -18663,7 +18663,7 @@
         "name": "Nogales",
         "adm1name": "Sonora",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Taqueria Lupita | Siete Mares | Fray Marcos Cocktail Lounge"
       },
       "geometry": {
         "type": "Point",
@@ -18679,7 +18679,7 @@
         "name": "Hermosillo",
         "adm1name": "Sonora",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Dila | Galerías Mall | Los Lagos | FITMAX | Parque La Ruina"
       },
       "geometry": {
         "type": "Point",
@@ -18695,7 +18695,7 @@
         "name": "Guaymas",
         "adm1name": "Sonora",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Unidad Deportiva Municipal Julio Alfonso Alfonso | Mariscos El Rey | Tacos el pipe | Miramar | El Mazateño"
       },
       "geometry": {
         "type": "Point",
@@ -18711,7 +18711,7 @@
         "name": "San Luis Potosi",
         "adm1name": "San Luis Potosí",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Citadella | Plaza San Luis | Club de Golf La Loma | Parque Tangamanga | Palacio Municipal"
       },
       "geometry": {
         "type": "Point",
@@ -18727,7 +18727,7 @@
         "name": "Matamoros",
         "adm1name": "Tamaulipas",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Soriana canales | Restaurante García | Parque Periferico | Plaza Sendero | Soriana"
       },
       "geometry": {
         "type": "Point",
@@ -18743,7 +18743,7 @@
         "name": "Nuevo Laredo",
         "adm1name": "Tamaulipas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Paseo Reforma | Unidad Deportiva Benito Juárez | Plaza Miguel Hidalgo"
       },
       "geometry": {
         "type": "Point",
@@ -18759,7 +18759,7 @@
         "name": "Colima",
         "adm1name": "Colima",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza San Fernando | Zentralia | Jardín de los Borrachos | Centro Histórico | Glorieta Rey Colimán"
       },
       "geometry": {
         "type": "Point",
@@ -18775,7 +18775,7 @@
         "name": "Campeche",
         "adm1name": "Campeche",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Walmart Supercenter Electricistas | Malecón | La Palapa del Tío Fito | La Verbena Sucursal Kala"
       },
       "geometry": {
         "type": "Point",
@@ -18791,7 +18791,7 @@
         "name": "Oaxaca",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Templo de Santo Domingo de Guzmán | Catedral de Nuestra Señora de la Asunción | Mercado 20 de Noviembre | Zócalo | Paseo Juárez El Llano"
       },
       "geometry": {
         "type": "Point",
@@ -18807,7 +18807,7 @@
         "name": "Leon",
         "adm1name": "Guanajuato",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Mayor | Centro Comercial Altacia | Hospital Aranda de la Parra | Quesadillas Y Gorditas | Parque Metropolitano"
       },
       "geometry": {
         "type": "Point",
@@ -18823,7 +18823,7 @@
         "name": "Santiago de Cuba",
         "adm1name": "Santiago de Cuba",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Castillo de San Pedro de la Roca | Plaza de Marte | Cementerio de Santa Ifigenia | El Palenquito | Plaza de la Revolución"
       },
       "geometry": {
         "type": "Point",
@@ -18839,7 +18839,7 @@
         "name": "Santiago",
         "adm1name": "Santiago",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Arauco | Sky Costanera | MUT Mercado Urbano Tobalaba | Cerro San Cristóbal | Parque Metropolitano de Santiago"
       },
       "geometry": {
         "type": "Point",
@@ -18855,7 +18855,7 @@
         "name": "Thompson",
         "adm1name": "Manitoba",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Riverview Express | I Scream Shack | Burntwood Regional Health Authority | Thompson General Hospital | Northern Inn & Steakhouse"
       },
       "geometry": {
         "type": "Point",
@@ -18871,7 +18871,7 @@
         "name": "Brandon",
         "adm1name": "Manitoba",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Shoppers Mall | Keystone Centre | Best West Pet Foods | Swiss Chalet | Mum's Family Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -18887,7 +18887,7 @@
         "name": "Fort Smith",
         "adm1name": "Alberta",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old sawmill | the old mine"
       },
       "geometry": {
         "type": "Point",
@@ -18903,7 +18903,7 @@
         "name": "Fort McMurray",
         "adm1name": "Alberta",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bear & Buffalo | École Dickinsfield School | MacDonald Island Park | Timberlea Athletic Park"
       },
       "geometry": {
         "type": "Point",
@@ -18919,7 +18919,7 @@
         "name": "Peace River",
         "adm1name": "Alberta",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Baytex Energy Centre | Peace River CoOp | Co-op Gas Bar | Reddi Mart | Riverfront park"
       },
       "geometry": {
         "type": "Point",
@@ -18935,7 +18935,7 @@
         "name": "Fort St. John",
         "adm1name": "British Columbia",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Casey's Pub | Canadian Tire | Church Of The Resurrection | the Best Western"
       },
       "geometry": {
         "type": "Point",
@@ -18951,7 +18951,7 @@
         "name": "Iqaluit",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Apex Road QuickStop | Aqsarniit Middle School | North Mart | Storehouse Bar & Grill"
       },
       "geometry": {
         "type": "Point",
@@ -18967,7 +18967,7 @@
         "name": "Cambridge Bay",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ikaluktutiak Co-Op | Kiilinik High School | Kuugaq Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -18983,7 +18983,7 @@
         "name": "Kugluktuk",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the hamlet | the old copper mine"
       },
       "geometry": {
         "type": "Point",
@@ -18999,7 +18999,7 @@
         "name": "Chesterfield Inlet",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pitsiulak Co-op | Ice Pan On the Hudson Bay | Victor Sammurtok School"
       },
       "geometry": {
         "type": "Point",
@@ -19015,7 +19015,7 @@
         "name": "Arviat",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the landing strip | Tim Hortons"
       },
       "geometry": {
         "type": "Point",
@@ -19031,7 +19031,7 @@
         "name": "Taloyoak",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the hamlet | the general store"
       },
       "geometry": {
         "type": "Point",
@@ -19047,7 +19047,7 @@
         "name": "Igloolik",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Northern Grocery"
       },
       "geometry": {
         "type": "Point",
@@ -19063,7 +19063,7 @@
         "name": "Dawson City",
         "adm1name": "Yukon",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Bonanza Gold Campground | Bonanza Cafe | Jack London Cabin & Interpretive Centre | Midnight Dome | Dawson City General Store"
       },
       "geometry": {
         "type": "Point",
@@ -19079,7 +19079,7 @@
         "name": "Timmins",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "McIntyre Arena | St. Anthonys Church | Chez Nous Store | Caseys | Timmins Square"
       },
       "geometry": {
         "type": "Point",
@@ -19095,7 +19095,7 @@
         "name": "North Bay",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parker's Independent Grocer | Average Joe's | Memorial Gardens | Northgate Shopping Centre | Hoagie's Diner"
       },
       "geometry": {
         "type": "Point",
@@ -19111,7 +19111,7 @@
         "name": "Kuujjuarapik",
         "adm1name": "Québec",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tim Hortons | the Kuujjuarapik Youth Center"
       },
       "geometry": {
         "type": "Point",
@@ -19127,7 +19127,7 @@
         "name": "Kuujjuaq",
         "adm1name": "Québec",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Kativik Regional Government Building | Jaanimmarik School"
       },
       "geometry": {
         "type": "Point",
@@ -19143,7 +19143,7 @@
         "name": "Sydney",
         "adm1name": "Nova Scotia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Membertou Heritage Park | TRA Cash & Carry | The Joan Hariss Cruise Pavillion | The Big Fiddle | Open Hearth Park"
       },
       "geometry": {
         "type": "Point",
@@ -19159,7 +19159,7 @@
         "name": "Labrador City",
         "adm1name": "Newfoundland and Labrador",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Menihek High School | Mavericks | Lakeside Convenience | Baba Q’s | Labrador Mall"
       },
       "geometry": {
         "type": "Point",
@@ -19175,7 +19175,7 @@
         "name": "Helena",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lewis And Clark County Fairgrounds | Blackfoot River Brewing Company | Van's Thriftway"
       },
       "geometry": {
         "type": "Point",
@@ -19191,7 +19191,7 @@
         "name": "Bismarck",
         "adm1name": "North Dakota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Holiday Station Store | Cottonwood Soccer Complex | Grand Theatres | Williquors | Jack's Steakhouse"
       },
       "geometry": {
         "type": "Point",
@@ -19207,7 +19207,7 @@
         "name": "Boise",
         "adm1name": "Idaho",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "St. Luke's Boise Medical Center | Ann Morrison Park | Julia Davis Park | Los Betos | Dutch Bros Coffee"
       },
       "geometry": {
         "type": "Point",
@@ -19271,7 +19271,7 @@
         "name": "Santa Fe",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Southside Library | Ragle Park | Santa Fe Brewing Company | El Parasol | Meow Wolf"
       },
       "geometry": {
         "type": "Point",
@@ -19303,7 +19303,7 @@
         "name": "Salt Lake City",
         "adm1name": "Utah",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the campus | the temple | Delta Center | Liberty Park | Harmons Grocery"
       },
       "geometry": {
         "type": "Point",
@@ -19319,7 +19319,7 @@
         "name": "Cheyenne",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Outlaw Saloon | Town & Country Liquors | Tortilla Factory | Holliday park | Lions Park"
       },
       "geometry": {
         "type": "Point",
@@ -19335,7 +19335,7 @@
         "name": "Des Moines",
         "adm1name": "Iowa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Wells Fargo Arena | the Blank Park Zoo | Fareway | Flix Brewhouse | Smokey Row Coffee"
       },
       "geometry": {
         "type": "Point",
@@ -19383,7 +19383,7 @@
         "name": "Pierre",
         "adm1name": "South Dakota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lynn's Dakotamart | Runnings | Jake's Good Times Place | Avera Medical Associates Clinic | Lariat Lanes"
       },
       "geometry": {
         "type": "Point",
@@ -19415,7 +19415,7 @@
         "name": "Jackson",
         "adm1name": "Mississippi",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Highland Village | Cups @ UMMC | Medgar Evers' Home | Bully's Great Soul Food | The Pig & Pint"
       },
       "geometry": {
         "type": "Point",
@@ -19431,7 +19431,7 @@
         "name": "Raleigh",
         "adm1name": "North Carolina",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Crabtree Valley Mall | North Hills Shopping Center | Belk | Hunt Library"
       },
       "geometry": {
         "type": "Point",
@@ -19447,7 +19447,7 @@
         "name": "Cleveland",
         "adm1name": "Ohio",
         "note": null,
-        "POI": "Lake Erie | the Flats | the West Side Market | Progressive Field | the Rock and Roll Hall of Fame"
+        "POI": "Lake Erie | the Flats | the West Side Market | Rocket Arena | Progressive Field | the Rock and Roll Hall of Fame"
       },
       "geometry": {
         "type": "Point",
@@ -19511,7 +19511,7 @@
         "name": "Memphis",
         "adm1name": "Tennessee",
         "note": null,
-        "POI": "Beale Street | Graceland | the Mississippi River | Sun Studio | the Pyramid"
+        "POI": "Beale Street | Graceland | FedExForum | the Mississippi River | Sun Studio | the Pyramid"
       },
       "geometry": {
         "type": "Point",
@@ -19575,7 +19575,7 @@
         "name": "Pittsburgh",
         "adm1name": "Pennsylvania",
         "note": null,
-        "POI": "the Three Rivers | Heinz Field | the inclines | the Strip District | Schenley Park"
+        "POI": "Dancing Gnome | PPG Paints Arena | Market Square | the Warhol Museum | The Warren Bar & Burrow"
       },
       "geometry": {
         "type": "Point",
@@ -19591,7 +19591,7 @@
         "name": "Kodiak",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Island Espresso | Kodiak Bible Chapel | Kodiak Hana | Ardinger's Fine Furnishings | Henry's Great Alaskan Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -19607,7 +19607,7 @@
         "name": "Cold Bay",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Cold Bay Library | Izembek National Wildlife Refuge | Barefoot Inn"
       },
       "geometry": {
         "type": "Point",
@@ -19623,7 +19623,7 @@
         "name": "Bethel",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Alba's Coffee Shop | Red Basket Restaurant | Uncommon Pizza"
       },
       "geometry": {
         "type": "Point",
@@ -19639,7 +19639,7 @@
         "name": "Point Hope",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the village | the airstrip"
       },
       "geometry": {
         "type": "Point",
@@ -19655,7 +19655,7 @@
         "name": "Barrow",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Sam & Lees Restaurant | the Tuzzy Consortium Library | Samual Simmonds Memorial Hospital"
       },
       "geometry": {
         "type": "Point",
@@ -19671,7 +19671,7 @@
         "name": "Nome",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Landons | Eskimo Walrus Commission | Dredge No. 7 Inn"
       },
       "geometry": {
         "type": "Point",
@@ -19687,7 +19687,7 @@
         "name": "Valdez",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Valdez Museum | The Fat Mermaid | Dock Point | the Maxine and Jesse Whitney's Museum | Solomon Gultch Hatchery"
       },
       "geometry": {
         "type": "Point",
@@ -19703,7 +19703,7 @@
         "name": "Juneau",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Breeze In | Mendenhall Glacier | Glacier Cinemas | Red Dog Saloon | Breeze-In Grocery"
       },
       "geometry": {
         "type": "Point",
@@ -19719,7 +19719,7 @@
         "name": "Fairbanks",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Aurora Ice Museum | James Dalton Highway | University of Alaska Fairbanks | Pike's Waterfront Lodge"
       },
       "geometry": {
         "type": "Point",
@@ -19735,7 +19735,7 @@
         "name": "Prudhoe Bay",
         "adm1name": "Alaska",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Prudhoe Bay General Store | ConocoPhillips Well Pad | Nordic 2 Rig"
       },
       "geometry": {
         "type": "Point",
@@ -19751,7 +19751,7 @@
         "name": "Port-au-Prince",
         "adm1name": "Ouest",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Palais Municipal de Delmas | Librairie La Pleiade | Epi d'Or | Delimart @ Delmas | Natcom"
       },
       "geometry": {
         "type": "Point",
@@ -19767,7 +19767,7 @@
         "name": "Tijuana",
         "adm1name": "Baja California",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque de la Amistad | Tacos El Dorado | Mercado Hidalgo | Plaza Galerías Hipódromo | Tacos El Franc"
       },
       "geometry": {
         "type": "Point",
@@ -19783,7 +19783,7 @@
         "name": "Chihuahua",
         "adm1name": "Chihuahua",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Grutas Nombre de Dios | Star Médica Chihuahua | Alsuper Tres Vías | AlSuper Santa Fe"
       },
       "geometry": {
         "type": "Point",
@@ -19799,7 +19799,7 @@
         "name": "Mazatlan",
         "adm1name": "Sinaloa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Malecón | Playa Brujas | Kelly's Bar | Stone Island (Isla de la Piedra) | Clavadistas"
       },
       "geometry": {
         "type": "Point",
@@ -19815,7 +19815,7 @@
         "name": "Tampico",
         "adm1name": "Tamaulipas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Altama City Center | Degas Café | Parque El Charro | Laguna del Carpintero | Parque Metropolitano"
       },
       "geometry": {
         "type": "Point",
@@ -19831,7 +19831,7 @@
         "name": "Acapulco",
         "adm1name": "Guerrero",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chedraui Selecto | Malecón | Prichos | La Ribaicita | Bahía de Acapulco"
       },
       "geometry": {
         "type": "Point",
@@ -19847,7 +19847,7 @@
         "name": "Veracruz",
         "adm1name": "Veracruz",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Gran Café de la Parroquia | Acuario de Veracruz | Macroplaza del Malecón | Los Farolitos | Café El Alba"
       },
       "geometry": {
         "type": "Point",
@@ -19863,7 +19863,7 @@
         "name": "Tuxtla Gutierrez",
         "adm1name": "Chiapas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Ámbar Fashion Mall | Liverpool Oriente | Paralelo Café | Caña Hueca | Tacos Casa Blanca"
       },
       "geometry": {
         "type": "Point",
@@ -19879,7 +19879,7 @@
         "name": "Cancun",
         "adm1name": "Quintana Roo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "La Isla Shopping Village | Marina Puerto Cancún | Coco Bongo | Plaza Las Américas | El Mirador"
       },
       "geometry": {
         "type": "Point",
@@ -19895,7 +19895,7 @@
         "name": "Merida",
         "adm1name": "Yucatán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Altabrisa | Galerías Mérida | City Center | Uptown Mérida | Paseo 60"
       },
       "geometry": {
         "type": "Point",
@@ -19911,7 +19911,7 @@
         "name": "Kingston",
         "adm1name": "Kingston",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tastee | 24 Seven Cafe | Emancipation Park | Hi Lo Supermarket | Jamaica Defence Force"
       },
       "geometry": {
         "type": "Point",
@@ -19927,7 +19927,7 @@
         "name": "Winnipeg",
         "adm1name": "Manitoba",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Polo Park Shopping Centre | Outlet Collection Winnipeg | St. Vital Shopping Centre | The Forks Historic Site | Sobeys Extra"
       },
       "geometry": {
         "type": "Point",
@@ -19943,7 +19943,7 @@
         "name": "Churchill",
         "adm1name": "Manitoba",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Hudson Bay Beach | Ptarmigan | Liquor Mart | the Itsanitaq Museum | the Eskimo Museum"
       },
       "geometry": {
         "type": "Point",
@@ -19959,7 +19959,7 @@
         "name": "Regina",
         "adm1name": "Saskatchewan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Wascana Park | Wholesale Club | Co-op | Nicky's Cafe & Bake Shop | Golden Mile Shopping Centre"
       },
       "geometry": {
         "type": "Point",
@@ -19975,7 +19975,7 @@
         "name": "Saskatoon",
         "adm1name": "Saskatchewan",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Co-op | Wilson's Greenhouse | Co-op Marketplace | Midtown Plaza | Lawson Heights Mall"
       },
       "geometry": {
         "type": "Point",
@@ -19991,7 +19991,7 @@
         "name": "Calgary",
         "adm1name": "Alberta",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Chinook Centre | Spruce Meadows | Southcentre Mall | St. Patrick's Island"
       },
       "geometry": {
         "type": "Point",
@@ -20007,7 +20007,7 @@
         "name": "Prince Rupert",
         "adm1name": "British Columbia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Rotary Waterfront Park | City Hall | Rupert Square | Liquor Warehouse"
       },
       "geometry": {
         "type": "Point",
@@ -20023,7 +20023,7 @@
         "name": "Victoria",
         "adm1name": "British Columbia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Beacon Hill Park | Ogden Point Breakwater | Clover Point | the Royal British Columbia Museum | Bolen Books"
       },
       "geometry": {
         "type": "Point",
@@ -20039,7 +20039,7 @@
         "name": "Arctic Bay",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the mine | the hamlet | the landing strip"
       },
       "geometry": {
         "type": "Point",
@@ -20055,7 +20055,7 @@
         "name": "Resolute",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the hamlet | the weather station"
       },
       "geometry": {
         "type": "Point",
@@ -20071,7 +20071,7 @@
         "name": "Repulse Bay",
         "adm1name": "Nunavut",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the hamlet"
       },
       "geometry": {
         "type": "Point",
@@ -20087,7 +20087,7 @@
         "name": "Yellowknife",
         "adm1name": "Northwest Territories",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Co-op | Glen's Independent Grocer | Trevor's Independent Grocer | Stanton Territorial Hospital"
       },
       "geometry": {
         "type": "Point",
@@ -20103,7 +20103,7 @@
         "name": "Fort Good Hope",
         "adm1name": "Northwest Territories",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Duman Senden Daha Guzell"
       },
       "geometry": {
         "type": "Point",
@@ -20119,7 +20119,7 @@
         "name": "Whitehorse",
         "adm1name": "Yukon",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Yukon Brewing | Whitehorse Fish Rapids | Yukon Beringia Interpretive Centre | Shipyard's Park | S.S. Klondike National Historic Site"
       },
       "geometry": {
         "type": "Point",
@@ -20135,7 +20135,7 @@
         "name": "Ottawa",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Commissioners Park | the Canada Science and Technology Museum | CF Rideau Centre | Scotiabank Theatre Ottawa | Mid East Food Centre"
       },
       "geometry": {
         "type": "Point",
@@ -20151,7 +20151,7 @@
         "name": "Fort Severn",
         "adm1name": "Ontario",
         "note": 6,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the old courthouse | the water tower | the jail"
       },
       "geometry": {
         "type": "Point",
@@ -20167,7 +20167,7 @@
         "name": "Thunder Bay",
         "adm1name": "Ontario",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Intercity Shopping Centre | Whitewater Golf Club | Port Arthur Arena | Maltese Grocery | Value Village"
       },
       "geometry": {
         "type": "Point",
