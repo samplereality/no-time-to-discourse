@@ -1,6 +1,6 @@
 {
   "name": "no-time-to-discourse",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "An atlas of speculative climate disasters",
   "main": "index.html",
   "scripts": {
