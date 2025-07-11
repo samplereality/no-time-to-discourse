@@ -59,7 +59,7 @@ function performFlyTo() {
             disableMapInteraction();
             hideCursor();
 
-            map.flyTo([43, -79], 7, {duration: 7});
+            map.flyTo([43, -79], 6, {duration: 7});
 
             setTimeout(() => {
                 // Fade in icons

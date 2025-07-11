@@ -10,7 +10,7 @@ var rules = {
         florida: "$byline ($floridaSeaLevel | $hurricane) [8] | $personal",
         orlando: "$byline $floridaVacation $floridaAmusement",
         eastCoast: "$byline ($hurricane | $storm | $drought | $fire | $flood) [8] | $personal",
-        gulfCoast: "$byline ($gulfOil [2] | $gulfTide [2] | $hurricane [2] | $heat | $flood) [8] | $personal",
+        gulfCoast: "$byline ($gulfOil [3] | $gulfTide [3] | $hurricane [2] | $heat | $flood) [8] | $personal",
         westCoast: "$byline ($fire | $drought | $mud | $heat | $flood) [8] | $personal",
         farNorth: "$byline ($ice) [8] | $icePersonal",
         hawaii: "$byline $hawaiiWoes [8] | $personal",
