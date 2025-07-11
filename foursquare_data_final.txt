@@ -983,6 +983,10 @@ Colorado Springs: "Garden of the Gods | In-N-Out Burger | the Cheyenne Mountain 
 Reno: "Idlewild Park | the Grand Sierra Grand Theatre | Shayden Summit | Hometown Cafe | Reno-Sparks Livestock Events Center"
 Elko: "Union Pacific Railroad Terminal | Coffee Mug | Mattie's Sports Bar, Grill & Brewery | Elko City Park | Gun World and Archery"
 Albuquerque: "Costco Food Court | North Domingo Baca Park | Tin Can Alley ABQ | Frontier | Taqueria El Paisa"
+
+
+
+
 Salem: "The Yard Food Park | Keizer Station | CFC Futbol Club | Plaid Pantry | Salem Center"
 Casper: "Blackmore Marketplace | Sagewood Elementary School | 307 Vision | Johnny J's Diner | Studio City Stadium 11"
 Topeka: "Lake Shawnee | the Topeka & Shawnee County Public Library | the Combat Air Museum | banjo's cafe | The Wheel Barrel"
@@ -1013,10 +1017,6 @@ Baltimore: "Patterson Park | Mercy Medical Center | the National Aquarium | M&T 
 Syracuse: "Destiny USA | Green Hills Farms | Central NY Regional Market | SUNY Upstate Medical University Hospital | Dunk & Bright"
 Port-of-Spain: "International Waterfront Centre | The Savannah Strip | Long Circular Mall | Queen's Park Oval | Phase II Panyard"
 Augusta: "Sparetime Recreation | MaineGeneral Alfond Center for Health | Marketplace at Augusta | The Red Barn | Damon's Beverage Mart"
-
-
-
-
 Sault Ste. Marie: "Pino's | John Rhodes Community Centre | Ignition Eatery | Bellevue Park | Giovanni's"
 Sitka: "Sea Mart Quality Foods | Japonski Island | Pizza Express | Alaska Raptor Center | Harry Race Pharmacy & Photo"
 Mexicali: "Asadero Acatlan de Juarez | Plaza San Pedro | Plaza La Gran Via | China Town | Flautas "La Robledo""

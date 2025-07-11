@@ -18071,7 +18071,7 @@
         "name": "Albuquerque",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "Old Town | the Sandia Mountains | the balloon fiesta park | the Rio Grande | Route 66"
+        "POI": "North Domingo Baca Park | Tin Can Alley ABQ | Frontier | Taqueria El Paisa"
       },
       "geometry": {
         "type": "Point",
@@ -18087,7 +18087,7 @@
         "name": "Salem",
         "adm1name": "Oregon",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The Yard Food Park | Keizer Station | CFC Futbol Club | Plaid Pantry | Salem Center"
       },
       "geometry": {
         "type": "Point",
@@ -18103,7 +18103,7 @@
         "name": "Casper",
         "adm1name": "Wyoming",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Blackmore Marketplace | Sagewood Elementary School | 307 Vision | Johnny J's Diner | Studio City Stadium 11"
       },
       "geometry": {
         "type": "Point",
@@ -18119,7 +18119,7 @@
         "name": "Topeka",
         "adm1name": "Kansas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lake Shawnee | the Topeka & Shawnee County Public Library | the Combat Air Museum | banjo's cafe | The Wheel Barrel"
       },
       "geometry": {
         "type": "Point",
@@ -18135,7 +18135,7 @@
         "name": "Kansas City",
         "adm1name": "Missouri",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Zona Rosa | Kauffman Stadium | City Market | GEHA Field at Arrowhead Stadium | the Kansas City Zoo & Aquarium"
       },
       "geometry": {
         "type": "Point",
@@ -18151,7 +18151,7 @@
         "name": "Tulsa",
         "adm1name": "Oklahoma",
         "note": null,
-        "POI": "the Arkansas River | downtown | Brookside | the Golden Driller | Gathering Place"
+        "POI": "The Gathering Place | Golden Driller | BOK Center | Tandy Family YMCA | Utica Square Shopping Center"
       },
       "geometry": {
         "type": "Point",
@@ -18167,7 +18167,7 @@
         "name": "Sioux Falls",
         "adm1name": "South Dakota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Western Mall | Shoppes at Dawley Farm | Falls Park | Sanford USD Medical Center"
       },
       "geometry": {
         "type": "Point",
@@ -18183,7 +18183,7 @@
         "name": "Shreveport",
         "adm1name": "Louisiana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mall St. Vincent | Southern Classic Chicken | Johnny's Catfish & Seafood | Independence Stadium | Bergeron's Boudin & Cajun Meats"
       },
       "geometry": {
         "type": "Point",
@@ -18199,7 +18199,7 @@
         "name": "Baton Rouge",
         "adm1name": "Louisiana",
         "note": 5,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the Baton Rouge Zoo | Hi Nabor | Don Carter's All Star Lanes | Tony's Seafood | Mike Anderson's Seafood"
       },
       "geometry": {
         "type": "Point",
@@ -18263,7 +18263,7 @@
         "name": "Amarillo",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cinergy Amarillo Featuring EPIC | Westgate Mall | United Supermarkets | The Big Texan Steak Ranch | Spicy Mike's Bar-B-Q Haven"
       },
       "geometry": {
         "type": "Point",
@@ -18279,7 +18279,7 @@
         "name": "El Paso",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the Franklin Mountains | the Rio Grande | the border crossing | Fort Bliss | downtown plaza"
+        "POI": "Speaking Rock Casino And Entertainment | Union Draft House | Fort Bliss Main Exchange | Vista Central Market | Scenic Drive"
       },
       "geometry": {
         "type": "Point",
@@ -18295,7 +18295,7 @@
         "name": "Laredo",
         "adm1name": "Texas",
         "note": null,
-        "POI": "the border crossing | the Hamilton Hotel | San Agustin Cathedral | the bridges"
+        "POI": "Independence Hills Regional Park | La Laguna | North Central Park | Sames Auto Arena | El Taco Tote"
       },
       "geometry": {
         "type": "Point",
@@ -18311,7 +18311,7 @@
         "name": "Burlington",
         "adm1name": "Vermont",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "University of Vermont Medical Center | Church Street Marketplace | City Market | Waterfront Park | Pearl Street Beverage"
       },
       "geometry": {
         "type": "Point",
@@ -18327,7 +18327,7 @@
         "name": "Montgomery",
         "adm1name": "Alabama",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "The Shoppes At Eastchase | Eastdale Mall | Wynton Blount Cultural Park | Brenda's Bar-B-Q Inc | Walk-On's Sports Bistreaux"
       },
       "geometry": {
         "type": "Point",
@@ -18343,7 +18343,7 @@
         "name": "Tallahassee",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Costco | Cascades Park | Railroad Square Art Park | The Egg Cafe & Eatery | Palace Saloon"
       },
       "geometry": {
         "type": "Point",
@@ -18375,7 +18375,7 @@
         "name": "Jacksonville",
         "adm1name": "Florida",
         "note": 3,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Jacksonville Beach | the Navy base | the Jacksonville Zoo | William F Sheffield Regional Park | VyStar Veterans Memorial Arena"
       },
       "geometry": {
         "type": "Point",
@@ -18391,7 +18391,7 @@
         "name": "Savannah",
         "adm1name": "Georgia",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "SCAD | Candler Hospital | Daffin Park | Lake Mayer Park | Leopold's Ice Cream"
       },
       "geometry": {
         "type": "Point",
@@ -18407,7 +18407,7 @@
         "name": "Columbia",
         "adm1name": "South Carolina",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Shoppes at Woodhill | Publix Deli | the Riverbanks Zoo & Garden | the Richland Library"
       },
       "geometry": {
         "type": "Point",
@@ -18439,7 +18439,7 @@
         "name": "Wilmington",
         "adm1name": "North Carolina",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Cook Out | Winnie's Tavern | Halyburton Park | Cardinal Lanes Beach Bowl | Carolina Ale House | the waterfront"
       },
       "geometry": {
         "type": "Point",
@@ -18455,7 +18455,7 @@
         "name": "Knoxville",
         "adm1name": "Tennessee",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Kroger | Sunspot | Thompson-Boling Arena | McKay Used Books, CDs, Movies & More | Lakeshore Park"
       },
       "geometry": {
         "type": "Point",
@@ -18471,7 +18471,7 @@
         "name": "Richmond",
         "adm1name": "Virginia",
         "note": 4,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Willow Lawn | the University of Richmond | the Altria Theater | William Byrd Park | Cook-Out | Movieland At Boulevard Square"
       },
       "geometry": {
         "type": "Point",
@@ -18487,7 +18487,7 @@
         "name": "Charleston",
         "adm1name": "West Virginia",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Kanawha State Forest | China Buffet | Bridgeport Equipment & Tools | Booker T. Washington Memorial | Tudor's Biscuit World"
       },
       "geometry": {
         "type": "Point",
