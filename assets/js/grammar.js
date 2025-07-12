@@ -96,7 +96,7 @@ var rules = {
         hurricaneBelongings: "only what fit in the car | two suitcases and the dog | nothing but the clothes on $posPro back | photo albums and medication",
         hurricaneWorry: "watched the news obsessively | refreshed the weather app every few minutes | called neighbors who didn't answer | stared at satellite images",
         hurricaneHope: "praying | hoping desperately | wondering if | begging God",
-        hurricaneLeftBehind: "house | 90-year-old oak tree | cat who wouldn't come out from under the bed | garden $pronoun'd spent years cultivating | $posPro vintage vinyl collection",
+        hurricaneLeftBehind: "house | 90-year-old oak tree | cat who wouldn't come out from under the bed | garden $pronoun'd spent years cultivating | vintage vinyl collection",
         hurricaneReason: "refusing to abandon $posPro dying (father|mother) | unable to afford gas to leave | convinced it wouldn't be that bad | having survived Andrew in '92",
         hurricaneRegret: "regretted everything | wished $pronoun'd listened | couldn't stop shaking | wondered if this was how it would end",
         hurricaneReality: "the roof began to leak | windows exploded inward | water rose past the doorframe | the power died and didn't come back",
