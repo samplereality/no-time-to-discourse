@@ -15527,7 +15527,7 @@
         "name": "Lewiston",
         "adm1name": "Idaho",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Rosauer's | The Bait Shop | Clearwater Canyon Cellars | El Sombrero Mexican Restaurant | Georgia Carpetworks"
       },
       "geometry": {
         "type": "Point",
@@ -15543,7 +15543,7 @@
         "name": "Yakima",
         "adm1name": "Washington",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Tieton Cider Works | Fiesta Foods | Rosauers | Major's Burgers on 3rd | Backwoods Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -15559,7 +15559,7 @@
         "name": "Wenatchee",
         "adm1name": "Washington",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Super Jet | Town Toyota Center | Aztec Burgers | Hooked On Toys | Walla Walla Point Park"
       },
       "geometry": {
         "type": "Point",
@@ -15575,7 +15575,7 @@
         "name": "Douglas",
         "adm1name": "Arizona",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "the border check point | El Chef | 333 Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -15591,7 +15591,7 @@
         "name": "Bakersfield",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercado Latino | Hart Park | Vallarta Supermarkets | Mariscos Las Islitas | Cope's Knotty Pine Cafe"
       },
       "geometry": {
         "type": "Point",
@@ -15607,7 +15607,7 @@
         "name": "Oakland",
         "adm1name": "California",
         "note": 1,
-        "POI": "12th and Broadway | Lake Merritt | Oracle Arena | downtown | the hills"
+        "POI": "the Oakland Zoo | Jack London Square | 12th and Broadway | Lake Merritt | Oracle Arena | downtown | the hills"
       },
       "geometry": {
         "type": "Point",
@@ -15623,7 +15623,7 @@
         "name": "Lancaster",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Costco | Carbonara Food Truck | George Lane Park | Superior Grocers"
       },
       "geometry": {
         "type": "Point",
