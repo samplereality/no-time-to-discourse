@@ -15639,7 +15639,7 @@
         "name": "Chico",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Down Range | Bidwell Park | Sutherland Lanscape Supply | Tower Market | the Madison Bear Garden"
       },
       "geometry": {
         "type": "Point",
@@ -15655,7 +15655,7 @@
         "name": "Monterey",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Del Monte Shopping Center | the Monterey Bay Aquarium | Post Exchange | Dennis the Menace Park | Del Monte Beach"
       },
       "geometry": {
         "type": "Point",
@@ -15671,7 +15671,7 @@
         "name": "Salinas",
         "adm1name": "California",
         "note": 1,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Northridge Mall | Food Co | El Charrito | El Super | Alvarado Street Brewery and Tasting Room"
       },
       "geometry": {
         "type": "Point",
@@ -15687,7 +15687,7 @@
         "name": "Los Alamos",
         "adm1name": "New Mexico",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Hot Rocks Java Cafe | the Los Alamos History Museum | Los Alamos Teen Center | North Mesa Picnic Grounds | Cottonwood on the Greens"
       },
       "geometry": {
         "type": "Point",
