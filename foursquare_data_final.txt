@@ -841,6 +841,10 @@ Chico: "Down Range | Bidwell Park | Sutherland Lanscape Supply | Tower Market | 
 Monterey: "Del Monte Shopping Center | the Monterey Bay Aquarium | Post Exchange | Dennis the Menace Park | Del Monte Beach"
 Salinas: "Northridge Mall | Food Co | El Charrito | El Super | Alvarado Street Brewery and Tasting Room"
 Los Alamos: "Hot Rocks Java Cafe | the Los Alamos History Museum | Los Alamos Teen Center | North Mesa Picnic Grounds | Cottonwood on the Greens"
+
+
+
+
 Eugene: "Costco Food Court | St Vincent De Paul Superstore | the McDonald Theatre | Jerry's Home Improvement | Fern Ridge Bike Path"
 Coos Bay: "Marshfield High School | Cranberry Sweets | Coach House | Atilano's Mexican Food | Human Bean"
 Bend: "Cascade Village Shopping Center | Old Mill District | Pine Nursery Community Park | Pine Nursery Off Leash Park | Pilot Butte State Park"
@@ -877,10 +881,6 @@ Columbus: "The Shops on Lane Avenue | Easton Town Center | Nationwide Arena | Ro
 Chattanooga: "McKay Used Books & CDs | the Tennessee Aquarium | Coolidge Park | Food City | Chickamauga Dam"
 Charlottesville: "Barracks Road Shopping Center | Charlottesville Historic Downtown Mall | Bodo's Bagels | Timberwood Tap House | Higher Grounds"
 Lynchburg: "Joe Beans | Cookout | E.C. Glass High School | Shakers Restaurant | Lynchburg Beer Cellar"
-
-
-
-
 Wausau: "Crossroads County Market | Marathon Park | Loading Zone | Wausau Mine Company | Horace Mann Middle School"
 Albany: "Crossgates Mall | MVP Arena | Food Court | Fidens Brewing Company | the New York State Museum"
 Ithaca: "Dandy @ Rogan's Corner | GreenStar Cooperative Market | Temple of Zeus | Buttermilk Falls State Park | Cinemapolis"
