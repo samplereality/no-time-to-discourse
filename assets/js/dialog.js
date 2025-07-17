@@ -1,8 +1,9 @@
 var SESSION_KEY = 'dialog-session';
-var ONE_DAY_MILLI_SEC = 12 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
+var ONE_DAY_MILLI_SEC = 18 * 60 * 60 * 1000; // change first number to whatever hour; 24 for showing dialog once a day
 
 // Add development mode flag
 var DEVELOPMENT_MODE = false; // Set to false for production
+
 
 function disableMapInteraction() {
     map.dragging.disable();
@@ -36,11 +37,12 @@ function showCursor() {
     mapContainer.style.cursor = ''; // Reverts to the stylesheet default
 }
 
-function performFlyTo() {
+
+function performFlyTo(skipAnimation = false) {
     if (map) {
-        if (DEVELOPMENT_MODE) {
-            // Development mode: jump directly to location
-            map.setView([43, -79], 7); // Toronto coordinates
+        if (DEVELOPMENT_MODE || skipAnimation) {
+            // Development mode or returning visitor: jump directly to location
+            map.setView([43, -79], 6); // Toronto coordinates
 			// map.setView([30, -97], 7); // Gulf coordinates
             // map.setView([33.9, -118],7); // LA Coordinates
             // map.setView([55.2, -100],6); // Arctic coordinates
@@ -59,7 +61,7 @@ function performFlyTo() {
             disableMapInteraction();
             hideCursor();
 
-            map.flyTo([43, -79], 6, {duration: 7});
+            map.flyTo([43, -79], 6, {duration: 5});
 
             setTimeout(() => {
                 // Fade in icons
@@ -89,11 +91,11 @@ function openDialog() {
     }
 
 	// keep the last session timestamp in local storage to
-	//  re-show after 24 hours since last ack
+	//  re-show after 18 hours since last ack
 	if (localStorage) {
 		var sessionTimestamp = localStorage.getItem(SESSION_KEY);
 		if (sessionTimestamp && Date.now() - sessionTimestamp < ONE_DAY_MILLI_SEC) {
-			setTimeout(performFlyTo, 1000);
+			setTimeout(() => performFlyTo(true), 1000); // Skip animation for returning visitors
 			return;
 		}
 	}

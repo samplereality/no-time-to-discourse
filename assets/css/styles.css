@@ -70,6 +70,7 @@ blockquote {
 
 .modal-body h6 {
     font-weight: 600;
+    padding-top: 1rem;
 }
 
 .modal-title {
@@ -228,3 +229,4 @@ blockquote {
         .hamburger-icon::after {
             top: 6px;
         }
+

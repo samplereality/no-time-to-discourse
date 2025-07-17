@@ -15095,7 +15095,7 @@
         "name": "Ensenada",
         "adm1name": "Baja California",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Explanada de la Bandera | Alfonso's Pizza | Mercado Negro | Papas & Beer Ensenada | Tacos de Pescado El Fenix"
       },
       "geometry": {
         "type": "Point",
@@ -15111,7 +15111,7 @@
         "name": "Saltillo",
         "adm1name": "Coahuila",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Las Maravillas | Alsuper LaFragua | Mochomos | Galerías Saltillo | Estadio Francisco I. Madero"
       },
       "geometry": {
         "type": "Point",
@@ -15127,7 +15127,7 @@
         "name": "Ciudad Juárez",
         "adm1name": "Chihuahua",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Starbucks Aeropuerto | Centro Histórico | Plaza de la Mexicanidad | Viva Mexico | El Toro Bronco"
       },
       "geometry": {
         "type": "Point",
@@ -15143,7 +15143,7 @@
         "name": "Delicias",
         "adm1name": "Chihuahua",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Mercado Juárez | El Granero | Centro Dulcero Delicias | El Piano | Cinemas Delicias"
       },
       "geometry": {
         "type": "Point",
@@ -15159,7 +15159,7 @@
         "name": "Durango",
         "adm1name": "Durango",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Club Campestre de Durango | Mercado Fco. Gomez Palacio | Museo Bebeleche de Durango | Sam's Club | AlSuper Store"
       },
       "geometry": {
         "type": "Point",
@@ -15175,7 +15175,7 @@
         "name": "Los Mochis",
         "adm1name": "Sinaloa",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Oxxo Jardines Del Bosque | Panamá Restaurante & Pastelería | Plaza Punto Mochis | Estadio Emilio Ibarra Almada | Lola Cocina de Mercado"
       },
       "geometry": {
         "type": "Point",
@@ -15191,7 +15191,7 @@
         "name": "Ciudad Victoria",
         "adm1name": "Tamaulipas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Gorditas El Tigre | GranD Campestre | Gorditas La Especial | GranD Central | Cony's Soriana Tamatan"
       },
       "geometry": {
         "type": "Point",
@@ -15207,7 +15207,7 @@
         "name": "Aguascalientes",
         "adm1name": "Aguascalientes",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Comercial Altaria | Club Campestre de Aguascalientes | Isla San Marcos | San Telmo Town Center | Plaza de Toros Monumental"
       },
       "geometry": {
         "type": "Point",
@@ -15223,7 +15223,7 @@
         "name": "Manzanillo",
         "adm1name": "Colima",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Manzanillo | El Agave | Comercial Mexicana | Soriana Hiper | Oasis Ocean Club"
       },
       "geometry": {
         "type": "Point",
@@ -15239,7 +15239,7 @@
         "name": "Tehuantepec",
         "adm1name": "Oaxaca",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Centro Histórico de Santo Domingo Tehuantepec | Mercado Tehuantepec | Yizu Coffe spresso | Doña Nereida Garnachas | Parque Central Tehuantepec"
       },
       "geometry": {
         "type": "Point",
@@ -15255,7 +15255,7 @@
         "name": "Villahermosa",
         "adm1name": "Tabasco",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza Altabrisa | Chedraui Selecto | Plaza Mallorca | Walmart Express | Apple Shop El Palacio de Hierro"
       },
       "geometry": {
         "type": "Point",
@@ -15271,7 +15271,7 @@
         "name": "Cuernavaca",
         "adm1name": "Morelos",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Galerías Cuernavaca | Averanda Mall | Forum Cuernavaca | Petco Express | Parque Ecológico Chapultepec"
       },
       "geometry": {
         "type": "Point",
@@ -15287,7 +15287,7 @@
         "name": "Queretaro",
         "adm1name": "Querétaro",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Puerta La Victoria | Mercado La Cruz | Cervecera Hércules | Jardín de Cerveza Hercules | Plaza Constitución"
       },
       "geometry": {
         "type": "Point",
@@ -15303,7 +15303,7 @@
         "name": "Tapachula",
         "adm1name": "Chiapas",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Villa del Mar | Parque Central Miguel Hidalgo | Plaza Cibeles | Café & Deli Soconusco | Plaza Crystal"
       },
       "geometry": {
         "type": "Point",
@@ -15319,7 +15319,7 @@
         "name": "Chetumal",
         "adm1name": "Quintana Roo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Malecon de Chetumal | La Explanada de la Bandera | Mercado Ignacio Manuel Altamirano | OK Bar Club | Multiplaza Chetumal"
       },
       "geometry": {
         "type": "Point",
@@ -15335,7 +15335,7 @@
         "name": "Progreso",
         "adm1name": "Yucatán",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Eladio's | Puerto Progreso | Mercado de Progreso | Malecón Internacional de Progreso | La Casa del Pastel"
       },
       "geometry": {
         "type": "Point",
@@ -15351,7 +15351,7 @@
         "name": "Pinar del Rio",
         "adm1name": "Pinar del Río",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Pınar Del Rio | Parque Roberto Amarán | Garden Cocktail Truck | Parque Independencia | El Parqueo"
       },
       "geometry": {
         "type": "Point",
@@ -15367,7 +15367,7 @@
         "name": "Camaguey",
         "adm1name": "Camagüey",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Plaza del Carmen | Plaza de los Trabajadores | Cafe Cuidad | Amarelo | Plaza San Juan de Dios"
       },
       "geometry": {
         "type": "Point",
@@ -15383,7 +15383,7 @@
         "name": "Guantanamo",
         "adm1name": "Guantánamo",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Akdeniz Discorium | Сан Хусто"
       },
       "geometry": {
         "type": "Point",
@@ -15399,7 +15399,7 @@
         "name": "Holguin",
         "adm1name": "Holguín",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Parque Calixto García | Loma de la Cruz | Iglesia San Jose | the Zoo | Bazar De Artesania"
       },
       "geometry": {
         "type": "Point",
@@ -15415,7 +15415,7 @@
         "name": "Montego Bay",
         "adm1name": "Saint James",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Air Margaritaville | Jamaican Bobsled Cafe | Rose Hall Restaurant | Barefoot Bar"
       },
       "geometry": {
         "type": "Point",
@@ -15431,7 +15431,7 @@
         "name": "Santa Clara",
         "adm1name": "Villa Clara",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Monumento a la Toma del Tren Blindado | the Che Guevara Mausoleum | Parque Vidal | Casona Guevara"
       },
       "geometry": {
         "type": "Point",
@@ -15447,7 +15447,7 @@
         "name": "Duluth",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Super One Foods | Mills Fleet Farm | Billy's | Canal Park | Country Lanes North"
       },
       "geometry": {
         "type": "Point",
@@ -15463,7 +15463,7 @@
         "name": "Bemidji",
         "adm1name": "Minnesota",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Lueken's Village Foods | Slim's Bar & Grill | L&M Fleet Supply | Mi Rancho | Gordon Falls Playground"
       },
       "geometry": {
         "type": "Point",
@@ -15479,7 +15479,7 @@
         "name": "Havre",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Havre High School | the IGA | Rod's Drive In | Cottonwood cinema | Murphy's Pub"
       },
       "geometry": {
         "type": "Point",
@@ -15495,7 +15495,7 @@
         "name": "Kalispell",
         "adm1name": "Montana",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Super 1 Foods | Sportsman & Ski Haus | Flathead High School | Rosauers | Copper Mountain Coffee"
       },
       "geometry": {
         "type": "Point",
@@ -15511,7 +15511,7 @@
         "name": "Idaho Falls",
         "adm1name": "Idaho",
         "note": null,
-        "POI": "the old courthouse | Main Street | the railroad bridge | the elementary school | the water tower | the jail"
+        "POI": "Civic Auditorium | Java Espress | Tautphaus Park | Cline Family & Cosmetic Dentistry | Mitchell's Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -16158,6 +16158,22 @@
         "coordinates": [
           -80.83198394628829,
           35.2069403848119
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "name": "Davidson",
+        "adm1name": "North Carolina",
+        "note": null,
+        "POI": "Summit Coffee | Chambers Hall | Main Street Books | the Confederate monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.846944,
+          35.500556
         ]
       }
     },

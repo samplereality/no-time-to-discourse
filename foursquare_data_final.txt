@@ -799,10 +799,6 @@ Gambell: "Alaska Commercial | Alaska | Trinsic, Sosaria | Gambell | Moonglow, So
 Palmer: "Reindeer Farm | Arkose Brewery | Noisy Goose Cafe | Pho and Thai Restaurant | Big Dipper Homemade Ice Cream"
 Seward: "Safeway Pharmacy | Fourth of July Beach Resurrection Bay | Gypsea’s Treasure Trunk | Alaska Sea Life Center | Waterfront Campground"
 Cap-Haitien: "Nouvo Restoran Vania Bon manje peyi | Léa Trading | Croissant d'or | State Records _ CAP Connection | Cap Deli"
-
-
-
-
 Ensenada: "Explanada de la Bandera | Alfonso's Pizza | Mercado Negro | Papas & Beer Ensenada | Tacos de Pescado El Fenix"
 Saltillo: "Parque Las Maravillas | Alsuper LaFragua | Mochomos | Galerías Saltillo | Estadio Francisco I. Madero"
 Ciudad Juárez: "Starbucks Aeropuerto | Centro Histórico | Plaza de la Mexicanidad | Viva Mexico | El Toro Bronco"
@@ -830,10 +826,6 @@ Bemidji: "Lueken's Village Foods | Slim's Bar & Grill | L&M Fleet Supply | Mi Ra
 Havre: "Havre High School | IGA Havre | Rod's Drive In | Cottonwood cinema | Murphy's Pub"
 Kalispell: "Super 1 Foods Kalispell | Sportsman & Ski Haus | Flathead High School | Rosauers | Copper Mountain Coffee"
 Idaho Falls: "Civic Auditorium | Java Espress | Tautphaus Park | Cline Family & Cosmetic Dentistry | Mitchell's Restaurant"
-
-
-
-
 Lewiston: "Rosauer's | The Bait Shop | Clearwater Canyon Cellars | El Sombrero Mexican Restaurant | Georgia Carpetworks"
 Yakima: "Tieton Cider Works - Cider Bar | Fiesta Foods | Rosauers | Major's Burgers on 3rd | Backwoods Cafe"
 Wenatchee: "Plaza Super Jet | Town Toyota Center | Aztec Burgers | Hooked On Toys | Walla Walla Point Park"

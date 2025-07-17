@@ -207,10 +207,22 @@ console.log("You are using a " + device + ".");
 
 
 
-// Create the map instance (without zoom control initially)
+// Check if this is a returning visitor to set initial view
+var isReturningVisitor = false;
+var SESSION_KEY = 'dialog-session';
+var ONE_DAY_MILLI_SEC = 18 * 60 * 60 * 1000;
+
+if (localStorage) {
+    var sessionTimestamp = localStorage.getItem(SESSION_KEY);
+    if (sessionTimestamp && Date.now() - sessionTimestamp < ONE_DAY_MILLI_SEC) {
+        isReturningVisitor = true;
+    }
+}
+
+// Create the map instance with appropriate initial view
 var map = L.map('map', {
-    center: [35, -80],
-    zoom: 4,
+    center: isReturningVisitor ? [43, -79] : [35, -80],
+    zoom: isReturningVisitor ? 6 : 4,
     maxBoundsViscosity: .5,
     zoomControl: false // Disable default zoom control so we can add it after hamburger
 });
@@ -272,6 +284,7 @@ map.addControl(new L.Control.Hamburger());
 L.control.zoom({ position: 'topleft' }).addTo(map);
 
 
+
 // Grab coordinates from geojson, add stories to markers, and add to map
 $.getJSON('assets/js/disasters.json', function(data) {
     geoJsonLayer = L.geoJson(data, {
@@ -294,31 +307,38 @@ $.getJSON('assets/js/disasters.json', function(data) {
     let city = layer.feature.properties.name;
     let state = layer.feature.properties.adm1name;
     
-    if (layer.feature.properties.note === 1) {
-        rule = "westCoast";
-        } else if (layer.feature.properties.note === 2) {
-        rule = "orlando";
+    const ruleLookup = {
+        1: "westCoast",
+        2: "orlando",
+        3: "florida",
+        4: "eastCoast",
+        5: "gulfCoast",
+        6: "farNorth",
+        7: "hawaii"
+    };
+
+    rule = ruleLookup[layer.feature.properties.note] || "start";
+    
+    // Special Orlando log
+    if (layer.feature.properties.note === 2) {
         console.log("I'm going to Disney World!");
-        } else if (layer.feature.properties.note === 3) {
-        rule = "florida";
-        }
-        else if (layer.feature.properties.note === 4) {
-        rule = "eastCoast";
-        }
-        else if (layer.feature.properties.note === 5) {
-        rule = "gulfCoast";
-        }
-        else if (layer.feature.properties.note === 6) {
-        rule = "farNorth";
-        }
-        else if (layer.feature.properties.note === 7) {
-        rule = "hawaii";
-        }
-        else {
-        rule = "start";
-        }
+    }
     
     return "<strong>" + city + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
+
+    // For returning visitors, show pins immediately after map loads
+    if (isReturningVisitor) {
+        setTimeout(() => {
+            document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
+                icon.style.transition = 'none'; // Disable transition
+                icon.style.opacity = '1';
+            });
+            document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
+                shadow.style.transition = 'none'; // Disable transition
+                shadow.style.opacity = '.8';
+            });
+        }, 100); // Small delay to ensure markers are rendered
+    }
 
 });
