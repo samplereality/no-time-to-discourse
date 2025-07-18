@@ -1,19 +1,19 @@
 var rules = {
 
-    start: "$byline ($fire | $drought | $flood | $storm | $heat) [8] | $personal",
+    start: "$byline ($fire | $drought | $flood | $storm | $heat) [9] | $personal",
 
     byline: "<em>.date()</em><br><br>",
 
     // start: "$byline $storm",
 
     // Location-Specific Disasters
-        florida: "$byline ($floridaSeaLevel | $hurricane) [8] | $personal",
+        florida: "$byline ($floridaSeaLevel | $hurricane) [9] | $personal",
         orlando: "$byline $floridaVacation $floridaAmusement",
-        eastCoast: "$byline ($hurricane | $storm | $drought | $fire | $flood) [8] | $personal",
-        gulfCoast: "$byline ($gulfOil [3] | $gulfTide [3] | $hurricane [2] | $heat | $flood) [8] | $personal",
-        westCoast: "$byline ($fire | $drought | $mud | $heat | $flood) [8] | $personal",
-        farNorth: "$byline ($ice) [8] | $icePersonal",
-        hawaii: "$byline $hawaiiWoes [8] | $personal",
+        eastCoast: "$byline ($hurricane | $storm | $drought | $fire | $flood) [9] | $personal",
+        gulfCoast: "$byline ($gulfOil [3] | $gulfTide [3] | $hurricane [2] | $heat | $flood) [9] | $personal",
+        westCoast: "$byline ($fire | $drought | $mud | $heat | $flood) [9] | $personal",
+        farNorth: "$byline ($ice) [9] | $icePersonal",
+        hawaii: "$byline $hawaiiWoes [9] | $personal",
 
     // Personal Reflections
         personal: "<em>.time()</em><br><br>($personalCallous | $personalPathos)",
@@ -23,7 +23,7 @@ var rules = {
         personalCallous: "You see the map on your .device() but close it out. $personalDisavowal $personalPodcast",
         personalDisavowal : "It doesn't affect you. | Somebody else's problem. | Not like it matters.",
         personalPodcast: "You switch to a podcast. $personalPodcaster.nr() is interviewing $personalPodcaster.nr(). It's going to be (great | epic).",
-        personalPodcaster: "Joe Rogan | Ezra Klein | Lex Fridman | Curtis Yarvin | Jordan Petersen | Matt Walsh | Ben Shapiro | Richard Hanania | Barry Weiss | Andrew Huberman",
+        personalPodcaster: "Joe Rogan | Ezra Klein | Lex Fridman | Curtis Yarvin | Jordan Petersen | Matt Walsh | Ben Shapiro | Richard Hanania | Barry Weiss | Andrew Huberman | Stephen Bannon | Glenn Beck | Tucker Carlson | Alex Jones | Laura Loomer | Charlie Kirk | Michael Flynn",
 
     // Months
         month: "January | February | March | April | May | June | July | August | September | October | November | December",
