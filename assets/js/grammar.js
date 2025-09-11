@@ -23,7 +23,7 @@ var rules = {
         personalCallous: "You see the map on your .device() but close it out. $personalDisavowal $personalPodcast",
         personalDisavowal : "It doesn't affect you. | Somebody else's problem. | Not like it matters.",
         personalPodcast: "You switch to a podcast. $personalPodcaster.nr() is interviewing $personalPodcaster.nr(). It's going to be (great | epic).",
-        personalPodcaster: "Joe Rogan | Ezra Klein | Lex Fridman | Curtis Yarvin | Jordan Petersen | Matt Walsh | Ben Shapiro | Richard Hanania | Barry Weiss | Andrew Huberman | Stephen Bannon | Glenn Beck | Tucker Carlson | Alex Jones | Laura Loomer | Charlie Kirk | Michael Flynn",
+        personalPodcaster: "Joe Rogan | Ezra Klein | Lex Fridman | Curtis Yarvin | Jordan Petersen | Matt Walsh | Ben Shapiro | Richard Hanania | Barry Weiss | Andrew Huberman | Stephen Bannon | Glenn Beck | Tucker Carlson | Alex Jones | Laura Loomer | Nick Fuentes | Michael Flynn",
 
     // Months
         month: "January | February | March | April | May | June | July | August | September | October | November | December",
