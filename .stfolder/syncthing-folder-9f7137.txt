@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: bad4f-ywikh
+created: 2025-11-21T10:33:32-05:00
