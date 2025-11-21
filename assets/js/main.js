@@ -3,7 +3,7 @@
 // Load version information
 async function loadVersionInfo() {
     try {
-        const response = await fetch('/package.json');
+        const response = await fetch('/package.json?t=' + Date.now());
         const packageData = await response.json();
         
         // Set version number
