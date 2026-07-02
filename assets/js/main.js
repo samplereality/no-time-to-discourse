@@ -286,7 +286,14 @@ L.control.zoom({ position: 'topleft' }).addTo(map);
 
 
 // Grab coordinates from geojson, add stories to markers, and add to map
-$.getJSON('assets/js/disasters.json', function(data) {
+fetch('assets/js/disasters.json')
+    .then(function(response) {
+        if (!response.ok) {
+            throw new Error('HTTP ' + response.status);
+        }
+        return response.json();
+    })
+    .then(function(data) {
     geoJsonLayer = L.geoJson(data, {
         style: function (feature) {
             return {
@@ -327,18 +334,11 @@ $.getJSON('assets/js/disasters.json', function(data) {
     return "<strong>" + city + ", " + state + "</strong><br>" + rg.expand(rule); 
 }, {opacity: 1.0, className: 'disasterLabels'}).addTo(map);
 
-    // For returning visitors, show pins immediately after map loads
-    if (isReturningVisitor) {
-        setTimeout(() => {
-            document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
-                icon.style.transition = 'none'; // Disable transition
-                icon.style.opacity = '1';
-            });
-            document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
-                shadow.style.transition = 'none'; // Disable transition
-                shadow.style.opacity = '.8';
-            });
-        }, 100); // Small delay to ensure markers are rendered
-    }
-
-});
+    })
+    .catch(function(error) {
+        console.error('Could not load disaster data:', error);
+        var errorBox = document.createElement('div');
+        errorBox.className = 'data-load-error';
+        errorBox.textContent = 'The stories could not be loaded. Please refresh the page to try again.';
+        document.body.appendChild(errorBox);
+    });

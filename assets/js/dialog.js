@@ -38,6 +38,16 @@ function showCursor() {
 }
 
 
+// Reveal markers by flagging the map container, so markers added to the map
+// later (e.g. if disasters.json is still loading) appear too
+function showMarkers(instant) {
+    var container = map.getContainer();
+    if (instant) {
+        container.classList.add('markers-instant');
+    }
+    container.classList.add('markers-visible');
+}
+
 function performFlyTo(skipAnimation = false) {
     if (map) {
         if (DEVELOPMENT_MODE || skipAnimation) {
@@ -48,14 +58,9 @@ function performFlyTo(skipAnimation = false) {
             // map.setView([55.2, -100],6); // Arctic coordinates
             // map.setView([21.2, -159],4); // Hawaii coordinates
 
-            
+
             // Show icons immediately
-            document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
-                icon.style.opacity = '1';
-            });
-            document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
-                shadow.style.opacity = '.8';
-            });
+            showMarkers(true);
         } else {
             // Production mode: original animation
             disableMapInteraction();
@@ -64,14 +69,7 @@ function performFlyTo(skipAnimation = false) {
             map.flyTo([43, -79], 6, {duration: 5});
 
             setTimeout(() => {
-                // Fade in icons
-                document.querySelectorAll('.leaflet-marker-icon').forEach((icon) => {
-                  icon.style.opacity = '1';
-                });
-                // Fade in shadows
-                document.querySelectorAll('.leaflet-marker-shadow').forEach((shadow) => {
-                  shadow.style.opacity = '.8';
-                });
+                showMarkers(false);
               }, 1000);
 
             // Re-enable interactions once flying is done

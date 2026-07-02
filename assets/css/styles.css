@@ -159,7 +159,7 @@ blockquote {
 } */
 
 .leaflet-marker-icon {
-    filter: hue-rotate(140deg); 
+    filter: hue-rotate(140deg);
     opacity: 0;                 /* Start fully transparent */
     transition: opacity 6s;     /* Or however long you want the fade */
   }
@@ -168,6 +168,40 @@ blockquote {
     opacity: 0;                 /* Start fully transparent */
     transition: opacity 6s;
   }
+
+/* Markers fade in once the map container is flagged visible; this also
+   covers markers added after the flag is set (e.g. slow data load) */
+#map.markers-visible .leaflet-marker-icon {
+    opacity: 1;
+}
+
+#map.markers-visible .leaflet-marker-shadow {
+    opacity: 0.8;
+}
+
+/* Returning visitors skip the fade */
+#map.markers-instant .leaflet-marker-icon,
+#map.markers-instant .leaflet-marker-shadow {
+    transition: none;
+}
+
+/* Shown if disasters.json fails to load */
+.data-load-error {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    background: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-family: 'Inter', sans-serif;
+    color: #525252;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    text-align: center;
+}
 
 #quote {
     margin: 0 30px 25px 30px;
