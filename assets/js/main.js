@@ -9,8 +9,9 @@ async function loadVersionInfo() {
         // Set version number
         document.getElementById('version-number').textContent = packageData.version;
         
-        // Get last modified date from the page itself
-        const lastModified = document.lastModified;
+        // Prefer the release date stamped into package.json by `npm version`;
+        // fall back to the page's Last-Modified header
+        const lastModified = packageData.lastUpdated || document.lastModified;
         const formattedDate = new Date(lastModified).toLocaleDateString('en-US', {
             year: 'numeric',
             month: 'long',
